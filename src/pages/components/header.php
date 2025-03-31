@@ -37,9 +37,7 @@
 </head>
 
 
-<body class="<?=(strpos($_SERVER["REQUEST_URI"], "index.php"))? 'index' : ''?>
-        <?=(strpos($_SERVER["REQUEST_URI"], "card-detail.php"))? 'extended-mobile-menu-panel card-detail-page' : ''?>
-        <?=(strpos($_SERVER["REQUEST_URI"], "cart.php") || strpos($_SERVER["REQUEST_URI"], "order.php"))? 'extended-mobile-menu-panel-total' : ''?>"
+<body class="<?=(strpos($_SERVER["REQUEST_URI"], "index.php"))? 'index' : ''?>"
 >
     <header
             class="header fixed-block
@@ -49,94 +47,42 @@
         <div class="header-top">
             <div class="container header-container header-top-container">
                 <div class="header-top-nav">
-                    <a class="link-secondary header-top__link" href="javascript:;">
-                        <span class="text-content">Доставка</span>
+                    <a class="header-top__link" href="javascript:;">
+                        <span class="text-content">О компании</span>
                     </a>
-                    <a class="link-secondary header-top__link" href="javascript:;">
-                        <span class="text-content">Оптовым покупателям</span>
+                    <a class="header-top__link" href="javascript:;">
+                        <span class="text-content">Доставка и оплата</span>
                     </a>
-                    <a class="link-secondary header-top__link" href="javascript:;">
+                    <a class="header-top__link" href="javascript:;">
+                        <span class="text-content">Спецпредложения</span>
+                    </a>
+                    <a class="header-top__link" href="javascript:;">
+                        <span class="text-content">Покупателю</span>
+                    </a>
+                    <a class="header-top__link" href="javascript:;">
+                        <span class="text-content">Сервис</span>
+                    </a>
+                    <a class="header-top__link" href="javascript:;">
+                        <span class="text-content">Запчасти</span>
+                    </a>
+                    <a class="header-top__link" href="javascript:;">
+                        <span class="text-content">Вакансии</span>
+                    </a>
+                    <a class="header-top__link" href="javascript:;">
                         <span class="text-content">Контакты</span>
                     </a>
-                    <a class="link header-top__link" href="javascript:;">
-                        <span class="text-content">🏡&nbsp;&nbsp;Услуги</span>
-                    </a>
                 </div>
                 <div class="header-top-info">
-                    <a class="link-flex link header-top__link header-top__location" href="javascript:;">
+                    <a class="header-top__link" href="javascript:;">
+                        <span class="text-content">8 800 500 78 69</span>
+                    </a>
+                    <a class="header-top__link" href="javascript:;"> <?/*@note форма обратной связи*/?>
                         <svg class="icon icon-fill">
-                            <use href="img/sprite.svg#location"></use>
+                            <use href="img/sprite.svg#"></use>
                         </svg>
-                        <span class="text-content">Склад: Колпино, ул. Загородная 6Б</span>
-                    </a>
-                    <a class="link-brand header-top__link" href="javascript:;" data-fancybox data-src="#modal-address">
-                        <span class="text-content">Как проехать</span>
+                        <span class="text-content">Обратный звонок</span>
                     </a>
                 </div>
-                <div class="header-top-info">
-                    <a class="link-flex link link-tdu-text header-top__link" href="mailto:info@geo-dvor.ru">
-                        <svg class="icon icon-fill">
-                            <use href="img/sprite.svg#sms"></use>
-                        </svg>
-                        <span class="text-content">info@geo-dvor.ru</span>
-                    </a>
-                    <div class="social header-top-social">
-                        <div class="social__list">
-                            <a href="javascript:;" class="social__item">
-                                <svg class="icon icon-fill">
-                                    <use href="img/sprite.svg#soc-vk"></use>
-                                </svg>
-                            </a>
-                            <a href="javascript:;" class="social__item">
-                                <svg class="icon icon-fill">
-                                    <use href="img/sprite.svg#soc-tg"></use>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-				<?/* not logged */?>
-                <div class="header-top-profile not-logged" title="Авторизованый закомментирован в разметке">
-                    <button class="btn-reset btn btn-sm btn-extra" data-fancybox data-src="#modal-auth">
-                        <span class="text-content">Войти</span>
-                    </button>
-                </div>
-				<?/* login */?>
-                <?/*<div class="header-top-profile">
-                    <div class="header-top-profile__login">
-                        <div class="header-top-profile__user">
-                            <svg class="icon icon-fill">
-                                <use href="img/sprite.svg#profile-2"></use>
-                            </svg>
-                            <span class="text-content">designboss@internet.ru</span>
-                            <svg class="icon icon-fill header-top-profile__user-pointer">
-                                <use href="img/sprite.svg#chevron-down-select"></use>
-                            </svg>
-                        </div>
-                        <div class="header-top-profile__user-menu">
-                            <a href="javascript:;" class="header-top-profile__user-menu-item">
-                                <svg class="icon icon-fill">
-                                    <use href="img/sprite.svg#box"></use>
-                                </svg>
-                                <span class="text-content">Мои заказы</span>
-                            </a>
-                            <a href="javascript:;" class="header-top-profile__user-menu-item">
-                                <svg class="icon icon-fill">
-                                    <use href="img/sprite.svg#profile-2"></use>
-                                </svg>
-                                <span class="text-content">Мой профиль</span>
-                            </a>
-                            <a href="javascript:;" class="header-top-profile__user-menu-logout">
-                                <div class="header-top-profile__user-menu-item">
-                                    <svg class="icon icon-fill">
-                                        <use href="img/sprite.svg#logout"></use>
-                                    </svg>
-                                    <span class="text-content">Выйти</span>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>*/?>
             </div>
         </div>
         <div class="header-nav">

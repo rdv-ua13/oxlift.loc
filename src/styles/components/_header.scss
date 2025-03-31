@@ -10,13 +10,11 @@
 	}
 
 	&-top {
-		padding-top: 6px;
-		padding-bottom: 5px;
-		border-bottom: 1px solid var(--gray1-color);
+		padding-top: 8px;
+		padding-bottom: 8px;
+		background-color: var(--blue0-color);
+		color: var(--white-color);
 
-		&:not(:last-child) {
-			margin-bottom: 12px;
-		}
 		&-container {
 			justify-content: flex-end;
 			gap: 20px;

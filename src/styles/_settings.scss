@@ -11,8 +11,8 @@ html {
 }
 html,
 body {
-	font-size: 13px;
-	line-height: 1.6;
+	font-size: 14px;
+	line-height: 1.3;
 }
 body {
 	position: relative;
@@ -24,12 +24,6 @@ body {
 	font-family: var(--font-family-base);
 	background-color: var(--white-color);
 	color: var(--text-primary);
-}
-@media (min-width: 992px) {
-	html,
-	body {
-		font-size: 14px;
-	}
 }
 
 .container,
@@ -199,22 +193,6 @@ h4, .h4 {
 	}
 }
 
-.text-secondary {
-	color: var(--text-secondary);
-}
-.brand-color {
-	color: var(--green0-color);
-}
-.brand-dark-color {
-	color: var(--green10-color);
-}
-.on-order-color {
-	color: var(--orange0-color);
-}
-.subtitle-color {
-	color: var(--gray40-color);
-}
-
 .text-center {
 	text-align: center;
 }
@@ -234,7 +212,8 @@ h4, .h4 {
 .fw-bold {
 	font-weight: 700;
 }
-.fz-subheading,
+
+/*.fz-subheading,
 .fz-subheading-sm {
 	line-height: 1.35;
 }
@@ -281,7 +260,7 @@ h4, .h4 {
 	.fz-caption-xs {
 		font-size: 11px;
 	}
-}
+}*/
 
 a {
 	color: inherit;
@@ -844,103 +823,33 @@ body:not(.is-using-mouse) {
 }
 
 .link {
-	color: var(--text-primary);
+	color: var(--blue10-color);
 
 	.icon {
-		fill: var(--text-primary);
-		stroke: var(--text-primary);
+		fill: var(--blue10-color);
+		stroke: var(--blue10-color);
 	}
 	&:visited,
 	&:focus,
 	&:hover,
 	&:active {
-		color: var(--green10-color);
+		color: var(--red0-color);
 
 		.icon {
-			fill: var(--green10-color);
-			stroke: var(--green10-color);
-		}
-	}
-
-	&-secondary {
-		color: var(--text-secondary);
-
-		.icon {
-			fill: var(--text-secondary);
-			stroke: var(--text-secondary);
-		}
-		&:visited,
-		&:focus {
-			color: var(--green10-color);
-
-			.icon {
-				fill: var(--green10-color);
-				stroke: var(--green10-color);
-			}
-		}
-		&:hover,
-		&:active {
-			color: var(--text-primary);
-
-			.icon {
-				fill: var(--text-primary);
-				stroke: var(--text-primary);
-			}
-		}
-	}
-	&-brand {
-		color: var(--green10-color);
-		text-decoration: underline;
-		text-decoration-style: dashed;
-		text-underline-offset: 4px;
-
-		.icon {
-			fill: var(--green10-color);
-			stroke: var(--green10-color);
-		}
-		&:visited,
-		&:focus,
-		&:hover,
-		&:active {
-			color: var(--green0-color);
-
-			.icon {
-				fill: var(--green0-color);
-				stroke: var(--green0-color);
-			}
-		}
-	}
-	&-invert {
-		color: var(--white-color);
-
-		.icon {
-			fill: var(--white-color);
-			stroke: var(--white-color);
-		}
-		&:visited,
-		&:focus,
-		&:hover,
-		&:active {
-			color: var(--gray21-color);
-
-			.icon {
-				fill: var(--gray21-color);
-				stroke: var(--gray21-color);
-			}
+			fill: var(--red0-color);
+			stroke: var(--red0-color);
 		}
 	}
 
 	&-tdu {
 		text-decoration: underline;
 		text-decoration-style: solid;
-		text-underline-offset: 4px;
+		text-underline-offset: 2px;
 
-		&--native {
-			text-underline-offset: 1px;
-		}
 		&--dashed {
 			text-decoration-style: dashed;
 		}
+		/*@note*/
 		&-text {
 			text-decoration: none;
 			text-decoration-style: unset;

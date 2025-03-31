@@ -1,7 +1,7 @@
 :root {
 	// base
 	--font-family-base: "Nunito Sans", sans-serif;
-	--content-width: 1280px;
+	--content-width: 1600px;
 	--container-offset: 12px;
 	--container-width: calc(var(--content-width) + (var(--container-offset) * 2));
 
@@ -9,49 +9,52 @@
 	--black-color: #000000;
 	--white-color: #FFFFFF;
 
-	--text-primary: #101110;
-	--text-secondary: #6F7371;
+	--text-primary: #33333D;
+	/*--text-secondary: #6F7371;*/
 
-	--gray0-color: #F5F7F6;
-	--gray1-color: #EDF2F0;
-	--gray10-color: #D2D9D5;
-	--gray11-color: #DBDDDC; // #888C8A 30%
-	--gray20-color: #C4C6C5; // #888C8A 50%
-	--gray21-color: #BABFBC;
-	--gray30-color: #A1A6A3;
-	--gray31-color: #A0A0A0;
-	--gray40-color: #888C8A;
-	--gray45-color: #575958;
-	--gray50-color: #464847;
-	--gray60-color: #252626;
+	/*--gray0-color: #F5F7F6;*/
+	/*--gray1-color: #EDF2F0;*/
+	/*--gray10-color: #D2D9D5;*/
+	/*--gray11-color: #DBDDDC; // #888C8A 30%*/
+	/*--gray20-color: #C4C6C5; // #888C8A 50%*/
+	/*--gray21-color: #BABFBC;*/
+	/*--gray30-color: #A1A6A3;*/
+	/*--gray31-color: #A0A0A0;*/
+	/*--gray40-color: #888C8A;*/
+	/*--gray45-color: #575958;*/
+	/*--gray50-color: #464847;*/
+	/*--gray60-color: #252626;*/
 
-	--green0-color: #9CC013;
-	--green10-color: #566A0A;
-	--green20-color: #26A126;
-	--green30-color: #155915;
-	--green40-color: #E4F7E4;
-	--red0-color: #DB1334;
-	--red10-color: #7F091D;
-	--red20-color: #FAE7EA;
-	--red21-color: #F7B5C0;
-	--orange0-color: #ED9237;
-	--alert0-color: #FCF0E3;
-	--alert10-color: #E9F1FA;
-	--alert20-color: #114070;
+	--blue0-color: #1e3046;
+	--blue10-color: #014e74;
+	--blue20-color: #09F;
+	/*--green0-color: #9CC013;*/
+	/*--green10-color: #566A0A;*/
+	/*--green20-color: #26A126;*/
+	/*--green30-color: #155915;*/
+	/*--green40-color: #E4F7E4;*/
+	--red0-color: #eb212e;
+	/*--red10-color: #7F091D;*/
+	/*--red20-color: #FAE7EA;*/
+	/*--red21-color: #F7B5C0;*/
+	/*--orange0-color: #ED9237;*/
+	/*--alert0-color: #FCF0E3;*/
+	/*--alert10-color: #E9F1FA;*/
+	/*--alert20-color: #114070;*/
 
-	--shadow-float0: 0 1px 2px 1px rgba(136, 140, 138, 0.2);
+	/*--shadow-float0: 0 1px 2px 1px rgba(136, 140, 138, 0.2);
 	--shadow-float1: 0 6px 6px -2px rgba(136, 140, 138, 0.2);
-	--shadow-float2: 0 8px 8px -2px rgba(136, 140, 138, 0.2);
+	--shadow-float2: 0 8px 8px -2px rgba(136, 140, 138, 0.2);*/
 
-	--shadow-bar0: 0 -1px 2px 1px rgba(136, 140, 138, 0.2);
-	--shadow-bar1: 0 -4px 4px -2px rgba(136, 140, 138, 0.1);
+	/*--shadow-bar0: 0 -1px 2px 1px rgba(136, 140, 138, 0.2);
+	--shadow-bar1: 0 -4px 4px -2px rgba(136, 140, 138, 0.1);*/
 
-	--shadow-section0: 0 1px 4px 1px rgba(136, 140, 138, 0.2);
-	--shadow-section1: 0 4px 12px -2px rgba(136, 140, 138, 0.1);
+	/*--shadow-section0: 0 1px 4px 1px rgba(136, 140, 138, 0.2);
+	--shadow-section1: 0 4px 12px -2px rgba(136, 140, 138, 0.1);*/
 
-	--shadow-popup0: 0 0 2px 0 rgba(136, 140, 138, 0.2);
+	/*--shadow-popup0: 0 0 2px 0 rgba(136, 140, 138, 0.2);
 	--shadow-popup1: 0 1px 2px 0 rgba(136, 140, 138, 0.1);
-	--shadow-popup2: 0 12px 24px 0 rgba(136, 140, 138, 0.1);
+	--shadow-popup2: 0 12px 24px 0 rgba(136, 140, 138, 0.1);*/
 
 	--bradius: 6px;
 

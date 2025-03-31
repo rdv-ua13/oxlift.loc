@@ -12,16 +12,16 @@ application.prototype.init = function () {
     this.initFancyboxBehavior();
     this.initTooltips();
     this.initReadmore();
-    this.initReadmoreCatalog();
+    /*this.initReadmoreCatalog();*/
     this.initHeaderFloat();
-    this.initCatalogDetailSidebarFloat();
+    /*this.initCatalogDetailSidebarFloat();*/
     this.initBurger();
     this.initOverlay();
     this.initMenu();
     this.initMenuCatalogSubmenu();
     this.initBasicSlider();
     this.initSliders();
-    this.initMiniSlider();
+    /*this.initMiniSlider();
     this.initCartQuantity();
     this.initBasicTabs();
     this.initInputSearchBehavior();
@@ -42,7 +42,7 @@ application.prototype.init = function () {
     this.initSelect2();
     this.initInputDropdown();
 
-    this.initTestShowHideDropmenu();
+    this.initTestShowHideDropmenu();*/
 };
 
 // Initialize disable scroll
