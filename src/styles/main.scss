@@ -1431,7 +1431,7 @@
 
 					&:hover {
 						&:not(.swiper-slide-thumb-active) {
-							border-color: var(--gray10-color);
+							border-color: var(--gray20-color);
 						}
 					}
 				}
@@ -2702,7 +2702,7 @@
 				.custom-radio {
 					min-width: 100%;
 					padding: 12px;
-					border: 1px solid var(--gray10-color);
+					border: 1px solid var(--gray20-color);
 					border-radius: var(--bradius);
 					font-weight: 500;
 
@@ -3170,7 +3170,7 @@
 				justify-content: center;
 				align-items: center;
 				overflow: hidden;
-				border: 1px solid var(--gray10-color);
+				border: 1px solid var(-gray20-color);
 				color: var(--gray40-color);
 				font-weight: 500;
 				font-size: 11px;

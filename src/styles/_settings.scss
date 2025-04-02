@@ -523,8 +523,8 @@ body:not(.is-using-mouse) {
 		}
 	}
 	&-secondary {
-		border-color: var(--gray50-color);
-		background-color: var(--gray50-color);
+		border-color: var(--blue21-color);
+		background-color: var(--blue21-color);
 		color: var(--white-color);
 
 		.icon {
@@ -535,44 +535,49 @@ body:not(.is-using-mouse) {
 		&:hover,
 		&:active,
 		&.active {
-			border-color: var(--text-secondary);
-			background-color: var(--text-secondary);
+			border-color: var(--gray20-color);
+			background-color: var(--gray20-color);
 			color: var(--white-color);
 		}
 	}
 	&-extra {
-		border-color: var(--gray20-color);
-		background-color: transparent;
-		color: var(--gray50-color);
+		border-color: var(--gray0-color);
+		background-color: var(--white-color);
+		color: var(--text-primary);
 
 		.icon {
-			fill: var(--gray50-color);
-			stroke: var(--gray50-color);
+			fill: var(--text-primary);
+			stroke: var(--text-primary);
 		}
 
 		&:hover,
 		&:active,
 		&.active {
-			border-color: var(--gray60-color);
-			background-color: transparent;
-			color: var(--gray50-color);
+			border-color: var(--blue21-color);
+			background-color: var(--blue21-color);
+			color: var(--white-color);
+
+			.icon {
+				fill: var(--white-color);
+				stroke: var(--white-color);
+			}
 		}
 	}
 	&-extra-secondary {
 		border-color: var(--gray0-color);
-		background-color: var(--gray0-color);
-		color: var(--text-secondary);
+		background-color: var(--white-color);
+		color: var(--blue21-color);
 
 		.icon {
-			fill: var(--text-secondary);
-			stroke: var(--text-secondary);
+			fill: var(--blue21-color);
+			stroke: var(--blue21-color);
 		}
 
 		&:hover,
 		&:active,
 		&.active {
-			border-color: var(--gray50-color);
-			background-color: var(--gray50-color);
+			border-color: var(--blue21-color);
+			background-color: var(--blue21-color);
 			color: var(--white-color);
 
 			.icon {
@@ -582,24 +587,24 @@ body:not(.is-using-mouse) {
 		}
 	}
 	&-ghost {
-		border-color: transparent;
-		background-color: transparent;
-		color: var(--gray50-color);
+		border-color: var(--gray0-color);
+		background-color: var(--gray0-color);
+		color: var(--gray10-color);
 
 		.icon {
-			fill: var(--gray50-color);
-			stroke: var(--gray50-color);
+			fill: var(--gray10-color);
+			stroke: var(--gray10-color);
 		}
 
 		&:hover,
 		&:active,
 		&.active {
-			border-color: var(--gray1-color);
-			background-color: var(--gray1-color);
-			color: var(--text-primary);
+			border-color: var(--blue21-color);
+			background-color: var(--blue21-color);
+			color: var(--white-color);
 		}
 	}
-	&-ghost-secondary {
+	/*&-ghost-secondary {
 		border-color: transparent;
 		background-color: transparent;
 		color: var(--gray40-color);
@@ -740,9 +745,9 @@ body:not(.is-using-mouse) {
 				stroke: var(--text-primary);
 			}
 		}
-	}
+	}*/
 
-	&-prehover {
+	/*&-prehover {
 		&:hover {
 			.btn {
 				background-color: var(--green10-color);
@@ -784,9 +789,9 @@ body:not(.is-using-mouse) {
 				}
 			}
 		}
-	}
+	}*/
 }
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
 	.btn {
 		&-icon {
 			&:hover,
@@ -821,7 +826,7 @@ body:not(.is-using-mouse) {
 			}
 		}
 	}
-}
+}*/
 
 .link {
 	color: var(--blue20-color);
@@ -860,7 +865,7 @@ body:not(.is-using-mouse) {
 				text-decoration: underline;
 				text-decoration-style: solid;
 				text-underline-offset: 4px;
-				text-decoration-color: var(--gray10-color);
+				text-decoration-color: var(--gray20-color);
 			}
 
 			&:hover {
@@ -1343,7 +1348,7 @@ input.disabled {
 	line-height: 24px;
 
 	&::placeholder {
-		color: var(--gray10-color);
+		color: var(--gray20-color);
 	}
 	/*&:not([readonly]):hover {
 		border-color: var(--gray0-color);
@@ -1818,7 +1823,7 @@ input.disabled {
 		width: 9px;
 		height: 5px;
 		margin: 0 2px;
-		background: var(--gray10-color);
+		background: var(--gray20-color);
 		border-radius: 2px;
 		transition: 0.2s linear;
 	}
@@ -1909,7 +1914,7 @@ input.disabled {
 		width: 6px;
 		height: 3px;
 		margin: 0 1px;
-		background: var(--gray10-color);
+		background: var(--gray20-color);
 		border-radius: 2px;
 		transition: 0.2s linear;
 	}
@@ -2342,7 +2347,7 @@ input.disabled {
 					left: 0;
 					min-height: 1px;
 					height: 1px;
-					background-color: var(--gray10-color);
+					background-color: var(--gray20-color);
 				}
 			}
 			.basic-tabs-content__content {
@@ -2900,7 +2905,7 @@ input.disabled {
 			min-width: 196px;
 			width: 196px;
 			padding: 7px 7px 11px;
-			border: 1px solid var(--gray10-color);
+			border: 1px solid var(--gray20-color);
 			border-radius: var(--bradius);
 
 			.card__view {
@@ -2933,7 +2938,7 @@ input.disabled {
 			min-width: 305px;
 			width: 305px;
 			padding: 11px 11px 23px;
-			border: 1px solid var(--gray10-color);
+			border: 1px solid var(--gray20-color);
 			border-radius: var(--bradius);
 
 			.card__view {
