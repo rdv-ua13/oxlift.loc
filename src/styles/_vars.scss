@@ -12,7 +12,8 @@
 	--text-primary: #33333D;
 	/*--text-secondary: #6F7371;*/
 
-	/*--gray0-color: #F5F7F6;*/
+	--gray0-color: #F6F6F6;
+	--gray10-color: #8B98A7;
 	/*--gray1-color: #EDF2F0;*/
 	/*--gray10-color: #D2D9D5;*/
 	/*--gray11-color: #DBDDDC; // #888C8A 30%*/
@@ -26,8 +27,10 @@
 	/*--gray60-color: #252626;*/
 
 	--blue0-color: #1e3046;
-	--blue10-color: #014e74;
-	--blue20-color: #09F;
+	--blue10-color: #001F6F;
+	--blue20-color: #014e74;
+	--blue21-color: #0C4DB9;
+	--blue30-color: #09F;
 	/*--green0-color: #9CC013;*/
 	/*--green10-color: #566A0A;*/
 	/*--green20-color: #26A126;*/
@@ -56,6 +59,7 @@
 	--shadow-popup1: 0 1px 2px 0 rgba(136, 140, 138, 0.1);
 	--shadow-popup2: 0 12px 24px 0 rgba(136, 140, 138, 0.1);*/
 
+	--bradius-sm: 4px;
 	--bradius: 6px;
 
 	// fancybox

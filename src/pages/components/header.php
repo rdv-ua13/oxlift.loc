@@ -74,11 +74,14 @@
                 </div>
                 <div class="header-top-info">
                     <a class="header-top__link" href="javascript:;">
+                        <svg class="icon icon-fill mobile-only">
+                            <use href="img/sprite.svg#call-calling"></use>
+                        </svg>
                         <span class="text-content">8 800 500 78 69</span>
                     </a>
-                    <a class="header-top__link" href="javascript:;"> <?/*@note форма обратной связи*/?>
+                    <a class="header-top__link  header__callback-link js-modal" href="/ajax/callback.php">
                         <svg class="icon icon-fill">
-                            <use href="img/sprite.svg#"></use>
+                            <use href="img/sprite.svg#call-calling"></use>
                         </svg>
                         <span class="text-content">Обратный звонок</span>
                     </a>
@@ -96,10 +99,10 @@
                         <img
                                 loading="lazy"
                                 class="image"
-                                src="img/logo.svg"
-                                width="130"
-                                height="36"
-                                alt="ГЕОДВОР"
+                                src="img/logo.png"
+                                width="98"
+                                height="56"
+                                alt="oxlift.ru"
                         >
 					<?if(strpos($_SERVER["REQUEST_URI"], "index.php")):?>
                         </span>
@@ -137,28 +140,25 @@
 
                 <div class="header-search">
                     <form id="" class="form" method="" action="javascript:;">
-                        <div class="input-wrapper input-wrapper-split input-wrapper-search has-icon-l">
+                        <div class="input-wrapper input-wrapper-search">
                             <input
                                     class="input-reset input input-search"
                                     type="search"
                                     name=""
                                     placeholder="Найти товар или услугу"
                                     autocomplete="off"
-                                    onclick="$(this).closest('.header-search').find('.header-search-results').toggleClass('active');"
-                                    readonly
+                                    <?/*onclick="$(this).closest('.header-search').find('.header-search-results').toggleClass('active');"
+                                    readonly*/?>
                             >
-                            <label class="input-icon input-icon-l">
-                                <svg class="icon icon-fill">
-                                    <use href="img/sprite.svg#search"></use>
-                                </svg>
-                            </label>
                             <button class="btn-reset btn input-delete-btn">
                                 <svg class="icon icon-fill">
                                     <use href="img/sprite.svg#cross"></use>
                                 </svg>
                             </button>
                             <button class="btn-reset btn input-search-btn" type="submit">
-                                <span class="text-content">Найти</span>
+                                <svg class="icon icon-fill">
+                                    <use href="img/sprite.svg#search"></use>
+                                </svg>
                             </button>
                         </div>
                     </form>
@@ -602,17 +602,20 @@
                     </div>
                 </div>
 
-                <div class="header-contacts">
-                    <a class="link fw-semibold fz-subheading-sm header-contacts__tel" href="tel:+79811558247">+7 981 155-82-47</a>
-                    <a class="link-brand header-contacts__cta" href="javascript:;" data-fancybox data-src="#modal-calc">Заявка на расчет</a>
-                    <a class="link-brand header-contacts__cta order" href="javascript:;" data-fancybox data-src="#modal-call">Позвоните мне</a>
-                </div>
-
                 <div class="header-profile">
                     <button class="btn-reset header-profile__btn">
                         <span class="header-profile__btn-view">
                             <svg class="icon icon-fill">
-                                <use href="img/sprite.svg#heart"></use>
+                                <use href="img/sprite.svg#compare"></use>
+                            </svg>
+                            <span class="header-profile__btn-count">24</span>
+                        </span>
+                        <span class="header-profile__btn-text">Сравнение</span>
+                    </button>
+                    <button class="btn-reset header-profile__btn">
+                        <span class="header-profile__btn-view">
+                            <svg class="icon icon-fill">
+                                <use href="img/sprite.svg#bookmark"></use>
                             </svg>
                             <span class="header-profile__btn-count">24</span>
                         </span>
@@ -627,6 +630,20 @@
                         </span>
                         <span class="header-profile__btn-text">Корзина</span>
                     </button>
+                    <button class="btn-reset header-profile__btn header-top-profile not-logged">
+                        <span class="header-profile__btn-view">
+                            <svg class="icon icon-fill">
+                                <use href="img/sprite.svg#profile"></use>
+                            </svg>
+                        </span>
+                        <span class="header-profile__btn-text">Войти</span>
+                    </button>
+                </div>
+
+                <div class="header-contacts">
+                    <a class="link fw-semibold fz-subheading-sm header-contacts__tel" href="tel:+79811558247">+7 981 155-82-47</a>
+                    <a class="link-brand header-contacts__cta" href="javascript:;" data-fancybox data-src="#modal-calc">Заявка на расчет</a>
+                    <a class="link-brand header-contacts__cta order" href="javascript:;" data-fancybox data-src="#modal-call">Позвоните мне</a>
                 </div>
 
                 <div class="header-catalog">
@@ -1417,154 +1434,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <div class="mobile-menu-panel">
-        <div class="mobile-menu-panel__cart">
-            <div class="cart-buy">
-                <div class="cart-quantity">
-                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                        <svg class="icon icon-fill">
-                            <use href="img/sprite.svg#minus"></use>
-                        </svg>
-                    </button>
-                    <input
-                            id=""
-                            class="input-reset cart-quantity-input"
-                            type="text"
-                            placeholder="999"
-                            value="1"
-                            max="999"
-                            data-mult="1"
-                    >
-                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                        <svg class="icon icon-fill">
-                            <use href="img/sprite.svg#plus"></use>
-                        </svg>
-                    </button>
-                </div>
-                <div class="cart-in-wrapper" data-entity="buttons-block">
-                    <div id="">
-                        <a id="" class="btn-reset btn cart-in" href="javascript:;" rel="nofollow">
-                            <span class="text-content">В корзину</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="mobile-menu-panel__total">
-            <div class="mobile-menu-panel__total-info">
-                <div class="mobile-menu-panel__total-info-title">Итого</div>
-                <div class="mobile-menu-panel__total-info-value">7950 ₽</div>
-            </div>
-            <div class="mobile-menu-panel__total-cta">
-                <button class="btn-reset btn" type="button">
-                    <span class="text-content">Перейти к оформлению</span>
-                </button>
-            </div>
-        </div>
-        <div class="mobile-menu-panel__toolbar">
-            <ul class="list-reset mobile-menu-panel__list">
-                <li>
-                    <button class="btn-reset header-profile__btn mobile-menu-panel__btn" data-catalog-spoiler>
-                        <span class="header-profile__btn-view mobile-menu-panel__btn-view">
-                            <svg class="icon icon-fill">
-                                <use href="img/sprite.svg#catalog"></use>
-                            </svg>
-                        </span>
-                        <span class="header-profile__btn-text">Каталог</span>
-                    </button>
-                </li>
-                <li>
-                    <button class="btn-reset header-profile__btn mobile-menu-panel__btn">
-                    <span class="header-profile__btn-view mobile-menu-panel__btn-view">
-                        <svg class="icon icon-fill">
-                            <use href="img/sprite.svg#heart"></use>
-                        </svg>
-                        <span class="header-profile__btn-count">12</span>
-                    </span>
-                        <span class="header-profile__btn-text">Избранное</span>
-                    </button>
-                </li>
-                <li>
-                    <button class="btn-reset header-profile__btn mobile-menu-panel__btn">
-                    <span class="header-profile__btn-view mobile-menu-panel__btn-view">
-                        <svg class="icon icon-fill">
-                            <use href="img/sprite.svg#profile"></use>
-                        </svg>
-                    </span>
-                        <span class="header-profile__btn-text">Кабинет</span>
-                    </button>
-                </li>
-                <li>
-                    <button class="btn-reset header-profile__btn mobile-menu-panel__btn mobile-menu-panel__btn-secondary">
-                        <span class="header-profile__btn-view mobile-menu-panel__btn-view">
-                            <svg class="icon icon-fill">
-                                <use href="img/sprite.svg#shopping-cart"></use>
-                            </svg>
-                            <span class="header-profile__btn-count">3</span>
-                        </span>
-                        <span class="header-profile__btn-text">12 470 ₽</span>
-                    </button>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="action-notice cookie delay-hide active">
-        <div class="action-notice__descr">
-            <div class="action-notice__title">Мы используем куки, чтобы сайт работал лучше</div>
-            <div class="action-notice__caption">Оставаясь с нами, вы соглашаетесь на использование файлов куки</div>
-            <div class="action-notice__close">
-                <button class="btn-reset btn" type="button">
-                    <span class="text-content">Хорошо</span>
-                </button>
-            </div>
-        </div>
-    </div>
-
-    <div class="action-notice" data-notice-popup="cart-in">
-        <div class="action-notice__close">
-            <svg class="icon icon-fill">
-                <use href="img/sprite.svg#cross"></use>
-            </svg>
-        </div>
-        <div class="action-notice__view">
-            <img
-                loading="lazy"
-                class="image"
-                src="img/cp1.png"
-                width="48"
-                height="48"
-                alt="Изображение блока"
-            >
-        </div>
-        <div class="action-notice__descr">
-            <div class="action-notice__caption">Товар добавлен в корзину</div>
-            <div class="action-notice__title">Техническая пленка 100 мкм, шир. 3х10</div>
-        </div>
-    </div>
-
-    <div class="action-notice" data-notice-popup="favorites">
-        <div class="action-notice__close">
-            <svg class="icon icon-fill">
-                <use href="img/sprite.svg#cross"></use>
-            </svg>
-        </div>
-        <div class="action-notice__view">
-            <img
-                loading="lazy"
-                class="image"
-                src="img/cp2.png"
-                width="48"
-                height="48"
-                alt="Изображение блока"
-            >
-        </div>
-        <div class="action-notice__descr">
-            <div class="action-notice__caption">Товар добавлен в избранное</div>
-            <div class="action-notice__title">Геотекстиль Дорнит ГЕО 300 гр/м2 шир. 2х50 м.п, 100 м2</div>
         </div>
     </div>
 

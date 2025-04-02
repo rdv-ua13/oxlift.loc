@@ -21,28 +21,26 @@ application.prototype.init = function () {
     this.initMenuCatalogSubmenu();
     this.initBasicSlider();
     this.initSliders();
-    /*this.initMiniSlider();
-    this.initCartQuantity();
-    this.initBasicTabs();
+    /*this.initMiniSlider();*/
+    /*this.initCartQuantity();*/
+    /*this.initBasicTabs();*/
     this.initInputSearchBehavior();
-    this.initHeaderInputSearchReadonly();
-    this.initSearchResBehavior();
-    this.initClipboard();
-    this.initContactsMap();
-    this.initDeleteTrigger();
-    this.initCatalogSidebarFilter();
-    this.initCatalogContentSort();
-    this.initCardFavorites();
-    this.initSmoothScrollTo();
-    this.initDatepicker();
-    this.initMaskedInput();
-    this.initPasswordSwitcher();
-    this.initNotification();
-    this.initNotificationCookie();
-    this.initSelect2();
-    this.initInputDropdown();
+    /*this.initHeaderInputSearchReadonly();*/
+    /*this.initSearchResBehavior();*/
+    /*this.initClipboard();*/
+    /*this.initContactsMap();*/
+    /*this.initDeleteTrigger();*/
+    /*this.initCatalogSidebarFilter();*/
+    /*this.initCatalogContentSort();*/
+    /*this.initCardFavorites();*/
+    /*this.initSmoothScrollTo();*/
+    /*this.initDatepicker();*/
+    /*this.initMaskedInput();*/
+    /*this.initPasswordSwitcher();*/
+    /*this.initSelect2();*/
+    /*this.initInputDropdown();*/
 
-    this.initTestShowHideDropmenu();*/
+    /*this.initTestShowHideDropmenu();*/
 };
 
 // Initialize disable scroll
@@ -1114,38 +1112,6 @@ application.prototype.initPasswordSwitcher = function () {
             $(this).closest('.input-icon-btn').removeClass('show');
         }
     });
-};
-
-// Initialize notification
-application.prototype.initNotification = function () {
-    const noticeAction = $('[data-notice-popup]');
-    const noticeBtn = $('[data-notice]');
-    let noticeValue = null;
-
-    noticeBtn.on('click', function () {
-        noticeValue = $(this).data('notice');
-
-        noticeAction.removeClass('active');
-        $('[data-notice-popup="' + noticeValue + '"]').addClass('active').fadeIn(200);
-        setTimeout(
-            function () {
-                $('[data-notice-popup="' + noticeValue + '"]').fadeOut(200).removeClass('active');
-            }, 6000
-        );
-    });
-
-    $('.action-notice__close').on('click', function () {
-        $(this).closest('.action-notice').removeClass('active');
-    });
-};
-
-// Initialize notification
-application.prototype.initNotificationCookie = function () {
-    setTimeout(
-        function () {
-            $('.cookie').removeClass('delay-hide');
-        }, 2000
-    );
 };
 
 // Initialize select2 plagin
