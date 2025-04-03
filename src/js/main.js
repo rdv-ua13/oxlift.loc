@@ -300,16 +300,11 @@ application.prototype.initHeaderFloat = function () {
     function setHeaderFloat() {
         let heightHeader = $('.header').outerHeight();
 
-        if ($(window).scrollTop() > heightHeader) {
+        if ($(window).scrollTop() >= heightHeader) {
             $('.header').addClass('header-float');
-
-            setTimeout(function () {
-                $('.header-categories').addClass('header-categories--hide');
-            }, 200);
         }
         else {
             $('.header').removeClass('header-float');
-            $('.header-categories').removeClass('header-categories--hide');
         }
     }
 };

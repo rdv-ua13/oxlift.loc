@@ -1095,23 +1095,23 @@ input.disabled {
 	}
 	&.has-icon-r {
 		.input {
-			padding-right: 48px;
+			padding-right: 44px;
 
 			&-icon {
 
 				&-r {
-					right: 8px;
+					right: 2px;
 				}
 			}
 		}
 	}
 	&.has-icon-l {
 		.input {
-			padding-left: 48px;
+			padding-left: 44px;
 
 			&-icon {
 				&-l {
-					left: 8px;
+					left: 2px;
 				}
 			}
 		}
@@ -1208,7 +1208,7 @@ input.disabled {
 		-webkit-box-orient: vertical;
 		overflow: hidden;
 	}
-	/*&-icon {
+	&-icon {
 		z-index: 1;
 		position: absolute;
 		top: 2px;
@@ -1226,15 +1226,15 @@ input.disabled {
 			width: 20px;
 			min-height: 20px;
 			height: 20px;
-			fill: var(--gray40-color);
-			stroke: var(--gray40-color);
+			fill: var(--gray20-color);
+			stroke: var(--gray20-color);
 			pointer-events: none;
 			user-select: none;
 		}
 		&-select {
 			.icon {
-				fill: var(--gray50-color);
-				stroke: var(--gray50-color);
+				fill: var(--text-primary);
+				stroke: var(--text-primary);
 			}
 		}
 		&-btn {
@@ -1249,8 +1249,8 @@ input.disabled {
 			cursor: pointer;
 
 			.icon {
-				fill: var(--gray40-color);
-				stroke: var(--gray40-color);
+				fill: var(--gray20-color);
+				stroke: var(--gray20-color);
 			}
 			&:not(.show) {
 				.icon-show {
@@ -1274,7 +1274,7 @@ input.disabled {
 				display: none;
 			}
 		}
-	}*/
+	}
 	/*&-caption {
 		padding-top: 8px;
 		color: var(--text-secondary);
@@ -3713,8 +3713,8 @@ input.disabled {
 			gap: 8px;
 		}
 		&-caption {
-			max-width: 480px;
-			color: var(--gray30-color);
+			max-width: 600px;
+			color: var(--text-secondary);
 		}
 	}
 }
@@ -3732,7 +3732,6 @@ input.disabled {
 		&__subscribe {
 			.input-wrapper-split {
 				flex-direction: row;
-				gap: 16px;
 			}
 		}
 	}

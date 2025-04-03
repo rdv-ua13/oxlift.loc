@@ -52,29 +52,44 @@
                 <div class="footer__item">
                     <a class="footer__link link-invert fw-semibold fz-subheading-sm" href="javascript:;">Каталог</a>
                     <ul class="list-reset footer__list">
-                        <li><a class="footer__link link-invert" href="javascript:;">Геотекстиль</a></li>
-                        <li><a class="footer__link link-invert" href="javascript:;">Дорнит</a></li>
-                        <li><a class="footer__link link-invert" href="javascript:;">Геосетка</a></li>
-                        <li><a class="footer__link link-invert" href="javascript:;">Объемная георешетка</a></li>
-                        <li><a class="footer__link link-invert" href="javascript:;">Спанбонд</a></li>
+                        <li><a class="footer__link link-invert" href="javascript:;">Гидравлические тележки</a></li>
+                        <li><a class="footer__link link-invert" href="javascript:;">Самоходные тележки</a></li>
+                        <li><a class="footer__link link-invert" href="javascript:;">Погрузчики</a></li>
+                        <li><a class="footer__link link-invert" href="javascript:;">Электротягачи</a></li>
+                        <li><a class="footer__link link-invert" href="javascript:;">Оборудование для агрессивных сред</a></li>
+                        <li><a class="footer__link link-invert" href="javascript:;">Запчасти</a></li>
+                        <li><a class="footer__link link-invert" href="javascript:;">Штабелеры</a></li>
+                        <li><a class="footer__link link-invert" href="javascript:;">Подъемники и вышки</a></li>
+                        <li><a class="footer__link link-invert" href="javascript:;">Гидравлические подъемные столы</a></li>
+                        <li><a class="footer__link link-invert" href="javascript:;">Оборудование для промышленности</a></li>
+                        <li><a class="footer__link link-invert" href="javascript:;">Клининговое оборудование</a></li>
+                        <li><a class="footer__link link-invert" href="javascript:;">Оборудование с весами</a></li>
+                        <li><a class="footer__link link-invert" href="javascript:;">Ричтраки</a></li>
+                        <li><a class="footer__link link-invert" href="javascript:;">Колесные опоры и ролики</a></li>
+                        <li><a class="footer__link link-invert" href="javascript:;">Грузоподъемное оборудование</a></li>
+                        <li><a class="footer__link link-invert" href="javascript:;">Комплектовщики заказов</a></li>
                     </ul>
                 </div>
                 <div class="footer__item">
                     <a class="footer__link link-invert fw-semibold fz-subheading-sm" href="javascript:;">Покупателям</a>
                     <ul class="list-reset footer__list">
-                        <li><a class="footer__link link-invert" href="javascript:;">Доставка</a></li>
-                        <li><a class="footer__link link-invert" href="javascript:;">Оплата</a></li>
-                        <li><a class="footer__link link-invert" href="javascript:;">Оптовым покупателям</a></li>
+                        <li><a class="footer__link link-invert" href="javascript:;">Доставка и оплата</a></li>
+                        <li><a class="footer__link link-invert" href="javascript:;">Новости</a></li>
+                        <li><a class="footer__link link-invert" href="javascript:;">История компании</a></li>
+                        <li><a class="footer__link link-invert" href="javascript:;">Преимущества</a></li>
+                        <li><a class="footer__link link-invert" href="javascript:;">Документы</a></li>
+                        <li><a class="footer__link link-invert" href="javascript:;">Клиенты</a></li>
+                        <li><a class="footer__link link-invert" href="javascript:;">Команда</a></li>
                         <li><a class="footer__link link-invert" href="javascript:;">Контакты</a></li>
-                        <li><a class="footer__link link-invert" href="javascript:;">О нас</a></li>
+
                     </ul>
                 </div>
                 <div class="footer__item">
                     <a class="footer__link link-invert fw-semibold fz-subheading-sm" href="javascript:;">Полезное</a>
                     <ul class="list-reset footer__list">
-                        <li><a class="footer__link link-invert" href="javascript:;">Готовые решения</a></li>
-                        <li><a class="footer__link link-invert" href="javascript:;">Полезные советы</a></li>
-                        <li><a class="footer__link link-invert" href="javascript:;">Вопросы покупателей</a></li>
+                        <li><a class="footer__link link-invert" href="javascript:;">Фотогалерея</a></li>
+                        <li><a class="footer__link link-invert" href="javascript:;">Видеогалерея</a></li>
+                        <li><a class="footer__link link-invert" href="javascript:;">Вакансии</a></li>
                         <li><a class="footer__link link-invert" href="javascript:;">Карта сайта</a></li>
                     </ul>
                 </div>
@@ -82,12 +97,12 @@
                     <div class="footer-contacts__item">
                         <span class="fw-semibold fz-subheading-sm">Нужна помощь?</span>
                         <div class="footer-contacts__connection">
-                            <a class="link-invert footer-contacts__connection-item footer-contacts__connection-tel fw-bold h3" href="tel:+79811558247">+7 981 155-82-47</a>
-                            <a class="link-invert footer-contacts__connection-item footer-contacts__connection-email" href="mailto:info@geo-dvor.ru">
+                            <a class="link-invert footer-contacts__connection-item footer-contacts__connection-tel fw-bold h3" href="tel:+88005007869">8 800 500 78 69</a>
+                            <a class="link-invert footer-contacts__connection-item footer-contacts__connection-email" href="mailto:sales+180580947@oxlift.ru">
                                 <svg class="icon icon-fill">
                                     <use href="img/sprite.svg#sms"></use>
                                 </svg>
-                                <span class="text-content">info@geo-dvor.ru</span>
+                                <span class="text-content">sales+180580947@oxlift.ru</span>
                             </a>
                         </div>
                     </div>
@@ -111,55 +126,17 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <div class="footer__copyright">&#169; <?= date('Y'); ?> ГЕОДВОР</div>
+                <div class="footer__copyright">&#169; OXLIFT 2015 - <?=date('Y');?> Все права защищены</div>
                 <div class="footer__legal-policy">
                     <a class="footer__link link-invert" href="javascript:;">Политика обработки персональных данных</a>
                     <a class="footer__link link-invert" href="javascript:;">Политика конфиденциальности</a>
                 </div>
-                <ul class="list-reset footer__payment payment-supports">
-                    <li>
-                        <a class="payment-supports__item" href="javascript:;" target="_blank">
-                            <img
-                                    loading="lazy"
-                                    class="image"
-                                    src="img/ps-mir.svg"
-                                    width="32"
-                                    height="25"
-                                    alt="Мы принимаем к оплате Мир"
-                            >
-                        </a>
-                    </li>
-                    <li>
-                        <a class="payment-supports__item" href="javascript:;" target="_blank">
-                            <img
-                                    loading="lazy"
-                                    class="image"
-                                    src="img/ps-mastercard.svg"
-                                    width="32"
-                                    height="25"
-                                    alt="Мы принимаем к оплате Mastercard"
-                            >
-                        </a>
-                    </li>
-                    <li>
-                        <a class="payment-supports__item" href="javascript:;" target="_blank">
-                            <img
-                                    loading="lazy"
-                                    class="image"
-                                    src="img/ps-visa.svg"
-                                    width="32"
-                                    height="25"
-                                    alt="Мы принимаем к оплате Visa"
-                            >
-                        </a>
-                    </li>
-                </ul>
 
-                <div class="footer__info fw-medium fz-caption-sm">Данный интернет-сайт geo-dvor.ru носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437 (2) Гражданского кодекса Российской Федерации. Стоимость и наличие товара просьба уточнять по телефону.</div>
+                <div class="footer__info fw-medium fz-caption-sm">Обращаем ваше внимание на то, что вся представленная на сайте информация носит исключительно информационный характер и ни при каких условиях не является публичной офертой определяемой положениями Статьи 437(2) Гражданского кодекса Российской Федерации.</div>
             </div>
         </div>
     </footer>
 
-	<?include($_SERVER["DOCUMENT_ROOT"] . "/build/components/modals.php");?>
+	<?/*include($_SERVER["DOCUMENT_ROOT"] . "/build/components/modals.php");*/?>
 </body>
 </html>

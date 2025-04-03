@@ -73,7 +73,7 @@
                     </a>
                 </div>
                 <div class="header-top-info">
-                    <a class="header-top__link" href="javascript:;">
+                    <a class="header-top__link" href="tel:+88005007869">
                         <svg class="icon icon-fill mobile-only">
                             <use href="img/sprite.svg#call-calling"></use>
                         </svg>
@@ -100,8 +100,8 @@
                                 loading="lazy"
                                 class="image"
                                 src="img/logo.png"
-                                width="98"
-                                height="56"
+                                width="91"
+                                height="52"
                                 alt="oxlift.ru"
                         >
 					<?if(strpos($_SERVER["REQUEST_URI"], "index.php")):?>
