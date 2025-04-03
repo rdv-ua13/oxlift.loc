@@ -644,41 +644,6 @@
                     <a class="btn-reset btn btn-extra-secondary" href="javascript:;" data-fancybox data-src="#modal-calc">Онлайн оплата</a>
                 </div>
 
-                <div class="header-categorie">
-                    <button
-                            class="btn-reset btn btn-sm btn-secondary menu-catalog-spoiler"
-                            aria-label="Открыть меню"
-                            aria-expanded="false"
-                            data-catalog-spoiler
-                            data-overlay-transparent
-                    >
-                        <svg class="icon icon-fill menu-catalog-spoiler__icon">
-                            <use href="img/sprite.svg#menu"></use>
-                        </svg>
-                        <svg class="icon icon-fill menu-catalog-spoiler__icon-active">
-                            <use href="img/sprite.svg#cross"></use>
-                        </svg>
-                        <span class="text-content">Каталог</span>
-                    </button>
-
-                    <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Гидравлические тележки</a>
-                    <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Самоходные тележки</a>
-                    <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Погрузчики</a>
-                    <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Электротягачи</a>
-                    <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Оборудование для агрессивных сред</a>
-                    <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Запчасти</a>
-                    <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Штабелеры</a>
-                    <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Подъемники и вышки</a>
-                    <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Гидравлические подъемные столы</a>
-                    <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Оборудование для промышленности</a>
-                    <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Клининговое оборудование</a>
-                    <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Оборудование с весами</a>
-                    <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Ричтраки</a>
-                    <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Колесные опоры и ролики</a>
-                    <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Грузоподъемное оборудование</a>
-                    <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Комплектовщики заказов</a>
-                </div>
-
                 <div class="header-mobile-menu">
                     <button
                             class="btn-reset burger"
@@ -692,6 +657,42 @@
                         </svg>
                     </button>
                 </div>
+            </div>
+        </div>
+        <div class="header-categories">
+            <div class="container header-container header-categories-container">
+                <button
+                        class="btn-reset btn btn-sm btn-secondary menu-catalog-spoiler"
+                        aria-label="Открыть меню"
+                        aria-expanded="false"
+                        data-catalog-spoiler
+                        data-overlay-transparent
+                >
+                    <svg class="icon icon-fill menu-catalog-spoiler__icon">
+                        <use href="img/sprite.svg#menu"></use>
+                    </svg>
+                    <svg class="icon icon-fill menu-catalog-spoiler__icon-active">
+                        <use href="img/sprite.svg#cross"></use>
+                    </svg>
+                    <span class="text-content">Каталог</span>
+                </button>
+
+                <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Гидравлические тележки</a>
+                <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Самоходные тележки</a>
+                <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Погрузчики</a>
+                <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Электротягачи</a>
+                <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Оборудование для агрессивных сред</a>
+                <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Запчасти</a>
+                <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Штабелеры</a>
+                <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Подъемники и вышки</a>
+                <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Гидравлические подъемные столы</a>
+                <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Оборудование для промышленности</a>
+                <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Клининговое оборудование</a>
+                <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Оборудование с весами</a>
+                <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Ричтраки</a>
+                <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Колесные опоры и ролики</a>
+                <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Грузоподъемное оборудование</a>
+                <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Комплектовщики заказов</a>
             </div>
         </div>
     </header>

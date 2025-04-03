@@ -296,13 +296,20 @@ application.prototype.initHeaderFloat = function () {
     $(window).scroll(function () {
         setHeaderFloat();
     });
-    setHeaderFloat();
 
     function setHeaderFloat() {
-        if ($(window).scrollTop() > 125) {
+        let heightHeader = $('.header').outerHeight();
+
+        if ($(window).scrollTop() > heightHeader) {
             $('.header').addClass('header-float');
-        } else {
+
+            setTimeout(function () {
+                $('.header-categories').addClass('header-categories--hide');
+            }, 200);
+        }
+        else {
             $('.header').removeClass('header-float');
+            $('.header-categories').removeClass('header-categories--hide');
         }
     }
 };
