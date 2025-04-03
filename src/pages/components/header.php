@@ -111,18 +111,18 @@
                     <?endif;?>
                 </div>
 
-                <div class="header-back">
+                <?/*<div class="header-back">
                     <a class="link link-flex" href="javascript:;">
                         <svg class="icon icon-sm icon-fill">
                             <use href="img/sprite.svg#chevron-left"></use>
                         </svg>
                         <span>Вернуться в корзину</span>
                     </a>
-                </div>
+                </div>*/?>
 
                 <div class="header-catalog-spoiler">
                     <button
-                            class="btn-reset btn menu-catalog-spoiler"
+                            class="btn-reset btn btn-secondary menu-catalog-spoiler"
                             aria-label="Открыть меню"
                             aria-expanded="false"
                             data-catalog-spoiler
@@ -155,7 +155,7 @@
                                     <use href="img/sprite.svg#cross"></use>
                                 </svg>
                             </button>
-                            <button class="btn-reset btn input-search-btn" type="submit">
+                            <button class="btn-reset btn btn-secondary input-search-btn" type="submit">
                                 <svg class="icon icon-fill">
                                     <use href="img/sprite.svg#search"></use>
                                 </svg>
@@ -641,28 +641,42 @@
                 </div>
 
                 <div class="header-pay">
-                    <a class="btn-reset btn btn-ghost" href="javascript:;" data-fancybox data-src="#modal-calc">Онлайн оплата</a>
+                    <a class="btn-reset btn btn-extra-secondary" href="javascript:;" data-fancybox data-src="#modal-calc">Онлайн оплата</a>
                 </div>
 
-                <div class="header-catalog">
-                    <div class="slider-out basic-slider-wrap">
-                        <div class="basic-slider swiper" data-basic-slider data-header-catalog-slider>
-                            <div class="swiper-wrapper">
-                                <a class="swiper-slide header-catalog__item" href="javascript:;">Геотекстиль</a>
-                                <a class="swiper-slide header-catalog__item" href="javascript:;">Геосетки</a>
-                                <a class="swiper-slide header-catalog__item" href="javascript:;">Пленки</a>
-                                <a class="swiper-slide header-catalog__item" href="javascript:;">Профилированная мембрана</a>
-                                <a class="swiper-slide header-catalog__item" href="javascript:;">Спанбонд</a>
-                                <a class="swiper-slide header-catalog__item" href="javascript:;">Габионы сварные</a>
-                                <a class="swiper-slide header-catalog__item" href="javascript:;">Габионы</a>
-                                <a class="swiper-slide header-catalog__item" href="javascript:;">&#x1F525; Предложения месяца</a>
-                                <a class="swiper-slide header-catalog__item" href="javascript:;">&#x1F525; Предложения месяца</a>
-                                <a class="swiper-slide header-catalog__item" href="javascript:;">&#x1F525; Предложения месяца</a>
-                                <a class="swiper-slide header-catalog__item" href="javascript:;">&#x1F525; Предложения месяца</a>
-                                <a class="swiper-slide header-catalog__item" href="javascript:;">&#x1F525; Предложения месяца</a>
-                            </div>
-                        </div>
-                    </div>
+                <div class="header-categorie">
+                    <button
+                            class="btn-reset btn btn-sm btn-secondary menu-catalog-spoiler"
+                            aria-label="Открыть меню"
+                            aria-expanded="false"
+                            data-catalog-spoiler
+                            data-overlay-transparent
+                    >
+                        <svg class="icon icon-fill menu-catalog-spoiler__icon">
+                            <use href="img/sprite.svg#menu"></use>
+                        </svg>
+                        <svg class="icon icon-fill menu-catalog-spoiler__icon-active">
+                            <use href="img/sprite.svg#cross"></use>
+                        </svg>
+                        <span class="text-content">Каталог</span>
+                    </button>
+
+                    <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Гидравлические тележки</a>
+                    <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Самоходные тележки</a>
+                    <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Погрузчики</a>
+                    <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Электротягачи</a>
+                    <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Оборудование для агрессивных сред</a>
+                    <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Запчасти</a>
+                    <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Штабелеры</a>
+                    <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Подъемники и вышки</a>
+                    <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Гидравлические подъемные столы</a>
+                    <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Оборудование для промышленности</a>
+                    <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Клининговое оборудование</a>
+                    <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Оборудование с весами</a>
+                    <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Ричтраки</a>
+                    <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Колесные опоры и ролики</a>
+                    <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Грузоподъемное оборудование</a>
+                    <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Комплектовщики заказов</a>
                 </div>
 
                 <div class="header-mobile-menu">

@@ -10,7 +10,7 @@
 	}
 
 	&-top {
-		background-color: var(--blue0-color);
+		background-color: var(--blue10-color);
 		color: var(--white-color);
 
 		&-container {
@@ -262,14 +262,13 @@
 		display: flex;
 		align-items: center;
 		gap: 24px;
-		margin-left: auto;
 
 		&__btn {
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
-			color: var(--text-primary);
+			color: var(--text-secondary);
 			font-weight: 600;
 			font-size: 12px;
 			line-height: 20px;
@@ -305,26 +304,23 @@
 				font-size: 11px;
 				line-height: 12px;
 			}
-			&-text {
-				opacity: 0.6;
-			}
 
 			&:hover {
-				color: var(--green10-color);
-
-				.icon {
-					fill: var(--green10-color);
-					fill: var(--green10-color);
-				}
+				color: var(--text-primary);
 			}
 		}
 	}
 
-	&-catalog {
+	&-categorie {
+		z-index: 1;
+		position: relative;
 		display: flex;
+		flex-wrap: wrap;
 		align-items: center;
+		gap: 8px;
 		min-width: 100%;
 		width: 100%;
+		transition: var(--transition);
 
 		&__item {
 			display: flex;
@@ -657,13 +653,13 @@
 		position: fixed;
 		gap: 16px;
 
-		&.header-order {
+		/*&.header-order {
 			border-bottom: 1px solid var(--gray1-color);
 
 			.header-top,
 			.header-search,
 			.header-profile,
-			.header-catalog,
+			.header-categorie,
 			.header-catalog-spoiler {
 				display: none;
 			}
@@ -681,7 +677,7 @@
 					display: none;
 				}
 			}
-		}
+		}*/
 
 		&-top {
 			&-container {
@@ -835,7 +831,7 @@
 		}
 
 		&-nav {
-			padding-top: 16px;
+			padding-top: 12px;
 		}
 
 		&-logo {
@@ -848,8 +844,6 @@
 		}
 
 		&-search {
-			max-width: 600px;
-
 			&-results {
 				position: absolute;
 				top: calc(100% + 4px);
@@ -1000,36 +994,12 @@
 			}
 		}
 
-		&-catalog {
-			padding-top: 10px;
-
-			.basic-slider-wrap {
-				min-width: 100%;
-				width: 100%;
-			}
-			.basic-slider {
-				overflow: visible;
-			}
-			&__item {
-				min-height: 40px;
-				height: 40px;
-				font-size: 15px;
-
-				&:hover,
-				&:focus,
-				&:active,
-				&.active {
-				 color: var(--green10-color);
-				}
-			}
-		}
-
 		&-mobile-menu {
 			display: none;
 		}
 
 		&:not(.header-float) {
-			.header-catalog {
+			.header-categorie {
 				&-spoiler {
 					display: none;
 				}
@@ -1174,7 +1144,7 @@
 
 		&.header-less {
 			.header-search,
-			.header-catalog {
+			.header-categorie {
 				display: none;
 			}
 		}
@@ -1377,7 +1347,7 @@
 			}
 		}
 
-		&-catalog {
+		&-categorie {
 			order: 20;
 
 			&-spoiler {

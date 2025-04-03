@@ -462,9 +462,9 @@ body:not(.is-using-mouse) {
 	height: 44px;
 	padding-right: 15px;
 	padding-left: 15px;
-	border: 1px solid var(--blue10-color);
-	border-radius: var(--bradius-sm);
-	background-color: var(--blue10-color);
+	border: 1px solid var(--red10-color);
+	border-radius: var(--bradius);
+	background-color: var(--red10-color);
 	color: var(--white-color);
 	font-family: var(--font-family-base);
 	font-weight: 600;
@@ -487,8 +487,8 @@ body:not(.is-using-mouse) {
 	&:hover,
 	&:active,
 	&.active {
-		border-color: var(--blue21-color);
-		background-color: var(--blue21-color);
+		border-color: var(--red0-color);
+		background-color: var(--red0-color);
 	}
 
 	&.disabled,
@@ -500,11 +500,26 @@ body:not(.is-using-mouse) {
 	&-sm {
 		min-height: 36px;
 		height: 36px;
-		padding-right: 11px;
-		padding-left: 11px;
 	}
 
 	&-primary {
+		border-color: var(--red10-color);
+		background-color: var(--red10-color);
+		color: var(--white-color);
+
+		.icon {
+			fill: var(--white-color);
+			stroke: var(--white-color);
+		}
+
+		&:hover,
+		&:active,
+		&.active {
+			border-color: var(--red0-color);
+			background-color: var(--red0-color);
+		}
+	}
+	&-secondary {
 		border-color: var(--blue10-color);
 		background-color: var(--blue10-color);
 		color: var(--white-color);
@@ -517,31 +532,30 @@ body:not(.is-using-mouse) {
 		&:hover,
 		&:active,
 		&.active {
-			border-color: var(--blue21-color);
-			background-color: var(--blue21-color);
+			border-color: var(--blue20-color);
+			background-color: var(--blue20-color);
 			color: var(--white-color);
 		}
 	}
-	&-secondary {
-		border-color: var(--blue21-color);
-		background-color: var(--blue21-color);
-		color: var(--white-color);
+	&-extra {
+		border-color: var(--gray10-color);
+		background-color: var(--white-color);
+		color: var(--gray20-color);
 
 		.icon {
-			fill: var(--white-color);
-			stroke: var(--white-color);
+			fill: var(--gray20-color);
+			stroke: var(--gray20-color);
 		}
 
 		&:hover,
 		&:active,
 		&.active {
-			border-color: var(--gray20-color);
-			background-color: var(--gray20-color);
-			color: var(--white-color);
+			border-color: var(--text-primary);
+			background-color: var(--white-color);
 		}
 	}
-	&-extra {
-		border-color: var(--gray0-color);
+	&-extra-primary {
+		border-color: var(--gray10-color);
 		background-color: var(--white-color);
 		color: var(--text-primary);
 
@@ -553,8 +567,8 @@ body:not(.is-using-mouse) {
 		&:hover,
 		&:active,
 		&.active {
-			border-color: var(--blue21-color);
-			background-color: var(--blue21-color);
+			border-color: var(--blue20-color);
+			background-color: var(--blue20-color);
 			color: var(--white-color);
 
 			.icon {
@@ -565,61 +579,25 @@ body:not(.is-using-mouse) {
 	}
 	&-extra-secondary {
 		border-color: var(--gray0-color);
-		background-color: var(--white-color);
-		color: var(--blue21-color);
+		background-color: var(--gray0-color);
+		color: var(--gray20-color);
 
 		.icon {
-			fill: var(--blue21-color);
-			stroke: var(--blue21-color);
+			fill: var(--gray20-color);
+			stroke: var(--gray20-color);
 		}
 
 		&:hover,
 		&:active,
 		&.active {
-			border-color: var(--blue21-color);
-			background-color: var(--blue21-color);
+			border-color: var(--text-primary);
+			background-color: var(--text-primary);
 			color: var(--white-color);
 
 			.icon {
 				fill: var(--white-color);
 				stroke: var(--white-color);
 			}
-		}
-	}
-	&-ghost {
-		border-color: var(--gray0-color);
-		background-color: var(--gray0-color);
-		color: var(--gray10-color);
-
-		.icon {
-			fill: var(--gray10-color);
-			stroke: var(--gray10-color);
-		}
-
-		&:hover,
-		&:active,
-		&.active {
-			border-color: var(--blue21-color);
-			background-color: var(--blue21-color);
-			color: var(--white-color);
-		}
-	}
-	/*&-ghost-secondary {
-		border-color: transparent;
-		background-color: transparent;
-		color: var(--gray40-color);
-
-		.icon {
-			fill: var(--gray40-color);
-			stroke: var(--gray40-color);
-		}
-
-		&:hover,
-		&:active,
-		&.active {
-			border-color: var(--gray1-color);
-			background-color: var(--gray1-color);
-			color: var(--text-primary);
 		}
 	}
 	&-icon {
@@ -633,8 +611,8 @@ body:not(.is-using-mouse) {
 		color: transparent;
 
 		.icon {
-			fill: var(--gray45-color);
-			stroke: var(--gray45-color);
+			fill: var(--gray20-color);
+			stroke: var(--gray20-color);
 		}
 		.text-content {
 			display: none;
@@ -643,14 +621,14 @@ body:not(.is-using-mouse) {
 		&:hover,
 		&:active,
 		&.active {
-			border-color: var(--white-color);
-			background-color: var(--white-color);
+			border-color: var(--gray0-color);
+			background-color: var(--gray0-color);
 			box-shadow: var(--shadow-float0), var(--shadow-float1);
 			color: transparent;
 
 			.icon {
-				fill: var(--gray45-color);
-				stroke: var(--gray45-color);
+				fill: var(--text-primary);
+				stroke: var(--text-primary);
 			}
 		}
 
@@ -662,171 +640,12 @@ body:not(.is-using-mouse) {
 			}
 		}
 
-		&--primary {
-			&,
-			&:hover,
-			&:active,
-			&.active {
-				border-color: var(--green0-color);
-				background-color: var(--green0-color);
-				box-shadow: unset;
-
-				.icon {
-					fill: var(--white-color);
-					stroke: var(--white-color);
-				}
-			}
-		}
-		&--soft {
-			&,
-			&:hover,
-			&:active,
-			&.active {
-				border-color: var(--gray1-color);
-				background-color: var(--gray1-color);
-				box-shadow: unset;
-
-				.icon {
-					fill: var(--text-primary);
-					stroke: var(--text-primary);
-				}
-			}
-		}
-		&--menu {
-			.icon {
-				min-width: 32px;
-				width: 32px;
-				min-height: 32px;
-				height: 32px;
-			}
-
-			&,
-			&:hover,
-			&:active,
-			&.active {
-				border-color: var(--white-color);
-				background-color: var(--white-color);
-				box-shadow: unset;
-
-				.icon {
-					fill: var(--text-primary);
-					stroke: var(--text-primary);
-				}
-			}
-		}
-
 		&.btn-sm {
 			min-width: 36px;
 			width: 36px;
 		}
 	}
-	&-delete {
-		box-shadow: none;
-
-		.icon {
-			min-width: 24px;
-			width: 24px;
-			min-height: 24px;
-			height: 24px;
-			fill: var(--gray40-color);
-			stroke: var(--gray40-color);
-		}
-
-		&:hover,
-		&:active,
-		&.active {
-			border-color: var(--gray0-color);
-			background-color: var(--gray0-color);
-			box-shadow: none;
-			color: transparent;
-
-			.icon {
-				fill: var(--text-primary);
-				stroke: var(--text-primary);
-			}
-		}
-	}*/
-
-	/*&-prehover {
-		&:hover {
-			.btn {
-				background-color: var(--green10-color);
-
-				&-primary {
-					border-color: var(--green10-color);
-					background-color: var(--green10-color);
-					color: var(--white-color);
-				}
-				&-secondary {
-					border-color: var(--text-secondary);
-					background-color: var(--text-secondary);
-					color: var(--white-color);
-				}
-				&-extra {
-					border-color: var(--gray60-color);
-					background-color: transparent;
-					color: var(--gray50-color);
-				}
-				&-extra-secondary {
-					border-color: var(--gray50-color);
-					background-color: var(--gray50-color);
-					color: var(--white-color);
-
-					.icon {
-						fill: var(--white-color);
-						stroke: var(--white-color);
-					}
-				}
-				&-ghost {
-					border-color: var(--gray1-color);
-					background-color: var(--gray1-color);
-					color: var(--text-primary);
-				}
-				&-ghost-secondary {
-					border-color: var(--gray1-color);
-					background-color: var(--gray1-color);
-					color: var(--text-primary);
-				}
-			}
-		}
-	}*/
 }
-/*@media (min-width: 992px) {
-	.btn {
-		&-icon {
-			&:hover,
-			&:active,
-			&.active {
-				border-color: var(--gray0-color);
-				background-color: var(--gray0-color);
-				box-shadow: var(--shadow-float0), var(--shadow-float2);
-				color: transparent;
-
-				.icon {
-					fill: var(--text-primary);
-					stroke: var(--text-primary);
-				}
-			}
-
-			&--primary,
-			&--soft,
-			&--menu {
-				&:hover,
-				&:active,
-				&.active {
-					box-shadow: unset;
-				}
-			}
-		}
-		&-delete {
-			&:hover,
-			&:active,
-			&.active {
-				box-shadow: none;
-			}
-		}
-	}
-}*/
 
 .link {
 	color: var(--blue20-color);
@@ -1340,7 +1159,7 @@ input.disabled {
 	min-height: 44px;
 	height: 44px;
 	padding: 9px 15px;
-	border: 1px solid var(--blue10-color);
+	border: 1px solid var(--text-secondary);
 	border-radius: var(--bradius);
 	background-color: var(--white-color);
 	color: var(--text-primary);
@@ -1348,7 +1167,7 @@ input.disabled {
 	line-height: 24px;
 
 	&::placeholder {
-		color: var(--gray20-color);
+		color: var(--text-secondary);
 	}
 	/*&:not([readonly]):hover {
 		border-color: var(--gray0-color);
@@ -1617,6 +1436,14 @@ input.disabled {
 			stroke: var(--red10-color)!important;
 		}
 	}*/
+
+	&:hover,
+	&:focus,
+	&:active,
+	&.active {
+		border-color: var(--blue10-color);
+		background-color: var(--white-color);
+	}
 }
 @media (min-width: 992px) {
 	.input {
