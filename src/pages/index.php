@@ -1614,19 +1614,19 @@
 
                                 <div class="cp-column cp-column--sm">
                                     <div class="cp-item cp-item--frame">
-                                        <div class="fw-semibold fz-subheading-sm">Как быстро я могу получить товар после заказа?</div>
+                                        <div class="fw-semibold fz-subheading">Как быстро я могу получить товар после заказа?</div>
                                         <div class="cp-item__content">
                                             Если заказ сделан до 12:00, то доставка возможна в этот же день. В ином случае доставка осуществляется на следующий день
                                         </div>
                                     </div>
                                     <div class="cp-item cp-item--frame">
-                                        <div class="fw-semibold fz-subheading-sm">За счет чего у Вас такие низкие цены?</div>
+                                        <div class="fw-semibold fz-subheading">За счет чего у Вас такие низкие цены?</div>
                                         <div class="cp-item__content">
                                             Большинство товара мы производим самостоятельно. Это позволяет нам держать самую низкую цену на качественный материал
                                         </div>
                                     </div>
                                     <div class="cp-item cp-item--frame">
-                                        <div class="fw-semibold fz-subheading-sm">Могу ли я посмотреть выставочные образцы Ваших габионов где-то еще помимо основного склада в Колпино?</div>
+                                        <div class="fw-semibold fz-subheading">Могу ли я посмотреть выставочные образцы Ваших габионов где-то еще помимо основного склада в Колпино?</div>
                                         <div class="cp-item__content">
                                             Конечно! Специально для Вашего удобства наши габионы размещаются по двум адресам в СПб:
                                             <br>
@@ -1637,19 +1637,19 @@
                                         </div>
                                     </div>
                                     <div class="cp-item cp-item--frame">
-                                        <div class="fw-semibold fz-subheading-sm">Осуществляете ли Вы продажу габионов с их монтажом?</div>
+                                        <div class="fw-semibold fz-subheading">Осуществляете ли Вы продажу габионов с их монтажом?</div>
                                         <div class="cp-item__content">
                                             Да, конечно! Наш специалист рассчитает для Вас стоимость материала с учетом работ и сделает индивидуальное предложение.
                                         </div>
                                     </div>
                                     <div class="cp-item cp-item--frame">
-                                        <div class="fw-semibold fz-subheading-sm">Могу ли я приобрести у Вас геомембрану на отрез?</div>
+                                        <div class="fw-semibold fz-subheading">Могу ли я приобрести у Вас геомембрану на отрез?</div>
                                         <div class="cp-item__content">
                                             Да, это возможно! Мы отрежем Вам необходимое количество погонных метров.
                                         </div>
                                     </div>
                                     <div class="cp-item cp-item--frame">
-                                        <div class="fw-semibold fz-subheading-sm">Работаете ли Вы с физическими лицами и продаете ли материал в розницу?</div>
+                                        <div class="fw-semibold fz-subheading">Работаете ли Вы с физическими лицами и продаете ли материал в розницу?</div>
                                         <div class="cp-item__content">
                                             Да, конечно. Вы можете приобрести у нас необходимое количество материала кратно его фасовке. (искл. Геомембрана)
                                         </div>
