@@ -102,7 +102,7 @@
                                 <svg class="icon icon-fill">
                                     <use href="img/sprite.svg#sms"></use>
                                 </svg>
-                                <span class="text-content">sales+180580947@oxlift.ru</span>
+                                <span class="text-content">sales@oxlift.ru</span>
                             </a>
                         </div>
                     </div>

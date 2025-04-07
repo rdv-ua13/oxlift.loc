@@ -26,10 +26,10 @@ application.prototype.init = function () {
     /*this.initBasicTabs();*/
     this.initInputSearchBehavior();
     /*this.initHeaderInputSearchReadonly();*/
-    /*this.initSearchResBehavior();*/
+    this.initSearchResBehavior();
     /*this.initClipboard();*/
     /*this.initContactsMap();*/
-    /*this.initDeleteTrigger();*/
+    this.initDeleteTrigger();
     /*this.initCatalogSidebarFilter();*/
     /*this.initCatalogContentSort();*/
     /*this.initCardFavorites();*/
@@ -40,7 +40,7 @@ application.prototype.init = function () {
     /*this.initSelect2();*/
     /*this.initInputDropdown();*/
 
-    /*this.initTestShowHideDropmenu();*/
+    this.initTestShowHideDropmenu();
 };
 
 // Initialize disable scroll
@@ -483,8 +483,8 @@ application.prototype.initMenuCatalogSubmenu = function () {
     const rootItem = $('[data-submenu-section]');
 
     catalogSpoiler.on('click', function (e) {
-        const currentRootItem = $('.menu-catalog-root-link[data-submenu-section="0"]');
-        const currentSubmenuItem = $('.menu-catalog-submenu-section[data-root-pointer="0"]');
+        const currentRootItem = $(".menu-catalog-root-link[data-submenu-section='0']");
+        const currentSubmenuItem = $(".menu-catalog-submenu-section[data-root-pointer='0']");
         let currentCatalogTitle = catalogTitle.data('catalog-title');
 
         catalogTitle.text(currentCatalogTitle);
@@ -502,9 +502,10 @@ application.prototype.initMenuCatalogSubmenu = function () {
                 let rootItemId = $(this).data('submenu-section');
 
                 $('.menu-catalog-submenu-section').removeClass('active');
-                $('.menu-catalog-submenu-section[data-root-pointer="' + rootItemId + '"]').addClass('active');
+                $(".menu-catalog-submenu-section[data-root-pointer='" + rootItemId + "']").addClass('active');
             });
-        } else {
+        }
+        else {
             rootItem.on('click', function (e) {
                 e.preventDefault();
                 e.stopPropagation();
@@ -512,10 +513,11 @@ application.prototype.initMenuCatalogSubmenu = function () {
                 let rootItemId = $(this).data('submenu-section');
 
                 $('.menu-catalog-submenu-section').removeClass('active');
-                $('.menu-catalog-submenu-section[data-root-pointer="' + rootItemId + '"]').addClass('active');
+                $(".menu-catalog-submenu-section[data-root-pointer='" + rootItemId + "']").addClass('active');
             });
         }
-    } else if (window.matchMedia('(max-width: 991.98px)').matches) {
+    }
+    else if (window.matchMedia('(max-width: 991.98px)').matches) {
         rootItem.on('click', function (e) {
             e.preventDefault();
             e.stopPropagation();
@@ -528,7 +530,7 @@ application.prototype.initMenuCatalogSubmenu = function () {
             $(this).closest('.menu-catalog-root').addClass('hide');
             $(this).closest('.menu-catalog').find('.menu-catalog-submenu').addClass('active');
             $('.menu-catalog-submenu-section').removeClass('active');
-            $('.menu-catalog-submenu-section[data-root-pointer="' + rootItemId + '"]').addClass('active');
+            $(".menu-catalog-submenu-section[data-root-pointer='" + rootItemId + "']").addClass('active');
         });
 
         $('.menu-catalog-title-back').on('click', function (e) {
@@ -623,22 +625,22 @@ application.prototype.initSliders = function () {
         let currentSlider = null;
 
         slider.each(function (i) {
-            slider.eq(i).closest('.basic-slider-wrap').addClass('basic-slider-wrap-' + i + '0');
+            slider.eq(i).closest('.basic-slider-wrap').addClass('basic-slider-wrap-single-' + i);
 
             const singleSliderSettings = {
                 slidesPerView: 1,
                 spaceBetween: 12,
                 autoHeight: true,
                 navigation: {
-                    nextEl: '.basic-slider-wrap-' + i + '0 .swiper-button-next',
-                    prevEl: '.basic-slider-wrap-' + i + '0 .swiper-button-prev',
+                    nextEl: '.basic-slider-wrap-single-' + i + ' .swiper-button-next',
+                    prevEl: '.basic-slider-wrap-single-' + i + ' .swiper-button-prev',
                 },
                 pagination: {
-                    el: '.basic-slider-wrap-' + i + '0 .swiper-pagination',
+                    el: '.basic-slider-wrap-single-' + i + ' .swiper-pagination',
                 }
             };
 
-            currentSlider = new Swiper('.basic-slider-wrap-' + i + '0 [data-single-slider]', singleSliderSettings);
+            currentSlider = new Swiper('.basic-slider-wrap-single-' + i + ' [data-single-slider]', singleSliderSettings);
         });
     }
     if ($('[data-single-autoplay-slider]').length) {
@@ -646,22 +648,22 @@ application.prototype.initSliders = function () {
         let currentSlider = null;
 
         slider.each(function (i) {
-            slider.eq(i).closest('.basic-slider-wrap').addClass('basic-slider-wrap-' + i + '00');
+            slider.eq(i).closest('.basic-slider-wrap').addClass('basic-slider-single-autoplay-wrap-' + i);
 
             const singleSliderAutoplaySettings = {
                 slidesPerView: 1,
                 loop: true,
                 autoplay: {delay: 5000},
                 navigation: {
-                    nextEl: '.basic-slider-wrap-' + i + '00 .swiper-button-next',
-                    prevEl: '.basic-slider-wrap-' + i + '00 .swiper-button-prev',
+                    nextEl: '.basic-slider-single-autoplay-wrap-' + i + ' .swiper-button-next',
+                    prevEl: '.basic-slider-single-autoplay-wrap-' + i + ' .swiper-button-prev',
                 },
                 pagination: {
-                    el: '.basic-slider-wrap-' + i + '00 .swiper-pagination',
+                    el: '.basic-slider-single-autoplay-wrap-' + i + ' .swiper-pagination',
                 }
             };
 
-            currentSlider = new Swiper('.basic-slider-wrap-' + i + '00 [data-single-autoplay-slider]', singleSliderAutoplaySettings);
+            currentSlider = new Swiper('.basic-slider-single-autoplay-wrap-' + i + ' [data-single-autoplay-slider]', singleSliderAutoplaySettings);
         });
     }
 
@@ -683,6 +685,26 @@ application.prototype.initSliders = function () {
             }
         };
         let indexTopPrimarySlider = new Swiper('.index-top-primary .swiper', indexTopPrimarySliderSettings);
+    }
+
+    if ($('.partner-slider').length) {
+        const partnerSliderSettings = {
+            slidesPerView: 'auto',
+            slidesPerGroup: 1,
+            spaceBetween: 8,
+            loop: true,
+            autoplay: {delay: 5000},
+            navigation: {
+                nextEl: '.partner .swiper-button-next',
+                prevEl: '.partner .swiper-button-prev',
+            },
+            breakpoints: {
+                992: {
+                    spaceBetween: 12
+                },
+            }
+        };
+        let partnerSlider = new Swiper('.partner-slider', partnerSliderSettings);
     }
 
     if ($('.details-thumb-slider').length) {

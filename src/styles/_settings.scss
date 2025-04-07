@@ -168,6 +168,13 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 	color: var(--text-primary);
 	font-weight: 700;
 }
+.dark-bg {
+	color: var(--white-color);
+
+	h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+		color: var(--white-color);
+	}
+}
 h1, .h1 {
 	font-size: 24px;
 	line-height: 1.2;
@@ -181,7 +188,7 @@ h3, .h3 {
 	line-height: 1.3;
 }
 h4, .h4 {
-	font-size: 17px;
+	font-size: 16px;
 	line-height: 1.3;
 }
 @media (min-width: 992px) {
@@ -331,7 +338,9 @@ svg {
 	}
 }
 
-p {
+p,
+ul,
+ol {
 	margin-top: 0;
 
 	&:not(:last-child) {
@@ -347,6 +356,10 @@ p {
 			margin-bottom: 24px;
 		}
 	}
+}
+
+ul, ol {
+	line-height: 1.6;
 }
 
 body:not(.is-using-mouse) {
@@ -670,14 +683,7 @@ body:not(.is-using-mouse) {
 			stroke: var(--text-secondary);
 		}
 		&:visited,
-		&:focus {
-			color: var(--red0-color);
-
-			.icon {
-				fill: var(--red0-color);
-				stroke: var(--red0-color);
-			}
-		}
+		&:focus,
 		&:hover,
 		&:active {
 			color: var(--text-primary);
@@ -689,20 +695,21 @@ body:not(.is-using-mouse) {
 		}
 	}
 	&-brand {
-		color: var(--red10-color);
+		color: var(--blue20-color);
 		text-decoration: underline;
 		text-decoration-style: dashed;
 		text-underline-offset: 4px;
 
 		.icon {
-			fill: var(--red10-color);
-			stroke: var(--red10-color);
+			fill: var(--blue20-color);
+			stroke: var(--blue20-color);
 		}
 		&:visited,
 		&:focus,
 		&:hover,
 		&:active {
 			color: var(--red0-color);
+			text-decoration-color: var(--red0-color);
 
 			.icon {
 				fill: var(--red0-color);
@@ -758,6 +765,27 @@ body:not(.is-using-mouse) {
 					text-decoration: none;
 					text-decoration-style: unset;
 					text-underline-offset: unset;
+				}
+			}
+
+			&.link {
+				.text-content {
+					text-decoration-color: var(--text-primary);
+				}
+			}
+			&.link-secondary {
+				.text-content {
+					text-decoration-color: var(--text-secondary);
+				}
+			}
+			&.link-brand {
+				.text-content {
+					text-decoration-color: var(--blue20-color);
+				}
+			}
+			&.link-invert {
+				.text-content {
+					text-decoration-color: var(--white-color);
 				}
 			}
 		}
@@ -868,6 +896,93 @@ input.disabled {
 
 	.desktop-only {
 		display: none !important;
+	}
+}
+
+/*.block {
+	&-border-y,
+	&-border-top {
+		border-top: 1px solid var(--gray4-color);
+	}
+	&-border-y,
+	&-border-bottom {
+		border-bottom: 1px solid var(--gray4-color);
+	}
+}*/
+@media (min-width: 992px) {
+	.block {
+		padding-top: 60px;
+		padding-bottom: 60px;
+
+		&-top {
+			padding-top: 60px;
+			padding-bottom: unset;
+		}
+		&-bottom {
+			padding-top: unset;
+			padding-bottom: 60px;
+		}
+
+		&-sm {
+			padding-top: 32px;
+			padding-bottom: 32px;
+
+			&.block-top {
+				padding-top: 32px;
+				padding-bottom: unset;
+			}
+			&.block-bottom {
+				padding-top: unset;
+				padding-bottom: 32px;
+			}
+		}
+
+		&--mobile {
+			&,
+			.block-top,
+			.block-bottom {
+				padding-top: unset;
+				padding-bottom: unset;
+			}
+		}
+	}
+}
+@media (max-width: 991.98px) {
+	.block {
+		padding-top: 24px;
+		padding-bottom: 24px;
+
+		&-top {
+			padding-top: 24px;
+			padding-bottom: unset;
+		}
+		&-bottom {
+			padding-top: unset;
+			padding-bottom: 24px;
+		}
+
+		&-sm {
+			padding-top: 12px;
+			padding-bottom: 12px;
+
+			&.block-top {
+				padding-top: 12px;
+				padding-bottom: unset;
+			}
+			&.block-bottom {
+				padding-top: unset;
+				padding-bottom: 12px;
+			}
+		}
+
+		&--desktop {
+			&,
+			.block-top,
+			.block-bottom {
+				padding-top: unset;
+				padding-bottom: unset;
+			}
+		}
 	}
 }
 
@@ -1663,8 +1778,8 @@ input.disabled {
 			width: 24px;
 			min-height: 24px;
 			height: 24px;
-			fill: var(--gray45-color);
-			stroke: var(--gray45-color);
+			fill: var(--gray20-color);
+			stroke: var(--gray20-color);
 			pointer-events: none;
 			user-select: none;
 
@@ -1700,6 +1815,17 @@ input.disabled {
 		right: 0;
 		left: auto;
 	}
+
+
+	&--solo {
+		position: relative;
+		inset: unset;
+		justify-content: center;
+		gap: 8px;
+		min-width: 96px;
+		width: 96px;
+		margin-top: unset;
+	}
 }
 
 .swiper-pagination {
@@ -1726,7 +1852,7 @@ input.disabled {
 	}
 	.swiper-pagination-bullet-active {
 		width: 24px;
-		background: var(--green0-color);
+		background: var(--blue20-color);
 	}
 }
 
@@ -1845,6 +1971,13 @@ input.disabled {
 		display: flex;
 		flex-direction: column;
 		gap: 16px;
+
+		&-more {
+			.btn {
+				min-width: 100%;
+				width: 100%;
+			}
+		}
 	}
 }
 @media (min-width: 992px) {
@@ -1868,6 +2001,11 @@ input.disabled {
 
 			&-more {
 				margin-left: auto;
+
+				.btn {
+					min-width: auto;
+					width: auto;
+				}
 			}
 			&--row {
 				min-width: 100%;
@@ -2123,18 +2261,25 @@ input.disabled {
 		flex: 1;
 	}
 
-	&-benefit {
+	&-achievements {
+		flex: unset;
 		flex-direction: row;
 		gap: 12px;
+		min-width: 100%;
+		width: 100%;
+		overflow: hidden;
+		border-radius: var(--bradius);
 
 		.card__view {
+			background-color: transparent;
+
 			&,
 			.icon,
 			.image {
-				min-width: 28px;
-				width: 28px;
-				min-height: 28px;
-				height: 28px;
+				min-width: 80px;
+				width: 80px;
+				min-height: 80px;
+				height: 80px;
 			}
 		}
 		.card__descr {
@@ -2144,8 +2289,7 @@ input.disabled {
 			font-weight: 700;
 		}
 		.card__text-content {
-			color: var(--text-secondary);
-			font-size: 12px;
+			color: var(--gray20-color);
 		}
 	}
 	&-product {
@@ -2648,22 +2792,25 @@ input.disabled {
 	}
 
 	.card {
-		&-benefit {
+		&-achievements {
 			gap: 16px;
-			max-width: 311px;
+			padding: 24px;
 
 			.card__view {
 				&,
 				.icon,
 				.image {
-					min-width: 36px;
-					width: 36px;
-					min-height: 36px;
-					height: 36px;
+					min-width: 120px;
+					width: 120px;
+					min-height: 120px;
+					height: 120px;
 				}
 			}
 			.card__descr {
-				gap: 4px;
+				gap: 8px;
+			}
+			.card__title {
+				font-size: 20px;
 			}
 			.card__text-content {
 				font-size: 13px;
@@ -2945,9 +3092,24 @@ input.disabled {
 		}
 	}
 	.card {
-		&-benefit {
-			min-width: 100%;
-			width: 100%;
+		&-achievements {
+			flex-direction: column;
+			padding: 16px;
+
+			.card__view {
+				order: 0;
+				margin: 0 auto;
+			}
+			.card__descr {
+				order: 10;
+				flex-direction: row;
+			}
+			.card__title {
+				font-size: 14px;
+			}
+			.card__text-content {
+				display: none;
+			}
 		}
 		&-product {
 			.card__characteristics {

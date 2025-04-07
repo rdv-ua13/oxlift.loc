@@ -37,13 +37,8 @@
 </head>
 
 
-<body class="<?=(strpos($_SERVER["REQUEST_URI"], "index.php"))? 'index' : ''?>"
->
-    <header
-            class="header fixed-block
-                <?=(!strpos($_SERVER["REQUEST_URI"], "index.php") && !strpos($_SERVER["REQUEST_URI"], "catalog.php"))? 'header-less' : ''?>
-                <?=(strpos($_SERVER["REQUEST_URI"], "order.php"))? 'header-order' : ''?>"
-    >
+<body>
+    <header class="header fixed-block">
         <div class="header-top">
             <div class="container header-container header-top-container">
                 <div class="header-top-nav">
@@ -100,8 +95,8 @@
                                 loading="lazy"
                                 class="image"
                                 src="img/logo.png"
-                                width="91"
-                                height="52"
+                                width="63"
+                                height="36"
                                 alt="oxlift.ru"
                         >
 					<?if(strpos($_SERVER["REQUEST_URI"], "index.php")):?>
@@ -129,7 +124,7 @@
                             data-overlay-transparent
                     >
                         <svg class="icon icon-fill menu-catalog-spoiler__icon">
-                            <use href="img/sprite.svg#menu"></use>
+                            <use href="img/sprite.svg#category"></use>
                         </svg>
                         <svg class="icon icon-fill menu-catalog-spoiler__icon-active">
                             <use href="img/sprite.svg#cross"></use>
@@ -147,8 +142,8 @@
                                     name=""
                                     placeholder="Найти товар или услугу"
                                     autocomplete="off"
-                                    <?/*onclick="$(this).closest('.header-search').find('.header-search-results').toggleClass('active');"
-                                    readonly*/?>
+                                    onclick="$(this).closest('.header-search').find('.header-search-results').toggleClass('active');"
+								    <?/*readonly*/?>
                             >
                             <button class="btn-reset btn input-delete-btn">
                                 <svg class="icon icon-fill">
@@ -211,7 +206,7 @@
                                                 <svg class="icon icon-fill">
                                                     <use href="img/sprite.svg#history"></use>
                                                 </svg>
-                                                <span class="text-content">геотекстиль</span>
+                                                <span class="text-content">гидравлические тележки</span>
                                                 <span class="search-results__suggest-delete" data-delete-trigger>
                                                     <svg class="icon icon-fill">
                                                         <use href="img/sprite.svg#cross"></use>
@@ -222,7 +217,7 @@
                                                 <svg class="icon icon-fill">
                                                     <use href="img/sprite.svg#history"></use>
                                                 </svg>
-                                                <span class="text-content">геотекстиль из полипропилена</span>
+                                                <span class="text-content">рохли гидравлические</span>
                                                 <span class="search-results__suggest-delete" data-delete-trigger>
                                                     <svg class="icon icon-fill">
                                                         <use href="img/sprite.svg#cross"></use>
@@ -233,25 +228,13 @@
                                         <div class="search-results__suggest-content">
                                             <div class="search-results__suggest-title">Популярное</div>
                                             <a href="javascript:;" class="search-results__suggest-item">
-                                                <span class="text-content">Геотекстиль Дорнит</span>
+                                                <span class="text-content">Гидравлические тележки</span>
                                             </a>
                                             <a href="javascript:;" class="search-results__suggest-item">
-                                                <span class="text-content">Дорнит</span>
+                                                <span class="text-content">Самоходные тележки</span>
                                             </a>
                                             <a href="javascript:;" class="search-results__suggest-item">
-                                                <span class="text-content">Дренажная система</span>
-                                            </a>
-                                            <a href="javascript:;" class="search-results__suggest-item">
-                                                <span class="text-content">Габионы сварные</span>
-                                            </a>
-                                            <a href="javascript:;" class="search-results__suggest-item">
-                                                <span class="text-content">Габионы</span>
-                                            </a>
-                                            <a href="javascript:;" class="search-results__suggest-item">
-                                                <span class="text-content">Фасадная сетка</span>
-                                            </a>
-                                            <a href="javascript:;" class="search-results__suggest-item">
-                                                <span class="text-content">Спанбонд</span>
+                                                <span class="text-content">Погрузчики</span>
                                             </a>
                                         </div>
                                     </div>
@@ -263,7 +246,7 @@
                                         <div class="search-results__suggest-content search-results__suggest-content-products">
                                             <div class="search-results__suggest-title">Товары</div>
                                             <a href="javascript:;" class="search-results-product">
-                                                <div class="search-results-product__view">
+                                                <span class="search-results-product__view">
                                                     <img
                                                             loading="lazy"
                                                             src="img/cp1.png"
@@ -272,15 +255,15 @@
                                                             height="40"
                                                             alt="Изображение блока"
                                                     >
-                                                </div>
-                                                <div class="search-results-product__descr">
-                                                    <div class="search-results-product__info">
-                                                        <div class="search-results-product__title">Геотекстиль для грядок, шир. 2*10 м.п</div>
-                                                        <div class="search-results-product__price">
-                                                            <div class="search-results-product__price-current">910,50 ₽</div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="search-results-product__cart">
+                                                </span>
+                                                <span class="search-results-product__descr">
+                                                    <span class="search-results-product__info">
+                                                        <span class="search-results-product__title">Ручная Гидравлическая Тележка OXLIFT OX25-1X 2500 кг</span>
+                                                        <span class="search-results-product__price">
+                                                            <span class="search-results-product__price-current">21 000 ₽</span>
+                                                        </span>
+                                                    </span>
+                                                    <span class="search-results-product__cart">
                                                         <button class="btn-reset btn" type="button">
                                                             <svg class="icon icon-fill mobile-only">
                                                                 <use href="img/sprite.svg#shopping-cart"></use>
@@ -295,11 +278,11 @@
                                                                 <use href="img/sprite.svg#filled-heart"></use>
                                                             </svg>
                                                         </button>
-                                                    </div>
-                                                </div>
+                                                    </span>
+                                                </span>
                                             </a>
                                             <a href="javascript:;" class="search-results-product">
-                                                <div class="search-results-product__view">
+                                                <span class="search-results-product__view">
                                                     <img
                                                             loading="lazy"
                                                             src="img/cp2.png"
@@ -308,16 +291,15 @@
                                                             height="40"
                                                             alt="Изображение блока"
                                                     >
-                                                </div>
-                                                <div class="search-results-product__descr">
-                                                    <div class="search-results-product__info">
-                                                        <div class="search-results-product__title">Техническая пленка 100 мкм, шир. 3х10</div>
-                                                        <div class="search-results-product__price">
-                                                            <div class="search-results-product__price-current">300 ₽</div>
-                                                            <div class="search-results-product__price-originally">1230,50 ₽</div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="search-results-product__cart">
+                                                </span>
+                                                <span class="search-results-product__descr">
+                                                    <span class="search-results-product__info">
+                                                        <span class="search-results-product__title">Самоходная Тележка OXLIFT CBD20J-Li3 2000 кг Li-ion</span>
+                                                        <span class="search-results-product__price">
+                                                            <span class="search-results-product__price-current">175 320 ₽</span>
+                                                        </span>
+                                                    </span>
+                                                    <span class="search-results-product__cart">
                                                         <button class="btn-reset btn" type="button">
                                                             <svg class="icon icon-fill mobile-only">
                                                                 <use href="img/sprite.svg#shopping-cart"></use>
@@ -332,262 +314,8 @@
                                                                 <use href="img/sprite.svg#filled-heart"></use>
                                                             </svg>
                                                         </button>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a href="javascript:;" class="search-results-product">
-                                                <div class="search-results-product__view">
-                                                    <img
-                                                            loading="lazy"
-                                                            src="img/cp3.png"
-                                                            class="image"
-                                                            width="40"
-                                                            height="40"
-                                                            alt="Изображение блока"
-                                                    >
-                                                </div>
-                                                <div class="search-results-product__descr">
-                                                    <div class="search-results-product__info">
-                                                        <div class="search-results-product__title">Тент универсальный 80 гр, 2х3 с люверсами</div>
-                                                        <div class="search-results-product__price">
-                                                            <div class="search-results-product__price-current">225 ₽</div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="search-results-product__cart">
-                                                        <button class="btn-reset btn" type="button">
-                                                            <svg class="icon icon-fill mobile-only">
-                                                                <use href="img/sprite.svg#shopping-cart"></use>
-                                                            </svg>
-                                                            <span class="text-content desktop-only">В корзину</span>
-                                                        </button>
-                                                        <button class="btn-reset btn btn-icon btn-icon-switch btn-icon--soft" type="button" data-favorites>
-                                                            <svg class="icon icon-fill">
-                                                                <use href="img/sprite.svg#heart"></use>
-                                                            </svg>
-                                                            <svg class="icon icon-fill selected">
-                                                                <use href="img/sprite.svg#filled-heart"></use>
-                                                            </svg>
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a href="javascript:;" class="search-results-product">
-                                                <div class="search-results-product__view">
-                                                    <img
-                                                            loading="lazy"
-                                                            src="img/cp1.png"
-                                                            class="image"
-                                                            width="40"
-                                                            height="40"
-                                                            alt="Изображение блока"
-                                                    >
-                                                </div>
-                                                <div class="search-results-product__descr">
-                                                    <div class="search-results-product__info">
-                                                        <div class="search-results-product__title">Геотекстиль для грядок, шир. 2*10 м.п</div>
-                                                        <div class="search-results-product__price">
-                                                            <div class="search-results-product__price-current">910,50 ₽</div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="search-results-product__cart">
-                                                        <button class="btn-reset btn" type="button">
-                                                            <svg class="icon icon-fill mobile-only">
-                                                                <use href="img/sprite.svg#shopping-cart"></use>
-                                                            </svg>
-                                                            <span class="text-content desktop-only">В корзину</span>
-                                                        </button>
-                                                        <button class="btn-reset btn btn-icon btn-icon-switch btn-icon--soft" type="button" data-favorites>
-                                                            <svg class="icon icon-fill">
-                                                                <use href="img/sprite.svg#heart"></use>
-                                                            </svg>
-                                                            <svg class="icon icon-fill selected">
-                                                                <use href="img/sprite.svg#filled-heart"></use>
-                                                            </svg>
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a href="javascript:;" class="search-results-product">
-                                                <div class="search-results-product__view">
-                                                    <img
-                                                            loading="lazy"
-                                                            src="img/cp2.png"
-                                                            class="image"
-                                                            width="40"
-                                                            height="40"
-                                                            alt="Изображение блока"
-                                                    >
-                                                </div>
-                                                <div class="search-results-product__descr">
-                                                    <div class="search-results-product__info">
-                                                        <div class="search-results-product__title">Техническая пленка 100 мкм, шир. 3х10</div>
-                                                        <div class="search-results-product__price">
-                                                            <div class="search-results-product__price-current">300 ₽</div>
-                                                            <div class="search-results-product__price-originally">1230,50 ₽</div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="search-results-product__cart">
-                                                        <button class="btn-reset btn" type="button">
-                                                            <svg class="icon icon-fill mobile-only">
-                                                                <use href="img/sprite.svg#shopping-cart"></use>
-                                                            </svg>
-                                                            <span class="text-content desktop-only">В корзину</span>
-                                                        </button>
-                                                        <button class="btn-reset btn btn-icon btn-icon-switch btn-icon--soft" type="button" data-favorites>
-                                                            <svg class="icon icon-fill">
-                                                                <use href="img/sprite.svg#heart"></use>
-                                                            </svg>
-                                                            <svg class="icon icon-fill selected">
-                                                                <use href="img/sprite.svg#filled-heart"></use>
-                                                            </svg>
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a href="javascript:;" class="search-results-product">
-                                                <div class="search-results-product__view">
-                                                    <img
-                                                            loading="lazy"
-                                                            src="img/cp3.png"
-                                                            class="image"
-                                                            width="40"
-                                                            height="40"
-                                                            alt="Изображение блока"
-                                                    >
-                                                </div>
-                                                <div class="search-results-product__descr">
-                                                    <div class="search-results-product__info">
-                                                        <div class="search-results-product__title">Тент универсальный 80 гр, 2х3 с люверсами</div>
-                                                        <div class="search-results-product__price">
-                                                            <div class="search-results-product__price-current">225 ₽</div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="search-results-product__cart">
-                                                        <button class="btn-reset btn" type="button">
-                                                            <svg class="icon icon-fill mobile-only">
-                                                                <use href="img/sprite.svg#shopping-cart"></use>
-                                                            </svg>
-                                                            <span class="text-content desktop-only">В корзину</span>
-                                                        </button>
-                                                        <button class="btn-reset btn btn-icon btn-icon-switch btn-icon--soft" type="button" data-favorites>
-                                                            <svg class="icon icon-fill">
-                                                                <use href="img/sprite.svg#heart"></use>
-                                                            </svg>
-                                                            <svg class="icon icon-fill selected">
-                                                                <use href="img/sprite.svg#filled-heart"></use>
-                                                            </svg>
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a href="javascript:;" class="search-results-product">
-                                                <div class="search-results-product__view">
-                                                    <img
-                                                            loading="lazy"
-                                                            src="img/cp1.png"
-                                                            class="image"
-                                                            width="40"
-                                                            height="40"
-                                                            alt="Изображение блока"
-                                                    >
-                                                </div>
-                                                <div class="search-results-product__descr">
-                                                    <div class="search-results-product__info">
-                                                        <div class="search-results-product__title">Геотекстиль для грядок, шир. 2*10 м.п</div>
-                                                        <div class="search-results-product__price">
-                                                            <div class="search-results-product__price-current">910,50 ₽</div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="search-results-product__cart">
-                                                        <button class="btn-reset btn" type="button">
-                                                            <svg class="icon icon-fill mobile-only">
-                                                                <use href="img/sprite.svg#shopping-cart"></use>
-                                                            </svg>
-                                                            <span class="text-content desktop-only">В корзину</span>
-                                                        </button>
-                                                        <button class="btn-reset btn btn-icon btn-icon-switch btn-icon--soft" type="button" data-favorites>
-                                                            <svg class="icon icon-fill">
-                                                                <use href="img/sprite.svg#heart"></use>
-                                                            </svg>
-                                                            <svg class="icon icon-fill selected">
-                                                                <use href="img/sprite.svg#filled-heart"></use>
-                                                            </svg>
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a href="javascript:;" class="search-results-product">
-                                                <div class="search-results-product__view">
-                                                    <img
-                                                            loading="lazy"
-                                                            src="img/cp2.png"
-                                                            class="image"
-                                                            width="40"
-                                                            height="40"
-                                                            alt="Изображение блока"
-                                                    >
-                                                </div>
-                                                <div class="search-results-product__descr">
-                                                    <div class="search-results-product__info">
-                                                        <div class="search-results-product__title">Техническая пленка 100 мкм, шир. 3х10</div>
-                                                        <div class="search-results-product__price">
-                                                            <div class="search-results-product__price-current">300 ₽</div>
-                                                            <div class="search-results-product__price-originally">1230,50 ₽</div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="search-results-product__cart">
-                                                        <button class="btn-reset btn" type="button">
-                                                            <svg class="icon icon-fill mobile-only">
-                                                                <use href="img/sprite.svg#shopping-cart"></use>
-                                                            </svg>
-                                                            <span class="text-content desktop-only">В корзину</span>
-                                                        </button>
-                                                        <button class="btn-reset btn btn-icon btn-icon-switch btn-icon--soft" type="button" data-favorites>
-                                                            <svg class="icon icon-fill">
-                                                                <use href="img/sprite.svg#heart"></use>
-                                                            </svg>
-                                                            <svg class="icon icon-fill selected">
-                                                                <use href="img/sprite.svg#filled-heart"></use>
-                                                            </svg>
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a href="javascript:;" class="search-results-product">
-                                                <div class="search-results-product__view">
-                                                    <img
-                                                            loading="lazy"
-                                                            src="img/cp3.png"
-                                                            class="image"
-                                                            width="40"
-                                                            height="40"
-                                                            alt="Изображение блока"
-                                                    >
-                                                </div>
-                                                <div class="search-results-product__descr">
-                                                    <div class="search-results-product__info">
-                                                        <div class="search-results-product__title">Тент универсальный 80 гр, 2х3 с люверсами</div>
-                                                        <div class="search-results-product__price">
-                                                            <div class="search-results-product__price-current">225 ₽</div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="search-results-product__cart">
-                                                        <button class="btn-reset btn" type="button">
-                                                            <svg class="icon icon-fill mobile-only">
-                                                                <use href="img/sprite.svg#shopping-cart"></use>
-                                                            </svg>
-                                                            <span class="text-content desktop-only">В корзину</span>
-                                                        </button>
-                                                        <button class="btn-reset btn btn-icon btn-icon-switch btn-icon--soft" type="button" data-favorites>
-                                                            <svg class="icon icon-fill">
-                                                                <use href="img/sprite.svg#heart"></use>
-                                                            </svg>
-                                                            <svg class="icon icon-fill selected">
-                                                                <use href="img/sprite.svg#filled-heart"></use>
-                                                            </svg>
-                                                        </button>
-                                                    </div>
-                                                </div>
+                                                    </span>
+                                                </span>
                                             </a>
                                             <div class="search-results__suggest-more">
                                                 <a class="btn-reset btn btn-extra" href="javascript:;">
@@ -644,6 +372,10 @@
                     <a class="btn-reset btn btn-extra-secondary" href="javascript:;" data-fancybox data-src="#modal-calc">Онлайн оплата</a>
                 </div>
 
+                <div class="header-contacts">
+                    <a class="link fw-semibold fz-subheading header-contacts__tel" href="tel:+88005007869">8 800 500 78 69</a>
+                </div>
+
                 <div class="header-mobile-menu">
                     <button
                             class="btn-reset burger"
@@ -669,7 +401,7 @@
                         data-overlay-transparent
                 >
                     <svg class="icon icon-fill menu-catalog-spoiler__icon">
-                        <use href="img/sprite.svg#menu"></use>
+                        <use href="img/sprite.svg#category"></use>
                     </svg>
                     <svg class="icon icon-fill menu-catalog-spoiler__icon-active">
                         <use href="img/sprite.svg#cross"></use>
@@ -706,17 +438,14 @@
 
         <div class="mobile-menu-catalog">
             <button
-                    class="btn-reset btn menu-catalog-spoiler"
+                    class="btn-reset btn btn-secondary menu-catalog-spoiler"
                     aria-label="Открыть меню"
                     aria-expanded="false"
                     data-catalog-spoiler
                     data-overlay-transparent
             >
                 <svg class="icon icon-fill menu-catalog-spoiler__icon">
-                    <use href="img/sprite.svg#menu"></use>
-                </svg>
-                <svg class="icon icon-fill menu-catalog-spoiler__icon-active">
-                    <use href="img/sprite.svg#cross"></use>
+                    <use href="img/sprite.svg#category"></use>
                 </svg>
                 <span class="text-content">Каталог</span>
             </button>
@@ -725,7 +454,7 @@
         <ul class="list-reset mobile-menu-list">
             <li>
                 <a class="mobile-menu__link" href="javascript:;">
-                    <span class="text-content">Доставка</span>
+                    <span class="text-content">О компании</span>
                     <svg class="icon icon-fill">
                         <use href="img/sprite.svg#chevron-right"></use>
                     </svg>
@@ -733,7 +462,7 @@
             </li>
             <li>
                 <a class="mobile-menu__link" href="javascript:;">
-                    <span class="text-content">Оплата</span>
+                    <span class="text-content">Доставка и оплата</span>
                     <svg class="icon icon-fill">
                         <use href="img/sprite.svg#chevron-right"></use>
                     </svg>
@@ -741,7 +470,39 @@
             </li>
             <li>
                 <a class="mobile-menu__link" href="javascript:;">
-                    <span class="text-content">Оптовым покупателям</span>
+                    <span class="text-content">Спецпредложения</span>
+                    <svg class="icon icon-fill">
+                        <use href="img/sprite.svg#chevron-right"></use>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a class="mobile-menu__link" href="javascript:;">
+                    <span class="text-content">Покупателю</span>
+                    <svg class="icon icon-fill">
+                        <use href="img/sprite.svg#chevron-right"></use>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a class="mobile-menu__link" href="javascript:;">
+                    <span class="text-content">Сервис</span>
+                    <svg class="icon icon-fill">
+                        <use href="img/sprite.svg#chevron-right"></use>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a class="mobile-menu__link" href="javascript:;">
+                    <span class="text-content">Запчасти</span>
+                    <svg class="icon icon-fill">
+                        <use href="img/sprite.svg#chevron-right"></use>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a class="mobile-menu__link" href="javascript:;">
+                    <span class="text-content">Вакансии</span>
                     <svg class="icon icon-fill">
                         <use href="img/sprite.svg#chevron-right"></use>
                     </svg>
@@ -750,22 +511,6 @@
             <li>
                 <a class="mobile-menu__link" href="javascript:;">
                     <span class="text-content">Контакты</span>
-                    <svg class="icon icon-fill">
-                        <use href="img/sprite.svg#chevron-right"></use>
-                    </svg>
-                </a>
-            </li>
-            <li>
-                <a class="mobile-menu__link" href="javascript:;">
-                    <span class="text-content">О нас</span>
-                    <svg class="icon icon-fill">
-                        <use href="img/sprite.svg#chevron-right"></use>
-                    </svg>
-                </a>
-            </li>
-            <li>
-                <a class="mobile-menu__link" href="javascript:;">
-                    <span class="text-content">🏡  Услуги</span>
                     <svg class="icon icon-fill">
                         <use href="img/sprite.svg#chevron-right"></use>
                     </svg>
@@ -781,16 +526,21 @@
             </div>
 
             <div class="mobile-menu-contacts">
-                <a class="link h4" href="tel:+79811558247">+7 981 155-82-47</a>
-                <a class="link-brand " href="javascript:;">Заявка на расчет</a>
+                <a class="link h4" href="tel:+88005007869"><span class="text-content">8 800 500 78 69</span></a>
+                <a class="mobile-menu-contacts__callback link-brand link-tdu-text link-tdu-text--dashed js-modal" href="/ajax/callback.php">
+                    <svg class="icon icon-fill">
+                        <use href="img/sprite.svg#call-calling"></use>
+                    </svg>
+                    <span class="text-content">Обратный звонок</span>
+                </a>
             </div>
 
             <div class="mobile-menu-connection">
-                <a class="mobile-menu-connection__item" href="mailto:info@geo-dvor.ru">
+                <a class="mobile-menu-connection__email" href="mailto:sales@oxlift.ru">
                     <svg class="icon icon-fill">
                         <use href="img/sprite.svg#sms"></use>
                     </svg>
-                    <span class="text-content">info@geo-dvor.ru</span>
+                    <span class="text-content">sales@oxlift.ru</span>
                 </a>
                 <div class="mobile-menu-connection__soc">
                     <a href="javascript:;" class="mobile-menu-connection__soc-item">
@@ -828,7 +578,7 @@
             <div class="menu-catalog-root">
                 <div class="menu-catalog-root-item">
                     <a class="menu-catalog-root-link selected" href="javascript:;" data-submenu-section="0">
-                        <span class="text-content">Спанбонд</span>
+                        <span class="text-content">Гидравлические тележки</span>
                         <span class="menu-catalog-root-item-pointer">
                             <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
@@ -838,7 +588,7 @@
                 </div>
                 <div class="menu-catalog-root-item">
                     <a class="menu-catalog-root-link" href="javascript:;" data-submenu-section="1">
-                        <span class="text-content">Геотекстиль</span>
+                        <span class="text-content">Самоходные тележки</span>
                         <span class="menu-catalog-root-item-pointer">
                             <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
@@ -848,7 +598,7 @@
                 </div>
                 <div class="menu-catalog-root-item">
                     <a class="menu-catalog-root-link" href="javascript:;">
-                        <span class="text-content">Габионы сварные</span>
+                        <span class="text-content">Погрузчики</span>
                         <span class="menu-catalog-root-item-pointer">
                             <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
@@ -858,7 +608,7 @@
                 </div>
                 <div class="menu-catalog-root-item">
                     <a class="menu-catalog-root-link" href="javascript:;">
-                        <span class="text-content">Профилированная мембрана</span>
+                        <span class="text-content">Электротягачи</span>
                         <span class="menu-catalog-root-item-pointer">
                             <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
@@ -868,7 +618,7 @@
                 </div>
                 <div class="menu-catalog-root-item">
                     <a class="menu-catalog-root-link" href="javascript:;">
-                        <span class="text-content">Фасадная сетка</span>
+                        <span class="text-content">Оборудование для агрессивных сред</span>
                         <span class="menu-catalog-root-item-pointer">
                             <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
@@ -878,7 +628,7 @@
                 </div>
                 <div class="menu-catalog-root-item">
                     <a class="menu-catalog-root-link" href="javascript:;">
-                        <span class="text-content">Пленки</span>
+                        <span class="text-content">Запчасти</span>
                         <span class="menu-catalog-root-item-pointer">
                             <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
@@ -888,7 +638,7 @@
                 </div>
                 <div class="menu-catalog-root-item">
                     <a class="menu-catalog-root-link" href="javascript:;">
-                        <span class="text-content">Дренажная система</span>
+                        <span class="text-content">Штабелеры</span>
                         <span class="menu-catalog-root-item-pointer">
                             <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
@@ -898,7 +648,7 @@
                 </div>
                 <div class="menu-catalog-root-item">
                     <a class="menu-catalog-root-link" href="javascript:;">
-                        <span class="text-content">Канализация</span>
+                        <span class="text-content">Подъемники и вышки</span>
                         <span class="menu-catalog-root-item-pointer">
                             <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
@@ -908,7 +658,7 @@
                 </div>
                 <div class="menu-catalog-root-item">
                     <a class="menu-catalog-root-link" href="javascript:;">
-                        <span class="text-content">Водоснабжение</span>
+                        <span class="text-content">Гидравлические подъемные столы</span>
                         <span class="menu-catalog-root-item-pointer">
                             <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
@@ -918,7 +668,7 @@
                 </div>
                 <div class="menu-catalog-root-item">
                     <a class="menu-catalog-root-link" href="javascript:;">
-                        <span class="text-content">Геосетки</span>
+                        <span class="text-content">Оборудование для промышленности</span>
                         <span class="menu-catalog-root-item-pointer">
                             <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
@@ -928,7 +678,7 @@
                 </div>
                 <div class="menu-catalog-root-item">
                     <a class="menu-catalog-root-link" href="javascript:;">
-                        <span class="text-content">Газонные решетки</span>
+                        <span class="text-content">Клининговое оборудование</span>
                         <span class="menu-catalog-root-item-pointer">
                             <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
@@ -938,7 +688,7 @@
                 </div>
                 <div class="menu-catalog-root-item">
                     <a class="menu-catalog-root-link" href="javascript:;">
-                        <span class="text-content">Тенты укрывные</span>
+                        <span class="text-content">Оборудование с весами</span>
                         <span class="menu-catalog-root-item-pointer">
                             <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
@@ -948,18 +698,7 @@
                 </div>
                 <div class="menu-catalog-root-item">
                     <a class="menu-catalog-root-link" href="javascript:;">
-                        <span class="text-content">Объемная георешетка</span>
-                        <span class="menu-catalog-root-item-pointer">
-                            <svg class="icon icon-fill">
-                                <use href="img/sprite.svg#chevron-right"></use>
-                            </svg>
-                        </span>
-                    </a>
-                </div>
-
-                <div class="menu-catalog-root-item">
-                    <a class="menu-catalog-root-link" href="javascript:;">
-                        <span class="text-content">Анкер металлический</span>
+                        <span class="text-content">Ричтраки</span>
                         <span class="menu-catalog-root-item-pointer">
                             <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
@@ -969,7 +708,7 @@
                 </div>
                 <div class="menu-catalog-root-item">
                     <a class="menu-catalog-root-link" href="javascript:;">
-                        <span class="text-content">Поверхностный водоотвод</span>
+                        <span class="text-content">Колесные опоры и ролики</span>
                         <span class="menu-catalog-root-item-pointer">
                             <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
@@ -979,7 +718,7 @@
                 </div>
                 <div class="menu-catalog-root-item">
                     <a class="menu-catalog-root-link" href="javascript:;">
-                        <span class="text-content">Защита кабеля</span>
+                        <span class="text-content">Грузоподъемное оборудование</span>
                         <span class="menu-catalog-root-item-pointer">
                             <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
@@ -989,87 +728,7 @@
                 </div>
                 <div class="menu-catalog-root-item">
                     <a class="menu-catalog-root-link" href="javascript:;">
-                        <span class="text-content">Садовые решетки</span>
-                        <span class="menu-catalog-root-item-pointer">
-                            <svg class="icon icon-fill">
-                                <use href="img/sprite.svg#chevron-right"></use>
-                            </svg>
-                        </span>
-                    </a>
-                </div>
-                <div class="menu-catalog-root-item">
-                    <a class="menu-catalog-root-link" href="javascript:;">
-                        <span class="text-content">Бордюры садовые</span>
-                        <span class="menu-catalog-root-item-pointer">
-                            <svg class="icon icon-fill">
-                                <use href="img/sprite.svg#chevron-right"></use>
-                            </svg>
-                        </span>
-                    </a>
-                </div>
-                <div class="menu-catalog-root-item">
-                    <a class="menu-catalog-root-link" href="javascript:;">
-                        <span class="text-content">Сетка от кротов</span>
-                        <span class="menu-catalog-root-item-pointer">
-                            <svg class="icon icon-fill">
-                                <use href="img/sprite.svg#chevron-right"></use>
-                            </svg>
-                        </span>
-                    </a>
-                </div>
-                <div class="menu-catalog-root-item">
-                    <a class="menu-catalog-root-link" href="javascript:;">
-                        <span class="text-content">Сетка для ограждения</span>
-                        <span class="menu-catalog-root-item-pointer">
-                            <svg class="icon icon-fill">
-                                <use href="img/sprite.svg#chevron-right"></use>
-                            </svg>
-                        </span>
-                    </a>
-                </div>
-                <div class="menu-catalog-root-item">
-                    <a class="menu-catalog-root-link" href="javascript:;">
-                        <span class="text-content">Фиксаторы под арматуру</span>
-                        <span class="menu-catalog-root-item-pointer">
-                            <svg class="icon icon-fill">
-                                <use href="img/sprite.svg#chevron-right"></use>
-                            </svg>
-                        </span>
-                    </a>
-                </div>
-                <div class="menu-catalog-root-item">
-                    <a class="menu-catalog-root-link" href="javascript:;">
-                        <span class="text-content">Мастики, праймер</span>
-                        <span class="menu-catalog-root-item-pointer">
-                            <svg class="icon icon-fill">
-                                <use href="img/sprite.svg#chevron-right"></use>
-                            </svg>
-                        </span>
-                    </a>
-                </div>
-                <div class="menu-catalog-root-item">
-                    <a class="menu-catalog-root-link" href="javascript:;">
-                        <span class="text-content">Сетка от грызунов</span>
-                        <span class="menu-catalog-root-item-pointer">
-                            <svg class="icon icon-fill">
-                                <use href="img/sprite.svg#chevron-right"></use>
-                            </svg>
-                        </span>
-                    </a>
-                </div>
-                <div class="menu-catalog-root-item">
-                    <a class="menu-catalog-root-link" href="javascript:;">
-                        <span class="text-content">Гидроизоляционные ленты</span>
-                        <span class="menu-catalog-root-item-pointer">
-                            <svg class="icon icon-fill">
-                                <use href="img/sprite.svg#chevron-right"></use>
-                            </svg>
-                        </span>
-                    </a>
-                </div>
-                <div class="menu-catalog-root-item">
-                    <a class="menu-catalog-root-link" href="javascript:;">
-                        <span class="text-content">Инструмент и комплектующие</span>
+                        <span class="text-content">Комплектовщики заказов</span>
                         <span class="menu-catalog-root-item-pointer">
                             <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
@@ -1080,252 +739,57 @@
             </div>
             <div class="menu-catalog-submenu">
                 <div class="menu-catalog-submenu-section active" data-root-pointer="0">
-                    <div class="h3 menu-catalog-submenu-section__title">Геотекстиль</div>
+                    <div class="h3 menu-catalog-submenu-section__title">Гидравлические тележки</div>
                     <div class="menu-catalog-submenu-links">
                         <div class="menu-catalog-submenu-links__column">
                             <ul class="list-reset menu-catalog-submenu-links__list">
-                                <li class="menu-catalog-submenu-all"><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Все товары раздела</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Агроткань с разметкой</span></a></li>
-                                <li>
-                                    <a class="menu-catalog-submenu-link" href="javascript:;">
-                                        <span class="text-content">Геотекстиль Дорнит</span>
-                                        <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
-                                            <use href="img/sprite.svg#chevron-right"></use>
-                                        </svg>
-                                    </a>
-                                    <div class="menu-catalog-submenu-link-points">
-                                        <a href="javascript:;" class="menu-catalog-submenu-link-points-item">Плотность 150</a>
-                                        <a href="javascript:;" class="menu-catalog-submenu-link-points-item">Плотность 200</a>
-                                        <a href="javascript:;" class="menu-catalog-submenu-link-points-item">Плотность 250</a>
-                                        <a href="javascript:;" class="menu-catalog-submenu-link-points-item">Плотность 300</a>
-                                    </div>
+                                <li class="menu-catalog-submenu-all">
+                                    <a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Все товары раздела</span></a>
                                 </li>
+                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Стандартные</span></a></li>
                                 <li>
                                     <a class="menu-catalog-submenu-link" href="javascript:;">
-                                        <span class="text-content">Геотекстиль из полипропилена</span>
-                                        <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
-                                            <use href="img/sprite.svg#chevron-right"></use>
-                                        </svg>
+                                        <span class="text-content">С различной шириной и длиной вил</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a class="menu-catalog-submenu-link" href="javascript:;">
-                                        <span class="text-content">Геотекстиль для дренажа</span>
-                                        <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
-                                            <use href="img/sprite.svg#chevron-right"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Геотекстиль для садовых дорожек</span></a></li>
-                                <li>
-                                    <a class="menu-catalog-submenu-link" href="javascript:;">
-                                        <span class="text-content">Геотекстиль в нарезке</span>
-                                        <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
-                                            <use href="img/sprite.svg#chevron-right"></use>
-                                        </svg>
+                                        <span class="text-content">Низкопрофильные гидравлические тележки</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a class="menu-catalog-submenu-link" href="javascript:;">
-                                        <span class="text-content">Геотекстиль для заезда на участок</span>
-                                        <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
-                                            <use href="img/sprite.svg#chevron-right"></use>
-                                        </svg>
+                                        <span class="text-content">С весами</span>
+                                    </a>
+                                </li>
+                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Для рулонов</span></a></li>
+                                <li>
+                                    <a class="menu-catalog-submenu-link" href="javascript:;">
+                                        <span class="text-content">Ножничные</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a class="menu-catalog-submenu-link" href="javascript:;">
-                                        <span class="text-content">Геотекстиль под фундамент</span>
-                                        <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
-                                            <use href="img/sprite.svg#chevron-right"></use>
-                                        </svg>
+                                        <span class="text-content">Гидравлические тележки грузоподъемностью 2000 кг</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="menu-catalog-submenu-link" href="javascript:;">
+                                        <span class="text-content">Гидравлические тележки грузоподъемностью 2500 кг</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="menu-catalog-submenu-link" href="javascript:;">
+                                        <span class="text-content">Рохли гидравлические</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="menu-catalog-submenu-link" href="javascript:;">
+                                        <span class="text-content">Тележки для бочек</span>
                                     </a>
                                 </li>
                             </ul>
                             <ul class="list-reset menu-catalog-submenu-links__list">
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                            </ul>
-                            <ul class="list-reset menu-catalog-submenu-links__list">
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                            </ul>
-                            <ul class="list-reset menu-catalog-submenu-links__list">
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                            </ul>
-                        </div>
-                        <div class="menu-catalog-submenu-links__column">
-                            <ul class="list-reset menu-catalog-submenu-links__list">
-                                <li class="menu-catalog-submenu-all"><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Все товары раздела</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Агроткань с разметкой</span></a></li>
-                                <li>
-                                    <a class="menu-catalog-submenu-link" href="javascript:;">
-                                        <span class="text-content">Геотекстиль Дорнит</span>
-                                        <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
-                                            <use href="img/sprite.svg#chevron-right"></use>
-                                        </svg>
-                                    </a>
-                                    <div class="menu-catalog-submenu-link-points">
-                                        <a href="javascript:;" class="menu-catalog-submenu-link-points-item">Плотность 150</a>
-                                        <a href="javascript:;" class="menu-catalog-submenu-link-points-item">Плотность 200</a>
-                                        <a href="javascript:;" class="menu-catalog-submenu-link-points-item">Плотность 250</a>
-                                        <a href="javascript:;" class="menu-catalog-submenu-link-points-item">Плотность 300</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <a class="menu-catalog-submenu-link" href="javascript:;">
-                                        <span class="text-content">Геотекстиль из полипропилена</span>
-                                        <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
-                                            <use href="img/sprite.svg#chevron-right"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="menu-catalog-submenu-link" href="javascript:;">
-                                        <span class="text-content">Геотекстиль для дренажа</span>
-                                        <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
-                                            <use href="img/sprite.svg#chevron-right"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Геотекстиль для садовых дорожек</span></a></li>
-                                <li>
-                                    <a class="menu-catalog-submenu-link" href="javascript:;">
-                                        <span class="text-content">Геотекстиль в нарезке</span>
-                                        <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
-                                            <use href="img/sprite.svg#chevron-right"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="menu-catalog-submenu-link" href="javascript:;">
-                                        <span class="text-content">Геотекстиль для заезда на участок</span>
-                                        <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
-                                            <use href="img/sprite.svg#chevron-right"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="menu-catalog-submenu-link" href="javascript:;">
-                                        <span class="text-content">Геотекстиль под фундамент</span>
-                                        <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
-                                            <use href="img/sprite.svg#chevron-right"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                            </ul>
-                            <ul class="list-reset menu-catalog-submenu-links__list">
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                            </ul>
-                            <ul class="list-reset menu-catalog-submenu-links__list">
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                            </ul>
-                            <ul class="list-reset menu-catalog-submenu-links__list">
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                            </ul>
-                        </div>
-                        <div class="menu-catalog-submenu-links__column">
-                            <ul class="list-reset menu-catalog-submenu-links__list">
-                                <li class="menu-catalog-submenu-all"><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Все товары раздела</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Агроткань с разметкой</span></a></li>
-                                <li>
-                                    <a class="menu-catalog-submenu-link" href="javascript:;">
-                                        <span class="text-content">Геотекстиль Дорнит</span>
-                                        <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
-                                            <use href="img/sprite.svg#chevron-right"></use>
-                                        </svg>
-                                    </a>
-                                    <div class="menu-catalog-submenu-link-points">
-                                        <a href="javascript:;" class="menu-catalog-submenu-link-points-item">Плотность 150</a>
-                                        <a href="javascript:;" class="menu-catalog-submenu-link-points-item">Плотность 200</a>
-                                        <a href="javascript:;" class="menu-catalog-submenu-link-points-item">Плотность 250</a>
-                                        <a href="javascript:;" class="menu-catalog-submenu-link-points-item">Плотность 300</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <a class="menu-catalog-submenu-link" href="javascript:;">
-                                        <span class="text-content">Геотекстиль из полипропилена</span>
-                                        <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
-                                            <use href="img/sprite.svg#chevron-right"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="menu-catalog-submenu-link" href="javascript:;">
-                                        <span class="text-content">Геотекстиль для дренажа</span>
-                                        <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
-                                            <use href="img/sprite.svg#chevron-right"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Геотекстиль для садовых дорожек</span></a></li>
-                                <li>
-                                    <a class="menu-catalog-submenu-link" href="javascript:;">
-                                        <span class="text-content">Геотекстиль в нарезке</span>
-                                        <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
-                                            <use href="img/sprite.svg#chevron-right"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="menu-catalog-submenu-link" href="javascript:;">
-                                        <span class="text-content">Геотекстиль для заезда на участок</span>
-                                        <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
-                                            <use href="img/sprite.svg#chevron-right"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="menu-catalog-submenu-link" href="javascript:;">
-                                        <span class="text-content">Геотекстиль под фундамент</span>
-                                        <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
-                                            <use href="img/sprite.svg#chevron-right"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                            </ul>
-                            <ul class="list-reset menu-catalog-submenu-links__list">
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                            </ul>
-                            <ul class="list-reset menu-catalog-submenu-links__list">
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                            </ul>
-                            <ul class="list-reset menu-catalog-submenu-links__list">
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
                                 <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
                                 <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
                                 <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
@@ -1334,115 +798,17 @@
                     </div>
                 </div>
                 <div class="menu-catalog-submenu-section" data-root-pointer="1">
-                    <div class="h3 menu-catalog-submenu-section__title">Пункт меню 2</div>
+                    <div class="h3 menu-catalog-submenu-section__title">Самоходные тележки</div>
                     <div class="menu-catalog-submenu-links">
                         <div class="menu-catalog-submenu-links__column">
                             <ul class="list-reset menu-catalog-submenu-links__list">
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                        </ul>
-                        <ul class="list-reset menu-catalog-submenu-links__list">
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                        </ul>
-                        <ul class="list-reset menu-catalog-submenu-links__list">
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                        </ul>
-                        <ul class="list-reset menu-catalog-submenu-links__list">
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                        </ul>
-                        </div>
-                        <div class="menu-catalog-submenu-links__column">
-                            <ul class="list-reset menu-catalog-submenu-links__list">
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                        </ul>
-                        <ul class="list-reset menu-catalog-submenu-links__list">
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                        </ul>
-                        <ul class="list-reset menu-catalog-submenu-links__list">
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                        </ul>
-                        <ul class="list-reset menu-catalog-submenu-links__list">
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                        </ul>
-                        </div>
-                        <div class="menu-catalog-submenu-links__column">
-                            <ul class="list-reset menu-catalog-submenu-links__list">
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                        </ul>
-                        <ul class="list-reset menu-catalog-submenu-links__list">
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                        </ul>
-                        <ul class="list-reset menu-catalog-submenu-links__list">
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                        </ul>
-                        <ul class="list-reset menu-catalog-submenu-links__list">
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
-                        </ul>
+                                <li class="menu-catalog-submenu-all">
+                                    <a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Все товары раздела</span></a>
+                                </li>
+                                <li><a class="menu-catalog-submenu-link" href="javascript:;">Стандартные самоходные тележки</a></li>
+                                <li><a class="menu-catalog-submenu-link" href="javascript:;">Тележки для палет</a></li>
+                                <li><a class="menu-catalog-submenu-link" href="javascript:;">Электротележки</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
