@@ -270,7 +270,7 @@
                                                             </svg>
                                                             <span class="text-content desktop-only">В корзину</span>
                                                         </button>
-                                                        <button class="btn-reset btn btn-icon btn-icon-switch btn-icon--soft" type="button" data-favorites>
+                                                        <button class="btn-reset btn btn-icon btn-icon-switch" type="button" data-favorites>
                                                             <svg class="icon icon-fill">
                                                                 <use href="img/sprite.svg#heart"></use>
                                                             </svg>
@@ -306,7 +306,7 @@
                                                             </svg>
                                                             <span class="text-content desktop-only">В корзину</span>
                                                         </button>
-                                                        <button class="btn-reset btn btn-icon btn-icon-switch btn-icon--soft" type="button" data-favorites>
+                                                        <button class="btn-reset btn btn-icon btn-icon-switch" type="button" data-favorites>
                                                             <svg class="icon icon-fill">
                                                                 <use href="img/sprite.svg#heart"></use>
                                                             </svg>
@@ -343,7 +343,7 @@
                     <button class="btn-reset header-profile__btn">
                         <span class="header-profile__btn-view">
                             <svg class="icon icon-fill">
-                                <use href="img/sprite.svg#bookmark"></use>
+                                <use href="img/sprite.svg#heart"></use>
                             </svg>
                             <span class="header-profile__btn-count">24</span>
                         </span>

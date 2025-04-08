@@ -23,6 +23,8 @@
 	--blue40-color: #9CF;
 	--green0-color: #090;
 	--green10-color: #396;
+	--yellow-color: #FAE74D;
+	--orange0-color: #ED9237;
 	--red0-color: #ba2423;
 	--red10-color: #fb010c;
 
@@ -49,4 +51,9 @@
 
 	// transition
 	--transition: 0.2s ease-out;
+}
+@media (min-width: 992px) {
+	:root {
+		--container-offset: 24px;
+	}
 }

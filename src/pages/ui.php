@@ -37,25 +37,23 @@
             <div class="ui-row">
                 <div class="ui-color">
                     <span class="ui-color__item light tooltip" data-tippy-content="--gray0-color" style="background-color: var(--gray0-color);"></span>
-                    <span class="ui-color__item light tooltip" data-tippy-content="--gray1-color" style="background-color: var(--gray1-color);"></span>
                     <span class="ui-color__item tooltip" data-tippy-content="--gray10-color" style="background-color: var(--gray10-color);"></span>
-                    <span class="ui-color__item tooltip" data-tippy-content="--gray11-color" style="background-color: var(--gray11-color);"></span>
                     <span class="ui-color__item tooltip" data-tippy-content="--gray20-color" style="background-color: var(--gray20-color);"></span>
-                    <span class="ui-color__item tooltip" data-tippy-content="--gray21-color" style="background-color: var(--gray21-color);"></span>
-                    <span class="ui-color__item tooltip" data-tippy-content="--gray30-color" style="background-color: var(--gray30-color);"></span>
-                    <span class="ui-color__item tooltip" data-tippy-content="--gray31-color" style="background-color: var(--gray31-color);"></span>
-                    <span class="ui-color__item tooltip" data-tippy-content="--gray40-color" style="background-color: var(--gray40-color);"></span>
-                    <span class="ui-color__item tooltip" data-tippy-content="--gray50-color" style="background-color: var(--gray50-color);"></span>
                 </div>
             </div>
             <div class="ui-row">
                 <div class="ui-color">
+                    <span class="ui-color__item tooltip" data-tippy-content="--blue0-color" style="background-color: var(--blue0-color);"></span>
+                    <span class="ui-color__item tooltip" data-tippy-content="--blue10-color" style="background-color: var(--blue10-color);"></span>
+                    <span class="ui-color__item tooltip" data-tippy-content="--blue20-color" style="background-color: var(--blue20-color);"></span>
+                    <span class="ui-color__item tooltip" data-tippy-content="--blue30-color" style="background-color: var(--blue30-color);"></span>
+                    <span class="ui-color__item tooltip" data-tippy-content="--blue40-color" style="background-color: var(--blue40-color);"></span>
                     <span class="ui-color__item tooltip" data-tippy-content="--green0-color" style="background-color: var(--green0-color);"></span>
                     <span class="ui-color__item tooltip" data-tippy-content="--green10-color" style="background-color: var(--green10-color);"></span>
-                    <span class="ui-color__item tooltip" data-tippy-content="--green20-color" style="background-color: var(--green20-color);"></span>
-                    <span class="ui-color__item tooltip" data-tippy-content="--red0-color" style="background-color: var(--red0-color);"></span>
+                    <span class="ui-color__item tooltip" data-tippy-content="--yellow-color" style="background-color: var(--yellow-color);"></span>
                     <span class="ui-color__item tooltip" data-tippy-content="--orange0-color" style="background-color: var(--orange0-color);"></span>
-                    <span class="ui-color__item light tooltip" data-tippy-content="--alert0-color" style="background-color: var(--alert0-color);"></span>
+                    <span class="ui-color__item tooltip" data-tippy-content="--red0-color" style="background-color: var(--red0-color);"></span>
+                    <span class="ui-color__item tooltip" data-tippy-content="--red10-color" style="background-color: var(--red10-color);"></span>
                 </div>
             </div>
         </div>
@@ -413,6 +411,13 @@
                         </svg>
                         <!--end ui content-->
                     </span>
+                    <span class="tooltip" data-tippy-content="#checkbox-rec">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#checkbox-rec"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
                     <span class="tooltip" data-tippy-content="#trash">
                         <!--start ui content-->
                         <svg class="icon icon-fill">
@@ -574,6 +579,19 @@
                         </button>
                         <!--end ui content-->
                     </span>
+                    <span class="tooltip" data-tippy-content="class='btn-reset btn btn-ghost'">
+                        <!--start ui content-->
+                        <button class="btn-reset btn btn-ghost">
+                            <svg class="icon icon-fill">
+                                <use href="img/sprite.svg#menu"></use>
+                            </svg>
+                            <span class="text-content">Кнопка</span>
+                            <svg class="icon icon-fill">
+                                <use href="img/sprite.svg#menu"></use>
+                            </svg>
+                        </button>
+                        <!--end ui content-->
+                    </span>
                     <span class="tooltip" data-tippy-content="class='btn-reset btn btn-icon'">
                         <!--start ui content-->
                         <button class="btn-reset btn btn-icon">
@@ -607,7 +625,7 @@
                         <a class="link-brand" href="javascript:;">Ссылка</a>
                         <!--end ui content-->
                     </span>
-                    <span class="tooltip" data-tippy-content="class='link-invert'" style="background-color: var(--gray50-color); padding: 0 4px; border-radius: 4px;">
+                    <span class="tooltip" data-tippy-content="class='link-invert'" style="background-color: var(--gray20-color); padding: 0 4px; border-radius: 4px;">
                         <!--start ui content-->
                         <a class="link-invert" href="javascript:;">Ссылка</a>
                         <!--end ui content-->
