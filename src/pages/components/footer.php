@@ -98,7 +98,7 @@
                         <span class="fw-semibold fz-subheading">Нужна помощь?</span>
                         <div class="footer-contacts__connection">
                             <a class="link-invert footer-contacts__connection-item footer-contacts__connection-tel fw-bold h3" href="tel:+88005007869">8 800 500 78 69</a>
-                            <a class="link-invert footer-contacts__connection-item footer-contacts__connection-email" href="mailto:sales+180580947@oxlift.ru">
+                            <a class="link-invert footer-contacts__connection-item footer-contacts__connection-email" href="mailto:sales@oxlift.ru">
                                 <svg class="icon icon-fill">
                                     <use href="img/sprite.svg#sms"></use>
                                 </svg>
