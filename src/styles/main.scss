@@ -106,7 +106,6 @@
 			}
 
 			&:hover,
-			&:active,
 			&.active {
 				color: var(--green10-color);
 
@@ -390,7 +389,6 @@
 				transition: var(--transition);
 
 				&:hover,
-				&:active,
 				&.active {
 					color: var(--green10-color);
 				}
@@ -453,7 +451,6 @@
 					white-space: nowrap;
 				}
 				&:hover,
-				&:active,
 				&.active {
 					border-color: var(--text-primary);
 				}
@@ -469,7 +466,6 @@
 				transition: var(--transition);
 
 				&:hover,
-				&:active,
 				&.active {
 					color: var(--green10-color);
 				}
@@ -792,7 +788,6 @@
 						}
 
 						&:hover,
-						&:active,
 						&.active {
 							.cp-content__filter-selected-delete {
 								.icon {
@@ -1454,7 +1449,6 @@
 
 						&:hover,
 						&:focus,
-						&:active,
 						&.active {
 							background-color: var(--white-color);
 
@@ -1630,6 +1624,146 @@
 	}
 }
 
+.catalog-index {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+
+	&__item {
+		display: flex;
+		gap: 12px;
+		min-width: 100%;
+		width: 100%;
+		overflow: hidden;
+	}
+	&__view {
+		&,
+		img,
+		.image {
+			min-width: 60px;
+			width: 60px;
+			min-height: 60px;
+			height: 60px;
+		}
+	}
+	&__descr {
+		display: flex;
+		align-items: center;
+	}
+	&__heading {}
+	&__list {
+		&-item {}
+		&-link {}
+	}
+}
+@media (min-width: 992px) {
+	.catalog-index {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 40px;
+
+		&__item {
+			gap: 20px;
+		}
+		&__view {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-width: 132px;
+			width: 132px;
+			min-height: 132px;
+			height: 132px;
+			overflow: hidden;
+			border: 16px solid var(--gray0-color);
+			border-radius: var(--bradius);
+			background-color: var(--gray0-color);
+			transition: var(--transition);
+
+			img,
+			.image {
+				min-width: 100px;
+				width: 100px;
+				min-height: 100px;
+				height: 100px;
+				border-radius: var(--bradius);
+			}
+		}
+		&__descr {
+			display: flex;
+			flex: 1;
+			flex-direction: column;
+			align-items: flex-start;
+			gap: 12px;
+		}
+		&__heading {
+			transition: var(--transition);
+
+			&:hover,
+			&:focus,
+			&.active {
+				color: var(--blue10-color);
+			}
+		}
+		&__list {
+			display: flex;
+			flex-direction: column;
+			gap: 4px;
+
+			&:not(:last-child) {
+				margin-bottom: 12px;
+			}
+
+			&-item {
+				display: flex;
+			}
+			&-link {
+				display: inline-flex;
+				color: var(--text-secondary);
+
+				&:hover,
+				&:focus,
+				&.active {
+					color: var(--text-primary);
+				}
+			}
+		}
+		&__more {
+			color: var(--blue20-color);
+			font-weight: 700;
+			font-size: 13px;
+			transition: var(--transition);
+
+			&:hover,
+			&:focus,
+			&.active {
+				color: var(--blue10-color);
+			}
+		}
+	}
+}
+@media (max-width: 991.98px) {
+	.catalog-index {
+		&__item {
+			border-radius: var(--bradius);
+			background-color: var(--gray0-color);
+		}
+		&__view {
+			order: 10;
+		}
+		&__descr {
+			order: 0;
+			flex: 1;
+			padding: 8px 12px;
+		}
+		&__list {
+			display: none;
+		}
+		&__more {
+			display: none;
+		}
+	}
+}
+
 .partner-slider {
 	.swiper {
 		&-slide {
@@ -1666,12 +1800,11 @@
 
 		&:hover,
 		&:focus,
-		&:active,
 		&.active {
 			border-color: var(--gray10-color);
 
 			picture {
-				transform: scale(1.08);
+				transform: scale(1.06);
 			}
 		}
 	}
@@ -1688,6 +1821,48 @@
 			min-height: 160px;
 			height: 160px;
 			padding: 32px;
+		}
+	}
+}
+
+.offers-slider {
+	.swiper {
+		&-slide {
+			display: flex;
+			min-width: 344px;
+			width: 344px;
+		}
+	}
+	&__link {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: var(--bradius);
+		overflow: hidden;
+		background-color: var(--white-color);
+		text-decoration: none;
+
+		&,
+		picture,
+		img,
+		.image {
+			min-width: 344px;
+			width: 344px;
+			min-height: 258px;
+			height: 258px;
+		}
+		picture {
+			justify-content: center;
+			align-items: center;
+			transition: var(--transition);
+		}
+
+		&:hover,
+		&:focus,
+		&.active {
+			picture {
+				transform: scale(1.04);
+			}
 		}
 	}
 }
@@ -1714,7 +1889,6 @@
 
 		&:hover,
 		&:focus,
-		&:active,
 		&.active {
 			box-shadow: var(--shadow-section1);
 		}

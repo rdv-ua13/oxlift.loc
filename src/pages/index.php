@@ -112,11 +112,428 @@
     </div>
 </div>
 
-<?/*<div class="gap-xl">
+<div class="gap-xl">
     <div class="container">
-        Catalog
+        <div class="basic-hca">
+            <div class="basic-hca__heading">
+                <div class="h2">Каталог товаров</div>
+            </div>
+            <div class="basic-hca__content catalog-index">
+                <div class="catalog-index__item">
+                    <div class="catalog-index__view">
+                        <img
+                            loading="lazy"
+                            class="image"
+                            src="img/cp1.png"
+                            width="60"
+                            height="60"
+                            alt="Изображение блока"
+                        >
+                    </div>
+                    <div class="catalog-index__descr">
+                        <a href="javascript:;" class="catalog-index__heading h4">Гидравлические тележки</a>
+                        <ul class="list-reset catalog-index__list">
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Стандартные</a>
+                            </li>
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">С различной шириной и длиной вил</a>
+                            </li>
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Низкопрофильные гидравлические тележки</a>
+                            </li>
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">С весами</a>
+                            </li>
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Для рулонов</a>
+                            </li>
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Ножничные</a>
+                            </li>
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Гидравлические тележки грузоподъемностью 2000 кг</a>
+                            </li>
+                        </ul>
+                        <a href="javascript:;" class="catalog-index__more">Смотреть все товары</a>
+                    </div>
+                </div>
+                <div class="catalog-index__item">
+                    <div class="catalog-index__view">
+                        <img
+                                loading="lazy"
+                                class="image"
+                                src="img/cp2.png"
+                                width="60"
+                                height="60"
+                                alt="Изображение блока"
+                        >
+                    </div>
+                    <div class="catalog-index__descr">
+                        <a href="javascript:;" class="catalog-index__heading h4">Самоходные тележки</a>
+                        <ul class="list-reset catalog-index__list">
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Стандартные самоходные тележки</a>
+                            </li>
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Тележки для палет</a>
+                            </li>
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Электротележки</a>
+                            </li>
+                        </ul>
+                        <a href="javascript:;" class="catalog-index__more">Смотреть все товары</a>
+                    </div>
+                </div>
+                <div class="catalog-index__item">
+                    <div class="catalog-index__view">
+                        <img
+                                loading="lazy"
+                                class="image"
+                                src="img/cp1.png"
+                                width="60"
+                                height="60"
+                                alt="Изображение блока"
+                        >
+                    </div>
+                    <div class="catalog-index__descr">
+                        <a href="javascript:;" class="catalog-index__heading h4">Погрузчики</a>
+                        <ul class="list-reset catalog-index__list">
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Автопогрузчики</a>
+                            </li>
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Вилочные дизельные погрузчики</a>
+                            </li>
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Кара</a>
+                            </li>
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Электрические погрузчики</a>
+                            </li>
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Боковые погрузчики</a>
+                            </li>
+                        </ul>
+                        <a href="javascript:;" class="catalog-index__more">Смотреть все товары</a>
+                    </div>
+                </div>
+                <div class="catalog-index__item">
+                    <div class="catalog-index__view">
+                        <img
+                                loading="lazy"
+                                class="image"
+                                src="img/cp2.png"
+                                width="60"
+                                height="60"
+                                alt="Изображение блока"
+                        >
+                    </div>
+                    <div class="catalog-index__descr">
+                        <a href="javascript:;" class="catalog-index__heading h4">Электротягачи</a>
+                    </div>
+                </div>
+                <div class="catalog-index__item">
+                    <div class="catalog-index__view">
+                        <img
+                                loading="lazy"
+                                class="image"
+                                src="img/cp1.png"
+                                width="60"
+                                height="60"
+                                alt="Изображение блока"
+                        >
+                    </div>
+                    <div class="catalog-index__descr">
+                        <a href="javascript:;" class="catalog-index__heading h4">Оборудование для агрессивных сред</a>
+                    </div>
+                </div>
+                <div class="catalog-index__item">
+                    <div class="catalog-index__view">
+                        <img
+                                loading="lazy"
+                                class="image"
+                                src="img/cp2.png"
+                                width="60"
+                                height="60"
+                                alt="Изображение блока"
+                        >
+                    </div>
+                    <div class="catalog-index__descr">
+                        <a href="javascript:;" class="catalog-index__heading h4">Запчасти</a>
+                        <ul class="list-reset catalog-index__list">
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Запчасти для рохли</a>
+                            </li>
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Запчасти для штабелеров</a>
+                            </li>
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Подъемные ролики и колеса</a>
+                            </li>
+                        </ul>
+                        <a href="javascript:;" class="catalog-index__more">Смотреть все товары</a>
+                    </div>
+                </div>
+                <div class="catalog-index__item">
+                    <div class="catalog-index__view">
+                        <img
+                                loading="lazy"
+                                class="image"
+                                src="img/cp1.png"
+                                width="60"
+                                height="60"
+                                alt="Изображение блока"
+                        >
+                    </div>
+                    <div class="catalog-index__descr">
+                        <a href="javascript:;" class="catalog-index__heading h4">Штабелеры</a>
+                        <ul class="list-reset catalog-index__list">
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Ручные гидравлические штабелеры</a>
+                            </li>
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Штабелеры с электроподъемом</a>
+                            </li>
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Самоходные штабелеры</a>
+                            </li>
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Узкопроходные штабелеры</a>
+                            </li>
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Электроштабелеры</a>
+                            </li>
+                        </ul>
+                        <a href="javascript:;" class="catalog-index__more">Смотреть все товары</a>
+                    </div>
+                </div>
+                <div class="catalog-index__item">
+                    <div class="catalog-index__view">
+                        <img
+                                loading="lazy"
+                                class="image"
+                                src="img/cp2.png"
+                                width="60"
+                                height="60"
+                                alt="Изображение блока"
+                        >
+                    </div>
+                    <div class="catalog-index__descr">
+                        <a href="javascript:;" class="catalog-index__heading h4">Подъемники и вышки</a>
+                        <ul class="list-reset catalog-index__list">
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Ножничные подъемники</a>
+                            </li>
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Одноместные телескопические подъемники</a>
+                            </li>
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Двухмачтовые подъемники</a>
+                            </li>
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Мачтовые подъемники</a>
+                            </li>
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Пиканиски</a>
+                            </li>
+                        </ul>
+                        <a href="javascript:;" class="catalog-index__more">Смотреть все товары</a>
+                    </div>
+                </div>
+                <div class="catalog-index__item">
+                    <div class="catalog-index__view">
+                        <img
+                                loading="lazy"
+                                class="image"
+                                src="img/cp1.png"
+                                width="60"
+                                height="60"
+                                alt="Изображение блока"
+                        >
+                    </div>
+                    <div class="catalog-index__descr">
+                        <a href="javascript:;" class="catalog-index__heading h4">Гидравлические подъемные столы</a>
+                        <ul class="list-reset catalog-index__list">
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Подъемные столы передвижные</a>
+                            </li>
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Подъемные столы стационарные</a>
+                            </li>
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Низкопрофильные подъемные столы</a>
+                            </li>
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Подъемные платформы</a>
+                            </li>
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">С весами</a>
+                            </li>
+                        </ul>
+                        <a href="javascript:;" class="catalog-index__more">Смотреть все товары</a>
+                    </div>
+                </div>
+                <div class="catalog-index__item">
+                    <div class="catalog-index__view">
+                        <img
+                                loading="lazy"
+                                class="image"
+                                src="img/cp2.png"
+                                width="60"
+                                height="60"
+                                alt="Изображение блока"
+                        >
+                    </div>
+                    <div class="catalog-index__descr">
+                        <a href="javascript:;" class="catalog-index__heading h4">Оборудование для промышленности</a>
+                    </div>
+                </div>
+                <div class="catalog-index__item">
+                    <div class="catalog-index__view">
+                        <img
+                                loading="lazy"
+                                class="image"
+                                src="img/cp1.png"
+                                width="60"
+                                height="60"
+                                alt="Изображение блока"
+                        >
+                    </div>
+                    <div class="catalog-index__descr">
+                        <a href="javascript:;" class="catalog-index__heading h4">Клининговое оборудование</a>
+                        <ul class="list-reset catalog-index__list">
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Поломоечные машины</a>
+                            </li>
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Подметальные машины</a>
+                            </li>
+                        </ul>
+                        <a href="javascript:;" class="catalog-index__more">Смотреть все товары</a>
+                    </div>
+                </div>
+                <div class="catalog-index__item">
+                    <div class="catalog-index__view">
+                        <img
+                                loading="lazy"
+                                class="image"
+                                src="img/cp2.png"
+                                width="60"
+                                height="60"
+                                alt="Изображение блока"
+                        >
+                    </div>
+                    <div class="catalog-index__descr">
+                        <a href="javascript:;" class="catalog-index__heading h4">Оборудование с весами</a>
+                    </div>
+                </div>
+                <div class="catalog-index__item">
+                    <div class="catalog-index__view">
+                        <img
+                                loading="lazy"
+                                class="image"
+                                src="img/cp1.png"
+                                width="60"
+                                height="60"
+                                alt="Изображение блока"
+                        >
+                    </div>
+                    <div class="catalog-index__descr">
+                        <a href="javascript:;" class="catalog-index__heading h4">Ричтраки</a>
+                        <ul class="list-reset catalog-index__list">
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Многоходовые</a>
+                            </li>
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Мини-ричтраки</a>
+                            </li>
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Ричтраки с кабиной</a>
+                            </li>
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Узкопроходные ричтраки</a>
+                            </li>
+                        </ul>
+                        <a href="javascript:;" class="catalog-index__more">Смотреть все товары</a>
+                    </div>
+                </div>
+                <div class="catalog-index__item">
+                    <div class="catalog-index__view">
+                        <img
+                                loading="lazy"
+                                class="image"
+                                src="img/cp2.png"
+                                width="60"
+                                height="60"
+                                alt="Изображение блока"
+                        >
+                    </div>
+                    <div class="catalog-index__descr">
+                        <a href="javascript:;" class="catalog-index__heading h4">Колесные опоры и ролики</a>
+                        <ul class="list-reset catalog-index__list">
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Нейлоновые колёса</a>
+                            </li>
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Колеса для тачек</a>
+                            </li>
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Колеса для тележек</a>
+                            </li>
+                        </ul>
+                        <a href="javascript:;" class="catalog-index__more">Смотреть все товары</a>
+                    </div>
+                </div>
+                <div class="catalog-index__item">
+                    <div class="catalog-index__view">
+                        <img
+                                loading="lazy"
+                                class="image"
+                                src="img/cp1.png"
+                                width="60"
+                                height="60"
+                                alt="Изображение блока"
+                        >
+                    </div>
+                    <div class="catalog-index__descr">
+                        <a href="javascript:;" class="catalog-index__heading h4">Грузоподъемное оборудование</a>
+                        <ul class="list-reset catalog-index__list">
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Тали</a>
+                            </li>
+                        </ul>
+                        <a href="javascript:;" class="catalog-index__more">Смотреть все товары</a>
+                    </div>
+                </div>
+                <div class="catalog-index__item">
+                    <div class="catalog-index__view">
+                        <img
+                                loading="lazy"
+                                class="image"
+                                src="img/cp2.png"
+                                width="60"
+                                height="60"
+                                alt="Изображение блока"
+                        >
+                    </div>
+                    <div class="catalog-index__descr">
+                        <a href="javascript:;" class="catalog-index__heading h4">Комплектовщики заказов</a>
+                        <ul class="list-reset catalog-index__list">
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Вертикальные комплектовщики</a>
+                            </li>
+                            <li class="catalog-index__list-item">
+                                <a href="javascript:;" class="catalog-index__list-link">Горизонтальные комплектовщики</a>
+                            </li>
+                        </ul>
+                        <a href="javascript:;" class="catalog-index__more">Смотреть все товары</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>*/?>
+</div>
 
 <div class="gap-xl">
     <div class="container">
@@ -227,87 +644,61 @@
     </div>
 </div>
 
-<?/*
 <div class="gap-xl">
     <div class="container">
-        <div class="basic-hca promo">
+        <div class="basic-hca offers">
             <div class="basic-hca__heading">
                 <div class="h2">Спецпредложения</div>
             </div>
-
             <div class="basic-hca__content">
-                <div class="slider-out basic-slider-wrap promo-slider-wrap">
-                    <div class="promo-slider basic-slider swiper">
+                <div class="slider-out basic-slider-wrap offers-slider-wrap">
+                    <div class="offers-slider basic-slider swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <a href="javascript:;" class="promo-slider__link">
+                                <a href="javascript:;" class="offers-slider__link">
                                     <picture>
-                                        <source srcset="img/partner_dyadyavanya.png" media="(min-width: 992px)">
-                                        <img src="img/partner_dyadyavanya.png" alt="Изображение блока">
+                                        <source srcset="img/offers_img_1.png" media="(min-width: 992px)">
+                                        <img src="img/offers_img_1.png" alt="Изображение блока">
                                     </picture>
                                 </a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="javascript:;" class="promo-slider__link">
+                                <a href="javascript:;" class="offers-slider__link">
                                     <picture>
-                                        <source srcset="img/partner_orion.png" media="(min-width: 992px)">
-                                        <img src="img/partner_orion.png" alt="Изображение блока">
+                                        <source srcset="img/offers_img_2.png" media="(min-width: 992px)">
+                                        <img src="img/offers_img_2.png" alt="Изображение блока">
                                     </picture>
                                 </a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="javascript:;" class="promo-slider__link">
+                                <a href="javascript:;" class="offers-slider__link">
                                     <picture>
-                                        <source srcset="img/partner_ozon.png" media="(min-width: 992px)">
-                                        <img src="img/partner_ozon.png" alt="Изображение блока">
+                                        <source srcset="img/offers_img_3.png" media="(min-width: 992px)">
+                                        <img src="img/offers_img_3.png" alt="Изображение блока">
                                     </picture>
                                 </a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="javascript:;" class="promo-slider__link">
+                                <a href="javascript:;" class="offers-slider__link">
                                     <picture>
-                                        <source srcset="img/partner_dyadyavanya.png" media="(min-width: 992px)">
-                                        <img src="img/partner_dyadyavanya.png" alt="Изображение блока">
+                                        <source srcset="img/offers_img_1.png" media="(min-width: 992px)">
+                                        <img src="img/offers_img_1.png" alt="Изображение блока">
                                     </picture>
                                 </a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="javascript:;" class="promo-slider__link">
+                                <a href="javascript:;" class="offers-slider__link">
                                     <picture>
-                                        <source srcset="img/partner_orion.png" media="(min-width: 992px)">
-                                        <img src="img/partner_orion.png" alt="Изображение блока">
+                                        <source srcset="img/offers_img_2.png" media="(min-width: 992px)">
+                                        <img src="img/offers_img_2.png" alt="Изображение блока">
                                     </picture>
                                 </a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="javascript:;" class="promo-slider__link">
+                                <a href="javascript:;" class="offers-slider__link">
                                     <picture>
-                                        <source srcset="img/partner_ozon.png" media="(min-width: 992px)">
-                                        <img src="img/partner_ozon.png" alt="Изображение блока">
-                                    </picture>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="javascript:;" class="promo-slider__link">
-                                    <picture>
-                                        <source srcset="img/partner_dyadyavanya.png" media="(min-width: 992px)">
-                                        <img src="img/partner_dyadyavanya.png" alt="Изображение блока">
-                                    </picture>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="javascript:;" class="promo-slider__link">
-                                    <picture>
-                                        <source srcset="img/partner_orion.png" media="(min-width: 992px)">
-                                        <img src="img/partner_orion.png" alt="Изображение блока">
-                                    </picture>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="javascript:;" class="promo-slider__link">
-                                    <picture>
-                                        <source srcset="img/partner_ozon.png" media="(min-width: 992px)">
-                                        <img src="img/partner_ozon.png" alt="Изображение блока">
+                                        <source srcset="img/offers_img_3.png" media="(min-width: 992px)">
+                                        <img src="img/offers_img_3.png" alt="Изображение блока">
                                     </picture>
                                 </a>
                             </div>
@@ -318,10 +709,10 @@
             <div class="basic-hca__action">
                 <div class="basic-hca__action-more">
                     <a href="javascript:;" class="btn-reset btn btn-extra">
-                        <span class="text-content">Все партнёры</span>
+                        <span class="text-content">Все спецпредложения</span>
                     </a>
                 </div>
-                <div class="basic-hca__action-nav swiper-navigation swiper-navigation--solo">
+                <div class="basic-hca__action-nav desktop-only swiper-navigation swiper-navigation--solo">
                     <div class="swiper-button-next btn btn-icon">
                         <svg class="icon icon-fill">
                             <use href="img/sprite.svg#chevron-right"></use>
@@ -336,7 +727,7 @@
             </div>
         </div>
     </div>
-</div>*/?>
+</div>
 
 <div class="gap-xl">
     <div class="container">
@@ -344,7 +735,7 @@
             <div class="basic-hca__content">
                 <div class="basic-tabs">
                     <div class="gap-sm-plus basic-tabs__header slider-out basic-slider-wrap">
-                        <div class="basic-tabs-container basic-slider swiper" data-tab="geo-useful-tabs" data-basic-slider data-basic-slider-xxs>
+                        <div class="basic-tabs-container basic-slider swiper" data-tab="goods-tabs" data-basic-slider>
                             <div class="basic-tabs-slider-list swiper-wrapper">
                                 <div class="basic-tabs-item swiper-slide">
                                     <span class="btn btn-extra-secondary basic-tabs-trigger active" data-target="0"><span>Хиты продаж</span></span>
@@ -359,14 +750,14 @@
                         </div>
                     </div>
 
-                    <div class="basic-tabs-content" data-tab-content="geo-useful-tabs">
+                    <div class="basic-tabs-content" data-tab-content="goods-tabs">
                         <div class="basic-tabs-content__panel active" data-id="0">
                             <div class="basic-tabs-content__content">
                                 <a class="btn-reset btn btn-extra basic-hca__content-more" href="javascript:;">
                                     <span class="text-content">Cмотреть все</span>
                                 </a>
 
-                                <div class="slider-out basic-slider-wrap card-info-slider-wrap">
+                                <div class="slider-out basic-slider-wrap card-product-slider-wrap basic-hca__content-main">
                                     <div class="basic-slider nav-out swiper" data-basic-slider>
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide">
@@ -424,31 +815,113 @@
                                                             </span>
                                                         </div>
 
-                                                        <div class="card__cta">
-                                                            <button class="btn-reset btn btn-light card__cta-more" data-card-cta-more>
-                                                                <svg class="icon icon-fill">
-                                                                    <use href="img/sprite.svg#more-h-filled"></use>
-                                                                </svg>
-                                                            </button>
-                                                            <div class="card__cta-list" data-card-cta-content>
-                                                                <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-notice="favorites" title="В избранное">
-                                                                    <svg class="icon icon-fill icon-default">
-                                                                        <use href="img/sprite.svg#heart"></use>
-                                                                    </svg>
-                                                                    <span class="text-content text-default">В избранное</span>
-                                                                    <svg class="icon icon-fill icon-selected">
-                                                                        <use href="img/sprite.svg#heart-filled"></use>
-                                                                    </svg>
-                                                                    <span class="text-content text-selected">В избранном</span>
-                                                                </button>
-                                                                <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-notice="compare" title="Сравнить">
+                                                        <div class="card__cart cart-buy">
+                                                            <div class="cart-quantity">
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
                                                                     <svg class="icon icon-fill">
-                                                                        <use href="img/sprite.svg#compare"></use>
+                                                                        <use href="img/sprite.svg#minus"></use>
                                                                     </svg>
-                                                                    <span class="text-content text-default">Сравнить</span>
-                                                                    <span class="text-content text-selected">В сравнении</span>
+                                                                </button>
+                                                                <input
+                                                                        id=""
+                                                                        class="input-reset cart-quantity-input"
+                                                                        type="text"
+                                                                        placeholder="999"
+                                                                        value="1"
+                                                                        max="999"
+                                                                        data-mult="1"
+                                                                >
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#plus"></use>
+                                                                    </svg>
                                                                 </button>
                                                             </div>
+                                                            <a class="btn-reset btn cart-in" href="javascript:;" rel="nofollow">
+                                                                <span class="text-content">В корзину</span>
+                                                            </a>
+                                                            <div class="card__cta">
+                                                                <button class="btn-reset btn btn-extra-secondary card__cta-more" data-card-cta-more>
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#more-h-filled"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <div class="card__cta-list" data-card-cta-content>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="favorites" title="В избранное">
+                                                                        <svg class="icon icon-fill icon-default">
+                                                                            <use href="img/sprite.svg#heart"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">В избранное</span>
+                                                                        <svg class="icon icon-fill icon-selected">
+                                                                            <use href="img/sprite.svg#heart-filled"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-selected">В избранном</span>
+                                                                    </button>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="compare" title="Сравнить">
+                                                                        <svg class="icon icon-fill">
+                                                                            <use href="img/sprite.svg#compare"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">Сравнить</span>
+                                                                        <span class="text-content text-content-selected">В сравнении</span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="card card-product">
+                                                    <a class="card__view" href="javascript:;">
+                                                        <img
+                                                                loading="lazy"
+                                                                src="img/cp2.png"
+                                                                class="image"
+                                                                width="160"
+                                                                height="160"
+                                                                alt="Изображение блока"
+                                                        >
+                                                        <div class="card__sale-label">
+                                                            <span class="sale-label sale-label-red">20%</span>
+                                                            <span class="sale-label sale-label-orange">Распродажа</span>
+                                                            <span class="sale-label sale-label-green">Хит</span>
+                                                        </div>
+                                                    </a>
+                                                    <div class="card__descr">
+                                                        <div class="card__info">
+                                                            <span class="product-code"><span class="text-content">Арт. 990990</span></span>
+                                                            <span class="star-rating-wrapper">
+                                                                <span class="star-rating">
+                                                                    <span class="star-rating__container">
+                                                                        <label>
+                                                                            <svg class="icon icon-fill">
+                                                                                <use href="img/sprite.svg#star-filled"></use>
+                                                                            </svg>
+                                                                        </label>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="star-rating__value" data-value="5">5</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card__stock product-stock on-order">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#timer"></use>
+                                                            </svg>
+                                                            <span>Под заказ</span>
+                                                        </div>
+
+                                                        <a class="card__title" href="javascript:;">Самоходная Тележка OXLIFT CBD20J-Li3 2000 кг Li-ion</a>
+
+                                                        <div class="card__characteristics">
+                                                            <p>Грузоподъемность: 2000 кг</p>
+                                                            <p>Высота подъёма: 80-200 мм</p>
+                                                        </div>
+
+                                                        <div class="card__price">
+                                                            <span class="card__price-title">Цена</span>
+                                                            <span class="card__price-value">
+                                                                <span class="card__price-current">175320 ₽</span>
+                                                            </span>
                                                         </div>
 
                                                         <div class="card__cart cart-buy">
@@ -473,21 +946,797 @@
                                                                     </svg>
                                                                 </button>
                                                             </div>
-                                                            <div data-entity="buttons-block">
-                                                                <div id="">
-                                                                    <a id="" class="btn-reset btn cart-in" href="javascript:;" rel="nofollow">
-                                                                        <span class="text-content">В корзину</span>
-                                                                    </a>
+                                                            <a class="btn-reset btn cart-in" href="javascript:;" rel="nofollow">
+                                                                <span class="text-content">В корзину</span>
+                                                            </a>
+                                                            <div class="card__cta">
+                                                                <button class="btn-reset btn btn-extra-secondary card__cta-more" data-card-cta-more>
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#more-h-filled"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <div class="card__cta-list" data-card-cta-content>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="favorites" title="В избранное">
+                                                                        <svg class="icon icon-fill icon-default">
+                                                                            <use href="img/sprite.svg#heart"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">В избранное</span>
+                                                                        <svg class="icon icon-fill icon-selected">
+                                                                            <use href="img/sprite.svg#heart-filled"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-selected">В избранном</span>
+                                                                    </button>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="compare" title="Сравнить">
+                                                                        <svg class="icon icon-fill">
+                                                                            <use href="img/sprite.svg#compare"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">Сравнить</span>
+                                                                        <span class="text-content text-content-selected">В сравнении</span>
+                                                                    </button>
                                                                 </div>
                                                             </div>
-                                                            <button class="btn-reset btn btn-icon btn-icon-switch" type="button" data-favorites data-notice="favorites">
-                                                                <svg class="icon icon-fill">
-                                                                    <use href="img/sprite.svg#heart"></use>
-                                                                </svg>
-                                                                <svg class="icon icon-fill selected">
-                                                                    <use href="img/sprite.svg#filled-heart"></use>
-                                                                </svg>
-                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="card card-product">
+                                                    <a class="card__view" href="javascript:;">
+                                                        <img
+                                                                loading="lazy"
+                                                                src="img/cp3.png"
+                                                                class="image"
+                                                                width="160"
+                                                                height="160"
+                                                                alt="Изображение блока"
+                                                        >
+                                                        <div class="card__sale-label">
+                                                            <span class="sale-label sale-label-red">20%</span>
+                                                            <span class="sale-label sale-label-orange">Распродажа</span>
+                                                            <span class="sale-label sale-label-green">Хит</span>
+                                                        </div>
+                                                    </a>
+                                                    <div class="card__descr">
+                                                        <div class="card__info">
+                                                            <span class="product-code"><span class="text-content">Арт. 1990990</span></span>
+                                                            <span class="star-rating-wrapper">
+                                                                <span class="star-rating">
+                                                                    <span class="star-rating__container">
+                                                                        <label>
+                                                                            <svg class="icon icon-fill">
+                                                                                <use href="img/sprite.svg#star-filled"></use>
+                                                                            </svg>
+                                                                        </label>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="star-rating__value" data-value="5">5</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card__stock product-stock out-stock">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#splash"></use>
+                                                            </svg>
+                                                            <span>Нет в наличии</span>
+                                                        </div>
+
+                                                        <a class="card__title" href="javascript:;">Самоходный Штабелер с Платформой для Оператора OXLIFT BX15 5500 мм Basic</a>
+
+                                                        <div class="card__characteristics">
+                                                            <p>Производитель: OXLIFT</p>
+                                                        </div>
+
+                                                        <div class="card__price">
+                                                            <span class="card__price-title">Цена</span>
+                                                            <span class="card__price-value">
+                                                                <span class="card__price-current">1 066 080 ₽</span>
+                                                            </span>
+                                                        </div>
+
+                                                        <div class="card__cart cart-buy">
+                                                            <div class="cart-quantity">
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#minus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <input
+                                                                        id=""
+                                                                        class="input-reset cart-quantity-input"
+                                                                        type="text"
+                                                                        placeholder="999"
+                                                                        value="1"
+                                                                        max="999"
+                                                                        data-mult="1"
+                                                                >
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#plus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                            <a class="btn-reset btn cart-in" href="javascript:;" rel="nofollow">
+                                                                <span class="text-content">В корзину</span>
+                                                            </a>
+                                                            <div class="card__cta">
+                                                                <button class="btn-reset btn btn-extra-secondary card__cta-more" data-card-cta-more>
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#more-h-filled"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <div class="card__cta-list" data-card-cta-content>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="favorites" title="В избранное">
+                                                                        <svg class="icon icon-fill icon-default">
+                                                                            <use href="img/sprite.svg#heart"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">В избранное</span>
+                                                                        <svg class="icon icon-fill icon-selected">
+                                                                            <use href="img/sprite.svg#heart-filled"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-selected">В избранном</span>
+                                                                    </button>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="compare" title="Сравнить">
+                                                                        <svg class="icon icon-fill">
+                                                                            <use href="img/sprite.svg#compare"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">Сравнить</span>
+                                                                        <span class="text-content text-content-selected">В сравнении</span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="card card-product">
+                                                    <a class="card__view" href="javascript:;">
+                                                        <img
+                                                                loading="lazy"
+                                                                src="img/cp1.png"
+                                                                class="image"
+                                                                width="160"
+                                                                height="160"
+                                                                alt="Изображение блока"
+                                                        >
+                                                        <div class="card__sale-label">
+                                                            <span class="sale-label sale-label-red">20%</span>
+                                                            <span class="sale-label sale-label-orange">Распродажа</span>
+                                                            <span class="sale-label sale-label-green">Хит</span>
+                                                        </div>
+                                                    </a>
+                                                    <div class="card__descr">
+                                                        <div class="card__info">
+                                                            <span class="product-code"><span class="text-content">Арт. 790990</span></span>
+                                                            <span class="star-rating-wrapper">
+                                                                <span class="star-rating">
+                                                                    <span class="star-rating__container">
+                                                                        <label>
+                                                                            <svg class="icon icon-fill">
+                                                                                <use href="img/sprite.svg#star-filled"></use>
+                                                                            </svg>
+                                                                        </label>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="star-rating__value" data-value="4.5">4.5</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card__stock product-stock in-stock">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#checkbox-rec"></use>
+                                                            </svg>
+                                                            <span>В наличии</span>
+                                                        </div>
+
+                                                        <a class="card__title" href="javascript:;">Ручная Гидравлическая Тележка OXLIFT OX25-1X 2500 кг</a>
+
+                                                        <div class="card__characteristics">
+                                                            <p>Грузоподъемность: 2500 кг</p>
+                                                            <p>Высота подъёма: 85-200 мм</p>
+                                                        </div>
+
+                                                        <div class="card__price">
+                                                            <span class="card__price-title">Цена</span>
+                                                            <span class="card__price-value">
+                                                                <span class="card__price-current">21000 ₽</span>
+                                                                <span class="card__price-origin">22300 ₽</span>
+                                                            </span>
+                                                        </div>
+
+                                                        <div class="card__cart cart-buy">
+                                                            <div class="cart-quantity">
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#minus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <input
+                                                                        id=""
+                                                                        class="input-reset cart-quantity-input"
+                                                                        type="text"
+                                                                        placeholder="999"
+                                                                        value="1"
+                                                                        max="999"
+                                                                        data-mult="1"
+                                                                >
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#plus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                            <a class="btn-reset btn cart-in" href="javascript:;" rel="nofollow">
+                                                                <span class="text-content">В корзину</span>
+                                                            </a>
+                                                            <div class="card__cta">
+                                                                <button class="btn-reset btn btn-extra-secondary card__cta-more" data-card-cta-more>
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#more-h-filled"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <div class="card__cta-list" data-card-cta-content>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="favorites" title="В избранное">
+                                                                        <svg class="icon icon-fill icon-default">
+                                                                            <use href="img/sprite.svg#heart"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">В избранное</span>
+                                                                        <svg class="icon icon-fill icon-selected">
+                                                                            <use href="img/sprite.svg#heart-filled"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-selected">В избранном</span>
+                                                                    </button>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="compare" title="Сравнить">
+                                                                        <svg class="icon icon-fill">
+                                                                            <use href="img/sprite.svg#compare"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">Сравнить</span>
+                                                                        <span class="text-content text-content-selected">В сравнении</span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="card card-product">
+                                                    <a class="card__view" href="javascript:;">
+                                                        <img
+                                                                loading="lazy"
+                                                                src="img/cp2.png"
+                                                                class="image"
+                                                                width="160"
+                                                                height="160"
+                                                                alt="Изображение блока"
+                                                        >
+                                                        <div class="card__sale-label">
+                                                            <span class="sale-label sale-label-red">20%</span>
+                                                            <span class="sale-label sale-label-orange">Распродажа</span>
+                                                            <span class="sale-label sale-label-green">Хит</span>
+                                                        </div>
+                                                    </a>
+                                                    <div class="card__descr">
+                                                        <div class="card__info">
+                                                            <span class="product-code"><span class="text-content">Арт. 990990</span></span>
+                                                            <span class="star-rating-wrapper">
+                                                                <span class="star-rating">
+                                                                    <span class="star-rating__container">
+                                                                        <label>
+                                                                            <svg class="icon icon-fill">
+                                                                                <use href="img/sprite.svg#star-filled"></use>
+                                                                            </svg>
+                                                                        </label>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="star-rating__value" data-value="5">5</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card__stock product-stock on-order">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#timer"></use>
+                                                            </svg>
+                                                            <span>Под заказ</span>
+                                                        </div>
+
+                                                        <a class="card__title" href="javascript:;">Самоходная Тележка OXLIFT CBD20J-Li3 2000 кг Li-ion</a>
+
+                                                        <div class="card__characteristics">
+                                                            <p>Грузоподъемность: 2000 кг</p>
+                                                            <p>Высота подъёма: 80-200 мм</p>
+                                                        </div>
+
+                                                        <div class="card__price">
+                                                            <span class="card__price-title">Цена</span>
+                                                            <span class="card__price-value">
+                                                                <span class="card__price-current">175320 ₽</span>
+                                                            </span>
+                                                        </div>
+
+                                                        <div class="card__cart cart-buy">
+                                                            <div class="cart-quantity">
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#minus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <input
+                                                                        id=""
+                                                                        class="input-reset cart-quantity-input"
+                                                                        type="text"
+                                                                        placeholder="999"
+                                                                        value="1"
+                                                                        max="999"
+                                                                        data-mult="1"
+                                                                >
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#plus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                            <a class="btn-reset btn cart-in" href="javascript:;" rel="nofollow">
+                                                                <span class="text-content">В корзину</span>
+                                                            </a>
+                                                            <div class="card__cta">
+                                                                <button class="btn-reset btn btn-extra-secondary card__cta-more" data-card-cta-more>
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#more-h-filled"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <div class="card__cta-list" data-card-cta-content>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="favorites" title="В избранное">
+                                                                        <svg class="icon icon-fill icon-default">
+                                                                            <use href="img/sprite.svg#heart"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">В избранное</span>
+                                                                        <svg class="icon icon-fill icon-selected">
+                                                                            <use href="img/sprite.svg#heart-filled"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-selected">В избранном</span>
+                                                                    </button>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="compare" title="Сравнить">
+                                                                        <svg class="icon icon-fill">
+                                                                            <use href="img/sprite.svg#compare"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">Сравнить</span>
+                                                                        <span class="text-content text-content-selected">В сравнении</span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="card card-product">
+                                                    <a class="card__view" href="javascript:;">
+                                                        <img
+                                                                loading="lazy"
+                                                                src="img/cp3.png"
+                                                                class="image"
+                                                                width="160"
+                                                                height="160"
+                                                                alt="Изображение блока"
+                                                        >
+                                                        <div class="card__sale-label">
+                                                            <span class="sale-label sale-label-red">20%</span>
+                                                            <span class="sale-label sale-label-orange">Распродажа</span>
+                                                            <span class="sale-label sale-label-green">Хит</span>
+                                                        </div>
+                                                    </a>
+                                                    <div class="card__descr">
+                                                        <div class="card__info">
+                                                            <span class="product-code"><span class="text-content">Арт. 1990990</span></span>
+                                                            <span class="star-rating-wrapper">
+                                                                <span class="star-rating">
+                                                                    <span class="star-rating__container">
+                                                                        <label>
+                                                                            <svg class="icon icon-fill">
+                                                                                <use href="img/sprite.svg#star-filled"></use>
+                                                                            </svg>
+                                                                        </label>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="star-rating__value" data-value="5">5</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card__stock product-stock out-stock">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#splash"></use>
+                                                            </svg>
+                                                            <span>Нет в наличии</span>
+                                                        </div>
+
+                                                        <a class="card__title" href="javascript:;">Самоходный Штабелер с Платформой для Оператора OXLIFT BX15 5500 мм Basic</a>
+
+                                                        <div class="card__characteristics">
+                                                            <p>Производитель: OXLIFT</p>
+                                                        </div>
+
+                                                        <div class="card__price">
+                                                            <span class="card__price-title">Цена</span>
+                                                            <span class="card__price-value">
+                                                                <span class="card__price-current">1 066 080 ₽</span>
+                                                            </span>
+                                                        </div>
+
+                                                        <div class="card__cart cart-buy">
+                                                            <div class="cart-quantity">
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#minus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <input
+                                                                        id=""
+                                                                        class="input-reset cart-quantity-input"
+                                                                        type="text"
+                                                                        placeholder="999"
+                                                                        value="1"
+                                                                        max="999"
+                                                                        data-mult="1"
+                                                                >
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#plus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                            <a class="btn-reset btn cart-in" href="javascript:;" rel="nofollow">
+                                                                <span class="text-content">В корзину</span>
+                                                            </a>
+                                                            <div class="card__cta">
+                                                                <button class="btn-reset btn btn-extra-secondary card__cta-more" data-card-cta-more>
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#more-h-filled"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <div class="card__cta-list" data-card-cta-content>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="favorites" title="В избранное">
+                                                                        <svg class="icon icon-fill icon-default">
+                                                                            <use href="img/sprite.svg#heart"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">В избранное</span>
+                                                                        <svg class="icon icon-fill icon-selected">
+                                                                            <use href="img/sprite.svg#heart-filled"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-selected">В избранном</span>
+                                                                    </button>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="compare" title="Сравнить">
+                                                                        <svg class="icon icon-fill">
+                                                                            <use href="img/sprite.svg#compare"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">Сравнить</span>
+                                                                        <span class="text-content text-content-selected">В сравнении</span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="card card-product">
+                                                    <a class="card__view" href="javascript:;">
+                                                        <img
+                                                                loading="lazy"
+                                                                src="img/cp1.png"
+                                                                class="image"
+                                                                width="160"
+                                                                height="160"
+                                                                alt="Изображение блока"
+                                                        >
+                                                        <div class="card__sale-label">
+                                                            <span class="sale-label sale-label-red">20%</span>
+                                                            <span class="sale-label sale-label-orange">Распродажа</span>
+                                                            <span class="sale-label sale-label-green">Хит</span>
+                                                        </div>
+                                                    </a>
+                                                    <div class="card__descr">
+                                                        <div class="card__info">
+                                                            <span class="product-code"><span class="text-content">Арт. 790990</span></span>
+                                                            <span class="star-rating-wrapper">
+                                                                <span class="star-rating">
+                                                                    <span class="star-rating__container">
+                                                                        <label>
+                                                                            <svg class="icon icon-fill">
+                                                                                <use href="img/sprite.svg#star-filled"></use>
+                                                                            </svg>
+                                                                        </label>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="star-rating__value" data-value="4.5">4.5</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card__stock product-stock in-stock">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#checkbox-rec"></use>
+                                                            </svg>
+                                                            <span>В наличии</span>
+                                                        </div>
+
+                                                        <a class="card__title" href="javascript:;">Ручная Гидравлическая Тележка OXLIFT OX25-1X 2500 кг</a>
+
+                                                        <div class="card__characteristics">
+                                                            <p>Грузоподъемность: 2500 кг</p>
+                                                            <p>Высота подъёма: 85-200 мм</p>
+                                                        </div>
+
+                                                        <div class="card__price">
+                                                            <span class="card__price-title">Цена</span>
+                                                            <span class="card__price-value">
+                                                                <span class="card__price-current">21000 ₽</span>
+                                                                <span class="card__price-origin">22300 ₽</span>
+                                                            </span>
+                                                        </div>
+
+                                                        <div class="card__cart cart-buy">
+                                                            <div class="cart-quantity">
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#minus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <input
+                                                                        id=""
+                                                                        class="input-reset cart-quantity-input"
+                                                                        type="text"
+                                                                        placeholder="999"
+                                                                        value="1"
+                                                                        max="999"
+                                                                        data-mult="1"
+                                                                >
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#plus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                            <a class="btn-reset btn cart-in" href="javascript:;" rel="nofollow">
+                                                                <span class="text-content">В корзину</span>
+                                                            </a>
+                                                            <div class="card__cta">
+                                                                <button class="btn-reset btn btn-extra-secondary card__cta-more" data-card-cta-more>
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#more-h-filled"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <div class="card__cta-list" data-card-cta-content>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="favorites" title="В избранное">
+                                                                        <svg class="icon icon-fill icon-default">
+                                                                            <use href="img/sprite.svg#heart"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">В избранное</span>
+                                                                        <svg class="icon icon-fill icon-selected">
+                                                                            <use href="img/sprite.svg#heart-filled"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-selected">В избранном</span>
+                                                                    </button>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="compare" title="Сравнить">
+                                                                        <svg class="icon icon-fill">
+                                                                            <use href="img/sprite.svg#compare"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">Сравнить</span>
+                                                                        <span class="text-content text-content-selected">В сравнении</span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="card card-product">
+                                                    <a class="card__view" href="javascript:;">
+                                                        <img
+                                                                loading="lazy"
+                                                                src="img/cp2.png"
+                                                                class="image"
+                                                                width="160"
+                                                                height="160"
+                                                                alt="Изображение блока"
+                                                        >
+                                                        <div class="card__sale-label">
+                                                            <span class="sale-label sale-label-red">20%</span>
+                                                            <span class="sale-label sale-label-orange">Распродажа</span>
+                                                            <span class="sale-label sale-label-green">Хит</span>
+                                                        </div>
+                                                    </a>
+                                                    <div class="card__descr">
+                                                        <div class="card__info">
+                                                            <span class="product-code"><span class="text-content">Арт. 990990</span></span>
+                                                            <span class="star-rating-wrapper">
+                                                                <span class="star-rating">
+                                                                    <span class="star-rating__container">
+                                                                        <label>
+                                                                            <svg class="icon icon-fill">
+                                                                                <use href="img/sprite.svg#star-filled"></use>
+                                                                            </svg>
+                                                                        </label>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="star-rating__value" data-value="5">5</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card__stock product-stock on-order">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#timer"></use>
+                                                            </svg>
+                                                            <span>Под заказ</span>
+                                                        </div>
+
+                                                        <a class="card__title" href="javascript:;">Самоходная Тележка OXLIFT CBD20J-Li3 2000 кг Li-ion</a>
+
+                                                        <div class="card__characteristics">
+                                                            <p>Грузоподъемность: 2000 кг</p>
+                                                            <p>Высота подъёма: 80-200 мм</p>
+                                                        </div>
+
+                                                        <div class="card__price">
+                                                            <span class="card__price-title">Цена</span>
+                                                            <span class="card__price-value">
+                                                                <span class="card__price-current">175320 ₽</span>
+                                                            </span>
+                                                        </div>
+
+                                                        <div class="card__cart cart-buy">
+                                                            <div class="cart-quantity">
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#minus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <input
+                                                                        id=""
+                                                                        class="input-reset cart-quantity-input"
+                                                                        type="text"
+                                                                        placeholder="999"
+                                                                        value="1"
+                                                                        max="999"
+                                                                        data-mult="1"
+                                                                >
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#plus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                            <a class="btn-reset btn cart-in" href="javascript:;" rel="nofollow">
+                                                                <span class="text-content">В корзину</span>
+                                                            </a>
+                                                            <div class="card__cta">
+                                                                <button class="btn-reset btn btn-extra-secondary card__cta-more" data-card-cta-more>
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#more-h-filled"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <div class="card__cta-list" data-card-cta-content>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="favorites" title="В избранное">
+                                                                        <svg class="icon icon-fill icon-default">
+                                                                            <use href="img/sprite.svg#heart"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">В избранное</span>
+                                                                        <svg class="icon icon-fill icon-selected">
+                                                                            <use href="img/sprite.svg#heart-filled"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-selected">В избранном</span>
+                                                                    </button>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="compare" title="Сравнить">
+                                                                        <svg class="icon icon-fill">
+                                                                            <use href="img/sprite.svg#compare"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">Сравнить</span>
+                                                                        <span class="text-content text-content-selected">В сравнении</span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="card card-product">
+                                                    <a class="card__view" href="javascript:;">
+                                                        <img
+                                                                loading="lazy"
+                                                                src="img/cp3.png"
+                                                                class="image"
+                                                                width="160"
+                                                                height="160"
+                                                                alt="Изображение блока"
+                                                        >
+                                                        <div class="card__sale-label">
+                                                            <span class="sale-label sale-label-red">20%</span>
+                                                            <span class="sale-label sale-label-orange">Распродажа</span>
+                                                            <span class="sale-label sale-label-green">Хит</span>
+                                                        </div>
+                                                    </a>
+                                                    <div class="card__descr">
+                                                        <div class="card__info">
+                                                            <span class="product-code"><span class="text-content">Арт. 1990990</span></span>
+                                                            <span class="star-rating-wrapper">
+                                                                <span class="star-rating">
+                                                                    <span class="star-rating__container">
+                                                                        <label>
+                                                                            <svg class="icon icon-fill">
+                                                                                <use href="img/sprite.svg#star-filled"></use>
+                                                                            </svg>
+                                                                        </label>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="star-rating__value" data-value="5">5</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card__stock product-stock out-stock">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#splash"></use>
+                                                            </svg>
+                                                            <span>Нет в наличии</span>
+                                                        </div>
+
+                                                        <a class="card__title" href="javascript:;">Самоходный Штабелер с Платформой для Оператора OXLIFT BX15 5500 мм Basic</a>
+
+                                                        <div class="card__characteristics">
+                                                            <p>Производитель: OXLIFT</p>
+                                                        </div>
+
+                                                        <div class="card__price">
+                                                            <span class="card__price-title">Цена</span>
+                                                            <span class="card__price-value">
+                                                                <span class="card__price-current">1 066 080 ₽</span>
+                                                            </span>
+                                                        </div>
+
+                                                        <div class="card__cart cart-buy">
+                                                            <div class="cart-quantity">
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#minus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <input
+                                                                        id=""
+                                                                        class="input-reset cart-quantity-input"
+                                                                        type="text"
+                                                                        placeholder="999"
+                                                                        value="1"
+                                                                        max="999"
+                                                                        data-mult="1"
+                                                                >
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#plus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                            <a class="btn-reset btn cart-in" href="javascript:;" rel="nofollow">
+                                                                <span class="text-content">В корзину</span>
+                                                            </a>
+                                                            <div class="card__cta">
+                                                                <button class="btn-reset btn btn-extra-secondary card__cta-more" data-card-cta-more>
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#more-h-filled"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <div class="card__cta-list" data-card-cta-content>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="favorites" title="В избранное">
+                                                                        <svg class="icon icon-fill icon-default">
+                                                                            <use href="img/sprite.svg#heart"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">В избранное</span>
+                                                                        <svg class="icon icon-fill icon-selected">
+                                                                            <use href="img/sprite.svg#heart-filled"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-selected">В избранном</span>
+                                                                    </button>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="compare" title="Сравнить">
+                                                                        <svg class="icon icon-fill">
+                                                                            <use href="img/sprite.svg#compare"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">Сравнить</span>
+                                                                        <span class="text-content text-content-selected">В сравнении</span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -515,126 +1764,987 @@
                                     <span class="text-content">Cмотреть все</span>
                                 </a>
 
-                                <div class="slider-out basic-slider-wrap card-info-slider-wrap">
-                                    <div class="basic-slider nav-out swiper" data-basic-slider data-basic-slider-sm>
+                                <div class="slider-out basic-slider-wrap card-product-slider-wrap basic-hca__content-main">
+                                    <div class="basic-slider nav-out swiper" data-basic-slider>
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide">
-                                                <div class="card card-info">
+                                                <div class="card card-product">
                                                     <a class="card__view" href="javascript:;">
                                                         <img
                                                                 loading="lazy"
-                                                                src="img/ci1.png"
+                                                                src="img/cp2.png"
                                                                 class="image"
                                                                 width="160"
                                                                 height="160"
                                                                 alt="Изображение блока"
                                                         >
+                                                        <div class="card__sale-label">
+                                                            <span class="sale-label sale-label-red">20%</span>
+                                                            <span class="sale-label sale-label-orange">Распродажа</span>
+                                                            <span class="sale-label sale-label-green">Хит</span>
+                                                        </div>
                                                     </a>
                                                     <div class="card__descr">
-                                                        <div class="card__caption fz-caption-sm">
+                                                        <div class="card__info">
+                                                            <span class="product-code"><span class="text-content">Арт. 990990</span></span>
+                                                            <span class="star-rating-wrapper">
+                                                                <span class="star-rating">
+                                                                    <span class="star-rating__container">
+                                                                        <label>
+                                                                            <svg class="icon icon-fill">
+                                                                                <use href="img/sprite.svg#star-filled"></use>
+                                                                            </svg>
+                                                                        </label>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="star-rating__value" data-value="5">5</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card__stock product-stock on-order">
                                                             <svg class="icon icon-fill">
-                                                                <use href="img/sprite.svg#eye-on"></use>
+                                                                <use href="img/sprite.svg#timer"></use>
                                                             </svg>
-                                                            <div class="text-content">695</div>
+                                                            <span>Под заказ</span>
                                                         </div>
 
-                                                        <a class="card__title link link-tdu link-tdu--native" href="javascript:;">Где используется обмазочная гидроизоляция</a>
+                                                        <a class="card__title" href="javascript:;">Самоходная Тележка OXLIFT CBD20J-Li3 2000 кг Li-ion</a>
+
+                                                        <div class="card__characteristics">
+                                                            <p>Грузоподъемность: 2000 кг</p>
+                                                            <p>Высота подъёма: 80-200 мм</p>
+                                                        </div>
+
+                                                        <div class="card__price">
+                                                            <span class="card__price-title">Цена</span>
+                                                            <span class="card__price-value">
+                                                                <span class="card__price-current">175320 ₽</span>
+                                                            </span>
+                                                        </div>
+
+                                                        <div class="card__cart cart-buy">
+                                                            <div class="cart-quantity">
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#minus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <input
+                                                                        id=""
+                                                                        class="input-reset cart-quantity-input"
+                                                                        type="text"
+                                                                        placeholder="999"
+                                                                        value="1"
+                                                                        max="999"
+                                                                        data-mult="1"
+                                                                >
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#plus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                            <a class="btn-reset btn cart-in" href="javascript:;" rel="nofollow">
+                                                                <span class="text-content">В корзину</span>
+                                                            </a>
+                                                            <div class="card__cta">
+                                                                <button class="btn-reset btn btn-extra-secondary card__cta-more" data-card-cta-more>
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#more-h-filled"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <div class="card__cta-list" data-card-cta-content>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="favorites" title="В избранное">
+                                                                        <svg class="icon icon-fill icon-default">
+                                                                            <use href="img/sprite.svg#heart"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">В избранное</span>
+                                                                        <svg class="icon icon-fill icon-selected">
+                                                                            <use href="img/sprite.svg#heart-filled"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-selected">В избранном</span>
+                                                                    </button>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="compare" title="Сравнить">
+                                                                        <svg class="icon icon-fill">
+                                                                            <use href="img/sprite.svg#compare"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">Сравнить</span>
+                                                                        <span class="text-content text-content-selected">В сравнении</span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
-                                                <div class="card card-info">
+                                                <div class="card card-product">
                                                     <a class="card__view" href="javascript:;">
                                                         <img
                                                                 loading="lazy"
-                                                                src="img/ci2.png"
+                                                                src="img/cp1.png"
                                                                 class="image"
                                                                 width="160"
                                                                 height="160"
                                                                 alt="Изображение блока"
                                                         >
+                                                        <div class="card__sale-label">
+                                                            <span class="sale-label sale-label-red">20%</span>
+                                                            <span class="sale-label sale-label-orange">Распродажа</span>
+                                                            <span class="sale-label sale-label-green">Хит</span>
+                                                        </div>
                                                     </a>
                                                     <div class="card__descr">
-                                                        <div class="card__caption fz-caption-sm">
+                                                        <div class="card__info">
+                                                            <span class="product-code"><span class="text-content">Арт. 790990</span></span>
+                                                            <span class="star-rating-wrapper">
+                                                                <span class="star-rating">
+                                                                    <span class="star-rating__container">
+                                                                        <label>
+                                                                            <svg class="icon icon-fill">
+                                                                                <use href="img/sprite.svg#star-filled"></use>
+                                                                            </svg>
+                                                                        </label>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="star-rating__value" data-value="4.5">4.5</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card__stock product-stock in-stock">
                                                             <svg class="icon icon-fill">
-                                                                <use href="img/sprite.svg#eye-on"></use>
+                                                                <use href="img/sprite.svg#checkbox-rec"></use>
                                                             </svg>
-                                                            <div class="text-content">850</div>
+                                                            <span>В наличии</span>
                                                         </div>
 
-                                                        <a class="card__title link link-tdu link-tdu--native" href="javascript:;">Спанбонд: особенности, свойства и назначение</a>
+                                                        <a class="card__title" href="javascript:;">Ручная Гидравлическая Тележка OXLIFT OX25-1X 2500 кг</a>
+
+                                                        <div class="card__characteristics">
+                                                            <p>Грузоподъемность: 2500 кг</p>
+                                                            <p>Высота подъёма: 85-200 мм</p>
+                                                        </div>
+
+                                                        <div class="card__price">
+                                                            <span class="card__price-title">Цена</span>
+                                                            <span class="card__price-value">
+                                                                <span class="card__price-current">21000 ₽</span>
+                                                                <span class="card__price-origin">22300 ₽</span>
+                                                            </span>
+                                                        </div>
+
+                                                        <div class="card__cart cart-buy">
+                                                            <div class="cart-quantity">
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#minus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <input
+                                                                        id=""
+                                                                        class="input-reset cart-quantity-input"
+                                                                        type="text"
+                                                                        placeholder="999"
+                                                                        value="1"
+                                                                        max="999"
+                                                                        data-mult="1"
+                                                                >
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#plus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                            <a class="btn-reset btn cart-in" href="javascript:;" rel="nofollow">
+                                                                <span class="text-content">В корзину</span>
+                                                            </a>
+                                                            <div class="card__cta">
+                                                                <button class="btn-reset btn btn-extra-secondary card__cta-more" data-card-cta-more>
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#more-h-filled"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <div class="card__cta-list" data-card-cta-content>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="favorites" title="В избранное">
+                                                                        <svg class="icon icon-fill icon-default">
+                                                                            <use href="img/sprite.svg#heart"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">В избранное</span>
+                                                                        <svg class="icon icon-fill icon-selected">
+                                                                            <use href="img/sprite.svg#heart-filled"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-selected">В избранном</span>
+                                                                    </button>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="compare" title="Сравнить">
+                                                                        <svg class="icon icon-fill">
+                                                                            <use href="img/sprite.svg#compare"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">Сравнить</span>
+                                                                        <span class="text-content text-content-selected">В сравнении</span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
-                                                <div class="card card-info">
+                                                <div class="card card-product">
                                                     <a class="card__view" href="javascript:;">
                                                         <img
                                                                 loading="lazy"
-                                                                src="img/ci3.png"
+                                                                src="img/cp3.png"
                                                                 class="image"
                                                                 width="160"
                                                                 height="160"
                                                                 alt="Изображение блока"
                                                         >
+                                                        <div class="card__sale-label">
+                                                            <span class="sale-label sale-label-red">20%</span>
+                                                            <span class="sale-label sale-label-orange">Распродажа</span>
+                                                            <span class="sale-label sale-label-green">Хит</span>
+                                                        </div>
                                                     </a>
                                                     <div class="card__descr">
-                                                        <div class="card__caption fz-caption-sm">
+                                                        <div class="card__info">
+                                                            <span class="product-code"><span class="text-content">Арт. 1990990</span></span>
+                                                            <span class="star-rating-wrapper">
+                                                                <span class="star-rating">
+                                                                    <span class="star-rating__container">
+                                                                        <label>
+                                                                            <svg class="icon icon-fill">
+                                                                                <use href="img/sprite.svg#star-filled"></use>
+                                                                            </svg>
+                                                                        </label>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="star-rating__value" data-value="5">5</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card__stock product-stock out-stock">
                                                             <svg class="icon icon-fill">
-                                                                <use href="img/sprite.svg#eye-on"></use>
+                                                                <use href="img/sprite.svg#splash"></use>
                                                             </svg>
-                                                            <div class="text-content">1074</div>
+                                                            <span>Нет в наличии</span>
                                                         </div>
 
-                                                        <a class="card__title link link-tdu link-tdu--native" href="javascript:;">Область применения термоскрепленного геотекстиля</a>
+                                                        <a class="card__title" href="javascript:;">Самоходный Штабелер с Платформой для Оператора OXLIFT BX15 5500 мм Basic</a>
+
+                                                        <div class="card__characteristics">
+                                                            <p>Производитель: OXLIFT</p>
+                                                        </div>
+
+                                                        <div class="card__price">
+                                                            <span class="card__price-title">Цена</span>
+                                                            <span class="card__price-value">
+                                                                <span class="card__price-current">1 066 080 ₽</span>
+                                                            </span>
+                                                        </div>
+
+                                                        <div class="card__cart cart-buy">
+                                                            <div class="cart-quantity">
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#minus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <input
+                                                                        id=""
+                                                                        class="input-reset cart-quantity-input"
+                                                                        type="text"
+                                                                        placeholder="999"
+                                                                        value="1"
+                                                                        max="999"
+                                                                        data-mult="1"
+                                                                >
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#plus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                            <a class="btn-reset btn cart-in" href="javascript:;" rel="nofollow">
+                                                                <span class="text-content">В корзину</span>
+                                                            </a>
+                                                            <div class="card__cta">
+                                                                <button class="btn-reset btn btn-extra-secondary card__cta-more" data-card-cta-more>
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#more-h-filled"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <div class="card__cta-list" data-card-cta-content>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="favorites" title="В избранное">
+                                                                        <svg class="icon icon-fill icon-default">
+                                                                            <use href="img/sprite.svg#heart"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">В избранное</span>
+                                                                        <svg class="icon icon-fill icon-selected">
+                                                                            <use href="img/sprite.svg#heart-filled"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-selected">В избранном</span>
+                                                                    </button>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="compare" title="Сравнить">
+                                                                        <svg class="icon icon-fill">
+                                                                            <use href="img/sprite.svg#compare"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">Сравнить</span>
+                                                                        <span class="text-content text-content-selected">В сравнении</span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
-                                                <div class="card card-info">
+                                                <div class="card card-product">
                                                     <a class="card__view" href="javascript:;">
                                                         <img
                                                                 loading="lazy"
-                                                                src="img/ci4.png"
+                                                                src="img/cp1.png"
                                                                 class="image"
                                                                 width="160"
                                                                 height="160"
                                                                 alt="Изображение блока"
                                                         >
+                                                        <div class="card__sale-label">
+                                                            <span class="sale-label sale-label-red">20%</span>
+                                                            <span class="sale-label sale-label-orange">Распродажа</span>
+                                                            <span class="sale-label sale-label-green">Хит</span>
+                                                        </div>
                                                     </a>
                                                     <div class="card__descr">
-                                                        <div class="card__caption fz-caption-sm">
+                                                        <div class="card__info">
+                                                            <span class="product-code"><span class="text-content">Арт. 790990</span></span>
+                                                            <span class="star-rating-wrapper">
+                                                                <span class="star-rating">
+                                                                    <span class="star-rating__container">
+                                                                        <label>
+                                                                            <svg class="icon icon-fill">
+                                                                                <use href="img/sprite.svg#star-filled"></use>
+                                                                            </svg>
+                                                                        </label>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="star-rating__value" data-value="4.5">4.5</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card__stock product-stock in-stock">
                                                             <svg class="icon icon-fill">
-                                                                <use href="img/sprite.svg#eye-on"></use>
+                                                                <use href="img/sprite.svg#checkbox-rec"></use>
                                                             </svg>
-                                                            <div class="text-content">4237</div>
+                                                            <span>В наличии</span>
                                                         </div>
 
-                                                        <a class="card__title link link-tdu link-tdu--native" href="javascript:;">Пластиковая газонная решетка: технология укладки</a>
+                                                        <a class="card__title" href="javascript:;">Ручная Гидравлическая Тележка OXLIFT OX25-1X 2500 кг</a>
+
+                                                        <div class="card__characteristics">
+                                                            <p>Грузоподъемность: 2500 кг</p>
+                                                            <p>Высота подъёма: 85-200 мм</p>
+                                                        </div>
+
+                                                        <div class="card__price">
+                                                            <span class="card__price-title">Цена</span>
+                                                            <span class="card__price-value">
+                                                                <span class="card__price-current">21000 ₽</span>
+                                                                <span class="card__price-origin">22300 ₽</span>
+                                                            </span>
+                                                        </div>
+
+                                                        <div class="card__cart cart-buy">
+                                                            <div class="cart-quantity">
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#minus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <input
+                                                                        id=""
+                                                                        class="input-reset cart-quantity-input"
+                                                                        type="text"
+                                                                        placeholder="999"
+                                                                        value="1"
+                                                                        max="999"
+                                                                        data-mult="1"
+                                                                >
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#plus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                            <a class="btn-reset btn cart-in" href="javascript:;" rel="nofollow">
+                                                                <span class="text-content">В корзину</span>
+                                                            </a>
+                                                            <div class="card__cta">
+                                                                <button class="btn-reset btn btn-extra-secondary card__cta-more" data-card-cta-more>
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#more-h-filled"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <div class="card__cta-list" data-card-cta-content>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="favorites" title="В избранное">
+                                                                        <svg class="icon icon-fill icon-default">
+                                                                            <use href="img/sprite.svg#heart"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">В избранное</span>
+                                                                        <svg class="icon icon-fill icon-selected">
+                                                                            <use href="img/sprite.svg#heart-filled"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-selected">В избранном</span>
+                                                                    </button>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="compare" title="Сравнить">
+                                                                        <svg class="icon icon-fill">
+                                                                            <use href="img/sprite.svg#compare"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">Сравнить</span>
+                                                                        <span class="text-content text-content-selected">В сравнении</span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
-                                                <div class="card card-info">
+                                                <div class="card card-product">
                                                     <a class="card__view" href="javascript:;">
                                                         <img
                                                                 loading="lazy"
-                                                                src="img/ci1.png"
+                                                                src="img/cp2.png"
                                                                 class="image"
                                                                 width="160"
                                                                 height="160"
                                                                 alt="Изображение блока"
                                                         >
+                                                        <div class="card__sale-label">
+                                                            <span class="sale-label sale-label-red">20%</span>
+                                                            <span class="sale-label sale-label-orange">Распродажа</span>
+                                                            <span class="sale-label sale-label-green">Хит</span>
+                                                        </div>
                                                     </a>
                                                     <div class="card__descr">
-                                                        <div class="card__caption fz-caption-sm">
+                                                        <div class="card__info">
+                                                            <span class="product-code"><span class="text-content">Арт. 990990</span></span>
+                                                            <span class="star-rating-wrapper">
+                                                                <span class="star-rating">
+                                                                    <span class="star-rating__container">
+                                                                        <label>
+                                                                            <svg class="icon icon-fill">
+                                                                                <use href="img/sprite.svg#star-filled"></use>
+                                                                            </svg>
+                                                                        </label>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="star-rating__value" data-value="5">5</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card__stock product-stock on-order">
                                                             <svg class="icon icon-fill">
-                                                                <use href="img/sprite.svg#eye-on"></use>
+                                                                <use href="img/sprite.svg#timer"></use>
                                                             </svg>
-                                                            <div class="text-content">695</div>
+                                                            <span>Под заказ</span>
                                                         </div>
 
-                                                        <a class="card__title link link-tdu link-tdu--native" href="javascript:;">Где используется обмазочная гидроизоляция</a>
+                                                        <a class="card__title" href="javascript:;">Самоходная Тележка OXLIFT CBD20J-Li3 2000 кг Li-ion</a>
+
+                                                        <div class="card__characteristics">
+                                                            <p>Грузоподъемность: 2000 кг</p>
+                                                            <p>Высота подъёма: 80-200 мм</p>
+                                                        </div>
+
+                                                        <div class="card__price">
+                                                            <span class="card__price-title">Цена</span>
+                                                            <span class="card__price-value">
+                                                                <span class="card__price-current">175320 ₽</span>
+                                                            </span>
+                                                        </div>
+
+                                                        <div class="card__cart cart-buy">
+                                                            <div class="cart-quantity">
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#minus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <input
+                                                                        id=""
+                                                                        class="input-reset cart-quantity-input"
+                                                                        type="text"
+                                                                        placeholder="999"
+                                                                        value="1"
+                                                                        max="999"
+                                                                        data-mult="1"
+                                                                >
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#plus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                            <a class="btn-reset btn cart-in" href="javascript:;" rel="nofollow">
+                                                                <span class="text-content">В корзину</span>
+                                                            </a>
+                                                            <div class="card__cta">
+                                                                <button class="btn-reset btn btn-extra-secondary card__cta-more" data-card-cta-more>
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#more-h-filled"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <div class="card__cta-list" data-card-cta-content>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="favorites" title="В избранное">
+                                                                        <svg class="icon icon-fill icon-default">
+                                                                            <use href="img/sprite.svg#heart"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">В избранное</span>
+                                                                        <svg class="icon icon-fill icon-selected">
+                                                                            <use href="img/sprite.svg#heart-filled"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-selected">В избранном</span>
+                                                                    </button>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="compare" title="Сравнить">
+                                                                        <svg class="icon icon-fill">
+                                                                            <use href="img/sprite.svg#compare"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">Сравнить</span>
+                                                                        <span class="text-content text-content-selected">В сравнении</span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="card card-product">
+                                                    <a class="card__view" href="javascript:;">
+                                                        <img
+                                                                loading="lazy"
+                                                                src="img/cp3.png"
+                                                                class="image"
+                                                                width="160"
+                                                                height="160"
+                                                                alt="Изображение блока"
+                                                        >
+                                                        <div class="card__sale-label">
+                                                            <span class="sale-label sale-label-red">20%</span>
+                                                            <span class="sale-label sale-label-orange">Распродажа</span>
+                                                            <span class="sale-label sale-label-green">Хит</span>
+                                                        </div>
+                                                    </a>
+                                                    <div class="card__descr">
+                                                        <div class="card__info">
+                                                            <span class="product-code"><span class="text-content">Арт. 1990990</span></span>
+                                                            <span class="star-rating-wrapper">
+                                                                <span class="star-rating">
+                                                                    <span class="star-rating__container">
+                                                                        <label>
+                                                                            <svg class="icon icon-fill">
+                                                                                <use href="img/sprite.svg#star-filled"></use>
+                                                                            </svg>
+                                                                        </label>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="star-rating__value" data-value="5">5</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card__stock product-stock out-stock">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#splash"></use>
+                                                            </svg>
+                                                            <span>Нет в наличии</span>
+                                                        </div>
+
+                                                        <a class="card__title" href="javascript:;">Самоходный Штабелер с Платформой для Оператора OXLIFT BX15 5500 мм Basic</a>
+
+                                                        <div class="card__characteristics">
+                                                            <p>Производитель: OXLIFT</p>
+                                                        </div>
+
+                                                        <div class="card__price">
+                                                            <span class="card__price-title">Цена</span>
+                                                            <span class="card__price-value">
+                                                                <span class="card__price-current">1 066 080 ₽</span>
+                                                            </span>
+                                                        </div>
+
+                                                        <div class="card__cart cart-buy">
+                                                            <div class="cart-quantity">
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#minus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <input
+                                                                        id=""
+                                                                        class="input-reset cart-quantity-input"
+                                                                        type="text"
+                                                                        placeholder="999"
+                                                                        value="1"
+                                                                        max="999"
+                                                                        data-mult="1"
+                                                                >
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#plus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                            <a class="btn-reset btn cart-in" href="javascript:;" rel="nofollow">
+                                                                <span class="text-content">В корзину</span>
+                                                            </a>
+                                                            <div class="card__cta">
+                                                                <button class="btn-reset btn btn-extra-secondary card__cta-more" data-card-cta-more>
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#more-h-filled"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <div class="card__cta-list" data-card-cta-content>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="favorites" title="В избранное">
+                                                                        <svg class="icon icon-fill icon-default">
+                                                                            <use href="img/sprite.svg#heart"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">В избранное</span>
+                                                                        <svg class="icon icon-fill icon-selected">
+                                                                            <use href="img/sprite.svg#heart-filled"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-selected">В избранном</span>
+                                                                    </button>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="compare" title="Сравнить">
+                                                                        <svg class="icon icon-fill">
+                                                                            <use href="img/sprite.svg#compare"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">Сравнить</span>
+                                                                        <span class="text-content text-content-selected">В сравнении</span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="card card-product">
+                                                    <a class="card__view" href="javascript:;">
+                                                        <img
+                                                                loading="lazy"
+                                                                src="img/cp1.png"
+                                                                class="image"
+                                                                width="160"
+                                                                height="160"
+                                                                alt="Изображение блока"
+                                                        >
+                                                        <div class="card__sale-label">
+                                                            <span class="sale-label sale-label-red">20%</span>
+                                                            <span class="sale-label sale-label-orange">Распродажа</span>
+                                                            <span class="sale-label sale-label-green">Хит</span>
+                                                        </div>
+                                                    </a>
+                                                    <div class="card__descr">
+                                                        <div class="card__info">
+                                                            <span class="product-code"><span class="text-content">Арт. 790990</span></span>
+                                                            <span class="star-rating-wrapper">
+                                                                <span class="star-rating">
+                                                                    <span class="star-rating__container">
+                                                                        <label>
+                                                                            <svg class="icon icon-fill">
+                                                                                <use href="img/sprite.svg#star-filled"></use>
+                                                                            </svg>
+                                                                        </label>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="star-rating__value" data-value="4.5">4.5</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card__stock product-stock in-stock">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#checkbox-rec"></use>
+                                                            </svg>
+                                                            <span>В наличии</span>
+                                                        </div>
+
+                                                        <a class="card__title" href="javascript:;">Ручная Гидравлическая Тележка OXLIFT OX25-1X 2500 кг</a>
+
+                                                        <div class="card__characteristics">
+                                                            <p>Грузоподъемность: 2500 кг</p>
+                                                            <p>Высота подъёма: 85-200 мм</p>
+                                                        </div>
+
+                                                        <div class="card__price">
+                                                            <span class="card__price-title">Цена</span>
+                                                            <span class="card__price-value">
+                                                                <span class="card__price-current">21000 ₽</span>
+                                                                <span class="card__price-origin">22300 ₽</span>
+                                                            </span>
+                                                        </div>
+
+                                                        <div class="card__cart cart-buy">
+                                                            <div class="cart-quantity">
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#minus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <input
+                                                                        id=""
+                                                                        class="input-reset cart-quantity-input"
+                                                                        type="text"
+                                                                        placeholder="999"
+                                                                        value="1"
+                                                                        max="999"
+                                                                        data-mult="1"
+                                                                >
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#plus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                            <a class="btn-reset btn cart-in" href="javascript:;" rel="nofollow">
+                                                                <span class="text-content">В корзину</span>
+                                                            </a>
+                                                            <div class="card__cta">
+                                                                <button class="btn-reset btn btn-extra-secondary card__cta-more" data-card-cta-more>
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#more-h-filled"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <div class="card__cta-list" data-card-cta-content>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="favorites" title="В избранное">
+                                                                        <svg class="icon icon-fill icon-default">
+                                                                            <use href="img/sprite.svg#heart"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">В избранное</span>
+                                                                        <svg class="icon icon-fill icon-selected">
+                                                                            <use href="img/sprite.svg#heart-filled"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-selected">В избранном</span>
+                                                                    </button>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="compare" title="Сравнить">
+                                                                        <svg class="icon icon-fill">
+                                                                            <use href="img/sprite.svg#compare"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">Сравнить</span>
+                                                                        <span class="text-content text-content-selected">В сравнении</span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="card card-product">
+                                                    <a class="card__view" href="javascript:;">
+                                                        <img
+                                                                loading="lazy"
+                                                                src="img/cp2.png"
+                                                                class="image"
+                                                                width="160"
+                                                                height="160"
+                                                                alt="Изображение блока"
+                                                        >
+                                                        <div class="card__sale-label">
+                                                            <span class="sale-label sale-label-red">20%</span>
+                                                            <span class="sale-label sale-label-orange">Распродажа</span>
+                                                            <span class="sale-label sale-label-green">Хит</span>
+                                                        </div>
+                                                    </a>
+                                                    <div class="card__descr">
+                                                        <div class="card__info">
+                                                            <span class="product-code"><span class="text-content">Арт. 990990</span></span>
+                                                            <span class="star-rating-wrapper">
+                                                                <span class="star-rating">
+                                                                    <span class="star-rating__container">
+                                                                        <label>
+                                                                            <svg class="icon icon-fill">
+                                                                                <use href="img/sprite.svg#star-filled"></use>
+                                                                            </svg>
+                                                                        </label>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="star-rating__value" data-value="5">5</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card__stock product-stock on-order">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#timer"></use>
+                                                            </svg>
+                                                            <span>Под заказ</span>
+                                                        </div>
+
+                                                        <a class="card__title" href="javascript:;">Самоходная Тележка OXLIFT CBD20J-Li3 2000 кг Li-ion</a>
+
+                                                        <div class="card__characteristics">
+                                                            <p>Грузоподъемность: 2000 кг</p>
+                                                            <p>Высота подъёма: 80-200 мм</p>
+                                                        </div>
+
+                                                        <div class="card__price">
+                                                            <span class="card__price-title">Цена</span>
+                                                            <span class="card__price-value">
+                                                                <span class="card__price-current">175320 ₽</span>
+                                                            </span>
+                                                        </div>
+
+                                                        <div class="card__cart cart-buy">
+                                                            <div class="cart-quantity">
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#minus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <input
+                                                                        id=""
+                                                                        class="input-reset cart-quantity-input"
+                                                                        type="text"
+                                                                        placeholder="999"
+                                                                        value="1"
+                                                                        max="999"
+                                                                        data-mult="1"
+                                                                >
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#plus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                            <a class="btn-reset btn cart-in" href="javascript:;" rel="nofollow">
+                                                                <span class="text-content">В корзину</span>
+                                                            </a>
+                                                            <div class="card__cta">
+                                                                <button class="btn-reset btn btn-extra-secondary card__cta-more" data-card-cta-more>
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#more-h-filled"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <div class="card__cta-list" data-card-cta-content>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="favorites" title="В избранное">
+                                                                        <svg class="icon icon-fill icon-default">
+                                                                            <use href="img/sprite.svg#heart"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">В избранное</span>
+                                                                        <svg class="icon icon-fill icon-selected">
+                                                                            <use href="img/sprite.svg#heart-filled"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-selected">В избранном</span>
+                                                                    </button>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="compare" title="Сравнить">
+                                                                        <svg class="icon icon-fill">
+                                                                            <use href="img/sprite.svg#compare"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">Сравнить</span>
+                                                                        <span class="text-content text-content-selected">В сравнении</span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="card card-product">
+                                                    <a class="card__view" href="javascript:;">
+                                                        <img
+                                                                loading="lazy"
+                                                                src="img/cp3.png"
+                                                                class="image"
+                                                                width="160"
+                                                                height="160"
+                                                                alt="Изображение блока"
+                                                        >
+                                                        <div class="card__sale-label">
+                                                            <span class="sale-label sale-label-red">20%</span>
+                                                            <span class="sale-label sale-label-orange">Распродажа</span>
+                                                            <span class="sale-label sale-label-green">Хит</span>
+                                                        </div>
+                                                    </a>
+                                                    <div class="card__descr">
+                                                        <div class="card__info">
+                                                            <span class="product-code"><span class="text-content">Арт. 1990990</span></span>
+                                                            <span class="star-rating-wrapper">
+                                                                <span class="star-rating">
+                                                                    <span class="star-rating__container">
+                                                                        <label>
+                                                                            <svg class="icon icon-fill">
+                                                                                <use href="img/sprite.svg#star-filled"></use>
+                                                                            </svg>
+                                                                        </label>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="star-rating__value" data-value="5">5</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card__stock product-stock out-stock">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#splash"></use>
+                                                            </svg>
+                                                            <span>Нет в наличии</span>
+                                                        </div>
+
+                                                        <a class="card__title" href="javascript:;">Самоходный Штабелер с Платформой для Оператора OXLIFT BX15 5500 мм Basic</a>
+
+                                                        <div class="card__characteristics">
+                                                            <p>Производитель: OXLIFT</p>
+                                                        </div>
+
+                                                        <div class="card__price">
+                                                            <span class="card__price-title">Цена</span>
+                                                            <span class="card__price-value">
+                                                                <span class="card__price-current">1 066 080 ₽</span>
+                                                            </span>
+                                                        </div>
+
+                                                        <div class="card__cart cart-buy">
+                                                            <div class="cart-quantity">
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#minus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <input
+                                                                        id=""
+                                                                        class="input-reset cart-quantity-input"
+                                                                        type="text"
+                                                                        placeholder="999"
+                                                                        value="1"
+                                                                        max="999"
+                                                                        data-mult="1"
+                                                                >
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#plus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                            <a class="btn-reset btn cart-in" href="javascript:;" rel="nofollow">
+                                                                <span class="text-content">В корзину</span>
+                                                            </a>
+                                                            <div class="card__cta">
+                                                                <button class="btn-reset btn btn-extra-secondary card__cta-more" data-card-cta-more>
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#more-h-filled"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <div class="card__cta-list" data-card-cta-content>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="favorites" title="В избранное">
+                                                                        <svg class="icon icon-fill icon-default">
+                                                                            <use href="img/sprite.svg#heart"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">В избранное</span>
+                                                                        <svg class="icon icon-fill icon-selected">
+                                                                            <use href="img/sprite.svg#heart-filled"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-selected">В избранном</span>
+                                                                    </button>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="compare" title="Сравнить">
+                                                                        <svg class="icon icon-fill">
+                                                                            <use href="img/sprite.svg#compare"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">Сравнить</span>
+                                                                        <span class="text-content text-content-selected">В сравнении</span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -661,46 +2771,1002 @@
                                     <span class="text-content">Cмотреть все</span>
                                 </a>
 
-                                <div class="cp-column cp-column--sm">
-                                    <div class="cp-item cp-item--frame">
-                                        <div class="fw-semibold fz-subheading-sm">Как быстро я могу получить товар после заказа?</div>
-                                        <div class="cp-item__content">
-                                            Если заказ сделан до 12:00, то доставка возможна в этот же день. В ином случае доставка осуществляется на следующий день
+                                <div class="slider-out basic-slider-wrap card-product-slider-wrap basic-hca__content-main">
+                                    <div class="basic-slider nav-out swiper" data-basic-slider>
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="card card-product">
+                                                    <a class="card__view" href="javascript:;">
+                                                        <img
+                                                                loading="lazy"
+                                                                src="img/cp3.png"
+                                                                class="image"
+                                                                width="160"
+                                                                height="160"
+                                                                alt="Изображение блока"
+                                                        >
+                                                        <div class="card__sale-label">
+                                                            <span class="sale-label sale-label-red">20%</span>
+                                                            <span class="sale-label sale-label-orange">Распродажа</span>
+                                                            <span class="sale-label sale-label-green">Хит</span>
+                                                        </div>
+                                                    </a>
+                                                    <div class="card__descr">
+                                                        <div class="card__info">
+                                                            <span class="product-code"><span class="text-content">Арт. 1990990</span></span>
+                                                            <span class="star-rating-wrapper">
+                                                                <span class="star-rating">
+                                                                    <span class="star-rating__container">
+                                                                        <label>
+                                                                            <svg class="icon icon-fill">
+                                                                                <use href="img/sprite.svg#star-filled"></use>
+                                                                            </svg>
+                                                                        </label>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="star-rating__value" data-value="5">5</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card__stock product-stock out-stock">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#splash"></use>
+                                                            </svg>
+                                                            <span>Нет в наличии</span>
+                                                        </div>
+
+                                                        <a class="card__title" href="javascript:;">Самоходный Штабелер с Платформой для Оператора OXLIFT BX15 5500 мм Basic</a>
+
+                                                        <div class="card__characteristics">
+                                                            <p>Производитель: OXLIFT</p>
+                                                        </div>
+
+                                                        <div class="card__price">
+                                                            <span class="card__price-title">Цена</span>
+                                                            <span class="card__price-value">
+                                                                <span class="card__price-current">1 066 080 ₽</span>
+                                                            </span>
+                                                        </div>
+
+                                                        <div class="card__cart cart-buy">
+                                                            <div class="cart-quantity">
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#minus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <input
+                                                                        id=""
+                                                                        class="input-reset cart-quantity-input"
+                                                                        type="text"
+                                                                        placeholder="999"
+                                                                        value="1"
+                                                                        max="999"
+                                                                        data-mult="1"
+                                                                >
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#plus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                            <a class="btn-reset btn cart-in" href="javascript:;" rel="nofollow">
+                                                                <span class="text-content">В корзину</span>
+                                                            </a>
+                                                            <div class="card__cta">
+                                                                <button class="btn-reset btn btn-extra-secondary card__cta-more" data-card-cta-more>
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#more-h-filled"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <div class="card__cta-list" data-card-cta-content>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="favorites" title="В избранное">
+                                                                        <svg class="icon icon-fill icon-default">
+                                                                            <use href="img/sprite.svg#heart"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">В избранное</span>
+                                                                        <svg class="icon icon-fill icon-selected">
+                                                                            <use href="img/sprite.svg#heart-filled"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-selected">В избранном</span>
+                                                                    </button>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="compare" title="Сравнить">
+                                                                        <svg class="icon icon-fill">
+                                                                            <use href="img/sprite.svg#compare"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">Сравнить</span>
+                                                                        <span class="text-content text-content-selected">В сравнении</span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="card card-product">
+                                                    <a class="card__view" href="javascript:;">
+                                                        <img
+                                                                loading="lazy"
+                                                                src="img/cp1.png"
+                                                                class="image"
+                                                                width="160"
+                                                                height="160"
+                                                                alt="Изображение блока"
+                                                        >
+                                                        <div class="card__sale-label">
+                                                            <span class="sale-label sale-label-red">20%</span>
+                                                            <span class="sale-label sale-label-orange">Распродажа</span>
+                                                            <span class="sale-label sale-label-green">Хит</span>
+                                                        </div>
+                                                    </a>
+                                                    <div class="card__descr">
+                                                        <div class="card__info">
+                                                            <span class="product-code"><span class="text-content">Арт. 790990</span></span>
+                                                            <span class="star-rating-wrapper">
+                                                                <span class="star-rating">
+                                                                    <span class="star-rating__container">
+                                                                        <label>
+                                                                            <svg class="icon icon-fill">
+                                                                                <use href="img/sprite.svg#star-filled"></use>
+                                                                            </svg>
+                                                                        </label>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="star-rating__value" data-value="4.5">4.5</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card__stock product-stock in-stock">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#checkbox-rec"></use>
+                                                            </svg>
+                                                            <span>В наличии</span>
+                                                        </div>
+
+                                                        <a class="card__title" href="javascript:;">Ручная Гидравлическая Тележка OXLIFT OX25-1X 2500 кг</a>
+
+                                                        <div class="card__characteristics">
+                                                            <p>Грузоподъемность: 2500 кг</p>
+                                                            <p>Высота подъёма: 85-200 мм</p>
+                                                        </div>
+
+                                                        <div class="card__price">
+                                                            <span class="card__price-title">Цена</span>
+                                                            <span class="card__price-value">
+                                                                <span class="card__price-current">21000 ₽</span>
+                                                                <span class="card__price-origin">22300 ₽</span>
+                                                            </span>
+                                                        </div>
+
+                                                        <div class="card__cart cart-buy">
+                                                            <div class="cart-quantity">
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#minus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <input
+                                                                        id=""
+                                                                        class="input-reset cart-quantity-input"
+                                                                        type="text"
+                                                                        placeholder="999"
+                                                                        value="1"
+                                                                        max="999"
+                                                                        data-mult="1"
+                                                                >
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#plus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                            <a class="btn-reset btn cart-in" href="javascript:;" rel="nofollow">
+                                                                <span class="text-content">В корзину</span>
+                                                            </a>
+                                                            <div class="card__cta">
+                                                                <button class="btn-reset btn btn-extra-secondary card__cta-more" data-card-cta-more>
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#more-h-filled"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <div class="card__cta-list" data-card-cta-content>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="favorites" title="В избранное">
+                                                                        <svg class="icon icon-fill icon-default">
+                                                                            <use href="img/sprite.svg#heart"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">В избранное</span>
+                                                                        <svg class="icon icon-fill icon-selected">
+                                                                            <use href="img/sprite.svg#heart-filled"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-selected">В избранном</span>
+                                                                    </button>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="compare" title="Сравнить">
+                                                                        <svg class="icon icon-fill">
+                                                                            <use href="img/sprite.svg#compare"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">Сравнить</span>
+                                                                        <span class="text-content text-content-selected">В сравнении</span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="card card-product">
+                                                    <a class="card__view" href="javascript:;">
+                                                        <img
+                                                                loading="lazy"
+                                                                src="img/cp2.png"
+                                                                class="image"
+                                                                width="160"
+                                                                height="160"
+                                                                alt="Изображение блока"
+                                                        >
+                                                        <div class="card__sale-label">
+                                                            <span class="sale-label sale-label-red">20%</span>
+                                                            <span class="sale-label sale-label-orange">Распродажа</span>
+                                                            <span class="sale-label sale-label-green">Хит</span>
+                                                        </div>
+                                                    </a>
+                                                    <div class="card__descr">
+                                                        <div class="card__info">
+                                                            <span class="product-code"><span class="text-content">Арт. 990990</span></span>
+                                                            <span class="star-rating-wrapper">
+                                                                <span class="star-rating">
+                                                                    <span class="star-rating__container">
+                                                                        <label>
+                                                                            <svg class="icon icon-fill">
+                                                                                <use href="img/sprite.svg#star-filled"></use>
+                                                                            </svg>
+                                                                        </label>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="star-rating__value" data-value="5">5</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card__stock product-stock on-order">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#timer"></use>
+                                                            </svg>
+                                                            <span>Под заказ</span>
+                                                        </div>
+
+                                                        <a class="card__title" href="javascript:;">Самоходная Тележка OXLIFT CBD20J-Li3 2000 кг Li-ion</a>
+
+                                                        <div class="card__characteristics">
+                                                            <p>Грузоподъемность: 2000 кг</p>
+                                                            <p>Высота подъёма: 80-200 мм</p>
+                                                        </div>
+
+                                                        <div class="card__price">
+                                                            <span class="card__price-title">Цена</span>
+                                                            <span class="card__price-value">
+                                                                <span class="card__price-current">175320 ₽</span>
+                                                            </span>
+                                                        </div>
+
+                                                        <div class="card__cart cart-buy">
+                                                            <div class="cart-quantity">
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#minus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <input
+                                                                        id=""
+                                                                        class="input-reset cart-quantity-input"
+                                                                        type="text"
+                                                                        placeholder="999"
+                                                                        value="1"
+                                                                        max="999"
+                                                                        data-mult="1"
+                                                                >
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#plus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                            <a class="btn-reset btn cart-in" href="javascript:;" rel="nofollow">
+                                                                <span class="text-content">В корзину</span>
+                                                            </a>
+                                                            <div class="card__cta">
+                                                                <button class="btn-reset btn btn-extra-secondary card__cta-more" data-card-cta-more>
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#more-h-filled"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <div class="card__cta-list" data-card-cta-content>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="favorites" title="В избранное">
+                                                                        <svg class="icon icon-fill icon-default">
+                                                                            <use href="img/sprite.svg#heart"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">В избранное</span>
+                                                                        <svg class="icon icon-fill icon-selected">
+                                                                            <use href="img/sprite.svg#heart-filled"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-selected">В избранном</span>
+                                                                    </button>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="compare" title="Сравнить">
+                                                                        <svg class="icon icon-fill">
+                                                                            <use href="img/sprite.svg#compare"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">Сравнить</span>
+                                                                        <span class="text-content text-content-selected">В сравнении</span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="card card-product">
+                                                    <a class="card__view" href="javascript:;">
+                                                        <img
+                                                                loading="lazy"
+                                                                src="img/cp1.png"
+                                                                class="image"
+                                                                width="160"
+                                                                height="160"
+                                                                alt="Изображение блока"
+                                                        >
+                                                        <div class="card__sale-label">
+                                                            <span class="sale-label sale-label-red">20%</span>
+                                                            <span class="sale-label sale-label-orange">Распродажа</span>
+                                                            <span class="sale-label sale-label-green">Хит</span>
+                                                        </div>
+                                                    </a>
+                                                    <div class="card__descr">
+                                                        <div class="card__info">
+                                                            <span class="product-code"><span class="text-content">Арт. 790990</span></span>
+                                                            <span class="star-rating-wrapper">
+                                                                <span class="star-rating">
+                                                                    <span class="star-rating__container">
+                                                                        <label>
+                                                                            <svg class="icon icon-fill">
+                                                                                <use href="img/sprite.svg#star-filled"></use>
+                                                                            </svg>
+                                                                        </label>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="star-rating__value" data-value="4.5">4.5</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card__stock product-stock in-stock">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#checkbox-rec"></use>
+                                                            </svg>
+                                                            <span>В наличии</span>
+                                                        </div>
+
+                                                        <a class="card__title" href="javascript:;">Ручная Гидравлическая Тележка OXLIFT OX25-1X 2500 кг</a>
+
+                                                        <div class="card__characteristics">
+                                                            <p>Грузоподъемность: 2500 кг</p>
+                                                            <p>Высота подъёма: 85-200 мм</p>
+                                                        </div>
+
+                                                        <div class="card__price">
+                                                            <span class="card__price-title">Цена</span>
+                                                            <span class="card__price-value">
+                                                                <span class="card__price-current">21000 ₽</span>
+                                                                <span class="card__price-origin">22300 ₽</span>
+                                                            </span>
+                                                        </div>
+
+                                                        <div class="card__cart cart-buy">
+                                                            <div class="cart-quantity">
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#minus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <input
+                                                                        id=""
+                                                                        class="input-reset cart-quantity-input"
+                                                                        type="text"
+                                                                        placeholder="999"
+                                                                        value="1"
+                                                                        max="999"
+                                                                        data-mult="1"
+                                                                >
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#plus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                            <a class="btn-reset btn cart-in" href="javascript:;" rel="nofollow">
+                                                                <span class="text-content">В корзину</span>
+                                                            </a>
+                                                            <div class="card__cta">
+                                                                <button class="btn-reset btn btn-extra-secondary card__cta-more" data-card-cta-more>
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#more-h-filled"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <div class="card__cta-list" data-card-cta-content>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="favorites" title="В избранное">
+                                                                        <svg class="icon icon-fill icon-default">
+                                                                            <use href="img/sprite.svg#heart"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">В избранное</span>
+                                                                        <svg class="icon icon-fill icon-selected">
+                                                                            <use href="img/sprite.svg#heart-filled"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-selected">В избранном</span>
+                                                                    </button>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="compare" title="Сравнить">
+                                                                        <svg class="icon icon-fill">
+                                                                            <use href="img/sprite.svg#compare"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">Сравнить</span>
+                                                                        <span class="text-content text-content-selected">В сравнении</span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="card card-product">
+                                                    <a class="card__view" href="javascript:;">
+                                                        <img
+                                                                loading="lazy"
+                                                                src="img/cp2.png"
+                                                                class="image"
+                                                                width="160"
+                                                                height="160"
+                                                                alt="Изображение блока"
+                                                        >
+                                                        <div class="card__sale-label">
+                                                            <span class="sale-label sale-label-red">20%</span>
+                                                            <span class="sale-label sale-label-orange">Распродажа</span>
+                                                            <span class="sale-label sale-label-green">Хит</span>
+                                                        </div>
+                                                    </a>
+                                                    <div class="card__descr">
+                                                        <div class="card__info">
+                                                            <span class="product-code"><span class="text-content">Арт. 990990</span></span>
+                                                            <span class="star-rating-wrapper">
+                                                                <span class="star-rating">
+                                                                    <span class="star-rating__container">
+                                                                        <label>
+                                                                            <svg class="icon icon-fill">
+                                                                                <use href="img/sprite.svg#star-filled"></use>
+                                                                            </svg>
+                                                                        </label>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="star-rating__value" data-value="5">5</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card__stock product-stock on-order">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#timer"></use>
+                                                            </svg>
+                                                            <span>Под заказ</span>
+                                                        </div>
+
+                                                        <a class="card__title" href="javascript:;">Самоходная Тележка OXLIFT CBD20J-Li3 2000 кг Li-ion</a>
+
+                                                        <div class="card__characteristics">
+                                                            <p>Грузоподъемность: 2000 кг</p>
+                                                            <p>Высота подъёма: 80-200 мм</p>
+                                                        </div>
+
+                                                        <div class="card__price">
+                                                            <span class="card__price-title">Цена</span>
+                                                            <span class="card__price-value">
+                                                                <span class="card__price-current">175320 ₽</span>
+                                                            </span>
+                                                        </div>
+
+                                                        <div class="card__cart cart-buy">
+                                                            <div class="cart-quantity">
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#minus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <input
+                                                                        id=""
+                                                                        class="input-reset cart-quantity-input"
+                                                                        type="text"
+                                                                        placeholder="999"
+                                                                        value="1"
+                                                                        max="999"
+                                                                        data-mult="1"
+                                                                >
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#plus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                            <a class="btn-reset btn cart-in" href="javascript:;" rel="nofollow">
+                                                                <span class="text-content">В корзину</span>
+                                                            </a>
+                                                            <div class="card__cta">
+                                                                <button class="btn-reset btn btn-extra-secondary card__cta-more" data-card-cta-more>
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#more-h-filled"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <div class="card__cta-list" data-card-cta-content>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="favorites" title="В избранное">
+                                                                        <svg class="icon icon-fill icon-default">
+                                                                            <use href="img/sprite.svg#heart"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">В избранное</span>
+                                                                        <svg class="icon icon-fill icon-selected">
+                                                                            <use href="img/sprite.svg#heart-filled"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-selected">В избранном</span>
+                                                                    </button>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="compare" title="Сравнить">
+                                                                        <svg class="icon icon-fill">
+                                                                            <use href="img/sprite.svg#compare"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">Сравнить</span>
+                                                                        <span class="text-content text-content-selected">В сравнении</span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="card card-product">
+                                                    <a class="card__view" href="javascript:;">
+                                                        <img
+                                                                loading="lazy"
+                                                                src="img/cp3.png"
+                                                                class="image"
+                                                                width="160"
+                                                                height="160"
+                                                                alt="Изображение блока"
+                                                        >
+                                                        <div class="card__sale-label">
+                                                            <span class="sale-label sale-label-red">20%</span>
+                                                            <span class="sale-label sale-label-orange">Распродажа</span>
+                                                            <span class="sale-label sale-label-green">Хит</span>
+                                                        </div>
+                                                    </a>
+                                                    <div class="card__descr">
+                                                        <div class="card__info">
+                                                            <span class="product-code"><span class="text-content">Арт. 1990990</span></span>
+                                                            <span class="star-rating-wrapper">
+                                                                <span class="star-rating">
+                                                                    <span class="star-rating__container">
+                                                                        <label>
+                                                                            <svg class="icon icon-fill">
+                                                                                <use href="img/sprite.svg#star-filled"></use>
+                                                                            </svg>
+                                                                        </label>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="star-rating__value" data-value="5">5</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card__stock product-stock out-stock">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#splash"></use>
+                                                            </svg>
+                                                            <span>Нет в наличии</span>
+                                                        </div>
+
+                                                        <a class="card__title" href="javascript:;">Самоходный Штабелер с Платформой для Оператора OXLIFT BX15 5500 мм Basic</a>
+
+                                                        <div class="card__characteristics">
+                                                            <p>Производитель: OXLIFT</p>
+                                                        </div>
+
+                                                        <div class="card__price">
+                                                            <span class="card__price-title">Цена</span>
+                                                            <span class="card__price-value">
+                                                                <span class="card__price-current">1 066 080 ₽</span>
+                                                            </span>
+                                                        </div>
+
+                                                        <div class="card__cart cart-buy">
+                                                            <div class="cart-quantity">
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#minus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <input
+                                                                        id=""
+                                                                        class="input-reset cart-quantity-input"
+                                                                        type="text"
+                                                                        placeholder="999"
+                                                                        value="1"
+                                                                        max="999"
+                                                                        data-mult="1"
+                                                                >
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#plus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                            <a class="btn-reset btn cart-in" href="javascript:;" rel="nofollow">
+                                                                <span class="text-content">В корзину</span>
+                                                            </a>
+                                                            <div class="card__cta">
+                                                                <button class="btn-reset btn btn-extra-secondary card__cta-more" data-card-cta-more>
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#more-h-filled"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <div class="card__cta-list" data-card-cta-content>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="favorites" title="В избранное">
+                                                                        <svg class="icon icon-fill icon-default">
+                                                                            <use href="img/sprite.svg#heart"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">В избранное</span>
+                                                                        <svg class="icon icon-fill icon-selected">
+                                                                            <use href="img/sprite.svg#heart-filled"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-selected">В избранном</span>
+                                                                    </button>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="compare" title="Сравнить">
+                                                                        <svg class="icon icon-fill">
+                                                                            <use href="img/sprite.svg#compare"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">Сравнить</span>
+                                                                        <span class="text-content text-content-selected">В сравнении</span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="card card-product">
+                                                    <a class="card__view" href="javascript:;">
+                                                        <img
+                                                                loading="lazy"
+                                                                src="img/cp1.png"
+                                                                class="image"
+                                                                width="160"
+                                                                height="160"
+                                                                alt="Изображение блока"
+                                                        >
+                                                        <div class="card__sale-label">
+                                                            <span class="sale-label sale-label-red">20%</span>
+                                                            <span class="sale-label sale-label-orange">Распродажа</span>
+                                                            <span class="sale-label sale-label-green">Хит</span>
+                                                        </div>
+                                                    </a>
+                                                    <div class="card__descr">
+                                                        <div class="card__info">
+                                                            <span class="product-code"><span class="text-content">Арт. 790990</span></span>
+                                                            <span class="star-rating-wrapper">
+                                                                <span class="star-rating">
+                                                                    <span class="star-rating__container">
+                                                                        <label>
+                                                                            <svg class="icon icon-fill">
+                                                                                <use href="img/sprite.svg#star-filled"></use>
+                                                                            </svg>
+                                                                        </label>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="star-rating__value" data-value="4.5">4.5</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card__stock product-stock in-stock">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#checkbox-rec"></use>
+                                                            </svg>
+                                                            <span>В наличии</span>
+                                                        </div>
+
+                                                        <a class="card__title" href="javascript:;">Ручная Гидравлическая Тележка OXLIFT OX25-1X 2500 кг</a>
+
+                                                        <div class="card__characteristics">
+                                                            <p>Грузоподъемность: 2500 кг</p>
+                                                            <p>Высота подъёма: 85-200 мм</p>
+                                                        </div>
+
+                                                        <div class="card__price">
+                                                            <span class="card__price-title">Цена</span>
+                                                            <span class="card__price-value">
+                                                                <span class="card__price-current">21000 ₽</span>
+                                                                <span class="card__price-origin">22300 ₽</span>
+                                                            </span>
+                                                        </div>
+
+                                                        <div class="card__cart cart-buy">
+                                                            <div class="cart-quantity">
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#minus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <input
+                                                                        id=""
+                                                                        class="input-reset cart-quantity-input"
+                                                                        type="text"
+                                                                        placeholder="999"
+                                                                        value="1"
+                                                                        max="999"
+                                                                        data-mult="1"
+                                                                >
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#plus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                            <a class="btn-reset btn cart-in" href="javascript:;" rel="nofollow">
+                                                                <span class="text-content">В корзину</span>
+                                                            </a>
+                                                            <div class="card__cta">
+                                                                <button class="btn-reset btn btn-extra-secondary card__cta-more" data-card-cta-more>
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#more-h-filled"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <div class="card__cta-list" data-card-cta-content>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="favorites" title="В избранное">
+                                                                        <svg class="icon icon-fill icon-default">
+                                                                            <use href="img/sprite.svg#heart"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">В избранное</span>
+                                                                        <svg class="icon icon-fill icon-selected">
+                                                                            <use href="img/sprite.svg#heart-filled"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-selected">В избранном</span>
+                                                                    </button>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="compare" title="Сравнить">
+                                                                        <svg class="icon icon-fill">
+                                                                            <use href="img/sprite.svg#compare"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">Сравнить</span>
+                                                                        <span class="text-content text-content-selected">В сравнении</span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="card card-product">
+                                                    <a class="card__view" href="javascript:;">
+                                                        <img
+                                                                loading="lazy"
+                                                                src="img/cp2.png"
+                                                                class="image"
+                                                                width="160"
+                                                                height="160"
+                                                                alt="Изображение блока"
+                                                        >
+                                                        <div class="card__sale-label">
+                                                            <span class="sale-label sale-label-red">20%</span>
+                                                            <span class="sale-label sale-label-orange">Распродажа</span>
+                                                            <span class="sale-label sale-label-green">Хит</span>
+                                                        </div>
+                                                    </a>
+                                                    <div class="card__descr">
+                                                        <div class="card__info">
+                                                            <span class="product-code"><span class="text-content">Арт. 990990</span></span>
+                                                            <span class="star-rating-wrapper">
+                                                                <span class="star-rating">
+                                                                    <span class="star-rating__container">
+                                                                        <label>
+                                                                            <svg class="icon icon-fill">
+                                                                                <use href="img/sprite.svg#star-filled"></use>
+                                                                            </svg>
+                                                                        </label>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="star-rating__value" data-value="5">5</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card__stock product-stock on-order">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#timer"></use>
+                                                            </svg>
+                                                            <span>Под заказ</span>
+                                                        </div>
+
+                                                        <a class="card__title" href="javascript:;">Самоходная Тележка OXLIFT CBD20J-Li3 2000 кг Li-ion</a>
+
+                                                        <div class="card__characteristics">
+                                                            <p>Грузоподъемность: 2000 кг</p>
+                                                            <p>Высота подъёма: 80-200 мм</p>
+                                                        </div>
+
+                                                        <div class="card__price">
+                                                            <span class="card__price-title">Цена</span>
+                                                            <span class="card__price-value">
+                                                                <span class="card__price-current">175320 ₽</span>
+                                                            </span>
+                                                        </div>
+
+                                                        <div class="card__cart cart-buy">
+                                                            <div class="cart-quantity">
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#minus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <input
+                                                                        id=""
+                                                                        class="input-reset cart-quantity-input"
+                                                                        type="text"
+                                                                        placeholder="999"
+                                                                        value="1"
+                                                                        max="999"
+                                                                        data-mult="1"
+                                                                >
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#plus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                            <a class="btn-reset btn cart-in" href="javascript:;" rel="nofollow">
+                                                                <span class="text-content">В корзину</span>
+                                                            </a>
+                                                            <div class="card__cta">
+                                                                <button class="btn-reset btn btn-extra-secondary card__cta-more" data-card-cta-more>
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#more-h-filled"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <div class="card__cta-list" data-card-cta-content>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="favorites" title="В избранное">
+                                                                        <svg class="icon icon-fill icon-default">
+                                                                            <use href="img/sprite.svg#heart"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">В избранное</span>
+                                                                        <svg class="icon icon-fill icon-selected">
+                                                                            <use href="img/sprite.svg#heart-filled"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-selected">В избранном</span>
+                                                                    </button>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="compare" title="Сравнить">
+                                                                        <svg class="icon icon-fill">
+                                                                            <use href="img/sprite.svg#compare"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">Сравнить</span>
+                                                                        <span class="text-content text-content-selected">В сравнении</span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="card card-product">
+                                                    <a class="card__view" href="javascript:;">
+                                                        <img
+                                                                loading="lazy"
+                                                                src="img/cp3.png"
+                                                                class="image"
+                                                                width="160"
+                                                                height="160"
+                                                                alt="Изображение блока"
+                                                        >
+                                                        <div class="card__sale-label">
+                                                            <span class="sale-label sale-label-red">20%</span>
+                                                            <span class="sale-label sale-label-orange">Распродажа</span>
+                                                            <span class="sale-label sale-label-green">Хит</span>
+                                                        </div>
+                                                    </a>
+                                                    <div class="card__descr">
+                                                        <div class="card__info">
+                                                            <span class="product-code"><span class="text-content">Арт. 1990990</span></span>
+                                                            <span class="star-rating-wrapper">
+                                                                <span class="star-rating">
+                                                                    <span class="star-rating__container">
+                                                                        <label>
+                                                                            <svg class="icon icon-fill">
+                                                                                <use href="img/sprite.svg#star-filled"></use>
+                                                                            </svg>
+                                                                        </label>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="star-rating__value" data-value="5">5</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card__stock product-stock out-stock">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#splash"></use>
+                                                            </svg>
+                                                            <span>Нет в наличии</span>
+                                                        </div>
+
+                                                        <a class="card__title" href="javascript:;">Самоходный Штабелер с Платформой для Оператора OXLIFT BX15 5500 мм Basic</a>
+
+                                                        <div class="card__characteristics">
+                                                            <p>Производитель: OXLIFT</p>
+                                                        </div>
+
+                                                        <div class="card__price">
+                                                            <span class="card__price-title">Цена</span>
+                                                            <span class="card__price-value">
+                                                                <span class="card__price-current">1 066 080 ₽</span>
+                                                            </span>
+                                                        </div>
+
+                                                        <div class="card__cart cart-buy">
+                                                            <div class="cart-quantity">
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#minus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <input
+                                                                        id=""
+                                                                        class="input-reset cart-quantity-input"
+                                                                        type="text"
+                                                                        placeholder="999"
+                                                                        value="1"
+                                                                        max="999"
+                                                                        data-mult="1"
+                                                                >
+                                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#plus"></use>
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                            <a class="btn-reset btn cart-in" href="javascript:;" rel="nofollow">
+                                                                <span class="text-content">В корзину</span>
+                                                            </a>
+                                                            <div class="card__cta">
+                                                                <button class="btn-reset btn btn-extra-secondary card__cta-more" data-card-cta-more>
+                                                                    <svg class="icon icon-fill">
+                                                                        <use href="img/sprite.svg#more-h-filled"></use>
+                                                                    </svg>
+                                                                </button>
+                                                                <div class="card__cta-list" data-card-cta-content>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="favorites" title="В избранное">
+                                                                        <svg class="icon icon-fill icon-default">
+                                                                            <use href="img/sprite.svg#heart"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">В избранное</span>
+                                                                        <svg class="icon icon-fill icon-selected">
+                                                                            <use href="img/sprite.svg#heart-filled"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-selected">В избранном</span>
+                                                                    </button>
+                                                                    <button class="btn-reset btn btn-icon btn-icon-switch card__cta-btn" data-action data-notice="compare" title="Сравнить">
+                                                                        <svg class="icon icon-fill">
+                                                                            <use href="img/sprite.svg#compare"></use>
+                                                                        </svg>
+                                                                        <span class="text-content text-content-default">Сравнить</span>
+                                                                        <span class="text-content text-content-selected">В сравнении</span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="cp-item cp-item--frame">
-                                        <div class="fw-semibold fz-subheading-sm">За счет чего у Вас такие низкие цены?</div>
-                                        <div class="cp-item__content">
-                                            Большинство товара мы производим самостоятельно. Это позволяет нам держать самую низкую цену на качественный материал
+                                    <div class="swiper-navigation">
+                                        <div class="swiper-button-next btn btn-icon">
+                                            <svg class="icon icon-fill">
+                                                <use href="img/sprite.svg#chevron-right"></use>
+                                            </svg>
                                         </div>
-                                    </div>
-                                    <div class="cp-item cp-item--frame">
-                                        <div class="fw-semibold fz-subheading-sm">Могу ли я посмотреть выставочные образцы Ваших габионов где-то еще помимо основного склада в Колпино?</div>
-                                        <div class="cp-item__content">
-                                            Конечно! Специально для Вашего удобства наши габионы размещаются по двум адресам в СПб:
-                                            <br>
-                                            <br>
-                                            - Инкеркам, ТК Мурманка, Мурманское шоссе 26 (р-н Мега Дыбенко)
-                                            <br>
-                                            - Выборгское шоссе 212 (р-н Озерков)
-                                        </div>
-                                    </div>
-                                    <div class="cp-item cp-item--frame">
-                                        <div class="fw-semibold fz-subheading-sm">Осуществляете ли Вы продажу габионов с их монтажом?</div>
-                                        <div class="cp-item__content">
-                                            Да, конечно! Наш специалист рассчитает для Вас стоимость материала с учетом работ и сделает индивидуальное предложение.
-                                        </div>
-                                    </div>
-                                    <div class="cp-item cp-item--frame">
-                                        <div class="fw-semibold fz-subheading-sm">Могу ли я приобрести у Вас геомембрану на отрез?</div>
-                                        <div class="cp-item__content">
-                                            Да, это возможно! Мы отрежем Вам необходимое количество погонных метров.
-                                        </div>
-                                    </div>
-                                    <div class="cp-item cp-item--frame">
-                                        <div class="fw-semibold fz-subheading-sm">Работаете ли Вы с физическими лицами и продаете ли материал в розницу?</div>
-                                        <div class="cp-item__content">
-                                            Да, конечно. Вы можете приобрести у нас необходимое количество материала кратно его фасовке. (искл. Геомембрана)
+                                        <div class="swiper-button-prev btn btn-icon">
+                                            <svg class="icon icon-fill">
+                                                <use href="img/sprite.svg#chevron-left"></use>
+                                            </svg>
                                         </div>
                                     </div>
                                 </div>
