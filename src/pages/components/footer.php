@@ -53,7 +53,7 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-main">
-                <div class="footer__item">
+                <div class="footer__item footer-catalog">
                     <a class="footer__link footer__link-heading link-invert fw-semibold fz-subheading" href="javascript:;">Каталог</a>
                     <ul class="list-reset footer__list">
                         <li><a class="footer__link link-invert" href="javascript:;">Гидравлические тележки</a></li>

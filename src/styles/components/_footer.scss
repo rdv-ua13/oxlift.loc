@@ -9,7 +9,7 @@
 	&-main {
 		display: flex;
 		flex-wrap: wrap;
-		gap: 24px;
+		gap: 32px 24px;
 		padding-top: 24px;
 		padding-bottom: 32px;
 	}
@@ -88,8 +88,28 @@
 	.footer {
 		&-main {
 			.footer__item {
-				min-width: 264px;
-				width: 264px;
+				/*min-width: 264px;
+				width: 264px;*/
+				min-width: 176px;
+
+				&.footer-catalog {
+					flex: 2;
+					/*min-width: 552px;
+					width: 552px;*/
+					min-width: 376px;
+				}
+			}
+		}
+		&-catalog {
+			.footer__list {
+				display: block;
+				column-count: 2;
+				column-gap: 16px;
+
+				li {
+					margin-bottom: 8px;
+					break-inside: avoid;
+				}
 			}
 		}
 	}
