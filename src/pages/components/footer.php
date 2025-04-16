@@ -54,7 +54,7 @@
         <div class="container">
             <div class="footer-main">
                 <div class="footer__item footer-catalog">
-                    <a class="footer__link footer__link-heading link-invert fw-semibold fz-subheading" href="javascript:;">Каталог</a>
+                    <a class="footer__link footer__link-heading link-invert fw-bold fz-subheading" href="javascript:;">Каталог</a>
                     <ul class="list-reset footer__list">
                         <li><a class="footer__link link-invert" href="javascript:;" style="color: red;">Тестовый текст длинный тест!</a></li>
                         <li><a class="footer__link link-invert" href="javascript:;">Гидравлические тележки</a></li>
@@ -77,7 +77,7 @@
                     </ul>
                 </div>
                 <div class="footer__item">
-                    <span class="footer__link fw-semibold fz-subheading">Покупателям</span>
+                    <span class="footer__link fw-bold fz-subheading">Покупателям</span>
                     <ul class="list-reset footer__list">
                         <li><a class="footer__link link-invert" href="javascript:;" style="color: red;">Тестовый текст длинный тест!</a></li>
                         <li><a class="footer__link link-invert" href="javascript:;">Доставка и оплата</a></li>
@@ -92,7 +92,7 @@
                     </ul>
                 </div>
                 <div class="footer__item">
-                    <span class="footer__link fw-semibold fz-subheading">Полезное</span>
+                    <span class="footer__link fw-bold fz-subheading">Полезное</span>
                     <ul class="list-reset footer__list">
                         <li><a class="footer__link link-invert" href="javascript:;" style="color: red;">Тестовый текст длинный тест!</a></li>
                         <li><a class="footer__link link-invert" href="javascript:;">Фотогалерея</a></li>
@@ -103,7 +103,7 @@
                 </div>
                 <div class="footer__item footer-contacts">
                     <div class="footer-contacts__item">
-                        <span class="fw-semibold fz-subheading">Нужна помощь?</span>
+                        <span class="fw-bold fz-subheading">Нужна помощь?</span>
                         <div class="footer-contacts__connection">
                             <a class="link-invert footer-contacts__connection-item footer-contacts__connection-tel fw-bold h3" href="tel:+88005007869">8 800 500 78 69</a>
                             <a class="link-invert footer-contacts__connection-item footer-contacts__connection-email" href="mailto:sales@oxlift.ru">
@@ -115,7 +115,7 @@
                         </div>
                     </div>
                     <div class="footer-contacts__item">
-                        <span class="fw-semibold fz-subheading">Мы в соцсетях</span>
+                        <span class="fw-bold fz-subheading">Мы в соцсетях</span>
                         <div class="social footer-contacts__soc">
                             <div class="social__list">
                                 <a href="javascript:;" class="social__item">

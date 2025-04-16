@@ -361,7 +361,7 @@
 	.catalog-index {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		gap: 40px;
+		gap: 40px 32px;
 
 		&__item {
 			gap: 20px;
@@ -461,6 +461,14 @@
 		}
 		&__more {
 			display: none;
+		}
+	}
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.catalog-index {
+		&__item {
+			flex-direction: column;
+			gap: 12px;
 		}
 	}
 }

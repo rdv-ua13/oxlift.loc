@@ -388,7 +388,7 @@ application.prototype.initMenuCatalogSubmenu = function () {
         currentSubmenuItem.addClass('active');
     });
 
-    if (window.matchMedia('(min-width: 992px)').matches) {
+    if (window.matchMedia('(min-width: 1200px)').matches) {
         if (!$('html').hasClass('touch')) {
             rootItem.on('mouseover', function () {
                 let rootItemId = $(this).data('submenu-section');
@@ -409,7 +409,7 @@ application.prototype.initMenuCatalogSubmenu = function () {
             });
         }
     }
-    else if (window.matchMedia('(max-width: 991.98px)').matches) {
+    else if (window.matchMedia('(max-width: 1199.98px)').matches) {
         rootItem.on('click', function (e) {
             e.preventDefault();
             e.stopPropagation();
