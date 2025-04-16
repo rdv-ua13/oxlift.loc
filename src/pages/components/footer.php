@@ -1,6 +1,6 @@
         <div class="pre-footer">
             <div class="container pre-footer__container">
-                <div class="pre-footer__item pre-footer__descr">
+                <div class="pre-footer__descr">
                     <div class="pre-footer__descr-pic">
                         <img
                                 loading="lazy"
@@ -12,35 +12,39 @@
                         >
                     </div>
                     <div class="pre-footer__descr-info">
-                        <div class="pre-footer__descr-title h3">Узнавайте об акциях и новостях раньше всех</div>
-                        <div class="pre-footer__descr-subtitle">Подпишитесь на полезную рассылку</div>
+                        <div class="pre-footer__descr-title h3">Остались вопросы</div>
+                        <div class="pre-footer__descr-subtitle">Наши специалисты с радостью вам помогут</div>
                     </div>
                 </div>
-                <div class="pre-footer__item pre-footer__act">
-                    <div class="pre-footer__subscribe">
-                        <form id="" method="" action="javascript:;">
-                            <div class="input-wrapper input-wrapper-split has-icon-l">
-                                <input
-                                        id=""
-                                        class="input-reset input input-light"
-                                        type="text"
-                                        name=""
-                                        value=""
-                                        placeholder="Введите ваш email"
-                                        autocomplete="off"
-                                >
-                                <label class="input-icon input-icon-l">
-                                    <svg class="icon icon-fill">
-                                        <use href="img/sprite.svg#sms-notification"></use>
-                                    </svg>
-                                </label>
-                                <button class="btn-reset btn btn-secondary" type="submit">
-                                    <span class="text-content">Подписаться</span>
-                                </button>
-                            </div>
-                        </form>
-                        <div class="pre-footer__subscribe-caption fz-caption-sm">Даю согласие на обработку моих персональных данных. Соглашаюсь с <a class="link-tdu link-tdu--native" href="javascript:;">Политикой конфиденциальности</a></div>
-                    </div>
+                <div class="pre-footer__act">
+                    <form id="" class="pre-footer__act-form" method="" action="javascript:;">
+                        <div class="input-wrapper">
+                            <input
+                                    id=""
+                                    class="input-reset input"
+                                    type="text"
+                                    name=""
+                                    value=""
+                                    placeholder="Имя"
+                                    autocomplete="off"
+                            >
+                        </div>
+                        <div class="input-wrapper">
+                            <input
+                                    id=""
+                                    class="input-reset input"
+                                    type="text"
+                                    name=""
+                                    value=""
+                                    placeholder="Телефон"
+                                    autocomplete="off"
+                            >
+                        </div>
+                        <button class="btn-reset btn btn-secondary" type="submit">
+                            <span class="text-content">Заказать звонок</span>
+                        </button>
+                    </form>
+                    <div class="pre-footer__act-caption fz-caption-sm">Даю согласие на обработку моих персональных данных. Соглашаюсь с <a class="link-tdu link-tdu--native" href="javascript:;">Политикой конфиденциальности</a></div>
                 </div>
             </div>
         </div>

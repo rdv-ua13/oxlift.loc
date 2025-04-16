@@ -1433,42 +1433,6 @@ input.disabled {
 			}
 		}
 	}
-
-	/*&:not(.dropdown-active) {
-		.input-dropdown {
-			opacity: 0;
-			user-select: none;
-			pointer-events: none;
-		}
-	}*/
-
-	/*&.error {
-		.input {
-			&,
-			&:hover,
-			&:focus,
-			&.active {
-				border-color: var(--red21-color)!important;
-				background-color: var(--red20-color)!important;
-				color: var(--red10-color)!important;
-
-				.icon {
-					fill: var(--red10-color)!important;
-					stroke: var(--red10-color)!important;
-				}
-			}
-			&::placeholder {
-				color: var(--red10-color)!important;
-			}
-
-			&-error-label {
-				display: flex;
-			}
-			&-caption {
-				display: none;
-			}
-		}
-	}*/
 }
 .input {
 	width: 100%;
@@ -1485,38 +1449,6 @@ input.disabled {
 	&::placeholder {
 		color: var(--text-secondary);
 	}
-	/*&:not([readonly]):hover {
-		border-color: var(--gray0-color);
-		background-color: var(--gray0-color);
-
-		&.input-secondary {
-			border-color: var(--gray21-color);
-			background-color: var(--white-color);
-		}
-		&.input-light {
-			border-color: var(--white-color);
-			background-color: var(--white-color);
-		}
-	}
-	&:not([readonly]):focus {
-		border-color: var(--green0-color);
-		background-color: var(--white-color);
-
-		&.input-secondary,
-		&.input-light {
-			border-color: var(--green0-color);
-			background-color: var(--white-color);
-		}
-	}*/
-
-	/*&-secondary {
-		border-color: var(--gray21-color);
-		background-color: var(--white-color);
-	}
-	&-light {
-		border-color: var(--white-color);
-		background-color: var(--white-color);
-	}*/
 
 	&-title {
 		display: -webkit-box;
@@ -1591,10 +1523,6 @@ input.disabled {
 			}
 		}
 	}
-	/*&-caption {
-		padding-top: 8px;
-		color: var(--text-secondary);
-	}*/
 
 	&-delete-btn {
 		position: absolute;
@@ -1633,125 +1561,6 @@ input.disabled {
 			resize: none;
 	    }
 	}
-
-	/*&-select2 {
-		& + .select2.select2-container {
-			min-width: 100%!important;
-		}
-		& + .select2.select2-container .select2-selection--single,
-		& + .select2.select2-container .select2-selection--multiple {
-			min-width: 100%;
-			width: 100%;
-			min-height: 44px;
-			height: 44px;
-			padding: 9px 48px 9px 15px;
-			border: 1px solid var(--gray1-color);
-			border-radius: var(--bradius);
-			background-color: var(--gray1-color);
-			color: var(--text-primary);
-			font-size: 15px;
-			line-height: 24px;
-		}
-		&.input-secondary + .select2.select2-container .select2-selection--single,
-		&.input-secondary + .select2.select2-container .select2-selection--multiple {
-			border-color: var(--gray21-color);
-			background-color: var(--white-color);
-		}
-		& + .select2.select2-container.select2-container--focus .select2-selection--single,
-		& + .select2.select2-container.select2-container--focus .select2-selection--multiple {
-			border-color: var(--green0-color);
-		}
-		// "ON" - when "initSelect2()" has {allowClear: true}
-		!*& + .select2-container--default .select2-selection--single .select2-selection__clear,
-		& + .select2-container--default .select2-selection--multiple .select2-selection__clear {
-			margin-right: 0;
-		}*!
-		& + .select2.select2-container .select2-selection--single .select2-selection__rendered,
-		& + .select2.select2-container .select2-selection--multiple .select2-selection__rendered {
-			padding: 0;
-		}
-		& + .select2.select2-container--default .select2-selection--single .select2-selection__rendered,
-		& + .select2.select2-container--default .select2-selection--multiple .select2-selection__rendered {
-			color: inherit;
-			line-height: inherit;
-		}
-		& + .select2.select2-container--default .select2-selection--single .select2-selection__arrow,
-		& + .select2.select2-container--default .select2-selection--multiple .select2-selection__arrow {
-			position: absolute;
-			top: unset;
-			right: 12px;
-			bottom: 12px;
-			min-width: 24px;
-			width: 24px;
-			min-height: 24px;
-			height: 24px;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
-		& + .select2.select2-container--default .select2-selection--single .select2-selection__arrow b,
-		& + .select2.select2-container--default .select2-selection--multiple .select2-selection__arrow b {
-			top: unset;
-			left: unset;
-			min-width: 12px;
-			width: 12px;
-			min-height: 12px;
-			height: 12px;
-			margin-top: 0;
-			margin-left: 0;
-			border: 0;
-			background: url("../img/sprite.svg#chevron-down-select") no-repeat center/cover transparent;
-		}
-	}*/
-
-	/*&-dropdown {
-		z-index: 10;
-		position: absolute;
-		top: calc(100% + 2px);
-		right: 0;
-		left: 0;
-		display: flex;
-		flex-direction: column;
-		border-radius: var(--bradius);
-		box-shadow: var(--shadow-popup0), var(--shadow-popup1), var(--shadow-popup2);
-		background-color: var(--white-color);
-		transition: var(--transition);
-
-		&__item {
-			display: flex;
-			align-items: center;
-			min-height: 40px;
-			height: 40px;
-			padding-right: 16px;
-			padding-left: 16px;
-			cursor: pointer;
-
-			.text-content {
-				display: -webkit-box;
-				-webkit-line-clamp: 1;
-				-webkit-box-orient: vertical;
-				overflow: hidden;
-			}
-		}
-	}*/
-
-	/*&-error-label {
-		display: none;
-		align-items: center;
-		gap: 4px;
-		padding-top: 8px;
-		color: var(--red10-color)!important;
-		font-size: 12px;
-
-		.icon {
-			min-width: 16px;
-			width: 16px;
-			min-height: 16px;
-			height: 16px;
-			fill: var(--red10-color)!important;
-			stroke: var(--red10-color)!important;
-		}
-	}*/
 
 	&:hover,
 	&:focus,
@@ -3694,9 +3503,6 @@ input.disabled {
 		flex-direction: column;
 		gap: 20px;
 	}
-	&__item {
-		flex: 1;
-	}
 	&__descr {
 		display: flex;
 		align-items: center;
@@ -3724,12 +3530,13 @@ input.disabled {
 			font-size: 15px;
 		}
 	}
-	&__subscribe {
+	&__act {
 		display: flex;
 		flex-direction: column;
 		gap: 16px;
 
-		.input-wrapper-split {
+		&-form {
+			display: flex;
 			flex-direction: column;
 			gap: 8px;
 		}
@@ -3749,10 +3556,28 @@ input.disabled {
 		}
 		&__descr {
 			gap: 36px;
+			min-width: calc((100% - 20px) * 0.45);
+			width: calc((100% - 20px) * 0.45);
 		}
-		&__subscribe {
-			.input-wrapper-split {
+		&__act {
+			min-width: calc((100% - 20px) * 0.55);
+			width: calc((100% - 20px) * 0.55);
+		}
+	}
+}
+@media (min-width: 1200px) {
+	.pre-footer {
+		&__act {
+			&-form {
 				flex-direction: row;
+
+				.input-wrapper {
+					flex: 1;
+					min-width: unset;
+				}
+				.btn {
+
+				}
 			}
 		}
 	}
