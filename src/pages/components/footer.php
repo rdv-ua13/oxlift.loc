@@ -56,6 +56,7 @@
                 <div class="footer__item footer-catalog">
                     <a class="footer__link footer__link-heading link-invert fw-semibold fz-subheading" href="javascript:;">Каталог</a>
                     <ul class="list-reset footer__list">
+                        <li><a class="footer__link link-invert" href="javascript:;" style="color: red;">Тестовый текст длинный тест!</a></li>
                         <li><a class="footer__link link-invert" href="javascript:;">Гидравлические тележки</a></li>
                         <li><a class="footer__link link-invert" href="javascript:;">Самоходные тележки</a></li>
                         <li><a class="footer__link link-invert" href="javascript:;">Погрузчики</a></li>
@@ -65,6 +66,7 @@
                         <li><a class="footer__link link-invert" href="javascript:;">Штабелеры</a></li>
                         <li><a class="footer__link link-invert" href="javascript:;">Подъемники и вышки</a></li>
                         <li><a class="footer__link link-invert" href="javascript:;">Гидравлические подъемные столы</a></li>
+                        <li><a class="footer__link link-invert" href="javascript:;" style="color: red;">Тестовый текст длинный тест!</a></li>
                         <li><a class="footer__link link-invert" href="javascript:;">Оборудование для промышленности</a></li>
                         <li><a class="footer__link link-invert" href="javascript:;">Клининговое оборудование</a></li>
                         <li><a class="footer__link link-invert" href="javascript:;">Оборудование с весами</a></li>
@@ -77,6 +79,7 @@
                 <div class="footer__item">
                     <span class="footer__link fw-semibold fz-subheading">Покупателям</span>
                     <ul class="list-reset footer__list">
+                        <li><a class="footer__link link-invert" href="javascript:;" style="color: red;">Тестовый текст длинный тест!</a></li>
                         <li><a class="footer__link link-invert" href="javascript:;">Доставка и оплата</a></li>
                         <li><a class="footer__link link-invert" href="javascript:;">Новости</a></li>
                         <li><a class="footer__link link-invert" href="javascript:;">История компании</a></li>
@@ -91,6 +94,7 @@
                 <div class="footer__item">
                     <span class="footer__link fw-semibold fz-subheading">Полезное</span>
                     <ul class="list-reset footer__list">
+                        <li><a class="footer__link link-invert" href="javascript:;" style="color: red;">Тестовый текст длинный тест!</a></li>
                         <li><a class="footer__link link-invert" href="javascript:;">Фотогалерея</a></li>
                         <li><a class="footer__link link-invert" href="javascript:;">Видеогалерея</a></li>
                         <li><a class="footer__link link-invert" href="javascript:;">Вакансии</a></li>
