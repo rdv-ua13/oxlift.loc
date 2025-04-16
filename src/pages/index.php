@@ -3881,7 +3881,7 @@
     </div>
 </div>
 
-<div class="gap-xl">
+<?/*<div class="gap-xl">
     <div class="container">
         <div class="basic-hca">
             <div class="basic-hca__heading">
@@ -3925,7 +3925,7 @@
             </div>
         </div>
     </div>
-</div>
+</div>*/?>
 
 <div class="gap-xl">
     <div class="container">
