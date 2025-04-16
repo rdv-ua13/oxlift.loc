@@ -9,7 +9,14 @@
 
     <title>TITLE</title>
 
-    <link rel="preload" href="fonts/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/nunito-sans-v11-latin_cyrillic-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/nunito-sans-v11-latin_cyrillic-600.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/nunito-sans-v11-latin_cyrillic-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/nunito-sans-v11-latin_cyrillic-900.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/NunitoSans-Regular.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/NunitoSans-SemiBold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/NunitoSans-Bold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/NunitoSans-Black.ttf" as="font" type="font/ttf" crossorigin>
 
     <link rel="stylesheet" href="css/main.css?v=<?=time();?>" type="text/css">
 
@@ -94,8 +101,8 @@
                         <img
                                 loading="lazy"
                                 class="image"
-                                src="img/logo.png"
-                                width="63"
+                                src="img/logo-new.jpeg"
+                                width="55"
                                 height="36"
                                 alt="oxlift.ru"
                         >
@@ -105,15 +112,6 @@
                         </a>
                     <?endif;?>
                 </div>
-
-                <?/*<div class="header-back">
-                    <a class="link link-flex" href="javascript:;">
-                        <svg class="icon icon-sm icon-fill">
-                            <use href="img/sprite.svg#chevron-left"></use>
-                        </svg>
-                        <span>Вернуться в корзину</span>
-                    </a>
-                </div>*/?>
 
                 <div class="header-catalog-spoiler">
                     <button
@@ -143,7 +141,6 @@
                                     placeholder="Найти товар или услугу"
                                     autocomplete="off"
                                     onclick="$(this).closest('.header-search').find('.header-search-results').toggleClass('active');"
-								    <?/*readonly*/?>
                             >
                             <button class="btn-reset btn input-delete-btn">
                                 <svg class="icon icon-fill">

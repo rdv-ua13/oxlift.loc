@@ -48,11 +48,31 @@
                     </div>
                 </div>
             </div>
+            <div class="index-top-secondary">
+                <div class="basic-slider-wrap">
+                    <div class="basic-slider swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <picture>
+                                    <source srcset="img/test.png" media="(min-width: 992px)">
+                                    <img src="img/test.png" alt="Изображение блока">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture>
+                                    <source srcset="img/test.png" media="(min-width: 992px)">
+                                    <img src="img/test.png" alt="Изображение блока">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 
-<div class="gap-sm-plus">
+<?/*<div class="gap-sm-plus">
     <div class="block dark-bg advantages-bg" style="background-image: url('img/tile_bg.png');">
         <div class="container">
             <div class="advantages">
@@ -108,6 +128,55 @@
                     </li>
                 </ul>
             </div>
+        </div>
+    </div>
+</div>*/?>
+
+<div class="gap-sm-plus">
+    <div class="container">
+        <div class="achievements">
+            <a class="achievements__item achievements__item--company" href="javascript:;" style="background: linear-gradient(98deg, #E0EBFE 17.99%, #EBF2FF 87.06%);">
+                <div class="achievements__descr">
+                    <div class="achievements__title">Компания OXLIFT</div>
+                    <div class="achievements__text-content">Мы осуществляем продажу товаров оптом и в розницу, предлагая превосходный сервис и низкие цены.</div>
+                </div>
+                <div class="achievements__view">
+                    <img
+                            loading="lazy"
+                            class="image"
+                            src="img/logo.png"
+                            alt="Изображение блока"
+                    >
+                </div>
+            </a>
+            <a class="achievements__item" href="javascript:;" style="background: linear-gradient(98deg, #F2D397 15.21%, #FFF2B2 90.86%);">
+                <div class="achievements__descr">
+                    <div class="achievements__title">Работаем для вас с 2015 г.</div>
+                    <div class="achievements__text-content">Компания "OXLIFT" работает для вас на оптово-розничном рынке поставок складского оборудования.</div>
+                </div>
+                <div class="achievements__view">
+                    <img
+                            loading="lazy"
+                            class="image"
+                            src="img/logo.png"
+                            alt="Изображение блока"
+                    >
+                </div>
+            </a>
+            <a class="achievements__item" href="javascript:;" style="background: linear-gradient(98deg, #A8D2FF 15.21%, #C5E1FF 90.86%);">
+                <div class="achievements__descr">
+                    <div class="achievements__title">Стандарт ISO <span class="achievements__title-iso">0000:0000</span></div>
+                    <div class="achievements__text-content">Успешно подтвердила международную сертификацию системы менеджмента качества в июне 2019 г.</div>
+                </div>
+                <div class="achievements__view">
+                    <img
+                            loading="lazy"
+                            class="image"
+                            src="img/logo.png"
+                            alt="Изображение блока"
+                    >
+                </div>
+            </a>
         </div>
     </div>
 </div>

@@ -88,13 +88,6 @@
 	&-logo {
 		display: flex;
 		align-items: center;
-
-		.image {
-			min-width: 130px;
-			width: 130px;
-			min-height: 36px;
-			height: 36px;
-		}
 	}
 
 	&-back {
@@ -677,121 +670,6 @@
 				align-items: center;
 				min-height: 36px;
 				height: 36px;
-
-				/*&__login {
-					position: relative;
-
-					&:hover,
-					&:active,
-					&.active {
-						.header-top-profile__user-menu {
-							z-index: 11;
-							opacity: 1;
-							user-select: auto;
-							pointer-events: auto;
-						}
-					}
-				}
-				&__user {
-					display: flex;
-					align-items: center;
-					gap: 2px;
-					max-width: 168px;
-					min-height: 22px;
-					height: 22px;
-					padding-left: 15px;
-					border-left: 1px solid var(--gray0-color);
-					cursor: pointer;
-
-					.icon {
-						min-width: 16px;
-						width: 16px;
-						min-height: 16px;
-						height: 16px;
-						fill: var(--gray50-color);
-						stroke: var(--gray50-color);
-					}
-					&-pointer {
-						min-width: 10px;
-						width: 10px;
-						min-height: 10px;
-						height: 10px;
-					}
-					.text-content {
-						position: relative;
-						display: -webkit-box;
-						-webkit-line-clamp: 1;
-						-webkit-box-orient: vertical;
-						overflow: hidden;
-						max-width: 115px;
-
-						&:not(:first-child) {
-							margin-left: 6px;
-						}
-
-						&::before {
-							content: '...';
-							z-index: 1;
-							position: absolute;
-							top: 0;
-							right: 0;
-							bottom: 0;
-							min-width: 10px;
-							width: 10px;
-							background-color: var(--white-color);
-							font-size: 14px;
-						}
-					}
-
-					&-menu {
-						z-index: -10;
-						position: absolute;
-						top: 100%;
-						right: 0;
-						display: flex;
-						flex-direction: column;
-						padding-top: 4px;
-						padding-bottom: 4px;
-						border-radius: var(--bradius);
-						box-shadow: var(--shadow-popup1), var(--shadow-popup2);
-						opacity: 0;
-						background-color: var(--white-color);
-						cursor: pointer;
-						user-select: none;
-						pointer-events: none;
-
-						&-item {
-							display: flex;
-							align-items: center;
-							gap: 8px;
-							min-height: 40px;
-							height: 40px;
-							padding-right: 16px;
-							padding-left: 16px;
-
-							.icon {
-								min-width: 18px;
-								width: 18px;
-								min-height: 18px;
-								height: 18px;
-							}
-						}
-						&-logout {
-							margin-top: 4px;
-							padding-top: 4px;
-							border-top: 1px solid var(--gray0-color);
-
-							.header-top-profile__user-menu-item {
-								color: var(--text-secondary);
-
-								.icon {
-									fill: var(--text-secondary);
-									stroke: var(--text-secondary);
-								}
-							}
-						}
-					}
-				}*/
 			}
 		}
 
@@ -806,10 +684,10 @@
 			}
 
 			.image {
-				min-width: 91px;
-				width: 91px;
-				min-height: 52px;
-				height: 52px;
+				min-width: 88px;
+				width: 88px;
+				min-height: 58px;
+				height: 58px;
 			}
 		}
 
@@ -1143,8 +1021,8 @@
 				padding-bottom: 4px;
 
 				.image {
-					min-width: 63px;
-					width: 63px;
+					min-width: 55px;
+					width: 55px;
 					min-height: 36px;
 					height: 36px;
 				}

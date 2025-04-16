@@ -8,7 +8,14 @@
 
     <title>ui page</title>
 
-    <link rel="preload" href="fonts/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/nunito-sans-v11-latin_cyrillic-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/nunito-sans-v11-latin_cyrillic-600.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/nunito-sans-v11-latin_cyrillic-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/nunito-sans-v11-latin_cyrillic-900.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/NunitoSans-Regular.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/NunitoSans-SemiBold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/NunitoSans-Bold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/NunitoSans-Black.ttf" as="font" type="font/ttf" crossorigin>
 
     <link rel="stylesheet" href="css/main.css" type="text/css">
     <link rel="stylesheet" href="css/ui.css" type="text/css">
