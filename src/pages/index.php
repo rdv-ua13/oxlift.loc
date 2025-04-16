@@ -879,8 +879,8 @@
                                                         <div class="card__price">
                                                             <span class="card__price-title">Цена</span>
                                                             <span class="card__price-value">
-                                                                <span class="card__price-current">21000 ₽</span>
-                                                                <span class="card__price-origin">22300 ₽</span>
+                                                                <span class="card__price-current">21 000 ₽</span>
+                                                                <span class="card__price-origin">22 300 ₽</span>
                                                             </span>
                                                         </div>
 
@@ -989,7 +989,7 @@
                                                         <div class="card__price">
                                                             <span class="card__price-title">Цена</span>
                                                             <span class="card__price-value">
-                                                                <span class="card__price-current">175320 ₽</span>
+                                                                <span class="card__price-current">175 320 ₽</span>
                                                             </span>
                                                         </div>
 
@@ -1206,8 +1206,8 @@
                                                         <div class="card__price">
                                                             <span class="card__price-title">Цена</span>
                                                             <span class="card__price-value">
-                                                                <span class="card__price-current">21000 ₽</span>
-                                                                <span class="card__price-origin">22300 ₽</span>
+                                                                <span class="card__price-current">21 000 ₽</span>
+                                                                <span class="card__price-origin">22 300 ₽</span>
                                                             </span>
                                                         </div>
 
@@ -1316,7 +1316,7 @@
                                                         <div class="card__price">
                                                             <span class="card__price-title">Цена</span>
                                                             <span class="card__price-value">
-                                                                <span class="card__price-current">175320 ₽</span>
+                                                                <span class="card__price-current">175 320 ₽</span>
                                                             </span>
                                                         </div>
 
@@ -1533,8 +1533,8 @@
                                                         <div class="card__price">
                                                             <span class="card__price-title">Цена</span>
                                                             <span class="card__price-value">
-                                                                <span class="card__price-current">21000 ₽</span>
-                                                                <span class="card__price-origin">22300 ₽</span>
+                                                                <span class="card__price-current">21 000 ₽</span>
+                                                                <span class="card__price-origin">22 300 ₽</span>
                                                             </span>
                                                         </div>
 
@@ -1643,7 +1643,7 @@
                                                         <div class="card__price">
                                                             <span class="card__price-title">Цена</span>
                                                             <span class="card__price-value">
-                                                                <span class="card__price-current">175320 ₽</span>
+                                                                <span class="card__price-current">175 320 ₽</span>
                                                             </span>
                                                         </div>
 
@@ -1886,7 +1886,7 @@
                                                         <div class="card__price">
                                                             <span class="card__price-title">Цена</span>
                                                             <span class="card__price-value">
-                                                                <span class="card__price-current">175320 ₽</span>
+                                                                <span class="card__price-current">175 320 ₽</span>
                                                             </span>
                                                         </div>
 
@@ -1995,8 +1995,8 @@
                                                         <div class="card__price">
                                                             <span class="card__price-title">Цена</span>
                                                             <span class="card__price-value">
-                                                                <span class="card__price-current">21000 ₽</span>
-                                                                <span class="card__price-origin">22300 ₽</span>
+                                                                <span class="card__price-current">21 000 ₽</span>
+                                                                <span class="card__price-origin">22 300 ₽</span>
                                                             </span>
                                                         </div>
 
@@ -2213,8 +2213,8 @@
                                                         <div class="card__price">
                                                             <span class="card__price-title">Цена</span>
                                                             <span class="card__price-value">
-                                                                <span class="card__price-current">21000 ₽</span>
-                                                                <span class="card__price-origin">22300 ₽</span>
+                                                                <span class="card__price-current">21 000 ₽</span>
+                                                                <span class="card__price-origin">22 300 ₽</span>
                                                             </span>
                                                         </div>
 
@@ -2323,7 +2323,7 @@
                                                         <div class="card__price">
                                                             <span class="card__price-title">Цена</span>
                                                             <span class="card__price-value">
-                                                                <span class="card__price-current">175320 ₽</span>
+                                                                <span class="card__price-current">175 320 ₽</span>
                                                             </span>
                                                         </div>
 
@@ -2540,8 +2540,8 @@
                                                         <div class="card__price">
                                                             <span class="card__price-title">Цена</span>
                                                             <span class="card__price-value">
-                                                                <span class="card__price-current">21000 ₽</span>
-                                                                <span class="card__price-origin">22300 ₽</span>
+                                                                <span class="card__price-current">21 000 ₽</span>
+                                                                <span class="card__price-origin">22 300 ₽</span>
                                                             </span>
                                                         </div>
 
@@ -2650,7 +2650,7 @@
                                                         <div class="card__price">
                                                             <span class="card__price-title">Цена</span>
                                                             <span class="card__price-value">
-                                                                <span class="card__price-current">175320 ₽</span>
+                                                                <span class="card__price-current">175 320 ₽</span>
                                                             </span>
                                                         </div>
 
@@ -3001,8 +3001,8 @@
                                                         <div class="card__price">
                                                             <span class="card__price-title">Цена</span>
                                                             <span class="card__price-value">
-                                                                <span class="card__price-current">21000 ₽</span>
-                                                                <span class="card__price-origin">22300 ₽</span>
+                                                                <span class="card__price-current">21 000 ₽</span>
+                                                                <span class="card__price-origin">22 300 ₽</span>
                                                             </span>
                                                         </div>
 
@@ -3111,7 +3111,7 @@
                                                         <div class="card__price">
                                                             <span class="card__price-title">Цена</span>
                                                             <span class="card__price-value">
-                                                                <span class="card__price-current">175320 ₽</span>
+                                                                <span class="card__price-current">175 320 ₽</span>
                                                             </span>
                                                         </div>
 
@@ -3220,8 +3220,8 @@
                                                         <div class="card__price">
                                                             <span class="card__price-title">Цена</span>
                                                             <span class="card__price-value">
-                                                                <span class="card__price-current">21000 ₽</span>
-                                                                <span class="card__price-origin">22300 ₽</span>
+                                                                <span class="card__price-current">21 000 ₽</span>
+                                                                <span class="card__price-origin">22 300 ₽</span>
                                                             </span>
                                                         </div>
 
@@ -3330,7 +3330,7 @@
                                                         <div class="card__price">
                                                             <span class="card__price-title">Цена</span>
                                                             <span class="card__price-value">
-                                                                <span class="card__price-current">175320 ₽</span>
+                                                                <span class="card__price-current">175 320 ₽</span>
                                                             </span>
                                                         </div>
 
@@ -3547,8 +3547,8 @@
                                                         <div class="card__price">
                                                             <span class="card__price-title">Цена</span>
                                                             <span class="card__price-value">
-                                                                <span class="card__price-current">21000 ₽</span>
-                                                                <span class="card__price-origin">22300 ₽</span>
+                                                                <span class="card__price-current">21 000 ₽</span>
+                                                                <span class="card__price-origin">22 300 ₽</span>
                                                             </span>
                                                         </div>
 
@@ -3657,7 +3657,7 @@
                                                         <div class="card__price">
                                                             <span class="card__price-title">Цена</span>
                                                             <span class="card__price-value">
-                                                                <span class="card__price-current">175320 ₽</span>
+                                                                <span class="card__price-current">175 320 ₽</span>
                                                             </span>
                                                         </div>
 
