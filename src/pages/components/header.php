@@ -366,7 +366,7 @@
                 </div>
 
                 <div class="header-pay">
-                    <a class="btn-reset btn btn-extra-secondary" href="javascript:;" data-fancybox data-src="#modal-calc">Онлайн оплата</a>
+                    <a class="btn-reset btn btn-extra-secondary" href="javascript:;">Написать нам</a>
                 </div>
 
                 <div class="header-contacts">
