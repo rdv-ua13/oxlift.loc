@@ -23,19 +23,9 @@ application.prototype.init = function () {
     this.initBasicTabs();
     this.initInputSearchBehavior();
     this.initSearchResBehavior();
-    /*this.initClipboard();*/
-    /*this.initContactsMap();*/
     this.initDeleteTrigger();
-    /*this.initCatalogSidebarFilter();*/
-    /*this.initCatalogContentSort();*/
     this.initCardAction();
     this.initCardActionMore();
-    /*this.initSmoothScrollTo();*/
-    /*this.initDatepicker();*/
-    /*this.initMaskedInput();*/
-    /*this.initPasswordSwitcher();*/
-    /*this.initSelect2();*/
-    /*this.initInputDropdown();*/
 
     this.initTestShowHideDropmenu();
 };
