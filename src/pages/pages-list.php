@@ -60,7 +60,7 @@
     <body>
     <div style="display: flex; align-items:center; margin: 0 0 15px 20px;">
         <div class="logo">
-            <img src="img/logo-new.jpeg" width="200" height="132" alt="Логотип компании">
+            <img src="img/logo-new1.png" width="200" height="132" alt="Логотип компании">
         </div>
         <span style="display: inline-flex; align-items:center; font-size: 24px;">
             <span style="color: forestgreen; font-weight: 600;">-- + ui</span>

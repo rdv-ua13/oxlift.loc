@@ -101,7 +101,7 @@
                         <img
                                 loading="lazy"
                                 class="image"
-                                src="img/logo-new.jpeg"
+                                src="img/logo-new1.png"
                                 width="55"
                                 height="36"
                                 alt="oxlift.ru"

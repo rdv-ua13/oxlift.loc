@@ -54,14 +54,14 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <picture>
-                                    <source srcset="img/test.png" media="(min-width: 992px)">
-                                    <img src="img/test.png" alt="Изображение блока">
+                                    <source srcset="img/banner2_img_1.png" media="(min-width: 992px)">
+                                    <img class="image" src="img/banner2_img_1.png" alt="Изображение блока">
                                 </picture>
                             </div>
                             <div class="swiper-slide">
                                 <picture>
-                                    <source srcset="img/test.png" media="(min-width: 992px)">
-                                    <img src="img/test.png" alt="Изображение блока">
+                                    <source srcset="img/banner2_img_1.png" media="(min-width: 992px)">
+                                    <img class="image" src="img/banner2_img_1.png" alt="Изображение блока">
                                 </picture>
                             </div>
                         </div>
@@ -144,21 +144,25 @@
                     <img
                             loading="lazy"
                             class="image"
-                            src="img/logo.png"
+                            src="img/logo-new1.png"
+                            width="115"
+                            height="76"
                             alt="Изображение блока"
                     >
                 </div>
             </a>
             <a class="achievements__item" href="javascript:;" style="background: linear-gradient(98deg, #F2D397 15.21%, #FFF2B2 90.86%);">
                 <div class="achievements__descr">
-                    <div class="achievements__title">Работаем для вас с 2015 г.</div>
+                    <div class="achievements__title">Работаем для вас с 2015&nbsp;г.</div>
                     <div class="achievements__text-content">Компания "OXLIFT" работает для вас на оптово-розничном рынке поставок складского оборудования.</div>
                 </div>
                 <div class="achievements__view">
                     <img
                             loading="lazy"
                             class="image"
-                            src="img/logo.png"
+                            src="img/logo-new1.png"
+                            width="115"
+                            height="76"
                             alt="Изображение блока"
                     >
                 </div>
@@ -172,7 +176,9 @@
                     <img
                             loading="lazy"
                             class="image"
-                            src="img/logo.png"
+                            src="img/logo-new1.png"
+                            width="115"
+                            height="76"
                             alt="Изображение блока"
                     >
                 </div>
