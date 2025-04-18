@@ -84,7 +84,7 @@
                     <img
                             loading="lazy"
                             class="image"
-                            src="img/logo-new1.png"
+                            src="img/logo.svg"
                             width="115"
                             height="76"
                             alt="Изображение блока"
@@ -100,7 +100,7 @@
                     <img
                             loading="lazy"
                             class="image"
-                            src="img/logo-new1.png"
+                            src="img/logo.svg"
                             width="115"
                             height="76"
                             alt="Изображение блока"
@@ -116,7 +116,7 @@
                     <img
                             loading="lazy"
                             class="image"
-                            src="img/logo-new1.png"
+                            src="img/logo.svg"
                             width="115"
                             height="76"
                             alt="Изображение блока"

@@ -13,6 +13,7 @@ application.prototype.init = function () {
     this.initTooltips();
     this.initReadmore();
     this.initHeaderFloat();
+    this.initHeaderContactsClickMobile();
     this.initBurger();
     this.initOverlay();
     this.initMenu();
@@ -203,6 +204,23 @@ application.prototype.initHeaderFloat = function () {
         }
         else {
             $('.header').removeClass('header-float');
+        }
+    }
+};
+
+// Initialize header contacts click mobile
+application.prototype.initHeaderContactsClickMobile = function () {
+    $(window).on('resize', headerContactsOnResizeOff);
+
+    $('.header-contacts__email').on('click', function () {
+        if(window.matchMedia('(max-width: 575.98px)').matches) {
+            $(this).addClass('active');
+        }
+    });
+
+    function headerContactsOnResizeOff() {
+        if(window.matchMedia('(min-width: 576)').matches) {
+            $('.header-contacts__email').removeClass('active');
         }
     }
 };

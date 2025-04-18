@@ -75,6 +75,21 @@
                     </a>
                 </div>
                 <div class="header-top-info">
+                    <div class="header-top-info__email">
+                        <div class="header-top-info__email-view">
+                            <svg class="icon icon-fill">
+                                <use href="img/sprite.svg#sms"></use>
+                            </svg>
+                        </div>
+                        <div class="header-top-info__email-title">Email</div>
+                        <a class="header-top__link header-top-info__email-link" href="mailto:sales+189802973@oxlift.ru">
+                            <svg class="icon icon-fill">
+                                <use href="img/sprite.svg#sms"></use>
+                            </svg>
+                            <span class="text-content">sales+189802973@oxlift.ru</span>
+                        </a>
+                    </div>
+
                     <a class="header-top__link" href="tel:+88005007869">
                         <svg class="icon icon-fill mobile-only">
                             <use href="img/sprite.svg#call-calling"></use>
@@ -101,7 +116,7 @@
                         <img
                                 loading="lazy"
                                 class="image"
-                                src="img/logo-new1.png"
+                                src="img/logo.svg"
                                 width="55"
                                 height="36"
                                 alt="oxlift.ru"
@@ -371,6 +386,14 @@
 
                 <div class="header-contacts">
                     <a class="link fw-semibold fz-subheading header-contacts__tel" href="tel:+88005007869">8 800 500 78 69</a>
+                    <div class="header-contacts__email">
+                        <a class="header-top__link header-contacts__email-link" href="mailto:sales+189802973@oxlift.ru">
+                            <svg class="icon icon-fill">
+                                <use href="img/sprite.svg#sms"></use>
+                            </svg>
+                            <span class="text-content">sales+189802973@oxlift.ru</span>
+                        </a>
+                    </div>
                 </div>
 
                 <div class="header-mobile-menu">
@@ -533,23 +556,25 @@
             </div>
 
             <div class="mobile-menu-connection">
-                <a class="mobile-menu-connection__email" href="mailto:sales@oxlift.ru">
+                <a class="mobile-menu-connection__email" href="mailto:sales+189802973@oxlift.ru">
                     <svg class="icon icon-fill">
                         <use href="img/sprite.svg#sms"></use>
                     </svg>
-                    <span class="text-content">sales@oxlift.ru</span>
+                    <span class="text-content">sales+189802973@oxlift.ru</span>
                 </a>
-                <div class="mobile-menu-connection__soc">
-                    <a href="javascript:;" class="mobile-menu-connection__soc-item">
-                        <svg class="icon icon-fill icon-xl">
-                            <use href="img/sprite.svg#soc-vk"></use>
-                        </svg>
-                    </a>
-                    <a href="javascript:;" class="mobile-menu-connection__soc-item">
-                        <svg class="icon icon-fill icon-xl">
-                            <use href="img/sprite.svg#soc-tg"></use>
-                        </svg>
-                    </a>
+                <div class="mobile-menu-connection__soc social">
+                    <div class="social__list">
+                        <a href="javascript:;" class="social__item mobile-menu-connection__soc-item">
+                            <svg class="icon icon-fill icon-xl">
+                                <use href="img/sprite.svg#soc-vk-bg"></use>
+                            </svg>
+                        </a>
+                        <a href="javascript:;" class="social__item mobile-menu-connection__soc-item">
+                            <svg class="icon icon-fill icon-xl">
+                                <use href="img/sprite.svg#soc-tg-bg"></use>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

@@ -61,7 +61,6 @@
 
 				&:hover,
 				&:focus,
-				&:active,
 				&.active {
 					.icon {
 						fill: var(--gray50-color);
@@ -435,7 +434,7 @@
 			}
 
 			&:hover,
-			&:active,
+			&:focus,
 			&.active {
 				background-color: var(--gray0-color);
 			}
@@ -639,30 +638,18 @@
 
 		&-top {
 			&-container {
-				gap: 32px;
+				gap: 24px;
 			}
 			&-nav {
-				gap: 8px 24px;
+				gap: 8px 16px;
 			}
 			&-info {
-				gap: 8px 20px;
+				gap: 8px 16px;
 
-				.link {
-					.text-content {
-						text-decoration: underline;
-						text-decoration-style: solid;
-						text-underline-offset: 4px;
-						text-decoration-color: var(--gray10-color);
-					}
-
-					&:hover,
-					&:focus,
-					&:active,
-					&.active {
-						.text-content {
-							text-decoration-color: var(--green10-color);
-						}
-					}
+				&__email {
+					position: relative;
+					display: flex;
+					align-items: center;
 				}
 			}
 			&-profile {
@@ -999,6 +986,20 @@
 		display: none;
 	}
 }
+@media (min-width: 1400px) {
+	.header {
+		&-top {
+			&-info {
+				&__email {
+					&-view,
+					&-title {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}
 @media (max-width: 1199.98px) {
 	.header {
 		border-bottom: 1px solid var(--gray0-color);
@@ -1225,12 +1226,42 @@
 
 		&-contacts {
 			order: 5;
+			display: flex;
+			align-items: center;
+			gap: 16px;
 			margin-left: auto;
 
 			&:not(:last-child) {
 				margin-right: 8px;
 			}
 
+			&__email {
+				position: relative;
+				display: flex;
+				align-items: center;
+				gap: 4px;
+				min-height: 44px;
+				height: 44px;
+				font-weight: 600;
+				cursor: pointer;
+
+				&-view {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				}
+				.icon {
+					min-width: 24px;
+					width: 24px;
+					min-height: 24px;
+					height: 24px;
+					fill: var(--text-primary);
+					stroke: var(--text-primary);
+				}
+				&-title {
+					color: var(--text-primary);
+				}
+			}
 			&__tel {
 				line-height: 44px;
 			}
@@ -1376,13 +1407,156 @@
 				}
 
 				&:hover,
-				&:active,
+				&:focus,
 				&.active {
 					background-color: var(--gray0-color);
 				}
 
 				&--all {
 					display: none;
+				}
+			}
+		}
+	}
+}
+@media (max-width: 991.98px) {
+	.header {
+		&-contacts {
+			&__email {
+				font-size: 15px;
+			}
+		}
+	}
+}
+@media (max-width: 575.98px) {
+	.header {
+		&-contacts {
+			&:not(:last-child) {
+				margin-right: unset;
+			}
+			&__email {
+				&-link {
+					justify-content: center;
+					min-width: 44px;
+					width: 44px;
+					background-color: var(--white-color);
+					color: var(--text-primary);
+
+					.text-content {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}
+@media (min-width: 576px) and (max-width: 1199.98px) {
+	.header {
+		&-contacts {
+			&__email {
+				&-view,
+				&-title {
+					display: none;
+				}
+			}
+		}
+	}
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.header {
+		&-contacts {
+			&__email {
+				font-size: 16px;
+			}
+		}
+	}
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	.header {
+		&-top {
+			&-info {
+				&__email {
+					position: relative;
+					display: flex;
+					align-items: center;
+					gap: 4px;
+					min-height: 40px;
+					height: 40px;
+					font-weight: 600;
+					cursor: pointer;
+
+					&-view {
+						display: flex;
+						justify-content: center;
+						align-items: center;
+
+						.icon {
+							min-width: 16px;
+							width: 16px;
+							min-height: 16px;
+							height: 16px;
+							fill: var(--white-color);
+							stroke: var(--white-color);
+						}
+					}
+					&-title {
+						color: var(--white-color);
+					}
+
+					&-link {
+						z-index: 2;
+						position: absolute;
+						top: calc(100% - 4px);
+						left: 0;
+						min-width: 100%;
+						padding: 8px;
+						opacity: 0;
+						border-radius: var(--bradius);
+						box-shadow: var(--shadow-popup0), var(--shadow-popup1);
+						background-color: var(--gray0-color);
+						color: var(--text-primary);
+						user-select: none;
+						pointer-events: none;
+
+						&::before {
+							content: "";
+							position: absolute;
+							top: -4px;
+							left: 8px;
+							min-width: 8px;
+							width: 8px;
+							min-height: 8px;
+							height: 8px;
+							background-color: var(--gray0-color);
+							transform: rotate(45deg);
+							transition: var(--transition);
+						}
+
+						.icon {
+							fill: var(--text-primary);
+							stroke: var(--text-primary);
+						}
+
+						&:hover,
+						&:focus,
+						&.active {
+							background-color: var(--white-color);
+
+							&::before {
+								background-color: var(--white-color);
+							}
+						}
+					}
+
+					&:hover,
+					&:focus,
+					&.active {
+						.header-top-info__email-link {
+							opacity: 1;
+							user-select: auto;
+							pointer-events: auto;
+						}
+					}
 				}
 			}
 		}
