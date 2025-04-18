@@ -72,66 +72,6 @@
     </div>
 </div>
 
-<?/*<div class="gap-sm-plus">
-    <div class="block dark-bg advantages-bg" style="background-image: url('img/tile_bg.png');">
-        <div class="container">
-            <div class="advantages">
-                <div class="gap-sm-plus h2 advantages__heading">Преимущества</div>
-                <ul class="list-reset advantages__list">
-                    <li class="advantages__item">
-                        <span class="advantages__view">
-                            <img
-                                    loading="lazy"
-                                    class="image"
-                                    src="img/advantages_img_1.png"
-                                    width="60"
-                                    height="60"
-                                    alt="Изображение блока"
-                            >
-                        </span>
-                        <span class="advantages__descr">
-                            <span class="fz-subheading advantages__title">Высокая квалификация специалистов</span>
-                            <span class="advantages__info">Наши специалисты ответят на любой интересующий Вас вопрос и помогут выбрать оборудование по нужным Вам характеристикам</span>
-                        </span>
-                    </li>
-                    <li class="advantages__item">
-                        <span class="advantages__view">
-                            <img
-                                    loading="lazy"
-                                    class="image"
-                                    src="img/advantages_img_2.png"
-                                    width="60"
-                                    height="60"
-                                    alt="Изображение блока"
-                            >
-                        </span>
-                        <span class="advantages__descr">
-                            <span class="fz-subheading advantages__title">Гарантия качества</span>
-                            <span class="advantages__info">Вся продукция сопровождается сертификатами и соответствует самым высоким мировым стандартам качества</span>
-                        </span>
-                    </li>
-                    <li class="advantages__item">
-                        <span class="advantages__view">
-                            <img
-                                    loading="lazy"
-                                    class="image"
-                                    src="img/advantages_img_3.png"
-                                    width="60"
-                                    height="60"
-                                    alt="Изображение блока"
-                            >
-                        </span>
-                        <span class="advantages__descr">
-                            <span class="fz-subheading advantages__title">Ассортимент запчастей</span>
-                            <span class="advantages__info">Более 5 тонн запчастей для нашего оборудования в наличии на складе</span>
-                        </span>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>*/?>
-
 <div class="gap-sm-plus">
     <div class="container">
         <div class="achievements">
@@ -200,13 +140,13 @@
                             loading="lazy"
                             class="image"
                             src="img/cp1.png"
-                            width="60"
-                            height="60"
+                            width="100"
+                            height="64"
                             alt="Изображение блока"
                         >
                     </div>
                     <div class="catalog-index__descr">
-                        <a href="javascript:;" class="catalog-index__heading h4">Гидравлические тележки</a>
+                        <a href="javascript:;" class="catalog-index__heading">Гидравлические тележки</a>
                         <ul class="list-reset catalog-index__list">
                             <li class="catalog-index__list-item">
                                 <a href="javascript:;" class="catalog-index__list-link">Стандартные</a>
@@ -239,13 +179,13 @@
                                 loading="lazy"
                                 class="image"
                                 src="img/cp2.png"
-                                width="60"
-                                height="60"
+                                width="100"
+                                height="64"
                                 alt="Изображение блока"
                         >
                     </div>
                     <div class="catalog-index__descr">
-                        <a href="javascript:;" class="catalog-index__heading h4">Самоходные тележки</a>
+                        <a href="javascript:;" class="catalog-index__heading">Самоходные тележки</a>
                         <ul class="list-reset catalog-index__list">
                             <li class="catalog-index__list-item">
                                 <a href="javascript:;" class="catalog-index__list-link">Стандартные самоходные тележки</a>
@@ -266,13 +206,13 @@
                                 loading="lazy"
                                 class="image"
                                 src="img/cp1.png"
-                                width="60"
-                                height="60"
+                                width="100"
+                                height="64"
                                 alt="Изображение блока"
                         >
                     </div>
                     <div class="catalog-index__descr">
-                        <a href="javascript:;" class="catalog-index__heading h4">Погрузчики</a>
+                        <a href="javascript:;" class="catalog-index__heading">Погрузчики</a>
                         <ul class="list-reset catalog-index__list">
                             <li class="catalog-index__list-item">
                                 <a href="javascript:;" class="catalog-index__list-link">Автопогрузчики</a>
@@ -299,13 +239,13 @@
                                 loading="lazy"
                                 class="image"
                                 src="img/cp2.png"
-                                width="60"
-                                height="60"
+                                width="100"
+                                height="64"
                                 alt="Изображение блока"
                         >
                     </div>
                     <div class="catalog-index__descr">
-                        <a href="javascript:;" class="catalog-index__heading h4">Электротягачи</a>
+                        <a href="javascript:;" class="catalog-index__heading">Электротягачи</a>
                     </div>
                 </div>
                 <div class="catalog-index__item">
@@ -314,13 +254,13 @@
                                 loading="lazy"
                                 class="image"
                                 src="img/cp1.png"
-                                width="60"
-                                height="60"
+                                width="100"
+                                height="64"
                                 alt="Изображение блока"
                         >
                     </div>
                     <div class="catalog-index__descr">
-                        <a href="javascript:;" class="catalog-index__heading h4">Оборудование для агрессивных сред</a>
+                        <a href="javascript:;" class="catalog-index__heading">Оборудование для агрессивных сред</a>
                     </div>
                 </div>
                 <div class="catalog-index__item">
@@ -329,13 +269,13 @@
                                 loading="lazy"
                                 class="image"
                                 src="img/cp2.png"
-                                width="60"
-                                height="60"
+                                width="100"
+                                height="64"
                                 alt="Изображение блока"
                         >
                     </div>
                     <div class="catalog-index__descr">
-                        <a href="javascript:;" class="catalog-index__heading h4">Запчасти</a>
+                        <a href="javascript:;" class="catalog-index__heading">Запчасти</a>
                         <ul class="list-reset catalog-index__list">
                             <li class="catalog-index__list-item">
                                 <a href="javascript:;" class="catalog-index__list-link">Запчасти для рохли</a>
@@ -356,13 +296,13 @@
                                 loading="lazy"
                                 class="image"
                                 src="img/cp1.png"
-                                width="60"
-                                height="60"
+                                width="100"
+                                height="64"
                                 alt="Изображение блока"
                         >
                     </div>
                     <div class="catalog-index__descr">
-                        <a href="javascript:;" class="catalog-index__heading h4">Штабелеры</a>
+                        <a href="javascript:;" class="catalog-index__heading">Штабелеры</a>
                         <ul class="list-reset catalog-index__list">
                             <li class="catalog-index__list-item">
                                 <a href="javascript:;" class="catalog-index__list-link">Ручные гидравлические штабелеры</a>
@@ -389,13 +329,13 @@
                                 loading="lazy"
                                 class="image"
                                 src="img/cp2.png"
-                                width="60"
-                                height="60"
+                                width="100"
+                                height="64"
                                 alt="Изображение блока"
                         >
                     </div>
                     <div class="catalog-index__descr">
-                        <a href="javascript:;" class="catalog-index__heading h4">Подъемники и вышки</a>
+                        <a href="javascript:;" class="catalog-index__heading">Подъемники и вышки</a>
                         <ul class="list-reset catalog-index__list">
                             <li class="catalog-index__list-item">
                                 <a href="javascript:;" class="catalog-index__list-link">Ножничные подъемники</a>
@@ -422,13 +362,13 @@
                                 loading="lazy"
                                 class="image"
                                 src="img/cp1.png"
-                                width="60"
-                                height="60"
+                                width="100"
+                                height="64"
                                 alt="Изображение блока"
                         >
                     </div>
                     <div class="catalog-index__descr">
-                        <a href="javascript:;" class="catalog-index__heading h4">Гидравлические подъемные столы</a>
+                        <a href="javascript:;" class="catalog-index__heading">Гидравлические подъемные столы</a>
                         <ul class="list-reset catalog-index__list">
                             <li class="catalog-index__list-item">
                                 <a href="javascript:;" class="catalog-index__list-link">Подъемные столы передвижные</a>
@@ -455,13 +395,13 @@
                                 loading="lazy"
                                 class="image"
                                 src="img/cp2.png"
-                                width="60"
-                                height="60"
+                                width="100"
+                                height="64"
                                 alt="Изображение блока"
                         >
                     </div>
                     <div class="catalog-index__descr">
-                        <a href="javascript:;" class="catalog-index__heading h4">Оборудование для промышленности</a>
+                        <a href="javascript:;" class="catalog-index__heading">Оборудование для промышленности</a>
                     </div>
                 </div>
                 <div class="catalog-index__item">
@@ -470,13 +410,13 @@
                                 loading="lazy"
                                 class="image"
                                 src="img/cp1.png"
-                                width="60"
-                                height="60"
+                                width="100"
+                                height="64"
                                 alt="Изображение блока"
                         >
                     </div>
                     <div class="catalog-index__descr">
-                        <a href="javascript:;" class="catalog-index__heading h4">Клининговое оборудование</a>
+                        <a href="javascript:;" class="catalog-index__heading">Клининговое оборудование</a>
                         <ul class="list-reset catalog-index__list">
                             <li class="catalog-index__list-item">
                                 <a href="javascript:;" class="catalog-index__list-link">Поломоечные машины</a>
@@ -494,13 +434,13 @@
                                 loading="lazy"
                                 class="image"
                                 src="img/cp2.png"
-                                width="60"
-                                height="60"
+                                width="100"
+                                height="64"
                                 alt="Изображение блока"
                         >
                     </div>
                     <div class="catalog-index__descr">
-                        <a href="javascript:;" class="catalog-index__heading h4">Оборудование с весами</a>
+                        <a href="javascript:;" class="catalog-index__heading">Оборудование с весами</a>
                     </div>
                 </div>
                 <div class="catalog-index__item">
@@ -509,13 +449,13 @@
                                 loading="lazy"
                                 class="image"
                                 src="img/cp1.png"
-                                width="60"
-                                height="60"
+                                width="100"
+                                height="64"
                                 alt="Изображение блока"
                         >
                     </div>
                     <div class="catalog-index__descr">
-                        <a href="javascript:;" class="catalog-index__heading h4">Ричтраки</a>
+                        <a href="javascript:;" class="catalog-index__heading">Ричтраки</a>
                         <ul class="list-reset catalog-index__list">
                             <li class="catalog-index__list-item">
                                 <a href="javascript:;" class="catalog-index__list-link">Многоходовые</a>
@@ -539,13 +479,13 @@
                                 loading="lazy"
                                 class="image"
                                 src="img/cp2.png"
-                                width="60"
-                                height="60"
+                                width="100"
+                                height="64"
                                 alt="Изображение блока"
                         >
                     </div>
                     <div class="catalog-index__descr">
-                        <a href="javascript:;" class="catalog-index__heading h4">Колесные опоры и ролики</a>
+                        <a href="javascript:;" class="catalog-index__heading">Колесные опоры и ролики</a>
                         <ul class="list-reset catalog-index__list">
                             <li class="catalog-index__list-item">
                                 <a href="javascript:;" class="catalog-index__list-link">Нейлоновые колёса</a>
@@ -566,13 +506,13 @@
                                 loading="lazy"
                                 class="image"
                                 src="img/cp1.png"
-                                width="60"
-                                height="60"
+                                width="100"
+                                height="64"
                                 alt="Изображение блока"
                         >
                     </div>
                     <div class="catalog-index__descr">
-                        <a href="javascript:;" class="catalog-index__heading h4">Грузоподъемное оборудование</a>
+                        <a href="javascript:;" class="catalog-index__heading">Грузоподъемное оборудование</a>
                         <ul class="list-reset catalog-index__list">
                             <li class="catalog-index__list-item">
                                 <a href="javascript:;" class="catalog-index__list-link">Тали</a>
@@ -587,13 +527,13 @@
                                 loading="lazy"
                                 class="image"
                                 src="img/cp2.png"
-                                width="60"
-                                height="60"
+                                width="100"
+                                height="64"
                                 alt="Изображение блока"
                         >
                     </div>
                     <div class="catalog-index__descr">
-                        <a href="javascript:;" class="catalog-index__heading h4">Комплектовщики заказов</a>
+                        <a href="javascript:;" class="catalog-index__heading">Комплектовщики заказов</a>
                         <ul class="list-reset catalog-index__list">
                             <li class="catalog-index__list-item">
                                 <a href="javascript:;" class="catalog-index__list-link">Вертикальные комплектовщики</a>
@@ -3886,52 +3826,6 @@
         </div>
     </div>
 </div>
-
-<?/*<div class="gap-xl">
-    <div class="container">
-        <div class="basic-hca">
-            <div class="basic-hca__heading">
-                <div class="h2">Складская техника и оборудование</div>
-            </div>
-            <div class="basic-hca__content">
-                <div class="seo-block">
-                    <div class="seo-block__item">
-                        <p>Представительство завода-производителя «OXLIFT» работает на территории России с 2015 года. OXLIFT производит складскую подъемную технику, от гидравлических тележек до электронных узкопроходных штабелеров и высотных ричтраков, в том числе и под заказ по индивидуальным параметрам. Наше оборудование позволяет осуществлять подъем и транспортировку грузов различного тоннажа. В нашем ассортименте представлены:</p>
-
-                        <ul>
-                            <li><a href="javascript:;">гидравлические тележки</a> – складская техника для транспортировки палетированного груза. Самоходные, гидравлические, с весами, ножничные, стальные, и т.д.</li>
-                            <li><a href="javascript:;">подъемные столы</a> – передвижная и стационарная техника для подъема грузов до 3 тонн.</li>
-                            <li><a href="javascript:;">штабелеры</a> – современные легкие погрузчики для подъема и перемещения палетированного груза. Гидравлические, полуэлектричнеские, самоходные, высотные, с весами, стальные, нестандартные модели.</li>
-                            <li><a href="javascript:;">ричтраки</a> – более современная, маневренная и производительная версия складской техники, позволяющая перемещать и поднимать груз на высоту до 20 метров на складах класса А+.</li>
-                            <li><a href="javascript:;">подъемники</a> – в нашем ассортименте ножничные и мачтовые подъемники.</li>
-                            <li><a href="javascript:;">погрузчики</a> – мы предлагаем вилочные электропогрузчики для мобильного перемещения грузов.</li>
-                        </ul>
-                    </div>
-
-                    <div class="seo-block__item">
-                        <div class="h3">Почему мы</div>
-                        <br>
-
-                        <p>Работа с производителем техники осуществляется без посредников, поэтому стоимость складского оборудования для конечного клиента значительно ниже. Плюсы работы с нами:</p>
-
-                        <ul>
-                            <li>гарантия от 12 месяцев на любое оборудование;</li>
-                            <li>собственный сервисный центр;</li>
-                            <li>сеть дилеров по всей РФ;</li>
-                            <li>сеть дилерских сервисов по всей РФ;</li>
-                            <li>наличие запчастей на любую технику;</li>
-                            <li>отсутствие наценок.</li>
-                        </ul>
-
-                        <p>Мы рады сотрудничеству с оптовыми клиентами, для дилеров мы предлагаем особые условия сотрудничества. Для детальной информации обращайтесь по телефону <a href="tel:+88005007869">8 (800) 500 78 69</a>.</p>
-
-                        <p>Сертификаты на складскую продукцию компании ОКСЛИФТ можно найти в соответствующем разделе сайта <a href="javascript:;">Сертификаты</a>.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>*/?>
 
 <div class="gap-xl">
     <div class="container">
