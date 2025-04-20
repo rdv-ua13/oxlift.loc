@@ -31,7 +31,10 @@
 		display: flex;
 		flex-direction: column;
 		flex: 1;
-		gap: 8px;
+
+		li {
+			margin-bottom: 4px;
+		}
 	}
 	&__link {
 		display: inline-flex;
@@ -88,14 +91,10 @@
 	.footer {
 		&-main {
 			.footer__item {
-				/*min-width: 264px;
-				width: 264px;*/
 				min-width: 176px;
 
 				&.footer-catalog {
 					flex: 2;
-					/*min-width: 552px;
-					width: 552px;*/
 					min-width: 376px;
 				}
 			}
@@ -107,7 +106,6 @@
 				column-gap: 24px;
 
 				li {
-					margin-bottom: 8px;
 					break-inside: avoid;
 				}
 			}
@@ -127,9 +125,6 @@
 		}
 		&__item {
 			gap: 20px;
-		}
-		&__list {
-			gap: 16px;
 		}
 		&-contacts {
 			gap: 48px;
