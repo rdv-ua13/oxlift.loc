@@ -3591,6 +3591,55 @@ input.disabled {
 	}
 }
 
+.page-up {
+	z-index: 2000;
+	position: fixed;
+	right: 6px;
+	bottom: 60px;
+	min-width: 32px;
+	width: 32px;
+	min-height: 32px;
+	height: 32px;
+	padding: 0;
+	border: unset;
+	border-radius: 50%;
+	box-shadow: var(--shadow-float1), var(--shadow-float2);
+	background-color: rgba(246, 246, 246, 0.8);
+
+	.icon {
+		min-width: 24px;
+		width: 24px;
+		min-height: 24px;
+		height: 24px;
+		fill: var(--gray20-color);
+		stroke: var(--gray20-color);
+	}
+	.text-content {
+		display: none;
+	}
+}
+@media (min-width: 992px) {
+	.page-up {
+		right: 60px;
+		min-width: 56px;
+		width: 56px;
+		min-height: 56px;
+		height: 56px;
+		padding: 0;
+
+		&:hover {
+			border: unset;
+			box-shadow: var(--shadow-float0);
+			background-color: rgba(204, 204, 204, 0.8);
+
+			.icon {
+				fill: var(--text-primary);
+				stroke: var(--text-primary);
+			}
+		}
+	}
+}
+
 #bx-panel {
 	z-index: 1010!important;
 }

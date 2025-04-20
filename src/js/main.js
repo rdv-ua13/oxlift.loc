@@ -27,6 +27,7 @@ application.prototype.init = function () {
     this.initDeleteTrigger();
     this.initCardAction();
     this.initCardActionMore();
+    this.initPageUp();
 
     this.initTestShowHideDropmenu();
 };
@@ -1099,6 +1100,32 @@ application.prototype.initInputDropdown = function () {
 
         function closeInputDropdown () {
             $('.input-wrapper-dropdown').removeClass('dropdown-active');
+        }
+    }
+};
+
+// Initialize page up move
+application.prototype.initPageUp = function () {
+    if ($('.page-up').length) {
+        const btn = $('.page-up');
+
+        setPageUpShow();
+        $(window).on('scroll', setPageUpShow);
+
+        btn.on('click', function () {
+            $('html, body').animate({
+                scrollTop: $('body').scrollTop()
+            }, 300);
+        });
+
+        function setPageUpShow() {
+            let sensDistance = $(window).height() + 50;
+
+            if ($(window).scrollTop() > sensDistance) {
+                btn.removeClass('visually-hidden');
+            } else {
+                btn.addClass('visually-hidden');
+            }
         }
     }
 };
