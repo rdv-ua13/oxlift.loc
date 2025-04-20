@@ -552,6 +552,18 @@
 
 <div class="gap-xl">
     <div class="container">
+        <a class="index-banner-link" href="javascript:;">
+            <picture>
+                <source srcset="img/banner-link-mobile.png" media="(max-width: 575px)">
+                <source srcset="img/banner-link-tablet.png" media="(max-width: 1199px)">
+                <img src="img/banner-link-desktop.png" alt="Изображение блока">
+            </picture>
+        </a>
+    </div>
+</div>
+
+<div class="gap-xl">
+    <div class="container">
         <div class="basic-hca partner">
             <div class="basic-hca__heading">
                 <div class="h2">Наши клиенты</div>
@@ -562,74 +574,92 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <a href="javascript:;" class="partner-slider__link">
-                                    <picture>
-                                        <source srcset="img/partner_dyadyavanya.png" media="(min-width: 992px)">
-                                        <img src="img/partner_dyadyavanya.png" alt="Изображение блока">
-                                    </picture>
+                                    <img
+                                        loading="lazy"
+                                        class="image"
+                                        src="img/partner_dyadyavanya.png"
+                                        alt="Изображение блока"
+                                    >
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="javascript:;" class="partner-slider__link">
-                                    <picture>
-                                        <source srcset="img/partner_orion.png" media="(min-width: 992px)">
-                                        <img src="img/partner_orion.png" alt="Изображение блока">
-                                    </picture>
+                                    <img
+                                            loading="lazy"
+                                            class="image"
+                                            src="img/partner_orion.png"
+                                            alt="Изображение блока"
+                                    >
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="javascript:;" class="partner-slider__link">
-                                    <picture>
-                                        <source srcset="img/partner_ozon.png" media="(min-width: 992px)">
-                                        <img src="img/partner_ozon.png" alt="Изображение блока">
-                                    </picture>
+                                    <img
+                                            loading="lazy"
+                                            class="image"
+                                            src="img/partner_ozon.png"
+                                            alt="Изображение блока"
+                                    >
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="javascript:;" class="partner-slider__link">
-                                    <picture>
-                                        <source srcset="img/partner_dyadyavanya.png" media="(min-width: 992px)">
-                                        <img src="img/partner_dyadyavanya.png" alt="Изображение блока">
-                                    </picture>
+                                    <img
+                                            loading="lazy"
+                                            class="image"
+                                            src="img/partner_dyadyavanya.png"
+                                            alt="Изображение блока"
+                                    >
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="javascript:;" class="partner-slider__link">
-                                    <picture>
-                                        <source srcset="img/partner_orion.png" media="(min-width: 992px)">
-                                        <img src="img/partner_orion.png" alt="Изображение блока">
-                                    </picture>
+                                    <img
+                                            loading="lazy"
+                                            class="image"
+                                            src="img/partner_orion.png"
+                                            alt="Изображение блока"
+                                    >
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="javascript:;" class="partner-slider__link">
-                                    <picture>
-                                        <source srcset="img/partner_ozon.png" media="(min-width: 992px)">
-                                        <img src="img/partner_ozon.png" alt="Изображение блока">
-                                    </picture>
+                                    <img
+                                            loading="lazy"
+                                            class="image"
+                                            src="img/partner_ozon.png"
+                                            alt="Изображение блока"
+                                    >
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="javascript:;" class="partner-slider__link">
-                                    <picture>
-                                        <source srcset="img/partner_dyadyavanya.png" media="(min-width: 992px)">
-                                        <img src="img/partner_dyadyavanya.png" alt="Изображение блока">
-                                    </picture>
+                                    <img
+                                            loading="lazy"
+                                            class="image"
+                                            src="img/partner_dyadyavanya.png"
+                                            alt="Изображение блока"
+                                    >
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="javascript:;" class="partner-slider__link">
-                                    <picture>
-                                        <source srcset="img/partner_orion.png" media="(min-width: 992px)">
-                                        <img src="img/partner_orion.png" alt="Изображение блока">
-                                    </picture>
+                                    <img
+                                            loading="lazy"
+                                            class="image"
+                                            src="img/partner_orion.png"
+                                            alt="Изображение блока"
+                                    >
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="javascript:;" class="partner-slider__link">
-                                    <picture>
-                                        <source srcset="img/partner_ozon.png" media="(min-width: 992px)">
-                                        <img src="img/partner_ozon.png" alt="Изображение блока">
-                                    </picture>
+                                    <img
+                                            loading="lazy"
+                                            class="image"
+                                            src="img/partner_ozon.png"
+                                            alt="Изображение блока"
+                                    >
                                 </a>
                             </div>
                         </div>

@@ -507,12 +507,16 @@
 	}
 }
 
+.index-banner-link {
+	display: flex;
+}
+
 .partner-slider {
 	.swiper {
 		&-slide {
 			display: flex;
-			min-width: 120px;
-			width: 120px;
+			/*min-width: 120px;
+			width: 120px;*/
 		}
 	}
 	&__link {
@@ -521,50 +525,43 @@
 		align-items: center;
 		min-width: 100%;
 		width: 100%;
-		min-height: 96px;
-		height: 96px;
-		padding: 16px;
+		min-height: 76px;
+		height: 76px;
+		padding: 16px 12px;
 		border: 1px solid var(--gray0-color);
 		border-radius: var(--bradius);
 		background-color: var(--white-color);
 		text-decoration: none;
 
-		picture {
-			justify-content: center;
-			align-items: center;
-			overflow: hidden;
-			transition: var(--transition);
-		}
-		picture,
 		img,
 		.image {
+			display: flex;
+			min-width: unset;
+			max-width: 100%;
+			width: auto;
+			max-height: 100%;
 			border-radius: var(--bradius-sm);
-		}
-
-		&:hover,
-		&:focus,
-		&.active {
-			border-color: var(--gray10-color);
-
-			picture {
-				transform: scale(1.06);
-			}
+			object-fit: contain;
 		}
 	}
 }
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
 	.partner-slider {
-		.swiper {
-			&-slide {
-				min-width: 200px;
-				width: 200px;
-			}
-		}
 		&__link {
-			min-height: 160px;
-			height: 160px;
+			min-height: 168px;
+			height: 168px;
 			padding: 32px;
 		}
+
+	}
+}
+@media (min-width: 768px) and (max-width: 1199.98px) {
+	.partner-slider {
+		&__link {
+			min-height: 112px;
+			height: 112px;
+		}
+
 	}
 }
 
@@ -572,40 +569,23 @@
 	.swiper {
 		&-slide {
 			display: flex;
-			min-width: 344px;
-			width: 344px;
 		}
 	}
 	&__link {
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		min-width: 100%;
+		width: 100%;
 		border-radius: var(--bradius);
 		overflow: hidden;
 		background-color: var(--white-color);
 		text-decoration: none;
 
-		&,
-		picture,
-		img,
-		.image {
-			min-width: 344px;
-			width: 344px;
-			min-height: 258px;
-			height: 258px;
-		}
 		picture {
 			justify-content: center;
 			align-items: center;
 			transition: var(--transition);
-		}
-
-		&:hover,
-		&:focus,
-		&.active {
-			picture {
-				transform: scale(1.04);
-			}
 		}
 	}
 }
