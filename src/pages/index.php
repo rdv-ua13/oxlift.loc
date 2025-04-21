@@ -3826,7 +3826,7 @@
 
 <div class="gap-xl">
     <div class="container">
-        <div class="payment" style="background: linear-gradient(100deg, #cae3ee 17.99%, #e1f1f8 87.06%);">
+        <?/*<div class="payment" style="background: linear-gradient(100deg, #cae3ee 17.99%, #e1f1f8 87.06%);">
             <div class="payment__bgi">
                 <img
                     loading="lazy"
@@ -3853,7 +3853,103 @@
                     <span class="text-content">Подробнее</span>
                 </a>
             </div>
+        </div>*/?>
+
+        <div class="interaction">
+            <div class="interaction-banner">
+                <div class="interaction-banner__bgi">
+                    <picture>
+                        <source srcset="img/banner-interaction-mobile.png" media="(max-width: 575px)">
+                        <source srcset="img/banner-interaction-tablet.png" media="(max-width: 991px)">
+                        <source srcset="img/banner-interaction-tablet-max.png" media="(max-width: 1199px)">
+                        <source srcset="img/banner-interaction-desktop-min.png" media="(max-width: 1479px)">
+                        <source srcset="img/banner-interaction-desktop.png">
+                        <img class="image" src="img/banner-interaction-desktop.png" alt="Изображение блока">
+                    </picture>
+                </div>
+                <div class="interaction-banner-info">
+                    <div class="interaction-banner-info__title">ПРОГРАММА ЛОЯЛЬНОСТИ <span class="accent">МАТЕРИК БОНУС</span></div>
+                    <div class="interaction-banner-info__subtitle">Получайте бонусы за покупки в нашем интернет-магазине и мобильном приложении</div>
+                    <div class="interaction-banner-info__cta">
+                        <a href="javascript:;" class="btn-reset btn btn-secondary">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="interaction__list">
+                <div class="interaction__item interaction__item--pay">
+                    <div class="interaction__view">
+                        <picture>
+                            <source srcset="img/interaction-pay.png">
+                            <img class="image" src="img/interaction-pay.png" alt="Изображение блока">
+                        </picture>
+                    </div>
+                    <div class="interaction__descr">
+                        <div class="interaction__heading">
+                            <div class="interaction__title">Удобная оплата</div>
+                            <div class="interaction__subtitle">Оплачивайте покупки любым удобным способом </div>
+                        </div>
+                        <div class="interaction__tag-list">
+                            <a href="javascript:;" class="tag">Оплата при получении</a>
+                            <a href="javascript:;" class="tag">Рассрочка</a>
+                            <a href="javascript:;" class="tag">Оплата на сайте</a>
+                            <a href="javascript:;" class="tag">Безналичный расчет</a>
+                        </div>
+                        <div class="interaction__more">
+                            <a href="javascript:;" class="btn-reset btn btn-secondary">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="interaction__item interaction__item--additional">
+                    <div class="interaction__view">
+                        <picture>
+                            <source srcset="img/interaction-additional.png">
+                            <img class="image" src="img/interaction-additional.png" alt="Изображение блока">
+                        </picture>
+                    </div>
+                    <div class="interaction__descr">
+                        <div class="interaction__heading">
+                            <div class="interaction__title">Дополнительные услуги</div>
+                            <div class="interaction__subtitle">Предоставляем различные виды услуг</div>
+                        </div>
+                        <div class="interaction__tag-list">
+                            <a href="javascript:;" class="tag">Резка металла</a>
+                            <a href="javascript:;" class="tag">Антисептирование</a>
+                            <a href="javascript:;" class="tag">Коллеровка</a>
+                            <a href="javascript:;" class="tag">Распил</a>
+                            <a href="javascript:;" class="tag tag-secondary">Все услуги</a>
+                        </div>
+                        <div class="interaction__more">
+                            <a href="javascript:;" class="btn-reset btn btn-secondary">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="interaction__item interaction__item--delivery">
+                    <div class="interaction__view">
+                        <picture>
+                            <source srcset="img/interaction-delivery.png">
+                            <img class="image" src="img/interaction-delivery.png" alt="Изображение блока">
+                        </picture>
+                    </div>
+                    <div class="interaction__descr">
+                        <div class="interaction__heading">
+                            <div class="interaction__title">Доставка от 100 рублей</div>
+                            <div class="interaction__subtitle">Оперативная доставка <nobr>по&nbsp;Санкт-Петербургу</nobr> и ЛО</div>
+                        </div>
+                        <div class="interaction__tag-list">
+                            <a href="javascript:;" class="tag">Подъем на этаж</a>
+                            <a href="javascript:;" class="tag">Разгрузка манипулятором</a>
+                            <a href="javascript:;" class="tag">Доставка в пункт выдачи</a>
+                            <a href="javascript:;" class="tag">Доставка от 100 р.</a>
+                            <a href="javascript:;" class="tag tag-secondary">Все услуги</a>
+                        </div>
+                        <div class="interaction__more">
+                            <a href="javascript:;" class="btn-reset btn btn-secondary">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+
     </div>
 </div>
 

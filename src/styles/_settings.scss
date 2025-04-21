@@ -3224,6 +3224,62 @@ input.disabled {
 	color: var(--red10-color);
 }
 
+.tag {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 16px;
+	border-radius: 60px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	color: var(--text-primary);
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 1.2;
+	text-decoration: none;
+	transition: var(--transition);
+
+	.icon {
+		fill: var(--text-primary);
+		stroke: var(--text-primary);
+	}
+	&.active {
+		background: rgba(0, 0, 0, 0.1););
+	}
+
+	&-secondary {
+		border-color: var(--blue10-color);
+		background-color: var(--blue10-color);
+		color: var(--white-color);
+
+		.icon {
+			fill: var(--white-color);
+			stroke: var(--white-color);
+		}
+
+		&.active {
+			border-color: var(--blue20-color);
+			background-color: var(--blue20-color);
+			color: var(--white-color);
+		}
+	}
+
+}
+@media (min-width: 992px) {
+	.tag {
+		&:hover {
+			background: rgba(0, 0, 0, 0.1);
+		}
+
+		&-secondary {
+			&:hover {
+				border-color: var(--blue20-color);
+				background-color: var(--blue20-color);
+				color: var(--white-color);
+			}
+		}
+	}
+}
+
 .modal {
 	position: relative;
 	display: none;
