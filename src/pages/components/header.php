@@ -30,6 +30,8 @@
     <script defer src="js/libs.min.js"></script> */?>
 
     <script defer src="js/main.js?v=<?=time();?>"></script>
+
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"></script>
 </head>
 
 

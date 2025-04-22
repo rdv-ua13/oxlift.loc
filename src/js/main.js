@@ -552,8 +552,8 @@ application.prototype.initSliders = function () {
         const indexTopPrimarySliderSettings = {
             slidesPerView: 'auto',
             spaceBetween: 12,
-            /*loop: true,
-            autoplay: {delay: 5000},*/
+            loop: true,
+            autoplay: {delay: 5000},
             navigation: {
                 nextEl: '.index-top-primary .swiper .swiper-button-next',
                 prevEl: '.index-top-primary .swiper .swiper-button-prev',
@@ -587,8 +587,8 @@ application.prototype.initSliders = function () {
             slidesPerView: 3,
             slidesPerGroup: 1,
             spaceBetween: 4,
-            /*loop: true,
-            autoplay: {delay: 5000},*/
+            loop: true,
+            autoplay: {delay: 5000},
             navigation: {
                 nextEl: '.partner .swiper-button-next',
                 prevEl: '.partner .swiper-button-prev',
@@ -638,31 +638,6 @@ application.prototype.initSliders = function () {
         };
         let offersSlider = new Swiper('.offers-slider', offersSliderSettings);
     }
-
-    /*if ($('.details-thumb-slider').length) {
-        let detailsThumbSliderPointer = new Swiper('.details-thumb-slider-pointer', {
-            slidesPerView: 'auto',
-            spaceBetween: 8,
-            direction: "horizontal",
-            freeMode: true,
-            watchSlidesProgress: true,
-            navigation: {
-                nextEl: '.details-thumb-slider-pointer .swiper-button-next',
-                prevEl: '.details-thumb-slider-pointer .swiper-button-prev',
-            }
-        });
-        let detailsThumbSlider = new Swiper('.details-thumb-slider', {
-            slidesPerView: 1,
-            spaceBetween: 8,
-            watchOverflow: true,
-            thumbs: {
-                swiper: detailsThumbSliderPointer,
-            },
-            pagination: {
-                el: '.details-thumb-slider .swiper-pagination',
-            }
-        });
-    }*/
 };
 
 // Initialize cart quantity

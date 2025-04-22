@@ -1,4 +1,4 @@
-        <div class="pre-footer">
+        <div class="gap-xl pre-footer">
             <div class="container pre-footer__container">
                 <div class="pre-footer__descr">
                     <div class="pre-footer__descr-pic">
@@ -52,6 +52,45 @@
 
     <footer class="footer">
         <div class="container">
+
+            <div class="footer-top">
+                <div class="footer-top__error-wrap">
+                    <a class="footer-top__error" href="javascript:;">
+                        <img
+                            loading="lazy"
+                            class="image"
+                            src="img/has-error.png"
+                            width="24"
+                            height="24"
+                            alt="Изображение блока"
+                        >
+                        <span class="text-content">Hашли ошибку? - Напишите нам</span>
+                    </a>
+                </div>
+                <div class="footer-subscribe">
+                    <div class="footer-subscribe__title">Хочу быть в курсе акций и новинок</div>
+                    <div class="footer-subscribe__act">
+                        <form id="" class="footer-subscribe__act-form" method="" action="javascript:;">
+                            <div class="input-wrapper">
+                                <input
+                                        id=""
+                                        class="input-reset input"
+                                        type="email"
+                                        name=""
+                                        value=""
+                                        placeholder="Ваш Email"
+                                        autocomplete="off"
+                                >
+                            </div>
+                            <button class="btn-reset btn btn-secondary" type="submit">
+                                <span class="text-content">Подписаться</span>
+                            </button>
+                        </form>
+                        <div class="footer-subscribe__act-caption">Нажимая на кнопку, я принимаю <a class="link-tdu link-tdu--native" href="javascript:;">Политику в области обработки и защиты персональных данных</a> и соглашаюсь получать сообщения.</div>
+                    </div>
+                </div>
+            </div>
+
             <div class="footer-main">
                 <div class="footer__item footer-catalog">
                     <a class="footer__link footer__link-heading link-invert fw-bold fz-subheading" href="javascript:;">Каталог</a>
@@ -133,14 +172,19 @@
                     </div>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <div class="footer__copyright">&#169; OXLIFT 2015 - <?=date('Y');?> Все права защищены</div>
-                <div class="footer__legal-policy">
-                    <a class="footer__link link-invert" href="javascript:;">Политика обработки персональных данных</a>
-                    <a class="footer__link link-invert" href="javascript:;">Политика конфиденциальности</a>
-                </div>
 
-                <div class="footer__info fw-medium fz-caption-sm">Обращаем ваше внимание на то, что вся представленная на сайте информация носит исключительно информационный характер и ни при каких условиях не является публичной офертой определяемой положениями Статьи 437(2) Гражданского кодекса Российской Федерации.</div>
+            <div class="footer-contacts">
+
+            </div>
+
+            <div class="footer-info"></div>
+
+            <div class="footer-bottom">
+                <div class="footer__info">Обращаем Ваше внимание на то, что вся представленная на данном сайте информация, касающаяся технических и прочих характеристик, цвета, фактуры а также стоимости товаров и услуг носит информационный характер, и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437 (2) Гражданского кодекса Российской Федерации. Условия начисления и выдачи бонусных баллов уточняйте у менеджеров МАТЕРИК.РФ при заказе. Более подробную информацию, вы можете получить обратившись по телефону +7 (812) 318-318-0 или в ближайший офис продаж.</div>
+                <div class="footer__copyright">
+                    <div class="footer__copyright-title">&#169; <?=date('Y');?> OXLIFT</div>
+                    <div class="footer__copyright-caption">При полном или частичном использовании материалов с сайта ссылка на источник обязательна.</div>
+                </div>
             </div>
         </div>
     </footer>
@@ -150,7 +194,5 @@
             <use href="img/sprite.svg#chevron-up"></use>
         </svg>
     </button>
-
-	<?/*include($_SERVER["DOCUMENT_ROOT"] . "/build/components/modals.php");*/?>
 </body>
 </html>
