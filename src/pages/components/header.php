@@ -22,25 +22,14 @@
 
     <?/* Подключение библиотек (отдельно)*/?>
     <script defer src="js/jquery.js"></script>                  <!-- jquery -->
-    <script defer src="js/jquery.maskedinput.js"></script>      <!-- maskedinput -->
-    <script defer src="js/jquery.validate.js"></script>         <!-- validate -->
-    <script defer src="js/messages_ru.js"></script>             <!-- validate -->
     <script defer src="js/fancybox.umd.js"></script>            <!-- fancybox -->
-    <script defer src="js/flatpickr.min.js"></script>           <!-- flatpickr -->
-    <script defer src="js/ru.js"></script>                      <!-- flatpickr -->
-    <script defer src="js/nouislider.js"></script>              <!-- nouislider -->
     <script defer src="js/popper.js"></script>                  <!-- popper -->
-    <script defer src="js/readmore.js"></script>                <!-- readmore -->
-    <script defer src="js/select2.js"></script>                 <!-- select2 -->
     <script defer src="js/swiper-bundle.js"></script>           <!-- swiper -->
-    <script defer src="js/tippy-bundle.umd.js"></script>        <!-- tippy -->
 
 	<?/* Подключение библиотек (объединённо)
     <script defer src="js/libs.min.js"></script> */?>
 
     <script defer src="js/main.js?v=<?=time();?>"></script>
-
-    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"></script>
 </head>
 
 

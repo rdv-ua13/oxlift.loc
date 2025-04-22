@@ -10,8 +10,8 @@ function application() {
 application.prototype.init = function () {
     this.initTouch();
     this.initFancyboxBehavior();
-    this.initTooltips();
-    this.initReadmore();
+    /*this.initTooltips();*/
+    /*this.initReadmore();*/
     this.initHeaderFloat();
     this.initHeaderContactsClickMobile();
     this.initBurger();
@@ -24,7 +24,7 @@ application.prototype.init = function () {
     this.initBasicTabs();
     this.initInputSearchBehavior();
     this.initSearchResBehavior();
-    this.initDeleteTrigger();
+    /*this.initDeleteTrigger();*/
     this.initCardAction();
     this.initCardActionMore();
     this.initPageUp();
