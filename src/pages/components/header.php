@@ -25,6 +25,7 @@
     <script defer src="js/fancybox.umd.js"></script>            <!-- fancybox -->
     <script defer src="js/popper.js"></script>                  <!-- popper -->
     <script defer src="js/swiper-bundle.js"></script>           <!-- swiper -->
+    <script defer src="js/accordion.min.js"></script>           <!-- accordion -->
 
 	<?/* Подключение библиотек (объединённо)
     <script defer src="js/libs.min.js"></script> */?>

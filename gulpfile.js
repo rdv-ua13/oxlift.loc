@@ -92,18 +92,10 @@ const includedJsBuild = () => {
     return src(
         [
             "node_modules/jquery/dist/jquery.js",
-            "node_modules/jquery-validation/dist/jquery.validate.js",
-            "node_modules/jquery-validation/dist/localization/messages_ru.js",
-            "node_modules/jquery.maskedinput/src/jquery.maskedinput.js",
             "node_modules/@fancyapps/ui/dist/fancybox.umd.js",
-            "node_modules/flatpickr/dist/flatpickr.min.js",
-            "node_modules/flatpickr/dist/l10n/ru.js",
-            "node_modules/nouislider/dist/nouislider.js",
             "node_modules/@popperjs/core/dist/umd/popper.js",
-            "node_modules/select2/dist/js/select2.js",
-            "node_modules/readmore-js/readmore.js",
+            "node_modules/accordion-js/dist/accordion.min.js",
             "node_modules/swiper/swiper-bundle.js",
-            "node_modules/tippy.js/dist/tippy-bundle.umd.js",
         ]
     )
         .pipe(dest(path.build.js))
@@ -115,18 +107,10 @@ const libsJsBuild = () => {
     return src(
         [
             "node_modules/jquery/dist/jquery.js",
-            "node_modules/jquery-validation/dist/jquery.validate.js",
-            "node_modules/jquery-validation/dist/localization/messages_ru.js",
-            "node_modules/jquery.maskedinput/src/jquery.maskedinput.js",
             "node_modules/@fancyapps/ui/dist/fancybox.umd.js",
-            "node_modules/flatpickr/dist/flatpickr.min.js",
-            "node_modules/flatpickr/dist/l10n/ru.js",
-            "node_modules/nouislider/dist/nouislider.js",
             "node_modules/@popperjs/core/dist/umd/popper.js",
-            "node_modules/select2/dist/js/select2.js",
-            "node_modules/readmore-js/readmore.js",
+            "node_modules/accordion-js/dist/accordion.min.js",
             "node_modules/swiper/swiper-bundle.js",
-            "node_modules/tippy.js/dist/tippy-bundle.umd.js",
         ]
     )
         .pipe(concat("libs.min.js"))

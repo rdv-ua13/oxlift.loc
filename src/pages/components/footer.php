@@ -92,7 +92,146 @@
             </div>
 
             <div class="footer-main">
-                <div class="footer__item footer-catalog">
+                <div class="footer-main__content">
+                    <div class="footer-main__column footer-main__column-main">
+                        <div class="footer-main__logo">
+                            <a href="javascript:;" class="footer-main__logo-link">
+                                <svg width="136" height="68" viewBox="0 0 117 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M29.677.055c.495-.055 1.211 0 1.762 0h54.288c.55 0 1.266-.055 1.762.055.44.11.826.383 1.156.548 5.175 2.96 23.07 12.992 26.814 15.075.33.22.715.384 1.101.658.33.22.55.713.33 1.206-.22.439-.606.494-1.266.494H1.817c-.605 0-1.156.055-1.486-.22-.33-.383-.496-.877-.166-1.315.166-.22.551-.384.881-.603C3.194 14.747 27.695.987 28.631.493c.33-.164.66-.438 1.046-.438zm1.046 1.809c-.275 0-.716-.055-.826.055-7.928 4.385-15.967 8.935-23.84 13.376-.55.274-1.101.603-1.597.932H29.456c.221-.055.551-.329.827-.439.275-.164 16.627-9.374 24.556-13.76.055 0 .165-.11.165-.11-8.094-.054-16.187-.054-24.28-.054zm31.384 0c6.331 3.563 12.718 7.127 19.105 10.745 1.817 1.041 3.689 2.138 5.561 3.124.275.165.606.384.826.44.165.054.44 0 .66 0h24.281c-8.313-4.66-16.682-9.43-25.106-14.09-.165-.11-.33-.219-.44-.219H62.106c-.056 0-.056 0 0 0-.056 0 0 0 0 0zM33.42 16.062c-.055.055-.165.055-.165.11h50.489c-.055-.11-.22-.164-.33-.22A5611.136 5611.136 0 0158.527 1.975C54.288 4.33 37.55 13.814 33.42 16.062zM8.644 27.684c1.157-2.028 2.313-4.056 3.47-6.14.274-.438.385-.931.935-1.041.44-.11 1.101-.055 1.762-.055.66 0 1.597-.11 1.817.33.11.218.055.602.055.986V36.29c0 .549.055.932-.275 1.152-.33.219-1.157.11-1.707.11h-.881c-.55 0-.936 0-1.046-.33-.11-.274-.055-.712-.055-1.096v-8.059a119.597 119.597 0 00-2.202 3.838c-.22.383-.496.986-.881 1.15-.22.11-.551.056-.881.056-.33 0-.716 0-.936-.055-.386-.165-.661-.768-.881-1.151-.716-1.261-1.487-2.632-2.258-3.838v8.333c0 .603 0 1.041-.495 1.151-.496.11-.991.055-1.707.055-.606 0-1.432.055-1.707-.164-.33-.384-.22-1.371-.22-2.029V21.71c0-.767 0-1.151.66-1.26.496-.056 1.102 0 1.652 0 .606 0 1.322-.056 1.652.164.22.164.44.548.606.822 1.156 2.083 2.367 4.276 3.523 6.25zM30.393 34.647h-6.387c-.22.493-.33.822-.496 1.37-.165.494-.33 1.316-.88 1.425-.496.11-1.267.055-1.818.055-.44 0-1.541.11-1.706-.219-.166-.274.11-.822.275-1.096 1.486-3.838 5.065-13.541 5.45-14.583.221-.603.386-1.041 1.102-1.15.385-.056.991 0 1.542 0 .55 0 1.321-.056 1.651.109.276.164.44.493.55.877 1.873 5.098 3.8 10.087 5.672 15.24.11.22.11.439.055.603-.22.329-1.321.22-1.817.22h-.991c-.55 0-.88 0-1.101-.275-.11-.164-.165-.383-.275-.603a15.023 15.023 0 01-.826-1.973zm-5.12-3.618h3.908c-.66-1.864-1.321-3.838-1.982-5.702-.605 1.919-1.321 3.783-1.927 5.701zM43.937 24.121c-.055 3.673 0 7.675 0 11.403 0 .657.11 1.644-.275 1.864-.33.219-1.212.11-1.762.11h-.936c-.386 0-.771 0-.991-.165-.22-.22-.166-.987-.166-1.535V24.12h-3.413c-.496 0-.991.055-1.211-.22-.166-.273-.11-.986-.11-1.534s-.11-1.316.11-1.59c.11-.165.33-.22.495-.274.496-.055 1.046 0 1.597 0h9.58c.716 0 1.542-.11 1.762.274.165.329.11 1.042.11 1.535 0 .603.11 1.37-.165 1.645-.275.164-.716.164-1.101.164h-3.524zM55.39 24.121c-.056.932 0 1.864 0 2.796 1.871.055 3.853 0 5.78 0 .716 0 1.707-.11 1.872.329.166.329.056.987.056 1.48 0 .658.11 1.425-.33 1.645-.221.11-.551.055-.882.055h-6.552v3.398h7.874c.55 0 .99-.054 1.156.33.165.383.055 1.04.055 1.534 0 .768.165 1.535-.496 1.7-.44.11-.99.055-1.486.055h-9.085c-.495 0-.99.054-1.486 0-.661-.055-.606-.494-.606-1.261V21.709c0-.767-.055-1.206.66-1.26.441-.056.992 0 1.487 0h8.865c.715 0 1.596-.11 1.762.383.11.384.055 1.096.055 1.59 0 .548.11 1.315-.22 1.535-.386.274-1.322.164-1.983.164H55.39zM71.742 32.454v3.673c0 .658.055 1.26-.496 1.37-.495.055-1.046 0-1.652 0-.715 0-1.541.11-1.761-.219-.22-.329-.11-1.37-.11-1.974V21.71c0-.822 0-1.206.66-1.26.33-.056.716 0 1.101 0h3.194c1.431 0 2.863 0 4.019.273 2.257.548 3.854 1.919 4.35 4.167.275 1.315.165 2.686-.22 3.727-.716 2.084-2.423 3.29-4.846 3.673-1.376.22-2.753.165-4.24.165zm-.055-8.278V29c1.321-.055 2.752.11 3.744-.164.99-.274 1.706-.987 1.706-2.248 0-1.26-.715-1.974-1.651-2.248-.991-.383-2.423-.164-3.8-.164 0-.055 0-.055 0 0zM88.04 30.151a561.575 561.575 0 005.23-8.387c.22-.384.495-.932.826-1.151.385-.33 1.321-.165 2.147-.165.606 0 1.377-.11 1.597.22.22.328.11 1.37.11 1.973v13.595c0 .549.055.987-.275 1.152-.386.219-1.157.11-1.762.11-.716 0-1.652.109-1.927-.275-.166-.22-.11-.658-.11-1.096v-8.388c-1.542 2.412-3.029 4.88-4.57 7.291-.22.33-.496.768-.771 1.206-.33.494-.55 1.097-1.156 1.206-.44.055-.992 0-1.597 0-.66 0-1.432.11-1.652-.274-.11-.164-.11-.603-.11-.932V21.71c0-.767 0-1.151.66-1.26.441-.056.937 0 1.487 0 .661 0 1.542-.11 1.762.328.11.274.11.713.11 1.096v8.278zM105.878 26.972c.165-.11.276-.274.386-.384 1.596-1.754 3.248-3.509 4.845-5.263.33-.329.605-.767 1.101-.822.661-.11 1.321-.055 2.202-.055h1.102c.44 0 .936-.055.991.329.055.384-.496.767-.661.932a520.974 520.974 0 00-5.396 5.81c1.817 2.961 3.579 5.922 5.451 8.882.11.22.275.438.275.658-.055.493-.66.438-1.321.438h-1.101c-.716 0-1.597.055-1.982-.22-.496-.328-.826-1.096-1.157-1.644-1.046-1.7-2.092-3.508-3.138-5.153-.441.384-.771.822-1.211 1.261-.11.11-.386.329-.386.439-.055.164 0 .438 0 .657v3.29c0 .548.055 1.096-.275 1.26-.22.11-.551.055-.881.055h-.936c-.716 0-1.652.11-1.872-.274-.22-.383-.11-1.48-.11-2.028V22.586c0-.603-.11-1.644.11-1.973.11-.165.33-.22.551-.22.55-.055 1.046 0 1.651 0 .716 0 1.542-.11 1.707.384.11.329.055 1.096.055 1.48v4.715zM28.63 57.507c-.935-.548-25.437-14.254-27.584-15.514-.33-.165-.716-.384-.88-.604-.331-.438-.166-.931.11-1.206.33-.274.88-.219 1.486-.219h113.807c.66 0 1.046.055 1.266.494.275.493 0 .986-.33 1.206-.386.274-.771.438-1.102.657-3.744 2.084-21.638 12.116-26.813 15.076-.386.22-.716.494-1.157.548-.44.11-1.156.055-1.761.055H31.384c-.606 0-1.267.055-1.762 0-.33-.11-.661-.329-.991-.493zm26.319-1.37c.055 0-.11-.11-.165-.11-7.929-4.386-24.281-13.596-24.557-13.76-.22-.165-.605-.384-.826-.439H4.405c.55.274 1.1.548 1.652.877 7.928 4.44 15.912 8.99 23.84 13.376.11.055.55.055.826.055h24.226zm7.102-.056c0 .055 0 .055 0 0h24.997c.11 0 .275-.11.44-.219 8.37-4.66 16.793-9.429 25.107-14.089-2.092 0-21.913-.055-24.28 0h-.661c-.22.055-.55.274-.826.439-1.872 1.041-3.744 2.083-5.561 3.125A7716.024 7716.024 0 0162.05 56.08c.055 0 0 0 0 0zm-3.523-.11a5617.712 5617.712 0 0124.886-13.978c.11-.055.275-.11.33-.22H33.257c-.056.055.11.055.165.11 4.13 2.302 20.867 11.786 25.107 14.089z" fill="#004990"></path>
+                                </svg>
+                            </a>
+                            <div class="text-content">Компания «МАТЕРИК» - надежный поставщик строительных и отделочных материалов с 1997 года. Мы осуществляем продажу товаров оптом и в розницу, предлагая превосходный сервис и низкие цены.</div>
+                        </div>
+
+                        <div class="accordion-container accordion-footer">
+                            <div class="ac">
+                                <div class="ac-header">
+                                    <button class="btn-reset ac-trigger" type="button">
+                                        <span class="footer-main__title">Контакты</span>
+                                    </button>
+                                </div>
+                                <div class="ac-panel">
+                                    <div class="ac-content">
+                                        <ul class="list-reset footer__list footer-main__contacts">
+                                            <li><a class="link footer-main__contacts-tel" href="javascript:;">+7 (812) 318-318-9</a></li>
+                                            <li><a class="link footer-main__contacts-email" href="javascript:;">812@materik-m.ru</a></li>
+                                            <li>
+                                                <a class="link" href="javascript:;">
+                                                    Время работы контакт-центра<br>
+                                                    с 8-00 до 21-00, ежедневно
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-main__column-list">
+                        <div class="footer-main__column">
+                            <div class="accordion-container accordion-footer">
+                                <div class="ac">
+                                    <div class="ac-header">
+                                        <button class="btn-reset ac-trigger" type="button">
+                                            <span class="footer-main__title">О компании</span>
+                                        </button>
+                                    </div>
+                                    <div class="ac-panel">
+                                        <div class="ac-content">
+                                            <ul class="list-reset footer__list">
+                                                <li><a class="link" href="javascript:;">О компании</a></li>
+                                                <li><a class="link" href="javascript:;">Документы</a></li>
+                                                <li><a class="link" href="javascript:;">Поставщикам</a></li>
+                                                <li><a class="link" href="javascript:;">Новости</a></li>
+                                                <li><a class="link" href="javascript:;">Реквизиты</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-main__column">
+                            <div class="accordion-container accordion-footer">
+                                <div class="ac">
+                                    <div class="ac-header">
+                                        <button class="btn-reset ac-trigger" type="button">
+                                            <span class="footer-main__title">Покупателям</span>
+                                        </button>
+                                    </div>
+                                    <div class="ac-panel">
+                                        <div class="ac-content">
+                                            <ul class="list-reset footer__list">
+                                                <li><a class="link" href="javascript:;">Бонусная программа</a></li>
+                                                <li><a class="link" href="javascript:;">Как сделать заказ</a></li>
+                                                <li><a class="link" href="javascript:;">Как оплатить заказ</a></li>
+                                                <li><a class="link" href="javascript:;">Акции</a></li>
+                                                <li><a class="link" href="javascript:;">Услуги</a></li>
+                                                <li><a class="link" href="javascript:;">Статьи</a></li>
+                                                <li><a class="link" href="javascript:;">Доставка</a></li>
+                                                <li><a class="link" href="javascript:;">Обмен и возврат</a></li>
+                                                <li><a class="link" href="javascript:;">Добавить в избранное</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-main__column">
+                            <div class="accordion-container accordion-footer">
+                                <div class="ac">
+                                    <div class="ac-header">
+                                        <button class="btn-reset ac-trigger" type="button">
+                                            <span class="footer-main__title">Услуги</span>
+                                        </button>
+                                    </div>
+                                    <div class="ac-panel">
+                                        <div class="ac-content">
+                                            <ul class="list-reset footer__list">
+                                                <li><a class="link" href="javascript:;">Доставка в пункт выдачи</a></li>
+                                                <li><a class="link" href="javascript:;">Колеровка</a></li>
+                                                <li><a class="link" href="javascript:;">Распил</a></li>
+                                                <li><a class="link" href="javascript:;">Транспортно-экспедиционные и погрузо-разгрузочные услуги</a></li>
+                                                <li><a class="link" href="javascript:;">Антисептирование огнебиозащитным составом</a></li>
+                                                <li><a class="link" href="javascript:;">Резка металлоизделий и арматуры</a></li>
+                                                <li><a class="link" href="javascript:;">Распиловка и раскрой</a></li>
+                                                <li><a class="link" href="javascript:;">Разгрузка манипулятором</a></li>
+                                                <li><a class="link" href="javascript:;">Подъем на этаж</a></li>
+                                                <li><a class="link" href="javascript:;">Доставка</a></li>
+                                                <li><a class="link" href="javascript:;">Антисептирование</a></li>
+                                                <li><a class="link" href="javascript:;">Доборные элементы</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-main__column">
+                            <div class="accordion-container accordion-footer">
+                                <div class="ac">
+                                    <div class="ac-header">
+                                        <button class="btn-reset ac-trigger" type="button">
+                                            <span class="footer-main__title">Доставка</span>
+                                        </button>
+                                    </div>
+                                    <div class="ac-panel">
+                                        <div class="ac-content">
+                                            <ul class="list-reset footer__list">
+                                                <li><a class="link" href="javascript:;">Подъем на этаж</a></li>
+                                                <li><a class="link" href="javascript:;">Доставка от 199 руб.</a></li>
+                                                <li><a class="link" href="javascript:;">Доставка и разгрузка манипулятором</a></li>
+                                                <li><a class="link" href="javascript:;">Доставка в пункт выдачи</a></li>
+                                                <li><a class="link" href="javascript:;">Транспортно-экспедиционные услуги</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <?/*<div class="footer__item footer-catalog">
                     <a class="footer__link footer__link-heading link-invert fw-bold fz-subheading" href="javascript:;">Каталог</a>
                     <ul class="list-reset footer__list">
                         <li><a class="footer__link link-invert" href="javascript:;" style="color: red;">Тестовый текст длинный тест!</a></li>
@@ -170,11 +309,61 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>*/?>
             </div>
 
             <div class="footer-contacts">
-
+                <div class="footer-contacts__title">Наши магазины</div>
+                <div class="footer-contacts__list">
+                    <div class="footer-contacts__item">
+                        <div class="footer-contacts__view">
+                            <div class="contacts-map">
+                                <div class="contacts-map-content" data-x="59.944070" data-y="30.438928"></div>
+                            </div>
+                        </div>
+                        <div class="footer-contacts__descr">
+                            <a href="javascript:;" class="footer-contacts__item-title">Торгово-складской комплекс «Якорная»</a>
+                            <div class="footer-contacts__item-info">
+                                Санкт-Петербург, ул. Якорная, 16 корп. 2
+                                <br>
+                                с 8-00 до 20-00, ежедневно
+                            </div>
+                            <a href="javascript:;" class="footer-contacts__item-more" target="_blank">Смотреть на карте</a>
+                        </div>
+                    </div>
+                    <div class="footer-contacts__item">
+                        <div class="footer-contacts__view">
+                            <div class="contacts-map">
+                                <div class="contacts-map-content" data-x="59.895343" data-y="30.249859"></div>
+                            </div>
+                        </div>
+                        <div class="footer-contacts__descr">
+                            <a href="javascript:;" class="footer-contacts__item-title">Торгово-складской комплекс «Нарвская»</a>
+                            <div class="footer-contacts__item-info">
+                                Санкт-Петербург, ул. Калинина, 39В
+                                <br>
+                                с 8-00 до 20-00, ежедневно
+                            </div>
+                            <a href="javascript:;" class="footer-contacts__item-more" target="_blank">Смотреть на карте</a>
+                        </div>
+                    </div>
+                    <div class="footer-contacts__item">
+                        <div class="footer-contacts__view">
+                            <div class="contacts-map">
+                                <div class="contacts-map-content" data-x="59.947500" data-y="30.254342"></div>
+                            </div>
+                        </div>
+                        <div class="footer-contacts__descr">
+                            <a href="javascript:;" class="footer-contacts__item-title">Офис продаж «Василеостровская»</a>
+                            <div class="footer-contacts__item-info">
+                                Санкт-Петербург, наб. реки Смоленки, 31
+                                <br>
+                                с 9 до 18, пн-пт
+                            </div>
+                            <a href="javascript:;" class="footer-contacts__item-more" target="_blank">Смотреть на карте</a>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="footer-info">
