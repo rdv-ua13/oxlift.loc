@@ -5,6 +5,7 @@
 	min-width: 375px;
 	padding-top: 32px;
 	padding-bottom: 32px;
+	overflow: hidden;
 	background-color: #F4F5F7;
 	color: var(--text-primary);
 
@@ -122,8 +123,8 @@
 			z-index: 1;
 			position: absolute;
 			top: 0;
-			right: -50vw;
-			left: -50vw;
+			right: 0;
+			left: 0;
 			min-height: 1px;
 			height: 1px;
 			border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -462,6 +463,12 @@
 						content: none;
 					}
 				}
+			}
+		}
+		&-info {
+			&::before {
+				right: -50vw;
+				left: -50vw;
 			}
 		}
 		&-app-mobile {
