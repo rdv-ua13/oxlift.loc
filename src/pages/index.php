@@ -7,30 +7,30 @@
                 <div class="slider-out basic-slider-wrap">
                     <div class="basic-slider swiper">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide">
+                            <a href="javascript:;" class="swiper-slide">
                                 <picture>
-                                    <source srcset="img/banner_image_1_1900x490.png" media="(min-width: 992px)">
+                                    <source srcset="img/banner_image_1_1900x490.png" media="(min-width: 768px)">
                                     <img src="img/banner_image_4_800x600.png" alt="Изображение блока">
                                 </picture>
-                            </div>
-                            <div class="swiper-slide">
+                            </a>
+                            <a href="javascript:;" class="swiper-slide">
                                 <picture>
-                                    <source srcset="img/banner_image_2_1900x490.png" media="(min-width: 992px)">
+                                    <source srcset="img/banner_image_2_1900x490.png" media="(min-width: 768px)">
                                     <img src="img/banner_image_2_700x700.png" alt="Изображение блока">
                                 </picture>
-                            </div>
-                            <div class="swiper-slide">
+                            </a>
+                            <a href="javascript:;" class="swiper-slide">
                                 <picture>
-                                    <source srcset="img/banner_image_1_1900x490.png" media="(min-width: 992px)">
+                                    <source srcset="img/banner_image_1_1900x490.png" media="(min-width: 768px)">
                                     <img src="img/banner_image_4_800x600.png" alt="Изображение блока">
                                 </picture>
-                            </div>
-                            <div class="swiper-slide">
+                            </a>
+                            <a href="javascript:;" class="swiper-slide">
                                 <picture>
-                                    <source srcset="img/banner_image_2_1900x490.png" media="(min-width: 992px)">
+                                    <source srcset="img/banner_image_2_1900x490.png" media="(min-width: 768px)">
                                     <img src="img/banner_image_2_700x700.png" alt="Изображение блока">
                                 </picture>
-                            </div>
+                            </a>
                         </div>
                         <div class="swiper-navigation">
                             <div class="swiper-button-next btn btn-icon">
@@ -52,18 +52,18 @@
                 <div class="basic-slider-wrap">
                     <div class="basic-slider swiper">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide">
+                            <a href="javascript:;" class="swiper-slide">
                                 <picture>
-                                    <source srcset="img/banner2_img_1.png" media="(min-width: 992px)">
+                                    <source srcset="img/banner2_img_1.png" media="(min-width: 768px)">
                                     <img class="image" src="img/banner2_img_1.png" alt="Изображение блока">
                                 </picture>
-                            </div>
-                            <div class="swiper-slide">
+                            </a>
+                            <a href="javascript:;" class="swiper-slide">
                                 <picture>
-                                    <source srcset="img/banner2_img_1.png" media="(min-width: 992px)">
+                                    <source srcset="img/banner2_img_1.png" media="(min-width: 768px)">
                                     <img class="image" src="img/banner2_img_1.png" alt="Изображение блока">
                                 </picture>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
