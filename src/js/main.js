@@ -26,6 +26,8 @@ application.prototype.init = function () {
     this.initFooterAccordion();
     this.initCardAction();
     this.initCardActionMore();
+    this.initCatalogContentSort();
+    this.initSortSwitch();
     this.initPageUp();
 
     this.initTestShowHideDropmenu();
@@ -397,13 +399,6 @@ application.prototype.initBasicSlider = function () {
 
 // Initialize sliders
 application.prototype.initSliders = function () {
-    if ($('.nav-breadcrumbs').length) {
-        let sliderNavBreadcrumbs = new Swiper('.nav-breadcrumbs', {
-            slidesPerView: 'auto',
-            spaceBetween: 4
-        });
-    }
-
     if ($('.index-top-primary .swiper').length) {
         const indexTopPrimarySliderSettings = {
             slidesPerView: 'auto',
@@ -716,6 +711,84 @@ application.prototype.initCardActionMore = function () {
             if ($('.card__cta').is(e.target) || $('.card__cta').has(e.target).length === 0) {
                 $('[data-card-cta-more]').removeClass('active');
                 $('[data-card-cta-content]').removeClass('active');
+            }
+        });
+    }
+};
+
+// Initialize catalog content sort
+application.prototype.initCatalogContentSort = function () {
+    if ($('.cp-content__sort-options').length) {
+        initCatalogContentSortSwitch();
+
+        catalogSettingsSortSelect();
+        $(window).on('resize', catalogSettingsSortSelect);
+
+        $(document).on('click', function (e) {
+            if (!$('.cp-content__sort-select').is(e.target) &&
+                !$('.cp-content__sort-options').is(e.target) &&
+                $('.cp-content__sort-options').has(e.target).length === 0)
+            {
+                closeCatalogContentSettingsSort();
+            }
+        });
+
+        $(document).on('keyup', function (e) {
+            if (e.key == 'Escape') {
+                closeCatalogContentSettingsSort();
+            }
+        });
+
+        function initCatalogContentSortSwitch() {
+            $('.cp-content__sort-options input[type="radio"]').on('click', function () {
+                if($(this).prop('checked')) {
+                    $(this).closest('.cp-content__sort-options').find('.cp-content__sort-label').removeClass('active');
+                    $(this).siblings('.cp-content__sort-label').addClass('active');
+                } else {
+                    $(this).siblings('.cp-content__sort-label').removeClass('active');
+                }
+
+                if (window.matchMedia('(max-width: 1199.98px)').matches) {
+                    let selectPlaceholder = $('.cp-content__sort-label.active').text();
+
+                    $('.cp-content__sort').find('.cp-content__sort-select .cp-content__sort-select-value').text(selectPlaceholder);
+                    closeCatalogContentSettingsSort();
+                }
+            });
+        }
+
+        function catalogSettingsSortSelect() {
+            if (window.matchMedia('(min-width: 1200px)').matches) {
+                closeCatalogContentSettingsSort();
+            } else if (window.matchMedia('(max-width: 1199.98px)').matches) {
+                $('.cp-content__sort-select').on('click', function () {
+                    if (!$(this).hasClass('active')) {
+                        $(this).addClass('active');
+                        $(this).siblings('.cp-content__sort-options').addClass('active');
+                    } else if ($(this).hasClass('active')) {
+                        $(this).removeClass('active');
+                        $(this).siblings('.cp-content__sort-options').removeClass('active');
+                    }
+                });
+            }
+        }
+
+        function closeCatalogContentSettingsSort () {
+            $('.cp-content__sort-select').removeClass('active');
+            $('.cp-content__sort-options').removeClass('active');
+        }
+    }
+};
+
+// Initialize sort switch
+application.prototype.initSortSwitch = function () {
+    if ($('.cp-content__sort-label').length) {
+        $('.cp-content__sort-label').on('click', function () {
+            if ($(this).hasClass('asc')) {
+                $(this).removeClass('asc').addClass('desc');
+            }
+            else if ($(this).hasClass('desc')) {
+                $(this).removeClass('desc').addClass('asc');
             }
         });
     }

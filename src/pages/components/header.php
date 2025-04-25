@@ -36,7 +36,7 @@
 </head>
 
 
-<body>
+<body class="<?=(strpos($_SERVER["REQUEST_URI"], "index.php"))? 'index' : ''?>">
     <header class="header fixed-block">
         <div class="header-top">
             <div class="container header-container header-top-container">

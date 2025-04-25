@@ -3826,35 +3826,6 @@
 
 <div class="gap-xl">
     <div class="container">
-        <?/*<div class="payment" style="background: linear-gradient(100deg, #cae3ee 17.99%, #e1f1f8 87.06%);">
-            <div class="payment__bgi">
-                <img
-                    loading="lazy"
-                    class="image"
-                    src="img/payment_bgi.png"
-                    alt="Изображение блока"
-                >
-            </div>
-            <div class="payment__descr">
-                <div class="payment__title h3">Удобная оплата</div>
-                <div class="payment__info fz-subheading">Оплачивайте покупки любым удобным способом</div>
-            </div>
-            <div class="payment__cta">
-                <a href="javascript:;" class="btn-reset btn btn-sm btn-ghost">
-                    <span class="text-content">Оплата наличными</span>
-                </a>
-                <a href="javascript:;" class="btn-reset btn btn-sm btn-ghost">
-                    <span class="text-content">Безналичная оплата</span>
-                </a>
-                <a href="javascript:;" class="btn-reset btn btn-sm btn-ghost">
-                    <span class="text-content">Лизинг</span>
-                </a>
-                <a href="javascript:;" class="btn-reset btn btn-sm btn-secondary payment__cta-more">
-                    <span class="text-content">Подробнее</span>
-                </a>
-            </div>
-        </div>*/?>
-
         <div class="interaction">
             <div class="interaction-banner">
                 <div class="interaction-banner__bgi">

@@ -439,6 +439,20 @@
                         </svg>
                         <!--end ui content-->
                     </span>
+                    <span class="tooltip" data-tippy-content="#sort-asc">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#sort-asc"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#sort-desc">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#sort-desc"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
                 </div>
                 <br>
                 <div class="ui-tooltip-set">
