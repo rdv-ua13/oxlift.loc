@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function application() {
-    //variable
+    //letiable
     //this.myMap;
 }
 application.prototype.init = function () {
@@ -26,11 +26,14 @@ application.prototype.init = function () {
     this.initFooterAccordion();
     this.initCardAction();
     this.initCardActionMore();
-    this.initCatalogContentSort();
     this.initSortSwitch();
     this.initPageUp();
 
     this.initTestShowHideDropmenu();
+
+    this.initCatalogContentSort();
+    this.initCatalogAccordion();
+    this.initCatalogRange();
 };
 
 // Initialize disable scroll
@@ -716,122 +719,6 @@ application.prototype.initCardActionMore = function () {
     }
 };
 
-// Initialize catalog content sort
-application.prototype.initCatalogContentSort = function () {
-    /*if ($('.cp-content__sort-options').length) {
-        initCatalogContentSortSwitch();
-
-        catalogSettingsSortSelect();
-        $(window).on('resize', catalogSettingsSortSelect);
-
-        $(document).on('click', function (e) {
-            if (!$('.cp-content__sort-select').is(e.target) &&
-                !$('.cp-content__sort-options').is(e.target) &&
-                $('.cp-content__sort-options').has(e.target).length === 0)
-            {
-                closeCatalogContentSettingsSort();
-            }
-        });
-
-        $(document).on('keyup', function (e) {
-            if (e.key == 'Escape') {
-                closeCatalogContentSettingsSort();
-            }
-        });
-
-        function initCatalogContentSortSwitch() {
-            $('.cp-content__sort-options input[type="radio"]').on('click', function () {
-                if($(this).prop('checked')) {
-                    $(this).closest('.cp-content__sort-options').find('.cp-content__sort-label').removeClass('active');
-                    $(this).siblings('.cp-content__sort-label').addClass('active');
-                } else {
-                    $(this).siblings('.cp-content__sort-label').removeClass('active');
-                }
-
-                if (window.matchMedia('(max-width: 1199.98px)').matches) {
-                    let selectPlaceholder = $('.cp-content__sort-label.active').text();
-
-                    $('.cp-content__sort').find('.cp-content__sort-select .cp-content__sort-select-value').text(selectPlaceholder);
-                    closeCatalogContentSettingsSort();
-                }
-            });
-        }
-
-        function catalogSettingsSortSelect() {
-            if (window.matchMedia('(min-width: 1200px)').matches) {
-                closeCatalogContentSettingsSort();
-            } else if (window.matchMedia('(max-width: 1199.98px)').matches) {
-                $('.cp-content__sort-select').on('click', function () {
-                    if (!$(this).hasClass('active')) {
-                        $(this).addClass('active');
-                        $(this).siblings('.cp-content__sort-options').addClass('active');
-                    } else if ($(this).hasClass('active')) {
-                        $(this).removeClass('active');
-                        $(this).siblings('.cp-content__sort-options').removeClass('active');
-                    }
-                });
-            }
-        }
-
-        function closeCatalogContentSettingsSort () {
-            $('.cp-content__sort-select').removeClass('active');
-            $('.cp-content__sort-options').removeClass('active');
-        }
-    }*/
-
-    if ($('.js-sort-btn').length) {
-        let $sortBtn = $('.js-sort-btn');
-        let $sortList = $('.js-sort-list');
-        let $productSortBtn = $('.js-product-sort-btn');
-
-        $sortBtn.on('click', function () {
-            $(this).toggleClass('open');
-            $sortList.toggleClass('open');
-        });
-
-        $productSortBtn.on('click', function () {
-            let dataSort = $(this).attr('data-sort');
-            let isActive = $(this).hasClass('active');
-            let isAsc = $(this).hasClass('asc');
-            let doAsc = 'desc';
-            if(isAsc)doAsc = 'asc';
-
-            if (window.matchMedia("(max-width: ".concat(screenPoints.tablet, "px)")).matches) {
-                $sortBtn.removeClass('open');
-                $sortList.removeClass('open');
-            }
-
-            if (isActive && isAsc) {
-                $(this).removeClass('asc');
-                $(this).addClass('desc');
-                catalogSort({sort: dataSort, order: 'desc', is_catalog_ajax: 'Y'});
-                return;
-            }
-
-            if (isActive && !isAsc) {
-                $(this).removeClass('desc');
-                $(this).addClass('asc');
-                catalogSort({sort: dataSort, order: 'asc', is_catalog_ajax: 'Y'});
-                return;
-            }
-
-            $productSortBtn.removeClass('active');
-            $(this).addClass('active');
-            catalogSort({sort: dataSort, order: doAsc, is_catalog_ajax: 'Y'});
-        });
-
-        function catalogSort(data) {
-            $.ajax({
-                type: 'get',
-                data: data,
-                success: function (res) {
-                    $("#catalogContent").html(res);
-                }
-            });
-        }
-    }
-};
-
 // Initialize sort switch
 application.prototype.initSortSwitch = function () {
     if ($('.cp-content__sort-label').length) {
@@ -902,5 +789,155 @@ application.prototype.initTestShowHideDropmenu = function () {
                 $('body').toggleClass('dis-scroll overflow-hidden');
             }
         });
+    }
+};
+
+
+// Initialize catalog content sort
+application.prototype.initCatalogContentSort = function () {
+    /*
+     // Braikpoints
+      let screenPoints = {
+        mobSmall: 480,
+        mob: 670,
+        ipad: 960,
+        tablet: 1280,
+        laptop: 1440
+      };
+    */
+
+    if ($('.js-sort-btn').length) {
+        let $sortBtn = $('.js-sort-btn');
+        let $sortList = $('.js-sort-list');
+        let $productSortBtn = $('.js-product-sort-btn');
+
+        $sortBtn.on('click', function () {
+            $(this).toggleClass('open');
+            $sortList.toggleClass('open');
+        });
+
+        $productSortBtn.on('click', function () {
+            let dataSort = $(this).attr('data-sort');
+            let isActive = $(this).hasClass('active');
+            let isAsc = $(this).hasClass('asc');
+            let doAsc = 'desc';
+            if(isAsc)doAsc = 'asc';
+
+            if (window.matchMedia("(max-width: 1199.98px)").matches) {
+                $sortBtn.removeClass('open');
+                $sortList.removeClass('open');
+            }
+
+            if (isActive && isAsc) {
+                $(this).removeClass('asc');
+                $(this).addClass('desc');
+                catalogSort({sort: dataSort, order: 'desc', is_catalog_ajax: 'Y'});
+                return;
+            }
+
+            if (isActive && !isAsc) {
+                $(this).removeClass('desc');
+                $(this).addClass('asc');
+                catalogSort({sort: dataSort, order: 'asc', is_catalog_ajax: 'Y'});
+                return;
+            }
+
+            $productSortBtn.removeClass('active');
+            $(this).addClass('active');
+            catalogSort({sort: dataSort, order: doAsc, is_catalog_ajax: 'Y'});
+        });
+
+        function catalogSort(data) {
+            $.ajax({
+                type: 'get',
+                data: data,
+                success: function (res) {
+                    $("#catalogContent").html(res);
+                }
+            });
+        }
+    }
+};
+
+// Initialize catalog accordion
+application.prototype.initCatalogAccordion = function () {
+    let accordionArr = document.querySelectorAll('.js-accordion');
+
+    if (accordionArr.length !== 0) {
+        for (let i = 0; i < accordionArr.length; i++) {
+            accordionArr[i].querySelector('.js-accordion-btn').addEventListener('click', toggleAccordion);
+
+            if (accordionArr[i].querySelector('.js-accordion-btn').classList.contains('js-accordion-btn--active')) {
+                accordionArr[i].querySelector('.js-accordion-info').style.display = "block";
+            }
+        }
+    }
+
+    function toggleAccordion(event, element) {
+        event.preventDefault();
+        let item;
+
+        if (event) {
+            item = this;
+        } else {
+            item = element;
+        }
+
+        item.classList.toggle('js-accordion-btn--active');
+        $(item.closest('.js-accordion').querySelector('.js-accordion-info')).slideToggle(300);
+    }
+};
+
+// Initialize catalog range slider
+application.prototype.initCatalogRange = function () {
+    let rangeItemsArr = document.querySelectorAll('.js-range-slider');
+
+    if (rangeItemsArr.length !== 0) {
+        let startRange = function startRange(item) {
+            let currentInputFrom = item.closest('.js-range').querySelector('.range__input--from');
+            let currentInputTo = item.closest('.js-range').querySelector('.range__input--to');
+            let startValue = +item.dataset.start;
+            let finishValue = +item.dataset.finish;
+            let minValue = +item.dataset.min;
+            let maxValue = +item.dataset.max;
+            let stepValue = +item.dataset.step;
+            noUiSlider.create(item, {
+                // инициализируем слайдер
+                start: [startValue, finishValue],
+                // устанавливаем начальные значения
+                connect: true,
+                range: {
+                    // устанавливаем минимальное и максимальное значения
+                    'min': minValue,
+                    'max': maxValue
+                },
+                step: stepValue // шаг изменения значений
+
+            });
+            item.noUiSlider.on('update', function (value) {
+                // при изменений положения элементов управления слайдера изменяем соответствующие значения
+                currentInputFrom.value = parseInt(value[0]).toLocaleString("ru");
+                currentInputTo.value = parseInt(value[1]).toLocaleString("ru");
+            });
+            item.noUiSlider.on('change', function (value) {
+                // при изменений положения элементов управления слайдера изменяем соответствующие значения
+
+                $(currentInputFrom).change();
+            });
+            currentInputFrom.addEventListener('change', function () {
+                // при изменении меньшего значения в input - меняем положение соответствующего элемента управления
+                let currentValue = parseInt(this.value.replace(",", ".").replace(/[^0-9.]/gim, ""));
+                item.noUiSlider.set([currentValue, null]);
+            });
+            currentInputTo.addEventListener('change', function () {
+                // при изменении меньшего значения в input - меняем положение соответствующего элемента управления
+                let currentValue = parseInt(this.value.replace(",", ".").replace(/[^0-9.]/gim, ""));
+                item.noUiSlider.set([null, currentValue]);
+            });
+        };
+
+        for (let i = 0; i < rangeItemsArr.length; i++) {
+            startRange(rangeItemsArr[i]);
+        }
     }
 };

@@ -96,6 +96,7 @@ const includedJsBuild = () => {
             "node_modules/@popperjs/core/dist/umd/popper.js",
             "node_modules/accordion-js/dist/accordion.min.js",
             "node_modules/swiper/swiper-bundle.js",
+            "node_modules/nouislider/dist/nouislider.js",
         ]
     )
         .pipe(dest(path.build.js))
@@ -111,6 +112,7 @@ const libsJsBuild = () => {
             "node_modules/@popperjs/core/dist/umd/popper.js",
             "node_modules/accordion-js/dist/accordion.min.js",
             "node_modules/swiper/swiper-bundle.js",
+            "node_modules/nouislider/dist/nouislider.js",
         ]
     )
         .pipe(concat("libs.min.js"))
