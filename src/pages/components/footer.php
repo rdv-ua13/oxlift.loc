@@ -1,53 +1,3 @@
-        <div class="gap-xl pre-footer">
-            <div class="container pre-footer__container">
-                <div class="pre-footer__descr">
-                    <div class="pre-footer__descr-pic">
-                        <img
-                                loading="lazy"
-                                class="image"
-                                src="img/mail-glass.svg#mail-glass"
-                                width="90"
-                                height="90"
-                                alt="Изображение блока"
-                        >
-                    </div>
-                    <div class="pre-footer__descr-info">
-                        <div class="pre-footer__descr-title h3">Остались вопросы</div>
-                        <div class="pre-footer__descr-subtitle">Наши специалисты с радостью вам помогут</div>
-                    </div>
-                </div>
-                <div class="pre-footer__act">
-                    <form id="" class="pre-footer__act-form" method="" action="javascript:;">
-                        <div class="input-wrapper">
-                            <input
-                                    id=""
-                                    class="input-reset input"
-                                    type="text"
-                                    name=""
-                                    value=""
-                                    placeholder="Имя"
-                                    autocomplete="off"
-                            >
-                        </div>
-                        <div class="input-wrapper">
-                            <input
-                                    id=""
-                                    class="input-reset input"
-                                    type="text"
-                                    name=""
-                                    value=""
-                                    placeholder="Телефон"
-                                    autocomplete="off"
-                            >
-                        </div>
-                        <button class="btn-reset btn btn-secondary" type="submit">
-                            <span class="text-content">Заказать звонок</span>
-                        </button>
-                    </form>
-                    <div class="pre-footer__act-caption fz-caption-sm">Даю согласие на обработку моих персональных данных. Соглашаюсь с <a class="link-tdu link-tdu--native" href="javascript:;">Политикой конфиденциальности</a></div>
-                </div>
-            </div>
-        </div>
     </main>
 
     <footer class="footer">
@@ -67,26 +17,54 @@
                         <span class="text-content">Hашли ошибку? - Напишите нам</span>
                     </a>
                 </div>
-                <div class="footer-subscribe">
-                    <div class="footer-subscribe__title">Хочу быть в курсе акций и новинок</div>
-                    <div class="footer-subscribe__act">
-                        <form id="" class="footer-subscribe__act-form" method="" action="javascript:;">
-                            <div class="input-wrapper">
-                                <input
-                                        id=""
-                                        class="input-reset input"
-                                        type="email"
-                                        name=""
-                                        value=""
-                                        placeholder="Ваш Email"
-                                        autocomplete="off"
+                <div class="footer-subscribe pre-footer">
+                    <div class="container pre-footer__container">
+                        <div class="pre-footer__descr">
+                            <div class="pre-footer__descr-pic">
+                                <img
+                                        loading="lazy"
+                                        class="image"
+                                        src="img/mail-glass.svg#mail-glass"
+                                        width="90"
+                                        height="90"
+                                        alt="Изображение блока"
                                 >
                             </div>
-                            <button class="btn-reset btn btn-secondary" type="submit">
-                                <span class="text-content">Подписаться</span>
-                            </button>
-                        </form>
-                        <div class="footer-subscribe__act-caption">Нажимая на кнопку, я принимаю <a class="link-tdu link-tdu--native" href="javascript:;">Политику в области обработки и защиты персональных данных</a> и соглашаюсь получать сообщения.</div>
+                            <div class="pre-footer__descr-info">
+                                <div class="pre-footer__descr-title h3">Остались вопросы</div>
+                                <div class="pre-footer__descr-subtitle">Наши специалисты с радостью вам помогут</div>
+                            </div>
+                        </div>
+                        <div class="pre-footer__act">
+                            <form id="" class="pre-footer__act-form" method="" action="javascript:;">
+                                <div class="input-wrapper">
+                                    <input
+                                            id=""
+                                            class="input-reset input"
+                                            type="text"
+                                            name=""
+                                            value=""
+                                            placeholder="Имя"
+                                            autocomplete="off"
+                                    >
+                                </div>
+                                <div class="input-wrapper">
+                                    <input
+                                            id=""
+                                            class="input-reset input"
+                                            type="text"
+                                            name=""
+                                            value=""
+                                            placeholder="Телефон"
+                                            autocomplete="off"
+                                    >
+                                </div>
+                                <button class="btn-reset btn btn-secondary" type="submit">
+                                    <span class="text-content">Заказать звонок</span>
+                                </button>
+                            </form>
+                            <div class="pre-footer__act-caption fz-caption-sm">Даю согласие на обработку моих персональных данных. Соглашаюсь с <a class="link-tdu link-tdu--native" href="javascript:;">Политикой конфиденциальности</a></div>
+                        </div>
                     </div>
                 </div>
             </div>
