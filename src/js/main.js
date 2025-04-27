@@ -718,7 +718,7 @@ application.prototype.initCardActionMore = function () {
 
 // Initialize catalog content sort
 application.prototype.initCatalogContentSort = function () {
-    if ($('.cp-content__sort-options').length) {
+    /*if ($('.cp-content__sort-options').length) {
         initCatalogContentSortSwitch();
 
         catalogSettingsSortSelect();
@@ -776,6 +776,58 @@ application.prototype.initCatalogContentSort = function () {
         function closeCatalogContentSettingsSort () {
             $('.cp-content__sort-select').removeClass('active');
             $('.cp-content__sort-options').removeClass('active');
+        }
+    }*/
+
+    if ($('.js-sort-btn').length) {
+        let $sortBtn = $('.js-sort-btn');
+        let $sortList = $('.js-sort-list');
+        let $productSortBtn = $('.js-product-sort-btn');
+
+        $sortBtn.on('click', function () {
+            $(this).toggleClass('open');
+            $sortList.toggleClass('open');
+        });
+
+        $productSortBtn.on('click', function () {
+            let dataSort = $(this).attr('data-sort');
+            let isActive = $(this).hasClass('active');
+            let isAsc = $(this).hasClass('asc');
+            let doAsc = 'desc';
+            if(isAsc)doAsc = 'asc';
+
+            if (window.matchMedia("(max-width: ".concat(screenPoints.tablet, "px)")).matches) {
+                $sortBtn.removeClass('open');
+                $sortList.removeClass('open');
+            }
+
+            if (isActive && isAsc) {
+                $(this).removeClass('asc');
+                $(this).addClass('desc');
+                catalogSort({sort: dataSort, order: 'desc', is_catalog_ajax: 'Y'});
+                return;
+            }
+
+            if (isActive && !isAsc) {
+                $(this).removeClass('desc');
+                $(this).addClass('asc');
+                catalogSort({sort: dataSort, order: 'asc', is_catalog_ajax: 'Y'});
+                return;
+            }
+
+            $productSortBtn.removeClass('active');
+            $(this).addClass('active');
+            catalogSort({sort: dataSort, order: doAsc, is_catalog_ajax: 'Y'});
+        });
+
+        function catalogSort(data) {
+            $.ajax({
+                type: 'get',
+                data: data,
+                success: function (res) {
+                    $("#catalogContent").html(res);
+                }
+            });
         }
     }
 };

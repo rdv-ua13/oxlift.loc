@@ -601,6 +601,63 @@
 
                     <div class="cp-content__settings">
                         <div class="cp-content__sort">
+
+                            <div class="product-sort">
+                                <div class="product-sort__filter">
+                                    <p class="product-sort__filter-text">Сортировать:</p>
+                                    <button class="btn-reset product-sort__btn-select js-sort-btn">
+                                        Сортировка
+                                    </button>
+                                    <ul class="product-sort__list js-sort-list">
+                                        <li class="product-sort__item">
+                                            <button class="btn-reset product-sort__btn  asc  js-product-sort-btn" data-sort="price">
+                                                <svg class="product-sort__icon product-sort__icon--asc" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M8 12h2.667v-1.333H8V12zm0-8v1.333h8V4H8zm0 4.667h5.333V7.333H8v1.334zM1 4.857h2.143V12H4.57V4.857h2.143L3.857 2 1 4.857z"></path>
+                                                </svg>
+                                                <svg class="product-sort__icon product-sort__icon--desc" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M8 12h2.667v-1.333H8V12zm0-8v1.333h8V4H8zm0 4.667h5.333V7.333H8v1.334zM1 11.143h2.143V4H4.57v7.143h2.143L3.857 14 1 11.143z"></path>
+                                                </svg>
+                                                <span>По цене</span>
+                                            </button>
+                                        </li>
+                                        <li class="product-sort__item">
+                                            <button class="btn-reset product-sort__btn  asc  js-product-sort-btn" data-sort="name">
+                                                <svg class="product-sort__icon product-sort__icon--asc" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M8 12h2.667v-1.333H8V12zm0-8v1.333h8V4H8zm0 4.667h5.333V7.333H8v1.334zM1 4.857h2.143V12H4.57V4.857h2.143L3.857 2 1 4.857z"></path>
+                                                </svg>
+                                                <svg class="product-sort__icon product-sort__icon--desc" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M8 12h2.667v-1.333H8V12zm0-8v1.333h8V4H8zm0 4.667h5.333V7.333H8v1.334zM1 11.143h2.143V4H4.57v7.143h2.143L3.857 14 1 11.143z"></path>
+                                                </svg>
+                                                <span>По названию</span>
+                                            </button>
+                                        </li>
+                                        <li class="product-sort__item">
+                                            <button class="btn-reset product-sort__btn  active asc js-product-sort-btn" data-sort="sale">
+                                                <svg class="product-sort__icon product-sort__icon--asc" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M8 12h2.667v-1.333H8V12zm0-8v1.333h8V4H8zm0 4.667h5.333V7.333H8v1.334zM1 4.857h2.143V12H4.57V4.857h2.143L3.857 2 1 4.857z"></path>
+                                                </svg>
+                                                <svg class="product-sort__icon product-sort__icon--desc" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M8 12h2.667v-1.333H8V12zm0-8v1.333h8V4H8zm0 4.667h5.333V7.333H8v1.334zM1 11.143h2.143V4H4.57v7.143h2.143L3.857 14 1 11.143z"></path>
+                                                </svg>
+                                                <span>По скидке</span>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p class="product-sort__result">
+                                    Найдено товаров: <span id="catalog_total">2619</span>
+                                </p>
+                                <div class="product-sort__btn-filter-wrap">
+                                    <button class="btn-reset product-sort__btn-filter js-btn-filter-mobile">
+                                        Фильтр
+                                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z" fill="#33333D"></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+
+
                             <div class="cp-content__sort-title">Сортировать:</div>
                             <div class="cp-content__sort-select">
                                 <span class="text-content">Сортировка <span class="cp-content__sort-select-value">по цене</span></span>
@@ -677,7 +734,7 @@
                 </div>
 
                 <div class="cp-content__item" data-entity="container-l">
-                    <div class="gap-lg card-list card-list--lg">
+                    <div id="catalogContent" class="gap-lg card-list card-list--lg">
                         <div class="card card-product">
                             <a class="card__view" href="javascript:;">
                                 <div class="mini-slider">
