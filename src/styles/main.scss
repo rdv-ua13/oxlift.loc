@@ -5,6 +5,7 @@
 @use "./helpers/ui";
 @use "../../node_modules/@fancyapps/ui/dist/fancybox";
 @use "../../node_modules/swiper/swiper-bundle";
+@use "../../node_modules/nouislider/dist/nouislider";
 @use "settings";
 
 // подключения компонентов страницы
@@ -1243,7 +1244,7 @@ body:not(.index) {
 			background-image: url('../img/icon-check.svg');
 			background-size: contain;
 			background-repeat: no-repeat;
-			background-position: center;
+			background-position: left 1px center;
 			background-color: #1F2D3D;
 			border-color: #1F2D3D;
 		}
@@ -1290,7 +1291,8 @@ body:not(.index) {
 		margin-right: -5px;
 		margin-top: 20px;
 		margin-bottom: 15px;
-
+	}
+	&__value {
 		&-wrap {
 			padding-left: 5px;
 			padding-right: 5px;
@@ -1320,32 +1322,33 @@ body:not(.index) {
 			padding-right: 15px;
 			font-size    : 12px;
 		}
-	}
-	&-label {
-		position: absolute;
-		right: 15px;
-		top: 50%;
-		transform: translateY(-50%);
-		font-size: 14px;
-		color: #253340;
-		padding-top: 2px;
 
-		@media screen and (max-width: 1199.98px) {
-			font-size: 12px;
-			right    : 5px;
-		}
-
-		&-text {
+		&-label {
 			position: absolute;
-			left: 15px;
+			right: 15px;
 			top: 50%;
 			transform: translateY(-50%);
 			font-size: 14px;
-			color: #C4C4C4;
+			color: #253340;
+			padding-top: 2px;
 
 			@media screen and (max-width: 1199.98px) {
 				font-size: 12px;
-				left     : 5px;
+				right    : 5px;
+			}
+
+			&-text {
+				position: absolute;
+				left: 15px;
+				top: 50%;
+				transform: translateY(-50%);
+				font-size: 14px;
+				color: #C4C4C4;
+
+				@media screen and (max-width: 1199.98px) {
+					font-size: 12px;
+					left     : 5px;
+				}
 			}
 		}
 	}

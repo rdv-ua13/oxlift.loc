@@ -26,6 +26,7 @@
     <script defer src="js/popper.js"></script>                  <!-- popper -->
     <script defer src="js/swiper-bundle.js"></script>           <!-- swiper -->
     <script defer src="js/accordion.min.js"></script>           <!-- accordion -->
+    <script defer src="js/nouislider.js"></script>              <!-- nouislider -->
 
 	<?/* Подключение библиотек (объединённо)
     <script defer src="js/libs.min.js"></script> */?>
