@@ -67,16 +67,16 @@
 
 	// breakpoints
 	/*@mob-small  : 480px - 1px;
-	@mob        : 670px - 1px;
-	@ipad       : 960px - 1px;
-	@tablet     : 1200px - 1px;
-	@laptop     : 1440px - 1px;
+	@mob        : 670px - 1px = 767px;
+	@ipad       : 960px - 1px = 991px;
+	@tablet     : 1200px - 1px = 1199px;
+	@laptop     : 1440px - 1px = 1439px;
 	@laptop-wide: 1680px - 1px;
 	@inner      : 1710px;
 
-	@min-tablet: @tablet + 1px;
-	@min-ipad  : @ipad + 1px;
-	@min-mob   : @mob + 1px;*/
+	@min-tablet: @tablet + 1px = 1200px;
+	@min-ipad  : @ipad + 1px = 992px;
+	@min-mob   : @mob + 1px = 768px;*/
 
 	// fancybox
 	--fancybox-scrollbar-compensate: 17px;

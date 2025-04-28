@@ -34,6 +34,8 @@ application.prototype.init = function () {
     this.initCatalogContentSort();
     this.initCatalogAccordion();
     this.initCatalogRange();
+    this.initCatalogFilter();
+    this.initCatalogInputAmount();
 };
 
 // Initialize disable scroll
@@ -122,7 +124,7 @@ application.prototype.initHeaderContactsClickMobile = function () {
     $(window).on('resize', headerContactsOnResizeOff);
 
     $('.header-contacts__email').on('click', function () {
-        if(window.matchMedia('(max-width: 575.98px)').matches) {
+        if(window.matchMedia('(max-width: 575px)').matches) {
             $(this).addClass('active');
         }
     });
@@ -326,7 +328,7 @@ application.prototype.initMenuCatalogSubmenu = function () {
             });
         }
     }
-    else if (window.matchMedia('(max-width: 1199.98px)').matches) {
+    else if (window.matchMedia('(max-width: 1199px)').matches) {
         rootItem.on('click', function (e) {
             e.preventDefault();
             e.stopPropagation();
@@ -372,7 +374,7 @@ application.prototype.initBasicSlider = function () {
                     spaceBetween = 20;
                 }
             }
-            else if (window.matchMedia('(max-width: 991.98px)').matches) {
+            else if (window.matchMedia('(max-width: 991px)').matches) {
                 spaceBetween = 8;
             }
 
@@ -520,7 +522,7 @@ application.prototype.initCartQuantity = function () {
             if(newVal == 0) {
                 newVal = mult;
 
-                if(window.matchMedia('(max-width: 991.98px)').matches) {
+                if(window.matchMedia('(max-width: 991px)').matches) {
                     $(this).closest('.cart-quantity').removeClass('enabled');
                     $(this).closest('.cart-buy').find('.cart-in').removeClass('disabled');
                 }
@@ -529,7 +531,7 @@ application.prototype.initCartQuantity = function () {
             $button.closest('.cart-quantity').find('input.cart-quantity-input').val(newVal).trigger('change');
         });
 
-        if(window.matchMedia('(max-width: 991.98px)').matches) {
+        if(window.matchMedia('(max-width: 991px)').matches) {
             $(document).on('click', '.cart-in', function(e) {
                 $(this).addClass('disabled');
                 $(this).closest('.cart-buy').find('.cart-quantity').addClass('enabled');
@@ -668,7 +670,7 @@ application.prototype.initFooterAccordion = function () {
                         }
                     }
                     return;
-                } else if (window.matchMedia('(max-width: 991.98px)').matches) {
+                } else if (window.matchMedia('(max-width: 991px)').matches) {
                     footerAccordion = new Accordion(accordions, {
                         duration: 200,
                         showMultiple: true,
@@ -766,7 +768,7 @@ application.prototype.initTestShowHideDropmenu = function () {
         $('.testShowDropmenu01').on('click', function () {
             $('.testShowDropmenu01').closest('.cart-quick-add').toggleClass('active');
 
-            if(window.matchMedia('(max-width: 991.98px)').matches) {
+            if(window.matchMedia('(max-width: 991px)').matches) {
                 $('body').toggleClass('dis-scroll overflow-hidden');
             }
         });
@@ -775,7 +777,7 @@ application.prototype.initTestShowHideDropmenu = function () {
         $('.testHideDropmenu01').on('click', function () {
             $('.testShowDropmenu01').closest('.cart-quick-add').removeClass('active');
 
-            if(window.matchMedia('(max-width: 991.98px)').matches) {
+            if(window.matchMedia('(max-width: 991px)').matches) {
                 $('body').toggleClass('dis-scroll overflow-hidden');
             }
         });
@@ -785,7 +787,7 @@ application.prototype.initTestShowHideDropmenu = function () {
         $('.testShowDropmenu02').on('click', function () {
             $('.testShowDropmenu02').closest('.header-search-results').addClass('request');
 
-            if(window.matchMedia('(max-width: 991.98px)').matches) {
+            if(window.matchMedia('(max-width: 991px)').matches) {
                 $('body').toggleClass('dis-scroll overflow-hidden');
             }
         });
@@ -823,7 +825,7 @@ application.prototype.initCatalogContentSort = function () {
             let doAsc = 'desc';
             if(isAsc)doAsc = 'asc';
 
-            if (window.matchMedia("(max-width: 1199.98px)").matches) {
+            if (window.matchMedia("(max-width: 1199px)").matches) {
                 $sortBtn.removeClass('open');
                 $sortList.removeClass('open');
             }
@@ -939,5 +941,111 @@ application.prototype.initCatalogRange = function () {
         for (let i = 0; i < rangeItemsArr.length; i++) {
             startRange(rangeItemsArr[i]);
         }
+    }
+};
+
+// Initialize catalog filter
+application.prototype.initCatalogFilter = function () {
+    let $btnFilterOpen = $('.js-btn-filter-mobile');
+    let $btnFilterClose = $('.js-btn-filter-close');
+    let $productFilter = $('.js-product-filter');
+
+    let isbodyScrollEnabled = false;
+    $btnFilterOpen.on('click', function () {
+        $productFilter.addClass('open');
+        return application.prototype.disableScroll();
+    });
+    $btnFilterClose.on('click', function () {
+        $productFilter.removeClass('open');
+        return application.prototype.enableScroll();
+    });
+    $(".js-product-filter .product_filter_btn_exec").on('click', function () {
+        $productFilter.removeClass('open');
+        return application.prototype.enableScroll();
+    });
+
+    $(window).resize(function () {
+        if (!window.matchMedia("(max-width: 991px").matches && isbodyScrollEnabled) {
+            $productFilter.removeClass('open');
+            return application.prototype.enableScroll();
+        }
+    });
+};
+
+// Initialize catalog input amount
+application.prototype.initCatalogInputAmount = function () {
+    //******** Изменение кол-ва единиц в input по клику на +/- *******//
+    let fieldsNum = document.querySelectorAll('.js-amount-block');
+
+    if (fieldsNum.length !== 0) {
+        for (let item = 0; item < fieldsNum.length; item++) {
+            fieldsNum[item].addEventListener('click', changeValueInputByButton);
+            fieldsNum[item].addEventListener('change', changeValueInput);
+        }
+    }
+
+    function changeValueInputByButton(event) {
+        let eventTarget = event.target;
+        let block = this;
+        let currentNum = block.querySelector('.js-amount');
+        let change = 0; //изменение
+
+        let step = +currentNum.step || 1; //шаг
+
+        if (eventTarget.closest('.js-amount-btn-reduce')) {
+            change = -step;
+        } else if (eventTarget.closest('.js-amount-btn-increase')) {
+            change = +step;
+        }
+
+        let newCount = +currentNum.value + change;
+        currentNum.value = newCount; //создаем событие изменения значения form-num__input - чтобы не дублировать условия изменения input
+
+        let numInputChange;
+
+        if (typeof Event === 'function') {
+            numInputChange = new Event('change', {
+                bubbles: true,
+                cancelable: true
+            });
+        } else {
+            numInputChange = document.createEvent('Event');
+            numInputChange.initEvent('change', true, true);
+        }
+
+        currentNum.dispatchEvent(numInputChange);
+    } //Изменение кол-ва единиц в input по заполнению
+
+
+    function changeValueInput(event) {
+        let eventTarget = event.target;
+        let minNum = +eventTarget.min || 0; //минимальное значение
+
+        let maxNum = +eventTarget.max || Infinity; //максимальное значение
+
+        let valueInput = +eventTarget.value;
+
+        if (valueInput < minNum) {
+            eventTarget.value = minNum;
+            alert("\u041A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u043D\u0435 \u043C\u043E\u0436\u0435\u0442 \u0431\u044B\u0442\u044C \u043C\u0435\u043D\u044C\u0448\u0435 ".concat(minNum));
+        } else if (valueInput > maxNum) {
+            eventTarget.value = maxNum;
+            alert("\u041A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u043D\u0435 \u043C\u043E\u0436\u0435\u0442 \u0431\u044B\u0442\u044C \u0431\u043E\u043B\u044C\u0448\u0435 ".concat(maxNum));
+        } //создаем событие 'input-number-change'
+
+
+        let inputNumberChangeEvent;
+
+        if (typeof Event === 'function') {
+            inputNumberChangeEvent = new Event('input-number-change', {
+                bubbles: true,
+                cancelable: true
+            });
+        } else {
+            inputNumberChangeEvent = document.createEvent('Event');
+            inputNumberChangeEvent.initEvent('input-number-change', true, true);
+        }
+
+        eventTarget.dispatchEvent(inputNumberChangeEvent);
     }
 };

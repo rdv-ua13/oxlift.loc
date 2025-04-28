@@ -82,7 +82,7 @@
     .gap-lg-plus { margin-bottom: 48px !important; }
     .gap-xl { margin-bottom: 60px !important; }
 }
-@media (max-width: 991.98px) {
+@media (max-width: 991px) {
     .gap-xxxs { margin-bottom: 8px !important; }
     .gap-xxs, .gap-xs, .gap-sm { margin-bottom: 12px !important; }
     .gap-sm-plus, .gap-md, .gap-md-plus { margin-bottom: 16px !important; }
