@@ -1910,7 +1910,11 @@
                                         <a href="/shop/udlinitel_profiley_60_kh_27_giprok/" class="product-card-new__title" itemprop="url">Удлинитель профилей 60 х 27 Ветонит (Гипрок)</a>
 
 
-                                        <div class="product-card-new__price-wrap js-tabs-goods">
+                                        <div class="product-card-new__characteristics">
+                                                                <p>Грузоподъемность: 2000 кг</p>
+                                                                <p>Высота подъёма: 80-200 мм</p>
+                                                            </div>
+                                                            <div class="product-card-new__price-wrap js-tabs-goods">
 
                                             <div class="product-card-new__nav-block">
                                                 <div class="product-card-new__nav-item">
@@ -1922,8 +1926,7 @@
                                                 <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                     <ul class="list-reset product-card-new__price">
                                                         <li class="product-card-new__price-option">
-								<span class="product-card-new__price-text">По карте Материк
-								</span>
+
                                                             <!--span class="product-card-new__price-value">112 ₽</span-->
                                                             <span class="product-card-new__price-value base_243060" id="bx_3966226736_243060_7e1b8e3524755c391129a9d7e6f2d206_price">18 руб.</span>
 
@@ -1934,15 +1937,6 @@
                                                             <link itemprop="availability" href="http://schema.org/InStock">
 
 
-                                                        </li>
-                                                        <li class="product-card-new__price-option">
-                                                            <div class="product-card-new__price-key">
-									<span class="product-card-new__price-text">
-										Розничная цена
-									</span>
-                                                            </div>
-                                                            <!--span class="product-card-new__price-value">117 ₽</span-->
-                                                            <span class="product-card-new__price-value retail_243060">18 руб.</span>
                                                         </li>
                                                     </ul>
 
@@ -2065,9 +2059,9 @@
 
 
                                         <div class="product-card-new__availability-wrap">
-                                            <div class="product-card-new__availability product-card-new__availability--ok">
+                                            <div class="product-card-new__availability product-card-new__availability--to-order">
                                                 <span class="product-card-new__availability-icon"></span>
-                                                <span class="product-card-new__availability-text">В наличии: 80 шт</span>
+                                                <span class="product-card-new__availability-text">Под заказ</span>
                                             </div>
                                         </div>
 
@@ -2076,7 +2070,11 @@
                                         <a href="/shop/soedinitel_profiley_odnourovnevyy_krab_giprok_0_9mm_60_kh_27_/" class="product-card-new__title" itemprop="url">Соединитель профилей одноуровневый Краб Ветонит (Гипрок) 0,9мм 60 х 27 </a>
 
 
-                                        <div class="product-card-new__price-wrap js-tabs-goods">
+                                        <div class="product-card-new__characteristics">
+                                                                <p>Грузоподъемность: 2000 кг</p>
+                                                                <p>Высота подъёма: 80-200 мм</p>
+                                                            </div>
+                                                            <div class="product-card-new__price-wrap js-tabs-goods">
 
                                             <div class="product-card-new__nav-block">
                                                 <div class="product-card-new__nav-item">
@@ -2088,8 +2086,7 @@
                                                 <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                     <ul class="list-reset product-card-new__price">
                                                         <li class="product-card-new__price-option">
-								<span class="product-card-new__price-text">По карте Материк
-								</span>
+
                                                             <!--span class="product-card-new__price-value">112 ₽</span-->
                                                             <span class="product-card-new__price-value base_243055" id="bx_3966226736_243055_362ce596257894d11ab5c1d73d13c755_price">55 руб.</span>
 
@@ -2100,15 +2097,6 @@
                                                             <link itemprop="availability" href="http://schema.org/InStock">
 
 
-                                                        </li>
-                                                        <li class="product-card-new__price-option">
-                                                            <div class="product-card-new__price-key">
-									<span class="product-card-new__price-text">
-										Розничная цена
-									</span>
-                                                            </div>
-                                                            <!--span class="product-card-new__price-value">117 ₽</span-->
-                                                            <span class="product-card-new__price-value retail_243055">55 руб.</span>
                                                         </li>
                                                     </ul>
 
@@ -2242,7 +2230,11 @@
                                         <a href="/shop/podves_pryamoy_giprok_0_9mm_60_kh_27/" class="product-card-new__title" itemprop="url">Подвес прямой Ветонит (Гипрок) 0,9мм 60 х 27</a>
 
 
-                                        <div class="product-card-new__price-wrap js-tabs-goods">
+                                        <div class="product-card-new__characteristics">
+                                                                <p>Грузоподъемность: 2000 кг</p>
+                                                                <p>Высота подъёма: 80-200 мм</p>
+                                                            </div>
+                                                            <div class="product-card-new__price-wrap js-tabs-goods">
 
                                             <div class="product-card-new__nav-block">
                                                 <div class="product-card-new__nav-item">
@@ -2254,8 +2246,7 @@
                                                 <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                     <ul class="list-reset product-card-new__price">
                                                         <li class="product-card-new__price-option">
-								<span class="product-card-new__price-text">По карте Материк
-								</span>
+
                                                             <!--span class="product-card-new__price-value">112 ₽</span-->
                                                             <span class="product-card-new__price-value base_243056" id="bx_3966226736_243056_c80764dfaf26ca80162484593ec7c29b_price">23 руб.</span>
 
@@ -2266,15 +2257,6 @@
                                                             <link itemprop="availability" href="http://schema.org/InStock">
 
 
-                                                        </li>
-                                                        <li class="product-card-new__price-option">
-                                                            <div class="product-card-new__price-key">
-									<span class="product-card-new__price-text">
-										Розничная цена
-									</span>
-                                                            </div>
-                                                            <!--span class="product-card-new__price-value">117 ₽</span-->
-                                                            <span class="product-card-new__price-value retail_243056">23 руб.</span>
                                                         </li>
                                                     </ul>
 
@@ -2408,7 +2390,11 @@
                                         <a href="/shop/lenta_bumazhnaya_dlya_shvov_giprok_marko_pro_50m/" class="product-card-new__title" itemprop="url">Лента бумажная для швов Ветонит (Гипрок) Марко ПРО 50м</a>
 
 
-                                        <div class="product-card-new__price-wrap js-tabs-goods">
+                                        <div class="product-card-new__characteristics">
+                                                                <p>Грузоподъемность: 2000 кг</p>
+                                                                <p>Высота подъёма: 80-200 мм</p>
+                                                            </div>
+                                                            <div class="product-card-new__price-wrap js-tabs-goods">
 
                                             <div class="product-card-new__nav-block">
                                                 <div class="product-card-new__nav-item">
@@ -2420,8 +2406,7 @@
                                                 <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                     <ul class="list-reset product-card-new__price">
                                                         <li class="product-card-new__price-option">
-								<span class="product-card-new__price-text">По карте Материк
-								</span>
+
                                                             <!--span class="product-card-new__price-value">112 ₽</span-->
                                                             <span class="product-card-new__price-value base_243057" id="bx_3966226736_243057_d0fb066f64e2309c4b241a491f76c62e_price">812 руб.</span>
 
@@ -2432,15 +2417,6 @@
                                                             <link itemprop="availability" href="http://schema.org/InStock">
 
 
-                                                        </li>
-                                                        <li class="product-card-new__price-option">
-                                                            <div class="product-card-new__price-key">
-									<span class="product-card-new__price-text">
-										Розничная цена
-									</span>
-                                                            </div>
-                                                            <!--span class="product-card-new__price-value">117 ₽</span-->
-                                                            <span class="product-card-new__price-value retail_243057">812 руб.</span>
                                                         </li>
                                                     </ul>
 
@@ -2549,7 +2525,7 @@
 
 
 
-                                            <span class="product-card-new__label product-card-new__label--best-price">-1%</span>
+
 
 
                                             <div class="product-card-new__rating">
@@ -2572,7 +2548,11 @@
                                         <a href="/shop/kley_universalnyy_sormat_mdf_kit_435_80_400/" class="product-card-new__title" itemprop="url">Клей универсальный Sormat MDF KIT 435 80+400</a>
 
 
-                                        <div class="product-card-new__price-wrap js-tabs-goods">
+                                        <div class="product-card-new__characteristics">
+                                                                <p>Грузоподъемность: 2000 кг</p>
+                                                                <p>Высота подъёма: 80-200 мм</p>
+                                                            </div>
+                                                            <div class="product-card-new__price-wrap js-tabs-goods">
 
                                             <div class="product-card-new__nav-block">
                                                 <div class="product-card-new__nav-item">
@@ -2584,8 +2564,7 @@
                                                 <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                     <ul class="list-reset product-card-new__price">
                                                         <li class="product-card-new__price-option">
-								<span class="product-card-new__price-text">По карте Материк
-								</span>
+
                                                             <!--span class="product-card-new__price-value">112 ₽</span-->
                                                             <span class="product-card-new__price-value base_243096" id="bx_3966226736_243096_8e8f6cea7f5e44ced2966cbefca3ecfa_price">720 руб.</span>
 
@@ -2596,15 +2575,6 @@
                                                             <link itemprop="availability" href="http://schema.org/InStock">
 
 
-                                                        </li>
-                                                        <li class="product-card-new__price-option">
-                                                            <div class="product-card-new__price-key">
-									<span class="product-card-new__price-text">
-										Розничная цена
-									</span>
-                                                            </div>
-                                                            <!--span class="product-card-new__price-value">117 ₽</span-->
-                                                            <span class="product-card-new__price-value retail_243096">725 руб.</span>
                                                         </li>
                                                     </ul>
 
@@ -2713,7 +2683,7 @@
 
 
 
-                                            <span class="product-card-new__label product-card-new__label--best-price">-8%</span>
+
 
 
                                             <div class="product-card-new__rating">
@@ -2736,7 +2706,11 @@
                                         <a href="/shop/grunt_kraska_knauf_vaysgrund_belaya_15kg_f/" class="product-card-new__title" itemprop="url">Грунт краска КНАУФ Вайсгрунд белая 15кг F</a>
 
 
-                                        <div class="product-card-new__price-wrap js-tabs-goods">
+                                        <div class="product-card-new__characteristics">
+                                                                <p>Грузоподъемность: 2000 кг</p>
+                                                                <p>Высота подъёма: 80-200 мм</p>
+                                                            </div>
+                                                            <div class="product-card-new__price-wrap js-tabs-goods">
 
                                             <div class="product-card-new__nav-block">
                                                 <div class="product-card-new__nav-item">
@@ -2748,8 +2722,7 @@
                                                 <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                     <ul class="list-reset product-card-new__price">
                                                         <li class="product-card-new__price-option">
-								<span class="product-card-new__price-text">По карте Материк
-								</span>
+
                                                             <!--span class="product-card-new__price-value">112 ₽</span-->
                                                             <span class="product-card-new__price-value base_237630" id="bx_3966226736_237630_0f73996d13437b0b91038138616a89fe_price">2 393 руб.</span>
 
@@ -2760,15 +2733,6 @@
                                                             <link itemprop="availability" href="http://schema.org/InStock">
 
 
-                                                        </li>
-                                                        <li class="product-card-new__price-option">
-                                                            <div class="product-card-new__price-key">
-									<span class="product-card-new__price-text">
-										Розничная цена
-									</span>
-                                                            </div>
-                                                            <!--span class="product-card-new__price-value">117 ₽</span-->
-                                                            <span class="product-card-new__price-value retail_237630">2 607 руб.</span>
                                                         </li>
                                                     </ul>
 
@@ -2900,7 +2864,11 @@
                                         <a href="/shop/gipsokarton_sapfir_knauf_2000_kh_1200_kh_12_5mm_kromka_pluk_/" class="product-card-new__title" itemprop="url">Гипсокартон Сапфир КНАУФ 2000 х 1200 х 12,5мм кромка ПЛУК </a>
 
 
-                                        <div class="product-card-new__price-wrap js-tabs-goods">
+                                        <div class="product-card-new__characteristics">
+                                                                <p>Грузоподъемность: 2000 кг</p>
+                                                                <p>Высота подъёма: 80-200 мм</p>
+                                                            </div>
+                                                            <div class="product-card-new__price-wrap js-tabs-goods">
 
                                             <div class="product-card-new__nav-block">
                                                 <div class="product-card-new__nav-item">
@@ -2912,8 +2880,7 @@
                                                 <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                     <ul class="list-reset product-card-new__price">
                                                         <li class="product-card-new__price-option">
-								<span class="product-card-new__price-text">По карте Материк
-								</span>
+
                                                             <!--span class="product-card-new__price-value">112 ₽</span-->
                                                             <span class="product-card-new__price-value base_243551" id="bx_3966226736_243551_ec5d0e2cff91ab20debac17d8febe5be_price">884 руб.</span>
 
@@ -2924,15 +2891,6 @@
                                                             <link itemprop="availability" href="http://schema.org/InStock">
 
 
-                                                        </li>
-                                                        <li class="product-card-new__price-option">
-                                                            <div class="product-card-new__price-key">
-									<span class="product-card-new__price-text">
-										Розничная цена
-									</span>
-                                                            </div>
-                                                            <!--span class="product-card-new__price-value">117 ₽</span-->
-                                                            <span class="product-card-new__price-value retail_243551">884 руб.</span>
                                                         </li>
                                                     </ul>
 
@@ -3064,7 +3022,11 @@
                                         <a href="/shop/gipsokarton_knauf_akvamarin_povyshennoy_vlagostoykosti_2000_kh_1200_kh_12_5mm_kromka_pluk/" class="product-card-new__title" itemprop="url">Гипсокартон КНАУФ Аквамарин повышенной влагостойкости 2000 х 1200 х 12,5мм кромка ПЛУК</a>
 
 
-                                        <div class="product-card-new__price-wrap js-tabs-goods">
+                                        <div class="product-card-new__characteristics">
+                                                                <p>Грузоподъемность: 2000 кг</p>
+                                                                <p>Высота подъёма: 80-200 мм</p>
+                                                            </div>
+                                                            <div class="product-card-new__price-wrap js-tabs-goods">
 
                                             <div class="product-card-new__nav-block">
                                                 <div class="product-card-new__nav-item">
@@ -3076,8 +3038,7 @@
                                                 <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                     <ul class="list-reset product-card-new__price">
                                                         <li class="product-card-new__price-option">
-								<span class="product-card-new__price-text">По карте Материк
-								</span>
+
                                                             <!--span class="product-card-new__price-value">112 ₽</span-->
                                                             <span class="product-card-new__price-value base_243274" id="bx_3966226736_243274_e7e5a53fd4b76e4dce4f311b34c340d4_price">793 руб.</span>
 
@@ -3088,15 +3049,6 @@
                                                             <link itemprop="availability" href="http://schema.org/InStock">
 
 
-                                                        </li>
-                                                        <li class="product-card-new__price-option">
-                                                            <div class="product-card-new__price-key">
-									<span class="product-card-new__price-text">
-										Розничная цена
-									</span>
-                                                            </div>
-                                                            <!--span class="product-card-new__price-value">117 ₽</span-->
-                                                            <span class="product-card-new__price-value retail_243274">793 руб.</span>
                                                         </li>
                                                     </ul>
 
@@ -3227,7 +3179,11 @@
                                         <a href="/shop/gipsokarton_giprok_optima_2000_kh_1200_kh_12_5mm_kromka_pro/" class="product-card-new__title" itemprop="url">Гипсокартон Ветонит (Гипрок) Оптима 2000 х 1200 х 12,5мм кромка PRO</a>
 
 
-                                        <div class="product-card-new__price-wrap js-tabs-goods">
+                                        <div class="product-card-new__characteristics">
+                                                                <p>Грузоподъемность: 2000 кг</p>
+                                                                <p>Высота подъёма: 80-200 мм</p>
+                                                            </div>
+                                                            <div class="product-card-new__price-wrap js-tabs-goods">
 
                                             <div class="product-card-new__nav-block">
                                                 <div class="product-card-new__nav-item">
@@ -3239,8 +3195,7 @@
                                                 <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                     <ul class="list-reset product-card-new__price">
                                                         <li class="product-card-new__price-option">
-								<span class="product-card-new__price-text">По карте Материк
-								</span>
+
                                                             <!--span class="product-card-new__price-value">112 ₽</span-->
                                                             <span class="product-card-new__price-value base_243059" id="bx_3966226736_243059_4acf0f176831c66031059fe22bcc4d9c_price">470 руб.</span>
 
@@ -3251,15 +3206,6 @@
                                                             <link itemprop="availability" href="http://schema.org/InStock">
 
 
-                                                        </li>
-                                                        <li class="product-card-new__price-option">
-                                                            <div class="product-card-new__price-key">
-									<span class="product-card-new__price-text">
-										Розничная цена
-									</span>
-                                                            </div>
-                                                            <!--span class="product-card-new__price-value">117 ₽</span-->
-                                                            <span class="product-card-new__price-value retail_243059">470 руб.</span>
                                                         </li>
                                                     </ul>
 
@@ -3390,7 +3336,11 @@
                                         <a href="/shop/gipsokarton_giprok_akva_optima_2000_kh_1200_kh_12_5mm_kromka_pro_/" class="product-card-new__title" itemprop="url">Гипсокартон Ветонит (Гипрок) Аква Оптима 2000 х 1200 х 12,5мм кромка PRO </a>
 
 
-                                        <div class="product-card-new__price-wrap js-tabs-goods">
+                                        <div class="product-card-new__characteristics">
+                                                                <p>Грузоподъемность: 2000 кг</p>
+                                                                <p>Высота подъёма: 80-200 мм</p>
+                                                            </div>
+                                                            <div class="product-card-new__price-wrap js-tabs-goods">
 
                                             <div class="product-card-new__nav-block">
                                                 <div class="product-card-new__nav-item">
@@ -3402,8 +3352,7 @@
                                                 <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                     <ul class="list-reset product-card-new__price">
                                                         <li class="product-card-new__price-option">
-								<span class="product-card-new__price-text">По карте Материк
-								</span>
+
                                                             <!--span class="product-card-new__price-value">112 ₽</span-->
                                                             <span class="product-card-new__price-value base_242659" id="bx_3966226736_242659_905587df90578eb4342842ad8de05a16_price">501 руб.</span>
 
@@ -3414,15 +3363,6 @@
                                                             <link itemprop="availability" href="http://schema.org/InStock">
 
 
-                                                        </li>
-                                                        <li class="product-card-new__price-option">
-                                                            <div class="product-card-new__price-key">
-									<span class="product-card-new__price-text">
-										Розничная цена
-									</span>
-                                                            </div>
-                                                            <!--span class="product-card-new__price-value">117 ₽</span-->
-                                                            <span class="product-card-new__price-value retail_242659">501 руб.</span>
                                                         </li>
                                                     </ul>
 
@@ -3554,7 +3494,11 @@
                                         <a href="/shop/gipsokarton_knauf_akvamarin_povyshennoy_vlagostoykosti_2500_kh_1200_kh_12_5mm_kromka_pluk/" class="product-card-new__title" itemprop="url">Гипсокартон КНАУФ Аквамарин повышенной влагостойкости 2500 х 1200 х 12,5мм кромка ПЛУК</a>
 
 
-                                        <div class="product-card-new__price-wrap js-tabs-goods">
+                                        <div class="product-card-new__characteristics">
+                                                                <p>Грузоподъемность: 2000 кг</p>
+                                                                <p>Высота подъёма: 80-200 мм</p>
+                                                            </div>
+                                                            <div class="product-card-new__price-wrap js-tabs-goods">
 
                                             <div class="product-card-new__nav-block">
                                                 <div class="product-card-new__nav-item">
@@ -3566,8 +3510,7 @@
                                                 <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                     <ul class="list-reset product-card-new__price">
                                                         <li class="product-card-new__price-option">
-								<span class="product-card-new__price-text">По карте Материк
-								</span>
+
                                                             <!--span class="product-card-new__price-value">112 ₽</span-->
                                                             <span class="product-card-new__price-value base_236291" id="bx_3966226736_236291_de8224b4f7bd52cd619e48f9536ed644_price">992 руб.</span>
 
@@ -3578,15 +3521,6 @@
                                                             <link itemprop="availability" href="http://schema.org/InStock">
 
 
-                                                        </li>
-                                                        <li class="product-card-new__price-option">
-                                                            <div class="product-card-new__price-key">
-									<span class="product-card-new__price-text">
-										Розничная цена
-									</span>
-                                                            </div>
-                                                            <!--span class="product-card-new__price-value">117 ₽</span-->
-                                                            <span class="product-card-new__price-value retail_236291">992 руб.</span>
                                                         </li>
                                                     </ul>
 
@@ -3695,7 +3629,7 @@
 
 
 
-                                            <span class="product-card-new__label product-card-new__label--best-price">-7%</span>
+
 
 
                                             <div class="product-card-new__rating">
@@ -3718,7 +3652,11 @@
                                         <a href="/shop/anker_klin_knauf_6kh40mm_100sht_upak/" class="product-card-new__title" itemprop="url">Анкер-клин КНАУФ 6х40мм 100шт/упак</a>
 
 
-                                        <div class="product-card-new__price-wrap js-tabs-goods">
+                                        <div class="product-card-new__characteristics">
+                                                                <p>Грузоподъемность: 2000 кг</p>
+                                                                <p>Высота подъёма: 80-200 мм</p>
+                                                            </div>
+                                                            <div class="product-card-new__price-wrap js-tabs-goods">
 
                                             <div class="product-card-new__nav-block">
                                                 <div class="product-card-new__nav-item">
@@ -3730,8 +3668,7 @@
                                                 <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                     <ul class="list-reset product-card-new__price">
                                                         <li class="product-card-new__price-option">
-								<span class="product-card-new__price-text">По карте Материк
-								</span>
+
                                                             <!--span class="product-card-new__price-value">112 ₽</span-->
                                                             <span class="product-card-new__price-value base_242611" id="bx_3966226736_242611_bba1b7f7802c6bb351319fcd6fe1262e_price">858 руб.</span>
 
@@ -3742,15 +3679,6 @@
                                                             <link itemprop="availability" href="http://schema.org/InStock">
 
 
-                                                        </li>
-                                                        <li class="product-card-new__price-option">
-                                                            <div class="product-card-new__price-key">
-									<span class="product-card-new__price-text">
-										Розничная цена
-									</span>
-                                                            </div>
-                                                            <!--span class="product-card-new__price-value">117 ₽</span-->
-                                                            <span class="product-card-new__price-value retail_242611">925 руб.</span>
                                                         </li>
                                                     </ul>
 

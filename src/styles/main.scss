@@ -2490,6 +2490,20 @@ body:not(.index) {
 	}
 }
 
+.product-card-new__characteristics {
+	color: var(--gray40-color);
+	font-size: 12px;
+
+	&:not(:last-child) {
+		margin-bottom: 16px;
+	}
+	p {
+		&:not(:last-child) {
+			margin-bottom: 2px;
+		}
+	}
+}
+
 .product-card-new__pic-wrap {
 	position     : relative;
 	padding-top  : 67.92%;
