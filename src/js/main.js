@@ -18,15 +18,11 @@ application.prototype.init = function () {
     this.initMenuCatalogSubmenu();
     this.initBasicSlider();
     this.initSliders();
-    this.initCartQuantity();
     this.initBasicTabs();
     this.initInputSearchBehavior();
     this.initSearchResBehavior();
     this.initContactsMap();
     this.initFooterAccordion();
-    this.initCardAction();
-    this.initCardActionMore();
-    this.initSortSwitch();
     this.initPageUp();
 
     this.initTestShowHideDropmenu();
@@ -404,6 +400,54 @@ application.prototype.initBasicSlider = function () {
 
 // Initialize sliders
 application.prototype.initSliders = function () {
+    if ($('[data-basic-product-slider]').length) {
+        const slider = $('[data-basic-product-slider]');
+        let basicProductSlider = null;
+        let spaceBetween = 20;
+
+        slider.each(function (i) {
+            slider.eq(i).closest('.basic-slider-wrap').addClass('basic-product-slider-wrap-' + i);
+
+            // spaceBetween
+            if (window.matchMedia('(min-width: 992px)').matches) {
+                spaceBetween = 20;
+            }
+            else if (window.matchMedia('(max-width: 991px)').matches) {
+                spaceBetween = 8;
+            }
+
+            const basicProductSliderSetting = {
+                slidesPerView: 2,
+                slidesPerGroup: 1,
+                spaceBetween: spaceBetween,
+                direction: 'horizontal',
+                navigation: {
+                    nextEl: '.basic-product-slider-wrap-' + i + ' .swiper-button-next',
+                    prevEl: '.basic-product-slider-wrap-' + i + ' .swiper-button-prev',
+                },
+                pagination: {
+                    el: '.basic-product-slider-wrap-' + i + ' .swiper-pagination',
+                },
+                breakpoints: {
+                    768: {
+                        slidesPerView: 3,
+                        spaceBetween: spaceBetween
+                    },
+                    992: {
+                        slidesPerView: 4,
+                        spaceBetween: spaceBetween
+                    },
+                    1440: {
+                        slidesPerView: 5,
+                        spaceBetween: spaceBetween
+                    },
+                }
+            };
+
+            basicProductSlider = new Swiper('.basic-product-slider-wrap-' + i + ' .basic-slider', basicProductSliderSetting);
+        });
+    }
+
     if ($('.index-top-primary .swiper').length) {
         const indexTopPrimarySliderSettings = {
             slidesPerView: 'auto',
@@ -491,52 +535,6 @@ application.prototype.initSliders = function () {
             }
         };
         let offersSlider = new Swiper('.offers-slider', offersSliderSettings);
-    }
-};
-
-// Initialize cart quantity
-application.prototype.initCartQuantity = function () {
-    if ($('.cart-buy').length) {
-        $(document).on('click', '.cart-quantity-btn', function(e) {
-            let $button = $(this);
-            let oldValue = $button.closest('.cart-quantity').find('input.cart-quantity-input').val();
-            let mult = parseInt($button.closest('.cart-quantity').find('input.cart-quantity-input').data('mult'));
-            let newVal = null;
-
-            if(mult <= 0 || isNaN(mult)) {
-                mult = 1;
-            }
-
-            if($button.data('value') === 'qty-add') {
-                newVal = parseInt(oldValue) + mult;
-            }
-            else {
-                if(oldValue > 0) {
-                    newVal = parseInt(oldValue) - mult;
-                }
-                else {
-                    newVal = 0;
-                }
-            }
-
-            if(newVal == 0) {
-                newVal = mult;
-
-                if(window.matchMedia('(max-width: 991px)').matches) {
-                    $(this).closest('.cart-quantity').removeClass('enabled');
-                    $(this).closest('.cart-buy').find('.cart-in').removeClass('disabled');
-                }
-            }
-
-            $button.closest('.cart-quantity').find('input.cart-quantity-input').val(newVal).trigger('change');
-        });
-
-        if(window.matchMedia('(max-width: 991px)').matches) {
-            $(document).on('click', '.cart-in', function(e) {
-                $(this).addClass('disabled');
-                $(this).closest('.cart-buy').find('.cart-quantity').addClass('enabled');
-            });
-        }
     }
 };
 
@@ -680,58 +678,6 @@ application.prototype.initFooterAccordion = function () {
                 }
             });
         }
-    }
-};
-
-// Initialize card actions
-application.prototype.initCardAction = function () {
-    if ($('[data-action]').length) {
-        $(document).on('click', '[data-action]', function (e) {
-            if (!$(this).hasClass('active')) {
-                $(this).addClass('active');
-            }
-            else if ($(this).hasClass('active')) {
-                $(this).removeClass('active');
-            }
-        });
-    }
-};
-
-// Initialize button "more" in card-product
-application.prototype.initCardActionMore = function () {
-    if ($('[data-card-cta-more]').length) {
-        $('[data-card-cta-more]').on('click', function () {
-            if(!$(this).hasClass('active')) {
-                $('[data-card-cta-more]').not($(this)).removeClass('active');
-                $('[data-card-cta-content]').removeClass('active');
-                $(this).addClass('active');
-                $(this).siblings('[data-card-cta-content]').addClass('active');
-            } else {
-                $(this).removeClass('active');
-                $(this).siblings('[data-card-cta-content]').removeClass('active');
-            }
-        });
-
-        $(document).on('click', function (e) {
-            if ($('.card__cta').is(e.target) || $('.card__cta').has(e.target).length === 0) {
-                $('[data-card-cta-more]').removeClass('active');
-                $('[data-card-cta-content]').removeClass('active');
-            }
-        });
-    }
-};
-
-// Initialize sort switch
-application.prototype.initSortSwitch = function () {
-    if ($('.cp-content__sort-label').length) {
-        $('.cp-content__sort-label').on('click', function () {
-            if ($(this).hasClass('asc')) {
-                $(this).removeClass('asc').addClass('desc');
-            }
-            else if ($(this).hasClass('desc')) {
-                $(this).removeClass('desc').addClass('asc');
-            }
-        });
     }
 };
 

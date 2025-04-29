@@ -1841,7 +1841,7 @@
                             <div class="products__item" data-entity="items-row">
 
 
-                                <div class="product-card-new hover" id="bx_3966226736_243060_7e1b8e3524755c391129a9d7e6f2d206" data-entity="item" style="height: 496.672px;">
+                                <div class="product-card-new hover" id="bx_3966226736_243060_7e1b8e3524755c391129a9d7e6f2d206" data-entity="item">
                                     <meta itemprop="name" content="Удлинитель профилей 60 х 27 Ветонит (Гипрок)">
                                     <meta itemprop="description" content="">
                                     <meta itemprop="brand" content="Ветонит (Гипрок)/Vetonit (Gyproc)">
@@ -1975,7 +1975,7 @@
 											<path d="M14.545 11c.75 0 1.41-.41 1.749-1.03l3.579-6.49a.996.996 0 00-.87-1.48H4.208l-.94-2H0v2h2l3.598 7.59-1.35 2.44c-.73 1.34.23 2.97 1.75 2.97h11.995v-2H5.998l1.1-2h7.447zM5.158 4h12.146l-2.76 5H7.528L5.158 4zm.84 12c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 1.999-.9 1.999-2-.9-2-2-2zm9.996 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" fill="#fff"></path>
 										</svg>
 									</span>
-                                                                &nbsp;В корзину
+                                                                В корзину
                                                             </a>
                                                         </div>
                                                     </form>
@@ -2007,7 +2007,7 @@
                             <div class="products__item" data-entity="items-row">
 
 
-                                <div class="product-card-new hover" id="bx_3966226736_243055_362ce596257894d11ab5c1d73d13c755" data-entity="item" style="height: 496.672px;">
+                                <div class="product-card-new hover" id="bx_3966226736_243055_362ce596257894d11ab5c1d73d13c755" data-entity="item">
                                     <meta itemprop="name" content="Соединитель профилей одноуровневый Краб Ветонит (Гипрок) 0,9мм 60 х 27 ">
                                     <meta itemprop="description" content="">
                                     <meta itemprop="brand" content="Ветонит (Гипрок)/Vetonit (Gyproc)">
@@ -2141,32 +2141,11 @@
 											<path d="M14.545 11c.75 0 1.41-.41 1.749-1.03l3.579-6.49a.996.996 0 00-.87-1.48H4.208l-.94-2H0v2h2l3.598 7.59-1.35 2.44c-.73 1.34.23 2.97 1.75 2.97h11.995v-2H5.998l1.1-2h7.447zM5.158 4h12.146l-2.76 5H7.528L5.158 4zm.84 12c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 1.999-.9 1.999-2-.9-2-2-2zm9.996 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" fill="#fff"></path>
 										</svg>
 									</span>
-                                                                &nbsp;В корзину
+                                                                В корзину
                                                             </a>
                                                         </div>
                                                     </form>
-
-                                                    <!--div class="product-card-new__btn-wrap">
-														<button class="product-card-new__btn">
-															<span class="product-card-new__btn-icon">
-																<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<path d="M14.545 11c.75 0 1.41-.41 1.749-1.03l3.579-6.49a.996.996 0 00-.87-1.48H4.208l-.94-2H0v2h2l3.598 7.59-1.35 2.44c-.73 1.34.23 2.97 1.75 2.97h11.995v-2H5.998l1.1-2h7.447zM5.158 4h12.146l-2.76 5H7.528L5.158 4zm.84 12c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 1.999-.9 1.999-2-.9-2-2-2zm9.996 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" fill="#fff" ></path>
-																</svg>
-															</span>
-															<span class="product-card-new__btn-text">
-																в корзину
-															</span>
-														</button>
-													</div-->
                                                 </div>
-
-
-
-
-
-
-
-
                                             </div>
                                         </div>
                                     </div>
@@ -2194,7 +2173,7 @@
                             <div class="products__item" data-entity="items-row">
 
 
-                                <div class="product-card-new hover" id="bx_3966226736_243056_c80764dfaf26ca80162484593ec7c29b" data-entity="item" style="height: 496.672px;">
+                                <div class="product-card-new hover" id="bx_3966226736_243056_c80764dfaf26ca80162484593ec7c29b" data-entity="item">
                                     <meta itemprop="name" content="Подвес прямой Ветонит (Гипрок) 0,9мм 60 х 27">
                                     <meta itemprop="description" content="">
                                     <meta itemprop="brand" content="Ветонит (Гипрок)/Vetonit (Gyproc)">
@@ -2328,32 +2307,11 @@
 											<path d="M14.545 11c.75 0 1.41-.41 1.749-1.03l3.579-6.49a.996.996 0 00-.87-1.48H4.208l-.94-2H0v2h2l3.598 7.59-1.35 2.44c-.73 1.34.23 2.97 1.75 2.97h11.995v-2H5.998l1.1-2h7.447zM5.158 4h12.146l-2.76 5H7.528L5.158 4zm.84 12c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 1.999-.9 1.999-2-.9-2-2-2zm9.996 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" fill="#fff"></path>
 										</svg>
 									</span>
-                                                                &nbsp;В корзину
+                                                                В корзину
                                                             </a>
                                                         </div>
                                                     </form>
-
-                                                    <!--div class="product-card-new__btn-wrap">
-														<button class="product-card-new__btn">
-															<span class="product-card-new__btn-icon">
-																<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<path d="M14.545 11c.75 0 1.41-.41 1.749-1.03l3.579-6.49a.996.996 0 00-.87-1.48H4.208l-.94-2H0v2h2l3.598 7.59-1.35 2.44c-.73 1.34.23 2.97 1.75 2.97h11.995v-2H5.998l1.1-2h7.447zM5.158 4h12.146l-2.76 5H7.528L5.158 4zm.84 12c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 1.999-.9 1.999-2-.9-2-2-2zm9.996 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" fill="#fff" ></path>
-																</svg>
-															</span>
-															<span class="product-card-new__btn-text">
-																в корзину
-															</span>
-														</button>
-													</div-->
                                                 </div>
-
-
-
-
-
-
-
-
                                             </div>
                                         </div>
                                     </div>
@@ -2381,7 +2339,7 @@
                             <div class="products__item" data-entity="items-row">
 
 
-                                <div class="product-card-new hover" id="bx_3966226736_243057_d0fb066f64e2309c4b241a491f76c62e" data-entity="item" style="height: 496.672px;">
+                                <div class="product-card-new hover" id="bx_3966226736_243057_d0fb066f64e2309c4b241a491f76c62e" data-entity="item">
                                     <meta itemprop="name" content="Лента бумажная для швов Ветонит (Гипрок) Марко ПРО 50м">
                                     <meta itemprop="description" content="">
                                     <meta itemprop="brand" content="Ветонит (Гипрок)/Vetonit (Gyproc)">
@@ -2515,32 +2473,11 @@
 											<path d="M14.545 11c.75 0 1.41-.41 1.749-1.03l3.579-6.49a.996.996 0 00-.87-1.48H4.208l-.94-2H0v2h2l3.598 7.59-1.35 2.44c-.73 1.34.23 2.97 1.75 2.97h11.995v-2H5.998l1.1-2h7.447zM5.158 4h12.146l-2.76 5H7.528L5.158 4zm.84 12c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 1.999-.9 1.999-2-.9-2-2-2zm9.996 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" fill="#fff"></path>
 										</svg>
 									</span>
-                                                                &nbsp;В корзину
+                                                                В корзину
                                                             </a>
                                                         </div>
                                                     </form>
-
-                                                    <!--div class="product-card-new__btn-wrap">
-														<button class="product-card-new__btn">
-															<span class="product-card-new__btn-icon">
-																<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<path d="M14.545 11c.75 0 1.41-.41 1.749-1.03l3.579-6.49a.996.996 0 00-.87-1.48H4.208l-.94-2H0v2h2l3.598 7.59-1.35 2.44c-.73 1.34.23 2.97 1.75 2.97h11.995v-2H5.998l1.1-2h7.447zM5.158 4h12.146l-2.76 5H7.528L5.158 4zm.84 12c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 1.999-.9 1.999-2-.9-2-2-2zm9.996 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" fill="#fff" ></path>
-																</svg>
-															</span>
-															<span class="product-card-new__btn-text">
-																в корзину
-															</span>
-														</button>
-													</div-->
                                                 </div>
-
-
-
-
-
-
-
-
                                             </div>
                                         </div>
                                     </div>
@@ -2561,9 +2498,6 @@
                                         }
                                     }));
                                 </script>*/?>
-
-
-
                             </div>
                             <div class="products__item" data-entity="items-row">
 
@@ -2703,32 +2637,11 @@
 											<path d="M14.545 11c.75 0 1.41-.41 1.749-1.03l3.579-6.49a.996.996 0 00-.87-1.48H4.208l-.94-2H0v2h2l3.598 7.59-1.35 2.44c-.73 1.34.23 2.97 1.75 2.97h11.995v-2H5.998l1.1-2h7.447zM5.158 4h12.146l-2.76 5H7.528L5.158 4zm.84 12c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 1.999-.9 1.999-2-.9-2-2-2zm9.996 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" fill="#fff"></path>
 										</svg>
 									</span>
-                                                                &nbsp;В корзину
+                                                                В корзину
                                                             </a>
                                                         </div>
                                                     </form>
-
-                                                    <!--div class="product-card-new__btn-wrap">
-														<button class="product-card-new__btn">
-															<span class="product-card-new__btn-icon">
-																<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<path d="M14.545 11c.75 0 1.41-.41 1.749-1.03l3.579-6.49a.996.996 0 00-.87-1.48H4.208l-.94-2H0v2h2l3.598 7.59-1.35 2.44c-.73 1.34.23 2.97 1.75 2.97h11.995v-2H5.998l1.1-2h7.447zM5.158 4h12.146l-2.76 5H7.528L5.158 4zm.84 12c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 1.999-.9 1.999-2-.9-2-2-2zm9.996 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" fill="#fff" ></path>
-																</svg>
-															</span>
-															<span class="product-card-new__btn-text">
-																в корзину
-															</span>
-														</button>
-													</div-->
                                                 </div>
-
-
-
-
-
-
-
-
                                             </div>
                                         </div>
                                     </div>
@@ -2749,9 +2662,6 @@
                                         }
                                     }));
                                 </script>*/?>
-
-
-
                             </div>
                             <div class="products__item" data-entity="items-row">
 
@@ -2891,32 +2801,11 @@
 											<path d="M14.545 11c.75 0 1.41-.41 1.749-1.03l3.579-6.49a.996.996 0 00-.87-1.48H4.208l-.94-2H0v2h2l3.598 7.59-1.35 2.44c-.73 1.34.23 2.97 1.75 2.97h11.995v-2H5.998l1.1-2h7.447zM5.158 4h12.146l-2.76 5H7.528L5.158 4zm.84 12c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 1.999-.9 1.999-2-.9-2-2-2zm9.996 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" fill="#fff"></path>
 										</svg>
 									</span>
-                                                                &nbsp;В корзину
+                                                                В корзину
                                                             </a>
                                                         </div>
                                                     </form>
-
-                                                    <!--div class="product-card-new__btn-wrap">
-														<button class="product-card-new__btn">
-															<span class="product-card-new__btn-icon">
-																<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<path d="M14.545 11c.75 0 1.41-.41 1.749-1.03l3.579-6.49a.996.996 0 00-.87-1.48H4.208l-.94-2H0v2h2l3.598 7.59-1.35 2.44c-.73 1.34.23 2.97 1.75 2.97h11.995v-2H5.998l1.1-2h7.447zM5.158 4h12.146l-2.76 5H7.528L5.158 4zm.84 12c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 1.999-.9 1.999-2-.9-2-2-2zm9.996 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" fill="#fff" ></path>
-																</svg>
-															</span>
-															<span class="product-card-new__btn-text">
-																в корзину
-															</span>
-														</button>
-													</div-->
                                                 </div>
-
-
-
-
-
-
-
-
                                             </div>
                                         </div>
                                     </div>
@@ -2937,9 +2826,6 @@
                                         }
                                     }));
                                 </script>*/?>
-
-
-
                             </div>
                             <div class="products__item" data-entity="items-row">
 
@@ -3079,32 +2965,11 @@
 											<path d="M14.545 11c.75 0 1.41-.41 1.749-1.03l3.579-6.49a.996.996 0 00-.87-1.48H4.208l-.94-2H0v2h2l3.598 7.59-1.35 2.44c-.73 1.34.23 2.97 1.75 2.97h11.995v-2H5.998l1.1-2h7.447zM5.158 4h12.146l-2.76 5H7.528L5.158 4zm.84 12c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 1.999-.9 1.999-2-.9-2-2-2zm9.996 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" fill="#fff"></path>
 										</svg>
 									</span>
-                                                                &nbsp;В корзину
+                                                                В корзину
                                                             </a>
                                                         </div>
                                                     </form>
-
-                                                    <!--div class="product-card-new__btn-wrap">
-														<button class="product-card-new__btn">
-															<span class="product-card-new__btn-icon">
-																<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<path d="M14.545 11c.75 0 1.41-.41 1.749-1.03l3.579-6.49a.996.996 0 00-.87-1.48H4.208l-.94-2H0v2h2l3.598 7.59-1.35 2.44c-.73 1.34.23 2.97 1.75 2.97h11.995v-2H5.998l1.1-2h7.447zM5.158 4h12.146l-2.76 5H7.528L5.158 4zm.84 12c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 1.999-.9 1.999-2-.9-2-2-2zm9.996 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" fill="#fff" ></path>
-																</svg>
-															</span>
-															<span class="product-card-new__btn-text">
-																в корзину
-															</span>
-														</button>
-													</div-->
                                                 </div>
-
-
-
-
-
-
-
-
                                             </div>
                                         </div>
                                     </div>
@@ -3125,9 +2990,6 @@
                                         }
                                     }));
                                 </script>*/?>
-
-
-
                             </div>
                             <div class="products__item" data-entity="items-row">
 
@@ -3267,32 +3129,11 @@
 											<path d="M14.545 11c.75 0 1.41-.41 1.749-1.03l3.579-6.49a.996.996 0 00-.87-1.48H4.208l-.94-2H0v2h2l3.598 7.59-1.35 2.44c-.73 1.34.23 2.97 1.75 2.97h11.995v-2H5.998l1.1-2h7.447zM5.158 4h12.146l-2.76 5H7.528L5.158 4zm.84 12c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 1.999-.9 1.999-2-.9-2-2-2zm9.996 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" fill="#fff"></path>
 										</svg>
 									</span>
-                                                                &nbsp;В корзину
+                                                                В корзину
                                                             </a>
                                                         </div>
                                                     </form>
-
-                                                    <!--div class="product-card-new__btn-wrap">
-														<button class="product-card-new__btn">
-															<span class="product-card-new__btn-icon">
-																<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<path d="M14.545 11c.75 0 1.41-.41 1.749-1.03l3.579-6.49a.996.996 0 00-.87-1.48H4.208l-.94-2H0v2h2l3.598 7.59-1.35 2.44c-.73 1.34.23 2.97 1.75 2.97h11.995v-2H5.998l1.1-2h7.447zM5.158 4h12.146l-2.76 5H7.528L5.158 4zm.84 12c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 1.999-.9 1.999-2-.9-2-2-2zm9.996 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" fill="#fff" ></path>
-																</svg>
-															</span>
-															<span class="product-card-new__btn-text">
-																в корзину
-															</span>
-														</button>
-													</div-->
                                                 </div>
-
-
-
-
-
-
-
-
                                             </div>
                                         </div>
                                     </div>
@@ -3313,9 +3154,6 @@
                                         }
                                     }));
                                 </script>*/?>
-
-
-
                             </div>
                             <div class="products__item" data-entity="items-row">
 
@@ -3454,32 +3292,11 @@
 											<path d="M14.545 11c.75 0 1.41-.41 1.749-1.03l3.579-6.49a.996.996 0 00-.87-1.48H4.208l-.94-2H0v2h2l3.598 7.59-1.35 2.44c-.73 1.34.23 2.97 1.75 2.97h11.995v-2H5.998l1.1-2h7.447zM5.158 4h12.146l-2.76 5H7.528L5.158 4zm.84 12c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 1.999-.9 1.999-2-.9-2-2-2zm9.996 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" fill="#fff"></path>
 										</svg>
 									</span>
-                                                                &nbsp;В корзину
+                                                                В корзину
                                                             </a>
                                                         </div>
                                                     </form>
-
-                                                    <!--div class="product-card-new__btn-wrap">
-														<button class="product-card-new__btn">
-															<span class="product-card-new__btn-icon">
-																<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<path d="M14.545 11c.75 0 1.41-.41 1.749-1.03l3.579-6.49a.996.996 0 00-.87-1.48H4.208l-.94-2H0v2h2l3.598 7.59-1.35 2.44c-.73 1.34.23 2.97 1.75 2.97h11.995v-2H5.998l1.1-2h7.447zM5.158 4h12.146l-2.76 5H7.528L5.158 4zm.84 12c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 1.999-.9 1.999-2-.9-2-2-2zm9.996 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" fill="#fff" ></path>
-																</svg>
-															</span>
-															<span class="product-card-new__btn-text">
-																в корзину
-															</span>
-														</button>
-													</div-->
                                                 </div>
-
-
-
-
-
-
-
-
                                             </div>
                                         </div>
                                     </div>
@@ -3500,9 +3317,6 @@
                                         }
                                     }));
                                 </script>*/?>
-
-
-
                             </div>
                             <div class="products__item" data-entity="items-row">
 
@@ -3641,32 +3455,11 @@
 											<path d="M14.545 11c.75 0 1.41-.41 1.749-1.03l3.579-6.49a.996.996 0 00-.87-1.48H4.208l-.94-2H0v2h2l3.598 7.59-1.35 2.44c-.73 1.34.23 2.97 1.75 2.97h11.995v-2H5.998l1.1-2h7.447zM5.158 4h12.146l-2.76 5H7.528L5.158 4zm.84 12c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 1.999-.9 1.999-2-.9-2-2-2zm9.996 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" fill="#fff"></path>
 										</svg>
 									</span>
-                                                                &nbsp;В корзину
+                                                                В корзину
                                                             </a>
                                                         </div>
                                                     </form>
-
-                                                    <!--div class="product-card-new__btn-wrap">
-														<button class="product-card-new__btn">
-															<span class="product-card-new__btn-icon">
-																<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<path d="M14.545 11c.75 0 1.41-.41 1.749-1.03l3.579-6.49a.996.996 0 00-.87-1.48H4.208l-.94-2H0v2h2l3.598 7.59-1.35 2.44c-.73 1.34.23 2.97 1.75 2.97h11.995v-2H5.998l1.1-2h7.447zM5.158 4h12.146l-2.76 5H7.528L5.158 4zm.84 12c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 1.999-.9 1.999-2-.9-2-2-2zm9.996 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" fill="#fff" ></path>
-																</svg>
-															</span>
-															<span class="product-card-new__btn-text">
-																в корзину
-															</span>
-														</button>
-													</div-->
                                                 </div>
-
-
-
-
-
-
-
-
                                             </div>
                                         </div>
                                     </div>
@@ -3687,9 +3480,6 @@
                                         }
                                     }));
                                 </script>*/?>
-
-
-
                             </div>
                             <div class="products__item" data-entity="items-row">
 
@@ -3829,32 +3619,11 @@
 											<path d="M14.545 11c.75 0 1.41-.41 1.749-1.03l3.579-6.49a.996.996 0 00-.87-1.48H4.208l-.94-2H0v2h2l3.598 7.59-1.35 2.44c-.73 1.34.23 2.97 1.75 2.97h11.995v-2H5.998l1.1-2h7.447zM5.158 4h12.146l-2.76 5H7.528L5.158 4zm.84 12c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 1.999-.9 1.999-2-.9-2-2-2zm9.996 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" fill="#fff"></path>
 										</svg>
 									</span>
-                                                                &nbsp;В корзину
+                                                                В корзину
                                                             </a>
                                                         </div>
                                                     </form>
-
-                                                    <!--div class="product-card-new__btn-wrap">
-														<button class="product-card-new__btn">
-															<span class="product-card-new__btn-icon">
-																<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<path d="M14.545 11c.75 0 1.41-.41 1.749-1.03l3.579-6.49a.996.996 0 00-.87-1.48H4.208l-.94-2H0v2h2l3.598 7.59-1.35 2.44c-.73 1.34.23 2.97 1.75 2.97h11.995v-2H5.998l1.1-2h7.447zM5.158 4h12.146l-2.76 5H7.528L5.158 4zm.84 12c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 1.999-.9 1.999-2-.9-2-2-2zm9.996 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" fill="#fff" ></path>
-																</svg>
-															</span>
-															<span class="product-card-new__btn-text">
-																в корзину
-															</span>
-														</button>
-													</div-->
                                                 </div>
-
-
-
-
-
-
-
-
                                             </div>
                                         </div>
                                     </div>
@@ -3875,9 +3644,6 @@
                                         }
                                     }));
                                 </script>*/?>
-
-
-
                             </div>
                             <div class="products__item" data-entity="items-row">
 
@@ -4017,32 +3783,11 @@
 											<path d="M14.545 11c.75 0 1.41-.41 1.749-1.03l3.579-6.49a.996.996 0 00-.87-1.48H4.208l-.94-2H0v2h2l3.598 7.59-1.35 2.44c-.73 1.34.23 2.97 1.75 2.97h11.995v-2H5.998l1.1-2h7.447zM5.158 4h12.146l-2.76 5H7.528L5.158 4zm.84 12c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 1.999-.9 1.999-2-.9-2-2-2zm9.996 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" fill="#fff"></path>
 										</svg>
 									</span>
-                                                                &nbsp;В корзину
+                                                                В корзину
                                                             </a>
                                                         </div>
                                                     </form>
-
-                                                    <!--div class="product-card-new__btn-wrap">
-														<button class="product-card-new__btn">
-															<span class="product-card-new__btn-icon">
-																<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<path d="M14.545 11c.75 0 1.41-.41 1.749-1.03l3.579-6.49a.996.996 0 00-.87-1.48H4.208l-.94-2H0v2h2l3.598 7.59-1.35 2.44c-.73 1.34.23 2.97 1.75 2.97h11.995v-2H5.998l1.1-2h7.447zM5.158 4h12.146l-2.76 5H7.528L5.158 4zm.84 12c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 1.999-.9 1.999-2-.9-2-2-2zm9.996 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" fill="#fff" ></path>
-																</svg>
-															</span>
-															<span class="product-card-new__btn-text">
-																в корзину
-															</span>
-														</button>
-													</div-->
                                                 </div>
-
-
-
-
-
-
-
-
                                             </div>
                                         </div>
                                     </div>
@@ -4063,9 +3808,6 @@
                                         }
                                     }));
                                 </script>*/?>
-
-
-
                             </div>
                             <!-- items-container -->
                         </div>
