@@ -27,6 +27,7 @@
     <script defer src="js/swiper-bundle.js"></script>           <!-- swiper -->
     <script defer src="js/accordion.min.js"></script>           <!-- accordion -->
     <script defer src="js/nouislider.js"></script>              <!-- nouislider -->
+    <script defer src="js/slick.js"></script>                   <!-- slick -->
 
 	<?/* Подключение библиотек (объединённо)
     <script defer src="js/libs.min.js"></script> */?>

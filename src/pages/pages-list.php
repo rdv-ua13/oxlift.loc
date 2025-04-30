@@ -74,6 +74,7 @@
             <li><a class="ready" href="index.php" target="_blank">Главная</a></li>
             <br>
             <li><a class="ready" href="catalog-category.php" target="_blank">Каталог - Категория каталога</a></li>
+            <li><a class="ready" href="card-product.php" target="_blank">Карточка товара</a></li>
             <br>
 
             <li><a class="ready" href="ui.php" target="_blank">ui</a></li>

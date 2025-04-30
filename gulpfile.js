@@ -97,6 +97,7 @@ const includedJsBuild = () => {
             "node_modules/accordion-js/dist/accordion.min.js",
             "node_modules/swiper/swiper-bundle.js",
             "node_modules/nouislider/dist/nouislider.js",
+            "node_modules/slick-slider/slick/slick.js",
         ]
     )
         .pipe(dest(path.build.js))
@@ -113,6 +114,7 @@ const libsJsBuild = () => {
             "node_modules/accordion-js/dist/accordion.min.js",
             "node_modules/swiper/swiper-bundle.js",
             "node_modules/nouislider/dist/nouislider.js",
+            "node_modules/slick-slider/slick/slick.js",
         ]
     )
         .pipe(concat("libs.min.js"))

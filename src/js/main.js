@@ -4,8 +4,19 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function application() {
-    //letiable
+    //variable
     //this.myMap;
+
+    /*
+     // Braikpoints
+      let screenPoints = {
+        mobSmall: 480,
+        mob: 670,
+        ipad: 960,
+        tablet: 1280,
+        laptop: 1440
+      };
+    */
 }
 application.prototype.init = function () {
     this.initTouch();
@@ -32,6 +43,11 @@ application.prototype.init = function () {
     this.initCatalogRange();
     this.initCatalogFilter();
     this.initCatalogInputAmount();
+
+    this.initCardProductRelated();
+    this.initCardProductReadmore();
+    /*this.initCardProductSliders();*/
+    this.initCardProductTabs();
 };
 
 // Initialize disable scroll
@@ -403,14 +419,14 @@ application.prototype.initSliders = function () {
     if ($('[data-basic-product-slider]').length) {
         const slider = $('[data-basic-product-slider]');
         let basicProductSlider = null;
-        let spaceBetween = 20;
+        let spaceBetween = 12;
 
         slider.each(function (i) {
             slider.eq(i).closest('.basic-slider-wrap').addClass('basic-product-slider-wrap-' + i);
 
             // spaceBetween
             if (window.matchMedia('(min-width: 992px)').matches) {
-                spaceBetween = 20;
+                spaceBetween = 12;
             }
             else if (window.matchMedia('(max-width: 991px)').matches) {
                 spaceBetween = 8;
@@ -743,17 +759,6 @@ application.prototype.initTestShowHideDropmenu = function () {
 
 // Initialize catalog content sort
 application.prototype.initCatalogContentSort = function () {
-    /*
-     // Braikpoints
-      let screenPoints = {
-        mobSmall: 480,
-        mob: 670,
-        ipad: 960,
-        tablet: 1280,
-        laptop: 1440
-      };
-    */
-
     if ($('.js-sort-btn').length) {
         let $sortBtn = $('.js-sort-btn');
         let $sortList = $('.js-sort-list');
@@ -993,5 +998,230 @@ application.prototype.initCatalogInputAmount = function () {
         }
 
         eventTarget.dispatchEvent(inputNumberChangeEvent);
+    }
+};
+
+// Initialize card-product related
+application.prototype.initCardProductRelated = function () {
+    // Слайдеры product-promo на странице товара
+    if (window.matchMedia("(max-width: 767px").matches) {
+        $('#product-promo-slider-mob').slick({
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            arrows: false,
+            dots: true,
+            rows: 0
+        });
+    }
+};
+
+// Initialize card-product readmore
+application.prototype.initCardProductReadmore = function () {
+    //Функционал "читать далее"
+    let showMoreTextArr = document.querySelectorAll('.js-show-more-text');
+
+    if (showMoreTextArr.length !== 0) {
+        let addBtnShowMoreText = function addBtnShowMoreText(item) {
+            let elementArr = item.querySelectorAll('p,ul,ol,h2,h3');
+            let start = item.dataset.startValue;
+            let btnName = item.dataset.nameBtn;
+
+            if (elementArr.length > start) {
+                /*item.insertAdjacentHTML('beforeend', "<button class=\"btn-reset js-show-more-text-btn\">".concat(btnName, "</button>"));*/
+                item.querySelector('.js-show-more-text-btn').addEventListener('click', toggleShowMoreText);
+                let elementArr = item.querySelectorAll('p,ul,ol,h2,h3');
+
+                for (let j = start; j < elementArr.length; j++) {
+                    $(elementArr[j]).slideUp(300);
+                }
+            }
+        };
+
+        let toggleShowMoreText = function toggleShowMoreText(event) {
+            let parentItem = this.closest('.js-show-more-text');
+            let paragraphArr = parentItem.querySelectorAll('p,ul,ol,h2,h3');
+            let start = parentItem.dataset.startValue;
+            let btnName = parentItem.dataset.nameBtn;
+
+            if (this.classList.contains('js-show-more-text-btn--close')) {
+                this.innerHTML = btnName;
+                this.classList.remove('js-show-more-text-btn--close');
+            } else {
+                this.innerHTML = 'Скрыть';
+                this.classList.add('js-show-more-text-btn--close');
+            }
+
+            for (let j = start; j < paragraphArr.length; j++) {
+                $(paragraphArr[j]).slideToggle(300);
+            }
+        };
+
+        for (let i = 0; i < showMoreTextArr.length; i++) {
+            let currentItem = showMoreTextArr[i];
+            let currentMediaQuery = currentItem.dataset.mediaQuery;
+
+            if (currentMediaQuery !== 'all') {
+                if (window.matchMedia("(max-width: ".concat(currentMediaQuery, "px)")).matches) {
+                    addBtnShowMoreText(currentItem);
+                }
+            } else {
+                addBtnShowMoreText(currentItem);
+            }
+        }
+    }
+};
+
+// Initialize card-product sliders
+application.prototype.initCardProductSliders = function () {
+    // Слайдеры фотогалереи на странице товара
+    function startMobSliderProduct() {
+        $('#product-mob-slider').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+            prevArrow: $('.j-single-m-products-slider-prev'),
+            nextArrow: $('.j-single-m-products-slider-next'),
+            rows: 0,
+            touchThreshold: 100,
+            swipeToSlide: true,
+            cssEase: 'ease-out',
+            speed: 300
+        });
+    }
+
+    function startDesctopSliderProduct() {
+        $('#product-photogallery').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            asNavFor: '#product-thumbs',
+            rows: 0,
+            speed: 1000,
+            fade: true,
+            cssEase: 'linear'
+        });
+
+        $('#product-thumbs').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            arrows: true,
+            prevArrow: $('.j-single-products-slider-prev'),
+            nextArrow: $('.j-single-products-slider-next'),
+            asNavFor: '#product-photogallery',
+            focusOnSelect: true,
+            rows: 0,
+            centerMode: true,
+            centerPadding: '0',
+        });
+    }
+
+
+    function startDesctopSliderReview() {
+        $('.product_review_thumbs').slick({
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            arrows: true,
+            prevArrow: $('.rev_slider_prev'),
+            nextArrow: $('.rev_slider_next'),
+            //asNavFor: '#product-photogallery',
+            focusOnSelect: true,
+            rows: 0,
+            centerMode: true,
+            centerPadding: '0',
+        });
+        $('.product_review_thumbs_all').slick({
+            slidesToShow: 8,
+            slidesToScroll: 1,
+            arrows: true,
+            prevArrow: $('.rev_slider_prev_all'),
+            nextArrow: $('.rev_slider_next_all'),
+            //asNavFor: '#product-photogallery',
+            focusOnSelect: true,
+            rows: 0,
+            centerMode: true,
+            centerPadding: '0',
+        });
+    }
+
+    $('button[data-tabs-link="reviews"]').click(function(){
+        $('.product_review_thumbs').slick('unslick');
+        $('.product_review_thumbs_all').slick('unslick');
+        startDesctopSliderReview();
+    })
+
+
+    function currentVersionWindow() {
+        if (window.matchMedia(`(max-width: ${screenPoints.ipad - 1}px)`).matches) {
+            let currentVersion = 'mob';
+        } else {
+            let currentVersion = 'desc';
+        }
+        return currentVersion;
+    }
+
+    function checkPhotogalleryInCardProduct() {
+        let newVersionWindow = currentVersionWindow();
+
+        if (newVersionWindow !== currentVersion) {
+            if (newVersionWindow === 'mob') {
+                $('#product-photogallery').slick('unslick'); //убираем десктопную карусель
+                $('#product-thumbs').slick('unslick'); //убираем десктопную карусель
+                startMobSliderProduct(); //запускаем мобильную карусель
+            } else {
+                $('#product-mob-slider').slick('unslick'); //убираем мобильную карусель
+                startDesctopSliderProduct();     //запускаем десктопные карусель
+                startDesctopSliderReview()
+            }
+            currentVersion = newVersionWindow;
+        }
+    }
+
+    if (document.querySelector('#product-photogallery')) {
+        if (window.matchMedia(`(max-width: 991px)`).matches) {
+            startMobSliderProduct();
+        } else {
+            startDesctopSliderProduct();
+            startDesctopSliderReview()
+        }
+
+        let currentVersion = currentVersionWindow();
+
+        window.addEventListener('resize', checkPhotogalleryInCardProduct);
+    }
+};
+
+// Initialize card-product tabs
+application.prototype.initCardProductTabs = function () {
+    //Табы
+    let tabsBlockArr = document.querySelectorAll('.js-tabs');
+
+    if (tabsBlockArr.length !== 0) {
+        for (let i = 0; i < tabsBlockArr.length; i++) {
+            tabsBlockArr[i].addEventListener('click', changeActiveTab);
+        }
+    }
+
+    function changeActiveTab(event) {
+        let tabsBlock = this;
+        let currentTabsBtn = event.target.closest('.js-tabs-btn');
+
+        if (currentTabsBtn) {
+            tabsBlock.querySelector('.js-tabs-btn--active').classList.remove('js-tabs-btn--active');
+            currentTabsBtn.classList.add('js-tabs-btn--active');
+            let dataBlock = currentTabsBtn.dataset.tabsLink;
+            let currentOpenTabNode = tabsBlock.querySelector('.js-tabs-info--open');
+            let willOpenTabNode = tabsBlock.querySelector(".js-tabs-info[data-tabs-id=".concat(dataBlock, "]"));
+            currentOpenTabNode.classList.remove('js-tabs-info--open');
+
+            if ($(currentOpenTabNode).hasClass('j-products-slider')) {
+                unslickSlickSlider($(currentOpenTabNode));
+            }
+
+            willOpenTabNode.classList.add('js-tabs-info--open');
+
+            if ($(willOpenTabNode).hasClass('j-products-slider')) {
+                initSlickSlider($(willOpenTabNode));
+            }
+        }
     }
 };

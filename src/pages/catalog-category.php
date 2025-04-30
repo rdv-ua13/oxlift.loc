@@ -1901,7 +1901,7 @@
                                         <div class="product-card-new__availability-wrap">
                                             <div class="product-card-new__availability product-card-new__availability--ok">
                                                 <span class="product-card-new__availability-icon"></span>
-                                                <span class="product-card-new__availability-text">В наличии: 55 шт</span>
+                                                <span class="product-card-new__availability-text">В наличии</span>
                                             </div>
                                         </div>
 
@@ -2221,7 +2221,7 @@
                                         <div class="product-card-new__availability-wrap">
                                             <div class="product-card-new__availability product-card-new__availability--ok">
                                                 <span class="product-card-new__availability-icon"></span>
-                                                <span class="product-card-new__availability-text">В наличии: 132 шт</span>
+                                                <span class="product-card-new__availability-text">В наличии</span>
                                             </div>
                                         </div>
 
@@ -2381,7 +2381,7 @@
                                         <div class="product-card-new__availability-wrap">
                                             <div class="product-card-new__availability product-card-new__availability--ok">
                                                 <span class="product-card-new__availability-icon"></span>
-                                                <span class="product-card-new__availability-text">В наличии: 22 рул</span>
+                                                <span class="product-card-new__availability-text">В наличии</span>
                                             </div>
                                         </div>
 
@@ -2539,7 +2539,7 @@
                                         <div class="product-card-new__availability-wrap">
                                             <div class="product-card-new__availability product-card-new__availability--ok">
                                                 <span class="product-card-new__availability-icon"></span>
-                                                <span class="product-card-new__availability-text">В наличии: 22 шт</span>
+                                                <span class="product-card-new__availability-text">В наличии</span>
                                             </div>
                                         </div>
 
@@ -2697,7 +2697,7 @@
                                         <div class="product-card-new__availability-wrap">
                                             <div class="product-card-new__availability product-card-new__availability--ok">
                                                 <span class="product-card-new__availability-icon"></span>
-                                                <span class="product-card-new__availability-text">В наличии: 105 шт</span>
+                                                <span class="product-card-new__availability-text">В наличии</span>
                                             </div>
                                         </div>
 
@@ -2855,7 +2855,7 @@
                                         <div class="product-card-new__availability-wrap">
                                             <div class="product-card-new__availability product-card-new__availability--ok">
                                                 <span class="product-card-new__availability-icon"></span>
-                                                <span class="product-card-new__availability-text">В наличии: 254 шт</span>
+                                                <span class="product-card-new__availability-text">В наличии</span>
                                             </div>
                                         </div>
 
@@ -3013,7 +3013,7 @@
                                         <div class="product-card-new__availability-wrap">
                                             <div class="product-card-new__availability product-card-new__availability--ok">
                                                 <span class="product-card-new__availability-icon"></span>
-                                                <span class="product-card-new__availability-text">В наличии: 165 шт</span>
+                                                <span class="product-card-new__availability-text">В наличии</span>
                                             </div>
                                         </div>
 
@@ -3170,7 +3170,7 @@
                                         <div class="product-card-new__availability-wrap">
                                             <div class="product-card-new__availability product-card-new__availability--ok">
                                                 <span class="product-card-new__availability-icon"></span>
-                                                <span class="product-card-new__availability-text">В наличии: 182 шт</span>
+                                                <span class="product-card-new__availability-text">В наличии</span>
                                             </div>
                                         </div>
 
@@ -3327,7 +3327,7 @@
                                         <div class="product-card-new__availability-wrap">
                                             <div class="product-card-new__availability product-card-new__availability--ok">
                                                 <span class="product-card-new__availability-icon"></span>
-                                                <span class="product-card-new__availability-text">В наличии: 160 шт</span>
+                                                <span class="product-card-new__availability-text">В наличии</span>
                                             </div>
                                         </div>
 
@@ -3485,7 +3485,7 @@
                                         <div class="product-card-new__availability-wrap">
                                             <div class="product-card-new__availability product-card-new__availability--ok">
                                                 <span class="product-card-new__availability-icon"></span>
-                                                <span class="product-card-new__availability-text">В наличии: 151 шт</span>
+                                                <span class="product-card-new__availability-text">В наличии</span>
                                             </div>
                                         </div>
 
@@ -3643,7 +3643,7 @@
                                         <div class="product-card-new__availability-wrap">
                                             <div class="product-card-new__availability product-card-new__availability--ok">
                                                 <span class="product-card-new__availability-icon"></span>
-                                                <span class="product-card-new__availability-text">В наличии: 47 упак</span>
+                                                <span class="product-card-new__availability-text">В наличии</span>
                                             </div>
                                         </div>
 
