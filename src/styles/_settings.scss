@@ -535,8 +535,8 @@ body:not(.is-using-mouse) {
 		}
 	}
 	&-secondary {
-		border-color: var(--blue10-color);
-		background-color: var(--blue10-color);
+		border-color: var(--blue05-color);
+		background-color: var(--blue05-color);
 		color: var(--white-color);
 
 		.icon {
@@ -546,8 +546,8 @@ body:not(.is-using-mouse) {
 
 		&:hover,
 		&.active {
-			border-color: var(--blue20-color);
-			background-color: var(--blue20-color);
+			border-color: var(--blue15-color);
+			background-color: var(--blue15-color);
 			color: var(--white-color);
 		}
 	}
@@ -569,7 +569,7 @@ body:not(.is-using-mouse) {
 		}
 	}
 	&-extra-primary {
-		border-color: var(--gray10-color);
+		border-color: rgba(0, 0, 0, 0.1);
 		background-color: var(--white-color);
 		color: var(--text-primary);
 
@@ -580,8 +580,8 @@ body:not(.is-using-mouse) {
 
 		&:hover,
 		&.active {
-			border-color: var(--blue20-color);
-			background-color: var(--blue20-color);
+			border-color: var(--blue15-color);
+			background-color: var(--blue15-color);
 			color: var(--white-color);
 
 			.icon {
@@ -1309,12 +1309,14 @@ input.disabled {
 
 			&-search-btn {
 				position: absolute;
-				top: 5px;
+				top: 7px;
 				right: 7px;
 				min-width: 32px;
 				width: 32px;
 				min-height: 32px;
 				height: 32px;
+				border-color: var(--blue15-color);
+				background-color: var(--blue15-color);
 
 				.icon {
 					min-width: 16px;
@@ -1324,7 +1326,15 @@ input.disabled {
 					fill: var(--white-color);
 					stroke: var(--white-color);
 				}
+
+				&:hover,
+				&:focus,
+				&.active {
+					border-color: var(--gray30-color);
+					background-color: var(--gray30-color);
+				}
 			}
+			&-rec-btn,
 			&-delete-btn {
 				right: 48px;
 			}
@@ -1356,8 +1366,8 @@ input.disabled {
 }
 .input {
 	width: 100%;
-	min-height: 44px;
-	height: 44px;
+	min-height: 48px;
+	height: 48px;
 	padding: 9px 15px;
 	border: 1px solid var(--text-secondary);
 	border-radius: var(--bradius);
@@ -1367,7 +1377,7 @@ input.disabled {
 	line-height: 24px;
 
 	&::placeholder {
-		color: var(--text-secondary);
+		color: rgba(51, 51, 51, 0.6);
 	}
 
 	&-title {
@@ -1455,6 +1465,29 @@ input.disabled {
 		padding: unset;
 		border-color: transparent;
 		background-color: var(--gray0-color);
+
+		.icon {
+			fill: var(--text-primary);
+			stroke: var(--text-primary);
+		}
+
+		&:hover {
+			border-color: transparent;
+			background-color: transparent;
+		}
+	}
+
+	&-rec-btn {
+		position: absolute;
+		top: 7px;
+		right: 42px;
+		min-width: 32px;
+		width: 32px;
+		min-height: 32px;
+		height: 32px;
+		padding: unset;
+		border-color: transparent;
+		background-color: transparent;
 
 		.icon {
 			fill: var(--text-primary);

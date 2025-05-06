@@ -151,9 +151,9 @@
                                     autocomplete="off"
                                     onclick="$(this).closest('.header-search').find('.header-search-results').toggleClass('active');"
                             >
-                            <button class="btn-reset btn input-delete-btn">
+                            <button class="btn-reset btn input-rec-btn">
                                 <svg class="icon icon-fill">
-                                    <use href="img/sprite.svg#cross"></use>
+                                    <use href="img/sprite.svg#search-rec"></use>
                                 </svg>
                             </button>
                             <button class="btn-reset btn btn-secondary input-search-btn" type="submit">
@@ -408,37 +408,37 @@
         <div class="header-categories">
             <div class="container header-container header-categories-container">
                 <button
-                        class="btn-reset btn btn-sm btn-secondary menu-catalog-spoiler"
+                        class="btn-reset btn btn-secondary menu-catalog-spoiler"
                         aria-label="Открыть меню"
                         aria-expanded="false"
                         data-catalog-spoiler
                         data-overlay-transparent
                 >
-                    <svg class="icon icon-fill menu-catalog-spoiler__icon">
+                    <svg class="icon icon-fill icon-xs menu-catalog-spoiler__icon">
                         <use href="img/sprite.svg#category"></use>
                     </svg>
-                    <svg class="icon icon-fill menu-catalog-spoiler__icon-active">
+                    <svg class="icon icon-fill icon-xs menu-catalog-spoiler__icon-active">
                         <use href="img/sprite.svg#cross"></use>
                     </svg>
-                    <span class="text-content">Каталог</span>
+                    <span class="text-content">Все категории</span>
                 </button>
 
-                <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Гидравлические тележки</a>
-                <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Самоходные тележки</a>
-                <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Погрузчики</a>
-                <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Электротягачи</a>
-                <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Оборудование для агрессивных сред</a>
-                <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Запчасти</a>
-                <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Штабелеры</a>
-                <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Подъемники и вышки</a>
-                <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Гидравлические подъемные столы</a>
-                <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Оборудование для промышленности</a>
-                <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Клининговое оборудование</a>
-                <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Оборудование с весами</a>
-                <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Ричтраки</a>
-                <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Колесные опоры и ролики</a>
-                <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Грузоподъемное оборудование</a>
-                <a class="btn-reset btn btn-sm btn-extra-primary" href="javascript:;">Комплектовщики заказов</a>
+                <a class="btn-reset btn btn-extra-primary" href="javascript:;">Гидравлические тележки</a>
+                <a class="btn-reset btn btn-extra-primary" href="javascript:;">Самоходные тележки</a>
+                <a class="btn-reset btn btn-extra-primary" href="javascript:;">Погрузчики</a>
+                <a class="btn-reset btn btn-extra-primary" href="javascript:;">Электротягачи</a>
+                <a class="btn-reset btn btn-extra-primary" href="javascript:;">Оборудование для агрессивных сред</a>
+                <a class="btn-reset btn btn-extra-primary" href="javascript:;">Запчасти</a>
+                <a class="btn-reset btn btn-extra-primary" href="javascript:;">Штабелеры</a>
+                <a class="btn-reset btn btn-extra-primary" href="javascript:;">Подъемники и вышки</a>
+                <a class="btn-reset btn btn-extra-primary" href="javascript:;">Гидравлические подъемные столы</a>
+                <a class="btn-reset btn btn-extra-primary" href="javascript:;">Оборудование для промышленности</a>
+                <a class="btn-reset btn btn-extra-primary" href="javascript:;">Клининговое оборудование</a>
+                <a class="btn-reset btn btn-extra-primary" href="javascript:;">Оборудование с весами</a>
+                <a class="btn-reset btn btn-extra-primary" href="javascript:;">Ричтраки</a>
+                <a class="btn-reset btn btn-extra-primary" href="javascript:;">Колесные опоры и ролики</a>
+                <a class="btn-reset btn btn-extra-primary" href="javascript:;">Грузоподъемное оборудование</a>
+                <a class="btn-reset btn btn-extra-primary" href="javascript:;">Комплектовщики заказов</a>
             </div>
         </div>
     </header>
