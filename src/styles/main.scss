@@ -770,8 +770,8 @@ body:not(.index) {
 		min-height: 76px;
 		height: 76px;
 		padding: 16px 12px;
-		border: 1px solid var(--gray0-color);
-		border-radius: var(--bradius);
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		border-radius: var(--bradius-xl);
 		background-color: var(--white-color);
 		text-decoration: none;
 
