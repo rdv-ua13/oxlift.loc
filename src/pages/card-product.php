@@ -1905,7 +1905,7 @@
                                                                         </div>
                                                                     </div>
 
-                                                                    <div class="product-card-new__tabs-info-wrap qwqwqw">
+                                                                    <div class="product-card-new__tabs-info-wrap">
                                                                         <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                                             <ul class="list-reset product-card-new__price">
                                                                                 <li class="product-card-new__price-option">
@@ -2064,7 +2064,7 @@
                                                                         </div>
                                                                     </div>
 
-                                                                    <div class="product-card-new__tabs-info-wrap qwqwqw">
+                                                                    <div class="product-card-new__tabs-info-wrap">
                                                                         <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                                             <ul class="list-reset product-card-new__price">
                                                                                 <li class="product-card-new__price-option">
@@ -2223,7 +2223,7 @@
                                                                         </div>
                                                                     </div>
 
-                                                                    <div class="product-card-new__tabs-info-wrap qwqwqw">
+                                                                    <div class="product-card-new__tabs-info-wrap">
                                                                         <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                                             <ul class="list-reset product-card-new__price">
                                                                                 <li class="product-card-new__price-option">
@@ -2382,7 +2382,7 @@
                                                                         </div>
                                                                     </div>
 
-                                                                    <div class="product-card-new__tabs-info-wrap qwqwqw">
+                                                                    <div class="product-card-new__tabs-info-wrap">
                                                                         <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                                             <ul class="list-reset product-card-new__price">
                                                                                 <li class="product-card-new__price-option">
@@ -2527,7 +2527,7 @@
                                                                         </div>
                                                                     </div>
 
-                                                                    <div class="product-card-new__tabs-info-wrap qwqwqw">
+                                                                    <div class="product-card-new__tabs-info-wrap">
                                                                         <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                                             <ul class="list-reset product-card-new__price">
                                                                                 <li class="product-card-new__price-option">
@@ -2674,7 +2674,7 @@
                                                                         </div>
                                                                     </div>
 
-                                                                    <div class="product-card-new__tabs-info-wrap qwqwqw">
+                                                                    <div class="product-card-new__tabs-info-wrap">
                                                                         <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                                             <ul class="list-reset product-card-new__price">
                                                                                 <li class="product-card-new__price-option">
@@ -2834,7 +2834,7 @@
                                                                         </div>
                                                                     </div>
 
-                                                                    <div class="product-card-new__tabs-info-wrap qwqwqw">
+                                                                    <div class="product-card-new__tabs-info-wrap">
                                                                         <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                                             <ul class="list-reset product-card-new__price">
                                                                                 <li class="product-card-new__price-option">
@@ -2994,7 +2994,7 @@
                                                                         </div>
                                                                     </div>
 
-                                                                    <div class="product-card-new__tabs-info-wrap qwqwqw">
+                                                                    <div class="product-card-new__tabs-info-wrap">
                                                                         <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                                             <ul class="list-reset product-card-new__price">
                                                                                 <li class="product-card-new__price-option">
@@ -3153,7 +3153,7 @@
                                                                         </div>
                                                                     </div>
 
-                                                                    <div class="product-card-new__tabs-info-wrap qwqwqw">
+                                                                    <div class="product-card-new__tabs-info-wrap">
                                                                         <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                                             <ul class="list-reset product-card-new__price">
                                                                                 <li class="product-card-new__price-option">
@@ -3334,7 +3334,7 @@
                                                                         </div>
                                                                     </div>
 
-                                                                    <div class="product-card-new__tabs-info-wrap qwqwqw">
+                                                                    <div class="product-card-new__tabs-info-wrap">
                                                                         <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                                             <ul class="list-reset product-card-new__price">
                                                                                 <li class="product-card-new__price-option">
@@ -3493,7 +3493,7 @@
                                                                         </div>
                                                                     </div>
 
-                                                                    <div class="product-card-new__tabs-info-wrap qwqwqw">
+                                                                    <div class="product-card-new__tabs-info-wrap">
                                                                         <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                                             <ul class="list-reset product-card-new__price">
                                                                                 <li class="product-card-new__price-option">
@@ -3652,7 +3652,7 @@
                                                                         </div>
                                                                     </div>
 
-                                                                    <div class="product-card-new__tabs-info-wrap qwqwqw">
+                                                                    <div class="product-card-new__tabs-info-wrap">
                                                                         <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                                             <ul class="list-reset product-card-new__price">
                                                                                 <li class="product-card-new__price-option">
@@ -3811,7 +3811,7 @@
                                                                         </div>
                                                                     </div>
 
-                                                                    <div class="product-card-new__tabs-info-wrap qwqwqw">
+                                                                    <div class="product-card-new__tabs-info-wrap">
                                                                         <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                                             <ul class="list-reset product-card-new__price">
                                                                                 <li class="product-card-new__price-option">
@@ -3959,7 +3959,7 @@
                                                                         </div>
                                                                     </div>
 
-                                                                    <div class="product-card-new__tabs-info-wrap qwqwqw">
+                                                                    <div class="product-card-new__tabs-info-wrap">
                                                                         <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                                             <ul class="list-reset product-card-new__price">
                                                                                 <li class="product-card-new__price-option">
@@ -4119,7 +4119,7 @@
                                                                         </div>
                                                                     </div>
 
-                                                                    <div class="product-card-new__tabs-info-wrap qwqwqw">
+                                                                    <div class="product-card-new__tabs-info-wrap">
                                                                         <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                                             <ul class="list-reset product-card-new__price">
                                                                                 <li class="product-card-new__price-option">
@@ -4279,7 +4279,7 @@
                                                                         </div>
                                                                     </div>
 
-                                                                    <div class="product-card-new__tabs-info-wrap qwqwqw">
+                                                                    <div class="product-card-new__tabs-info-wrap">
                                                                         <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                                             <ul class="list-reset product-card-new__price">
                                                                                 <li class="product-card-new__price-option">
@@ -4439,7 +4439,7 @@
                                                                         </div>
                                                                     </div>
 
-                                                                    <div class="product-card-new__tabs-info-wrap qwqwqw">
+                                                                    <div class="product-card-new__tabs-info-wrap">
                                                                         <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                                             <ul class="list-reset product-card-new__price">
                                                                                 <li class="product-card-new__price-option">
@@ -4598,7 +4598,7 @@
                                                                         </div>
                                                                     </div>
 
-                                                                    <div class="product-card-new__tabs-info-wrap qwqwqw">
+                                                                    <div class="product-card-new__tabs-info-wrap">
                                                                         <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                                             <ul class="list-reset product-card-new__price">
                                                                                 <li class="product-card-new__price-option">
@@ -4779,7 +4779,7 @@
                                                                         </div>
                                                                     </div>
 
-                                                                    <div class="product-card-new__tabs-info-wrap qwqwqw">
+                                                                    <div class="product-card-new__tabs-info-wrap">
                                                                         <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                                             <ul class="list-reset product-card-new__price">
                                                                                 <li class="product-card-new__price-option">
@@ -4938,7 +4938,7 @@
                                                                         </div>
                                                                     </div>
 
-                                                                    <div class="product-card-new__tabs-info-wrap qwqwqw">
+                                                                    <div class="product-card-new__tabs-info-wrap">
                                                                         <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                                             <ul class="list-reset product-card-new__price">
                                                                                 <li class="product-card-new__price-option">
@@ -5097,7 +5097,7 @@
                                                                         </div>
                                                                     </div>
 
-                                                                    <div class="product-card-new__tabs-info-wrap qwqwqw">
+                                                                    <div class="product-card-new__tabs-info-wrap">
                                                                         <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                                             <ul class="list-reset product-card-new__price">
                                                                                 <li class="product-card-new__price-option">
@@ -5256,7 +5256,7 @@
                                                                         </div>
                                                                     </div>
 
-                                                                    <div class="product-card-new__tabs-info-wrap qwqwqw">
+                                                                    <div class="product-card-new__tabs-info-wrap">
                                                                         <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                                             <ul class="list-reset product-card-new__price">
                                                                                 <li class="product-card-new__price-option">
@@ -5416,7 +5416,7 @@
                                                                         </div>
                                                                     </div>
 
-                                                                    <div class="product-card-new__tabs-info-wrap qwqwqw">
+                                                                    <div class="product-card-new__tabs-info-wrap">
                                                                         <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                                             <ul class="list-reset product-card-new__price">
                                                                                 <li class="product-card-new__price-option">
@@ -5576,7 +5576,7 @@
                                                                         </div>
                                                                     </div>
 
-                                                                    <div class="product-card-new__tabs-info-wrap qwqwqw">
+                                                                    <div class="product-card-new__tabs-info-wrap">
                                                                         <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                                             <ul class="list-reset product-card-new__price">
                                                                                 <li class="product-card-new__price-option">
@@ -5736,7 +5736,7 @@
                                                                         </div>
                                                                     </div>
 
-                                                                    <div class="product-card-new__tabs-info-wrap qwqwqw">
+                                                                    <div class="product-card-new__tabs-info-wrap">
                                                                         <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                                             <ul class="list-reset product-card-new__price">
                                                                                 <li class="product-card-new__price-option">
@@ -5896,7 +5896,7 @@
                                                                         </div>
                                                                     </div>
 
-                                                                    <div class="product-card-new__tabs-info-wrap qwqwqw">
+                                                                    <div class="product-card-new__tabs-info-wrap">
                                                                         <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                                             <ul class="list-reset product-card-new__price">
                                                                                 <li class="product-card-new__price-option">
@@ -6055,7 +6055,7 @@
                                                                         </div>
                                                                     </div>
 
-                                                                    <div class="product-card-new__tabs-info-wrap qwqwqw">
+                                                                    <div class="product-card-new__tabs-info-wrap">
                                                                         <div class="product-card-new__tabs-info js-tabs-goods-info1 js-tabs-goods-info--open" data-tabs-id="variable1">
                                                                             <ul class="list-reset product-card-new__price">
                                                                                 <li class="product-card-new__price-option">
