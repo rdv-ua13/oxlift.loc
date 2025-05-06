@@ -1799,7 +1799,7 @@
                 </div>
                 <div class="basic-hca__content">
                     <div class="basic-tabs">
-                        <div class="gap-sm-plus basic-tabs__header slider-out basic-slider-wrap">
+                        <div class="gap-sm-plus basic-tabs__header basic-slider-wrap">
                             <div class="basic-tabs-container basic-slider swiper" data-tab="goods-tabs" data-basic-slider>
                                 <div class="basic-tabs-slider-list swiper-wrapper">
                                     <div class="basic-tabs-item swiper-slide">
@@ -1818,7 +1818,7 @@
                         <div class="basic-tabs-content" data-tab-content="goods-tabs">
                             <div class="basic-tabs-content__panel active" data-id="0">
                                 <div class="basic-tabs-content__content">
-                                    <div class="slider-out basic-slider-wrap card-product-slider-wrap basic-hca__content-main">
+                                    <div class="basic-slider-wrap card-product-slider-wrap basic-hca__content-main">
                                         <div class="basic-slider nav-out swiper" data-basic-product-slider>
                                             <div class="swiper-wrapper">
                                                 <div class="swiper-slide">
@@ -3246,7 +3246,7 @@
                             </div>
                             <div class="basic-tabs-content__panel" data-id="1">
                                 <div class="basic-tabs-content__content">
-                                    <div class="slider-out basic-slider-wrap card-product-slider-wrap basic-hca__content-main">
+                                    <div class="basic-slider-wrap card-product-slider-wrap basic-hca__content-main">
                                         <div class="basic-slider nav-out swiper" data-basic-product-slider>
                                             <div class="swiper-wrapper">
                                                 <div class="swiper-slide">
@@ -4691,7 +4691,7 @@
                             </div>
                             <div class="basic-tabs-content__panel" data-id="2">
                                 <div class="basic-tabs-content__content">
-                                    <div class="slider-out basic-slider-wrap card-product-slider-wrap basic-hca__content-main">
+                                    <div class="basic-slider-wrap card-product-slider-wrap basic-hca__content-main">
                                         <div class="basic-slider nav-out swiper" data-basic-product-slider>
                                             <div class="swiper-wrapper">
                                                 <div class="swiper-slide">

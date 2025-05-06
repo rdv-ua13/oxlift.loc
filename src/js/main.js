@@ -537,14 +537,11 @@ application.prototype.initSliders = function () {
                 prevEl: '.offers .swiper-button-prev',
             },
             breakpoints: {
-                576: {
-                    slidesPerView: 2,
-                },
-                768: {
+                670: {
                     slidesPerView: 3,
                     spaceBetween: 12,
                 },
-                1200: {
+                960: {
                     slidesPerView: 4,
                     spaceBetween: 12,
                 },

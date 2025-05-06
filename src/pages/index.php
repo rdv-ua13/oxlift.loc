@@ -4,7 +4,7 @@
     <div class="container">
         <div class="index-top">
             <div class="index-top-primary">
-                <div class="slider-out basic-slider-wrap">
+                <div class="basic-slider-wrap">
                     <div class="basic-slider swiper">
                         <div class="swiper-wrapper">
                             <a href="javascript:;" class="swiper-slide">
@@ -574,7 +574,7 @@
                 <div class="h2">Наши клиенты</div>
             </div>
             <div class="basic-hca__content">
-                <div class="slider-out basic-slider-wrap partner-slider-wrap">
+                <div class="basic-slider-wrap partner-slider-wrap">
                     <div class="partner-slider basic-slider swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
@@ -701,54 +701,54 @@
                 <div class="h2">Спецпредложения</div>
             </div>
             <div class="basic-hca__content">
-                <div class="slider-out basic-slider-wrap offers-slider-wrap">
+                <div class="basic-slider-wrap offers-slider-wrap">
                     <div class="offers-slider basic-slider swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <a href="javascript:;" class="offers-slider__link">
                                     <picture>
-                                        <source srcset="img/offers_img_1.png" media="(min-width: 992px)">
-                                        <img src="img/offers_img_1.png" alt="Изображение блока">
+                                        <source srcset="img/akcii_img1.png" media="(min-width: 992px)">
+                                        <img src="img/akcii_img1.png" alt="Изображение блока">
                                     </picture>
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="javascript:;" class="offers-slider__link">
                                     <picture>
-                                        <source srcset="img/offers_img_2.png" media="(min-width: 992px)">
-                                        <img src="img/offers_img_2.png" alt="Изображение блока">
+                                        <source srcset="img/akcii_img2.png" media="(min-width: 992px)">
+                                        <img src="img/akcii_img1.png" alt="Изображение блока">
                                     </picture>
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="javascript:;" class="offers-slider__link">
                                     <picture>
-                                        <source srcset="img/offers_img_3.png" media="(min-width: 992px)">
-                                        <img src="img/offers_img_3.png" alt="Изображение блока">
+                                        <source srcset="img/akcii_img1.png" media="(min-width: 992px)">
+                                        <img src="img/akcii_img1.png" alt="Изображение блока">
                                     </picture>
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="javascript:;" class="offers-slider__link">
                                     <picture>
-                                        <source srcset="img/offers_img_1.png" media="(min-width: 992px)">
-                                        <img src="img/offers_img_1.png" alt="Изображение блока">
+                                        <source srcset="img/akcii_img2.png" media="(min-width: 992px)">
+                                        <img src="img/akcii_img1.png" alt="Изображение блока">
                                     </picture>
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="javascript:;" class="offers-slider__link">
                                     <picture>
-                                        <source srcset="img/offers_img_2.png" media="(min-width: 992px)">
-                                        <img src="img/offers_img_2.png" alt="Изображение блока">
+                                        <source srcset="img/akcii_img1.png" media="(min-width: 992px)">
+                                        <img src="img/akcii_img1.png" alt="Изображение блока">
                                     </picture>
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="javascript:;" class="offers-slider__link">
                                     <picture>
-                                        <source srcset="img/offers_img_3.png" media="(min-width: 992px)">
-                                        <img src="img/offers_img_3.png" alt="Изображение блока">
+                                        <source srcset="img/akcii_img2.png" media="(min-width: 992px)">
+                                        <img src="img/akcii_img2.png" alt="Изображение блока">
                                     </picture>
                                 </a>
                             </div>
@@ -784,7 +784,7 @@
         <div class="basic-hca basic-hca--action-into-tab">
             <div class="basic-hca__content">
                 <div class="basic-tabs">
-                    <div class="gap-sm-plus basic-tabs__header slider-out basic-slider-wrap">
+                    <div class="gap-sm-plus basic-tabs__header basic-slider-wrap">
                         <div class="basic-tabs-container basic-slider swiper" data-tab="goods-tabs" data-basic-slider>
                             <div class="basic-tabs-slider-list swiper-wrapper">
                                 <div class="basic-tabs-item swiper-slide">
@@ -807,7 +807,7 @@
                                     <span class="text-content">Cмотреть все</span>
                                 </a>
 
-                                <div class="slider-out basic-slider-wrap card-product-slider-wrap basic-hca__content-main">
+                                <div class="basic-slider-wrap card-product-slider-wrap basic-hca__content-main">
                                     <div class="basic-slider nav-out swiper" data-basic-product-slider>
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide">
@@ -2239,7 +2239,7 @@
                                     <span class="text-content">Cмотреть все</span>
                                 </a>
 
-                                <div class="slider-out basic-slider-wrap card-product-slider-wrap basic-hca__content-main">
+                                <div class="basic-slider-wrap card-product-slider-wrap basic-hca__content-main">
                                     <div class="basic-slider nav-out swiper" data-basic-product-slider>
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide">
@@ -3688,7 +3688,7 @@
                                     <span class="text-content">Cмотреть все</span>
                                 </a>
 
-                                <div class="slider-out basic-slider-wrap card-product-slider-wrap basic-hca__content-main">
+                                <div class="basic-slider-wrap card-product-slider-wrap basic-hca__content-main">
                                     <div class="basic-slider nav-out swiper" data-basic-product-slider>
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide">
