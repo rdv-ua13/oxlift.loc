@@ -140,7 +140,7 @@ body:not(.index) {
 		}
 	}
 }
-@media (min-width: 768px) {
+@media (min-width: 670px) {
 	.cp {
 		&-content {
 			&__category {
@@ -309,7 +309,7 @@ body:not(.index) {
 		}
 	}
 }
-@media (min-width: 992px) {
+@media (min-width: 960px) {
 	.index-top {
 		flex-direction: row;
 		flex-wrap: wrap;
@@ -355,7 +355,7 @@ body:not(.index) {
 		}
 	}
 }
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 670px) and (max-width: 959px) {
 	.index-top {
 		&-primary {
 			.swiper {
@@ -431,7 +431,7 @@ body:not(.index) {
 		color: var(--gray20-color);
 	}
 }
-@media (min-width: 992px) {
+@media (min-width: 960px) {
 	.achievements {
 		display: grid;
 		gap: 12px 20px;
@@ -474,7 +474,7 @@ body:not(.index) {
 		}
 	}
 }
-@media (max-width: 991px) {
+@media (max-width: 959px) {
 	.achievements {
 		&__item {
 			flex-direction: column;
@@ -503,7 +503,7 @@ body:not(.index) {
 		}
 	}
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 960px) and (max-width: 1199px) {
 	.achievements {
 		grid-template-columns: repeat(2, 1fr);
 	}
@@ -537,7 +537,7 @@ body:not(.index) {
 		}
 	}
 }
-@media (min-width: 768px) {
+@media (min-width: 670px) {
 	.catalog-index {
 		display: grid;
 
@@ -607,7 +607,7 @@ body:not(.index) {
 		}
 	}
 }
-@media (min-width: 992px) {
+@media (min-width: 960px) {
 	.catalog-index {
 		grid-template-columns: repeat(3, 1fr);
 	}
@@ -642,7 +642,7 @@ body:not(.index) {
 		}
 	}
 }
-@media (max-width: 767px) {
+@media (max-width: 669px) {
 	.catalog-index {
 		&__item {
 			padding-right: 16px;
@@ -679,13 +679,13 @@ body:not(.index) {
 		}
 	}
 }
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 670px) and (max-width: 959px) {
 	.catalog-index {
 		grid-template-columns: repeat(2, 1fr);
 		gap: 32px 80px;
 	}
 }
-@media (min-width: 768px) and (max-width: 1439px) {
+@media (min-width: 670px) and (max-width: 1439px) {
 	.catalog-index {
 		&__view {
 			min-width: 116px;
@@ -706,7 +706,7 @@ body:not(.index) {
 		}
 	}
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 960px) and (max-width: 1199px) {
 	.catalog-index {
 		&__item {
 			flex-direction: column;
@@ -714,7 +714,7 @@ body:not(.index) {
 		}
 	}
 }
-@media (min-width: 992px) and (max-width: 1439px) {
+@media (min-width: 960px) and (max-width: 1439px) {
 	.catalog-index {
 		gap: 40px 80px;
 	}
@@ -766,7 +766,7 @@ body:not(.index) {
 
 	}
 }
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 670px) and (max-width: 1199px) {
 	.partner-slider {
 		&__link {
 			min-height: 112px;
@@ -1004,7 +1004,7 @@ body:not(.index) {
 		}
 	}
 }
-@media (min-width: 768px) {
+@media (min-width: 670px) {
 	.interaction {
 		&-banner {
 			&__cta {
@@ -1030,7 +1030,7 @@ body:not(.index) {
 		}
 	}
 }
-@media (min-width: 992px) {
+@media (min-width: 960px) {
 	.interaction {
 		&-banner {
 			&-info {
@@ -1081,7 +1081,7 @@ body:not(.index) {
 		}
 	}
 }
-@media (max-width: 767px) {
+@media (max-width: 669px) {
 	.interaction {
 		&__tag-list {
 			display: none;
@@ -1100,7 +1100,7 @@ body:not(.index) {
 		}
 	}
 }
-@media (min-width: 576px) and (max-width: 991px) {
+@media (min-width: 576px) and (max-width: 959px) {
 	.interaction {
 		&-banner {
 			&-info {
@@ -1115,7 +1115,7 @@ body:not(.index) {
 		}
 	}
 }
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 670px) and (max-width: 959px) {
 	.interaction {
 		&-banner {
 			&-info {
@@ -1130,7 +1130,7 @@ body:not(.index) {
 		}
 	}
 }
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 670px) and (max-width: 1199px) {
 	.interaction {
 		&__item {
 			&--pay {
@@ -1158,7 +1158,7 @@ body:not(.index) {
 		}
 	}
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 960px) and (max-width: 1199px) {
 	.interaction {
 		&-banner {
 			&-info {
@@ -1239,7 +1239,7 @@ body:not(.index) {
 		color: var(--text-secondary);
 	}
 }
-@media (min-width: 992px) {
+@media (min-width: 960px) {
 	.load {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
@@ -1295,7 +1295,7 @@ body:not(.index) {
 		}
 	}
 }
-@media (min-width: 992px) {
+@media (min-width: 960px) {
 	.payment {
 		gap: 24px;
 		padding: 32px 25% 32px 32px;
@@ -1310,7 +1310,7 @@ body:not(.index) {
 		}
 	}
 }
-@media (max-width: 991px) {
+@media (max-width: 959px) {
 	.payment {
 		&__cta {
 			.btn:not(.payment__cta-more) {
@@ -1376,7 +1376,7 @@ body:not(.index) {
 		}
 	}
 }
-@media (max-width: 767px) {
+@media (max-width: 669px) {
 	.btn-more {
 		width: 114px;
 		min-height: 32px;
@@ -1391,7 +1391,7 @@ body:not(.index) {
 	text-decoration: none;
 	border-radius: 5px;
 }
-@media (max-width: 767px) {
+@media (max-width: 669px) {
 	.btn--card-form {
 		width: 100%;
 	}
@@ -1525,7 +1525,7 @@ body:not(.index) {
 		}
 	}
 }
-@media (max-width: 991px) {
+@media (max-width: 959px) {
 	.products {
 		&__mobile {
 			&-btn {
@@ -1536,7 +1536,7 @@ body:not(.index) {
 		}
 	}
 }
-@media (max-width: 767px) {
+@media (max-width: 669px) {
 	.products {
 		&__wrap {
 			margin-left: -3px;
@@ -1671,7 +1671,7 @@ body:not(.index) {
 		}
 	}
 }
-@media (max-width: 767px) {
+@media (max-width: 669px) {
 	.product {
 		&-card {
 			&-new {
@@ -1814,7 +1814,7 @@ body:not(.index) {
 			&-wrap {
 				display: none;
 
-				@media screen and (max-width: 991px) {
+				@media screen and (max-width: 959px) {
 					display: block;
 				}
 			}
@@ -1877,7 +1877,7 @@ body:not(.index) {
 		color: var(--gray30-color);
 		text-transform: uppercase;
 
-		@media screen and (max-width: 991px) {
+		@media screen and (max-width: 959px) {
 			display: none;
 		}
 	}
@@ -1886,13 +1886,13 @@ body:not(.index) {
 .js-accordion-info {
 	display: none;
 }
-@media (min-width: 992px) {
+@media (min-width: 960px) {
 	.js-product-filter .product_filter_btn_exec {
 		display: none;
 	}
 }
 .product-filter {
-	@media screen and (max-width: 991px) {
+	@media screen and (max-width: 959px) {
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -1905,17 +1905,17 @@ body:not(.index) {
 		background-color: rgba(#E9EBEE, .5);
 	}
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		background-color: #F4F5F7;
 	}
 
 	&.open {
-		@media screen and (max-width: 991px) {
+		@media screen and (max-width: 959px) {
 			display: flex;
 			animation: product-filter-open 1 .3s;
 		}
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			display: block;
 		}
 	}
@@ -1924,7 +1924,7 @@ body:not(.index) {
 	&__btn-close {
 		display: none;
 
-		@media screen and (max-width: 991px) {
+		@media screen and (max-width: 959px) {
 			position: absolute;
 			left: 0;
 			top: 0;
@@ -1974,17 +1974,17 @@ body:not(.index) {
 			0 2px 6px rgba(0, 0, 0, .04),
 			0 0 1px rgba(0, 0, 0, .04);
 
-		@media screen and (max-width: 991px) {
+		@media screen and (max-width: 959px) {
 			width: 300px;
 		}
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			width: initial;
 			flex-grow: 1;
 		}
 
 		&-wrap {
-			@media screen and (max-width: 991px) {
+			@media screen and (max-width: 959px) {
 				position: relative;
 				padding: 0 12px 12px 12px;
 				height: 100%;
@@ -2301,7 +2301,7 @@ body:not(.index) {
 	&__availability-wrap {
 		padding-bottom: 5px;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			padding-bottom: 10px;
 		}
 	}
@@ -2318,7 +2318,7 @@ body:not(.index) {
 		background-position: center;
 		background-repeat  : no-repeat;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			width : 12px;
 			height: 12px;
 		}
@@ -2332,7 +2332,7 @@ body:not(.index) {
 		line-height : 1;
 		padding-top : 2px;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			width       : calc(100% - 12px);
 			padding-left: 3px;
 			font-size   : 10px;
@@ -2342,7 +2342,7 @@ body:not(.index) {
 	&__btn-wrap {
 		padding-top: 10px;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			padding-top: 13px;
 		}
 	}
@@ -2376,7 +2376,7 @@ body:not(.index) {
 		letter-spacing: -0.25px;
 		white-space: nowrap;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			min-height: 33px;
 			height: 33px;
 			font-size : 10px;
@@ -2440,7 +2440,7 @@ body:not(.index) {
 	}
 
 	&__compare-btn svg {
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			width : 13px;
 			height: 12px;
 		}
@@ -2474,7 +2474,7 @@ body:not(.index) {
 	align-items    : center;
 	padding        : 12px 15px 11px;
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		align-items: center;
 		padding    : 8px 10px 4px;
 	}
@@ -2486,7 +2486,7 @@ body:not(.index) {
 	line-height: 120%;
 	color      : #8B98A7;
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		font-size: 9px;
 	}
 }
@@ -2501,7 +2501,7 @@ body:not(.index) {
 	svg {
 		pointer-events: none;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			width : 13px;
 			height: 12px;
 		}
@@ -2526,7 +2526,7 @@ body:not(.index) {
 	flex-direction: column;
 	padding       : 0 15px 15px;
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		padding: 0 10px 14px;
 	}
 }
@@ -2553,7 +2553,7 @@ body:not(.index) {
 	border-radius: 10px;
 	overflow     : hidden;
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		margin-bottom: 10px;
 		padding-top  : 75.4%;
 	}
@@ -2572,7 +2572,7 @@ body:not(.index) {
 	color        : #fff;
 	z-index      : 3;
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		font-size    : 6px;
 		line-height  : 14px;
 		border-radius: 2px;
@@ -2617,7 +2617,7 @@ body:not(.index) {
 	border-radius: 5px;
 	z-index      : 5;
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		padding      : 0 3px;
 		border-radius: 3px;
 	}
@@ -2630,7 +2630,7 @@ body:not(.index) {
 	text-transform: uppercase;
 	color         : #33333D;
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		font-size  : 9px;
 		line-height: 14px;
 	}
@@ -2646,7 +2646,7 @@ body:not(.index) {
 	background-position: center;
 	background-size    : contain;
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		width       : 12px;
 		height      : 12px;
 		margin-right: 3px;
@@ -2674,7 +2674,7 @@ body:not(.index) {
 		font-size: 14px;
 	}
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		font-size: 12px;
 	}
 }
@@ -2688,7 +2688,7 @@ body:not(.index) {
 		margin-top: 5px;
 		color     : #8B98A7;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			margin-top: 3px;
 		}
 	}
@@ -2705,7 +2705,7 @@ body:not(.index) {
 		font-size: 12px;
 	}
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		font-size: 10px;
 	}
 }
@@ -2737,7 +2737,7 @@ body:not(.index) {
 	}
 
 	&--right {
-		@media screen and (max-width: 991px) {
+		@media screen and (max-width: 959px) {
 			left     : auto;
 			right    : 0;
 			transform: none;
@@ -2808,7 +2808,7 @@ body:not(.index) {
 		font-size: 14px;
 	}
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		font-size: 10px;
 	}
 }
@@ -2816,7 +2816,7 @@ body:not(.index) {
 .product-card-new__order {
 	margin-top: 22px;
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		margin-top: 10px;
 	}
 }
@@ -2827,7 +2827,7 @@ body:not(.index) {
 	background-color: #DBFEEA;
 	border-radius   : 0 0 5px 5px;
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		padding: 5px 10px 3px;
 	}
 }
@@ -2841,7 +2841,7 @@ body:not(.index) {
 	line-height    : 120%;
 	text-decoration: underline;
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		font-size: 10px;
 	}
 
@@ -2856,7 +2856,7 @@ body:not(.index) {
 		background-position: center;
 		transform          : translateY(-1px);
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			width : 12px;
 			height: 12px;
 		}
@@ -2878,7 +2878,7 @@ body:not(.index) {
 .product-card-new__price:last-child {
 	padding-bottom: 64px;
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		padding-bottom: 38px;
 	}
 }
@@ -2976,7 +2976,7 @@ input[type="number"] {
 		align-content : center;
 		align-items   : center;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			padding-bottom : 15px;
 			padding-left   : 12px;
 			padding-right  : 12px;
@@ -2987,7 +2987,7 @@ input[type="number"] {
 	&__title {
 		padding-right: 33px;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			padding-top: 2px;
 		}
 	}
@@ -3010,7 +3010,7 @@ input[type="number"] {
 		text-decoration: none;
 		transition     : all 0.5s;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			width     : 110px;
 			min-height: 32px;
 			font-size : 10px;
@@ -3025,7 +3025,7 @@ input[type="number"] {
 	}
 
 	&__inner {
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			padding-left : 0;
 			padding-right: 0;
 			overflow     : hidden;
@@ -3035,7 +3035,7 @@ input[type="number"] {
 	&__row {
 		justify-content: center;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			flex-wrap      : nowrap;
 			overflow-y     : auto;
 			justify-content: flex-start;
@@ -3059,11 +3059,11 @@ input[type="number"] {
 			width: 16.66%;
 		}
 
-		@media screen and (max-width: 991px) {
+		@media screen and (max-width: 959px) {
 			width: 25%;
 		}
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			width         : auto;
 			padding-left  : 7px;
 			padding-right : 7px;
@@ -3086,7 +3086,7 @@ input[type="number"] {
 		border-radius        : 5px;
 		position             : relative;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			width         : 90px;
 			padding-bottom: 70px;
 		}
@@ -3108,7 +3108,7 @@ input[type="number"] {
 		line-height: 1.4;
 		text-align : center;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			padding-top: 8px;
 			font-size  : 12px;
 		}
@@ -3118,7 +3118,7 @@ input[type="number"] {
 		margin-left : -15px;
 		margin-right: -15px;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			margin-left : 0;
 			margin-right: 0;
 		}
@@ -3135,7 +3135,7 @@ input[type="number"] {
 }
 
 .useful {
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		.products__mobile-btn {
 			margin-top: 21px;
 		}
@@ -3145,7 +3145,7 @@ input[type="number"] {
 .block-header {
 	display: flex;
 
-	@media screen and (max-width: 991px) {
+	@media screen and (max-width: 959px) {
 		display: block;
 	}
 }
@@ -3162,7 +3162,7 @@ input[type="number"] {
 	& + .block-header__tags {
 		margin-top: 13px;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			margin-top: 6px;
 		}
 	}
@@ -3175,7 +3175,7 @@ input[type="number"] {
 		align-self: flex-end;
 	}
 
-	@media screen and (max-width: 991px) {
+	@media screen and (max-width: 959px) {
 		display: none;
 	}
 }
@@ -3187,7 +3187,7 @@ input[type="number"] {
 	margin-right: -15px;
 	margin-top: 22px;
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		display     : flex;
 		flex-wrap   : wrap;
 		margin-left : -12px;
@@ -3201,13 +3201,13 @@ input[type="number"] {
 	padding-right: 15px;
 	flex-basis: 50%;
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		padding-left : 12px;
 		padding-right: 12px;
 	}
 
 	& + & {
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			margin-top: 10px;
 		}
 	}
@@ -3238,11 +3238,11 @@ input[type="number"] {
 		flex-basis: 35%;
 	}
 
-	@media screen and (max-width: 991px) {
+	@media screen and (max-width: 959px) {
 		flex-basis: 38.6%;
 	}
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		min-height: 90px;
 	}
 }
@@ -3268,7 +3268,7 @@ input[type="number"] {
 		padding: 17px 12px 17px 14px;
 	}
 
-	@media screen and (max-width: 991px) {
+	@media screen and (max-width: 959px) {
 		position: relative;
 	}
 }
@@ -3282,7 +3282,7 @@ input[type="number"] {
 		font-size: 20px;
 	}
 
-	@media screen and (max-width: 991px) {
+	@media screen and (max-width: 959px) {
 		position : relative;
 		z-index  : 1;
 		font-size: 16px;
@@ -3312,7 +3312,7 @@ input[type="number"] {
 		font-size: 14px;
 	}
 
-	@media screen and (max-width: 991px) {
+	@media screen and (max-width: 959px) {
 		display: none;
 	}
 }
@@ -3325,7 +3325,7 @@ input[type="number"] {
 	color          : #0C4DB9;
 	text-decoration: none;
 
-	@media screen and (max-width: 991px) {
+	@media screen and (max-width: 959px) {
 		position : absolute;
 		top      : 0;
 		left     : 0;
@@ -3348,14 +3348,14 @@ input[type="number"] {
 	align-items: center;
 	padding-bottom: 15px;
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		padding-bottom: 8px;
 	}
 
 	.news__date {
 		padding-bottom: 0;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			width: 100%;
 			padding-bottom: 5px;
 		}
@@ -3371,7 +3371,7 @@ input[type="number"] {
 	align-items: center;
 	font-size: 0;
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		margin-left: -4px;
 		margin-right: -4px;
 	}
@@ -3385,14 +3385,14 @@ input[type="number"] {
 	align-content: center;
 	align-items: center;
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		padding-left: 4px;
 		padding-right: 4px;
 	}
 }
 
 .article-card__icon {
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		width: 14px;
 	}
 }
@@ -3403,7 +3403,7 @@ input[type="number"] {
 	font-size: 12px;
 	color: #8B98A7;
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		padding-left: 3px;
 	}
 }
@@ -3424,7 +3424,7 @@ input[type="number"] {
 	&__col--main {
 		width: calc(100% - 336px);
 
-		@media screen and (max-width: 991px) {
+		@media screen and (max-width: 959px) {
 			width: 100%;
 		}
 	}
@@ -3432,7 +3432,7 @@ input[type="number"] {
 	&__col--info {
 		width: 336px;
 
-		@media screen and (max-width: 991px) {
+		@media screen and (max-width: 959px) {
 			width: 100%;
 			order: -1;
 		}
@@ -3442,11 +3442,11 @@ input[type="number"] {
 		padding-bottom: 45px;
 		line-height   : 1.2;
 
-		@media screen and (max-width: 991px) {
+		@media screen and (max-width: 959px) {
 			padding-bottom: 20px;
 		}
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			padding-bottom: 6px;
 		}
 	}
@@ -3454,11 +3454,11 @@ input[type="number"] {
 	&__main-line {
 		padding-bottom: 30px;
 
-		@media screen and (max-width: 991px) {
+		@media screen and (max-width: 959px) {
 			padding-bottom: 8px;
 		}
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			padding-bottom: 6px;
 		}
 	}
@@ -3471,7 +3471,7 @@ input[type="number"] {
 	}
 
 	&__main-line-col--favorit {
-		@media screen and (max-width: 991px) {
+		@media screen and (max-width: 959px) {
 			display: none;
 		}
 	}
@@ -3499,7 +3499,7 @@ input[type="number"] {
 		svg {
 			pointer-events: none;
 
-			@media screen and (max-width: 767px) {
+			@media screen and (max-width: 669px) {
 				width : 13px;
 				height: 12px;
 			}
@@ -3526,7 +3526,7 @@ input[type="number"] {
 			color            : #33333D;
 			pointer-events   : none;
 
-			@media screen and (max-width: 991px) {
+			@media screen and (max-width: 959px) {
 				padding-top: 0;
 				line-height: 1;
 			}
@@ -3540,7 +3540,7 @@ input[type="number"] {
 		position     : relative;
 
 		svg {
-			@media screen and (max-width: 767px) {
+			@media screen and (max-width: 669px) {
 				width : 13px;
 				height: 12px;
 			}
@@ -3568,7 +3568,7 @@ input[type="number"] {
 			padding-top      : 2px;
 			color            : #33333D;
 
-			@media screen and (max-width: 991px) {
+			@media screen and (max-width: 959px) {
 				padding-top: 0;
 				line-height: 1;
 			}
@@ -3581,7 +3581,7 @@ input[type="number"] {
 		align-content: center;
 		align-items  : center;
 
-		@media screen and (max-width: 991px) {
+		@media screen and (max-width: 959px) {
 			justify-content: space-between;
 		}
 	}
@@ -3590,7 +3590,7 @@ input[type="number"] {
 		position     : relative;
 		padding-right: 15px;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			padding-right: 0;
 			padding-top  : 2px;
 		}
@@ -3607,7 +3607,7 @@ input[type="number"] {
 			transform : translateY(-50%);
 			margin-top: -2px;
 
-			@media screen and (max-width: 767px) {
+			@media screen and (max-width: 669px) {
 				display: none;
 			}
 		}
@@ -3623,7 +3623,7 @@ input[type="number"] {
 	&__availability-wrap {
 		padding-left: 22px;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			padding-left: 0;
 		}
 	}
@@ -3683,7 +3683,7 @@ input[type="number"] {
 			padding-bottom: 10px;
 		}
 
-		@media screen and (max-width: 991px) {
+		@media screen and (max-width: 959px) {
 			display: none;
 		}
 	}
@@ -3780,7 +3780,7 @@ input[type="number"] {
 			padding: 30px 25px;
 		}
 
-		@media screen and (max-width: 991px) {
+		@media screen and (max-width: 959px) {
 			padding      : 0;
 			background   : transparent;
 			border       : 0;
@@ -3791,7 +3791,7 @@ input[type="number"] {
 	}
 
 	&__card-container {
-		@media screen and (max-width: 991px) {
+		@media screen and (max-width: 959px) {
 			display      : block !important;
 			padding      : 21px 20px 8px;
 			background   : #FFFFFF;
@@ -3801,7 +3801,7 @@ input[type="number"] {
 			margin-top   : 10px;
 		}
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			padding: 16px 20px 3px;
 		}
 	}
@@ -3829,12 +3829,12 @@ input[type="number"] {
 		margin-left : -20px;
 		margin-right: -20px;
 
-		@media screen and (max-width: 991px) {
+		@media screen and (max-width: 959px) {
 			margin-left : 0;
 			margin-right: 0;
 		}
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			margin-left : 0;
 			margin-right: 0;
 		}
@@ -3844,12 +3844,12 @@ input[type="number"] {
 		padding-left : 20px;
 		padding-right: 20px;
 
-		@media screen and (max-width: 991px) {
+		@media screen and (max-width: 959px) {
 			padding-left : 0;
 			padding-right: 0;
 		}
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			padding-left : 0;
 			padding-right: 0;
 		}
@@ -3862,7 +3862,7 @@ input[type="number"] {
 			width: 100%;
 		}
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			width: 100%;
 		}
 	}
@@ -3875,11 +3875,11 @@ input[type="number"] {
 			padding-top: 30px;
 		}
 
-		@media screen and (max-width: 991px) {
+		@media screen and (max-width: 959px) {
 			padding-top: 0;
 		}
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			width: 100%;
 		}
 	}
@@ -3900,7 +3900,7 @@ input[type="number"] {
 	&__label-wrap {
 		display: none;
 
-		@media screen and (max-width: 991px) {
+		@media screen and (max-width: 959px) {
 			position      : absolute;
 			left          : 15px;
 			top           : 15px;
@@ -3920,7 +3920,7 @@ input[type="number"] {
 		flex-direction: column;
 		align-items   : flex-start;
 
-		@media screen and (max-width: 991px) {
+		@media screen and (max-width: 959px) {
 			display: none;
 		}
 	}
@@ -3934,7 +3934,7 @@ input[type="number"] {
 		flex-direction: column;
 		align-items   : flex-start;
 
-		@media screen and (max-width: 991px) {
+		@media screen and (max-width: 959px) {
 			display: none;
 		}
 	}
@@ -3986,7 +3986,7 @@ input[type="number"] {
 		font-size     : 14px;
 		line-height   : 1.5;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			font-size     : 12px;
 			padding-bottom: 20px;
 		}
@@ -4021,7 +4021,7 @@ input[type="number"] {
 			font-size  : 12px;
 			line-height: 1.5;
 
-			@media screen and (max-width: 767px) {
+			@media screen and (max-width: 669px) {
 				line-height: 1.1;
 			}
 
@@ -4047,7 +4047,7 @@ input[type="number"] {
 			padding-bottom: 17px;
 			margin-bottom : 30px;
 
-			@media screen and (max-width: 767px) {
+			@media screen and (max-width: 669px) {
 				padding-top   : 14px;
 				padding-bottom: 13px;
 				margin-bottom : 0;
@@ -4073,13 +4073,13 @@ input[type="number"] {
 	&__subtitle {
 		padding-bottom: 11px;
 
-		@media screen and (max-width: 991px) {
+		@media screen and (max-width: 959px) {
 			text-transform: uppercase;
 			font-size     : 18px;
 			font-weight   : 700;
 		}
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			font-size: 16px;
 		}
 	}
@@ -4100,7 +4100,7 @@ input[type="number"] {
 	&__aside-wrap {
 		padding-top: 24px;
 
-		@media screen and (max-width: 991px) {
+		@media screen and (max-width: 959px) {
 			padding-top: 0;
 		}
 	}
@@ -4177,7 +4177,7 @@ input[type="number"] {
 		background-color: #ffffff;
 		position        : relative;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			padding: 10px 10px 27px;
 		}
 	}
@@ -4185,7 +4185,7 @@ input[type="number"] {
 	&__info-item {
 		padding-bottom: 20px;
 
-		@media screen and (max-width: 991px) {
+		@media screen and (max-width: 959px) {
 			padding-bottom: 20px;
 		}
 
@@ -4199,7 +4199,7 @@ input[type="number"] {
 		margin-bottom: 13px;
 		position     : relative;
 
-		@media screen and (max-width: 991px) {
+		@media screen and (max-width: 959px) {
 			position: initial;
 		}
 	}
@@ -4225,11 +4225,11 @@ input[type="number"] {
 		border-bottom : 1px solid #E9EBEE;
 		text-align    : center;
 
-		@media screen and (max-width: 991px) {
+		@media screen and (max-width: 959px) {
 			text-align: left;
 		}
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			text-align: center;
 		}
 	}
@@ -4244,7 +4244,7 @@ input[type="number"] {
 		color         : #8B98A7;
 		position      : relative;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			padding-bottom: 16px;
 			padding-left  : 23px;
 		}
@@ -4260,7 +4260,7 @@ input[type="number"] {
 			background     : url("../images/icons/icon-info.svg") no-repeat center;
 			background-size: contain;
 
-			@media screen and (max-width: 767px) {
+			@media screen and (max-width: 669px) {
 				width : 18px;
 				height: 18px;
 				left  : -2px;
@@ -4351,7 +4351,7 @@ input[type="number"] {
 		position: relative;
 
 		.products__slider-btns {
-			@media screen and (max-width: 767px) {
+			@media screen and (max-width: 669px) {
 				display: block;
 			}
 		}
@@ -4398,13 +4398,13 @@ input[type="number"] {
 			text-transform: uppercase;
 		}
 
-		@media screen and (max-width: 991px) {
+		@media screen and (max-width: 959px) {
 			top  : 35px;
 			left : 35px;
 			right: auto;
 		}
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			top  : 20px;
 			left : 20px;
 			right: auto;
@@ -4432,7 +4432,7 @@ input[type="number"] {
 		align-content: center;
 		align-items  : center;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			top  : 20px;
 			right: 20px;
 		}
@@ -4458,13 +4458,13 @@ input[type="number"] {
 		font-weight   : 600;
 		padding-bottom: 3px;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			font-size: 9px;
 		}
 	}
 
 	&__not-mob {
-		@media screen and (max-width: 991px) {
+		@media screen and (max-width: 959px) {
 			display: none;
 		}
 	}
@@ -4472,7 +4472,7 @@ input[type="number"] {
 	&__only-mob {
 		display: none;
 
-		@media screen and (max-width: 991px) {
+		@media screen and (max-width: 959px) {
 			display: block;
 		}
 	}
@@ -4480,7 +4480,7 @@ input[type="number"] {
 	&__only-mob-flex {
 		display: none;
 
-		@media screen and (max-width: 991px) {
+		@media screen and (max-width: 959px) {
 			display: flex;
 		}
 	}
@@ -4589,13 +4589,13 @@ input[type="number"] {
 	&__action-note {
 		padding-top: 20px;
 
-		@media screen and (max-width: 991px) {
+		@media screen and (max-width: 959px) {
 			padding-bottom: 20px;
 			max-width     : 260px;
 			margin        : auto;
 		}
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			width    : 100%;
 			max-width: 100%;
 		}
@@ -4673,7 +4673,7 @@ input[type="number"] {
 		background : #E9EBEE;
 		margin-left: 10px;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			margin-left: 38px;
 		}
 	}
@@ -4729,7 +4729,7 @@ input[type="number"] {
 		}
 
 		&--right {
-			@media screen and (max-width: 991px) {
+			@media screen and (max-width: 959px) {
 				left     : auto;
 				right    : 0;
 				transform: none;
@@ -4777,7 +4777,7 @@ input[type="number"] {
 		display        : none;
 		font-size      : 0;
 
-		@media screen and (max-width: 991px) {
+		@media screen and (max-width: 959px) {
 			display: flex;
 		}
 	}
@@ -4842,7 +4842,7 @@ input[type="number"] {
 .product__order {
 	margin-top: 22px;
 
-	@media screen and (max-width: 991px) {
+	@media screen and (max-width: 959px) {
 		margin-top : 16px;
 		padding-top: 16px;
 		border-top : 1px solid #E9EBEE;
@@ -4850,7 +4850,7 @@ input[type="number"] {
 }
 
 .product__card-mob-title {
-	@media screen and (max-width: 991px) {
+	@media screen and (max-width: 959px) {
 		position: relative;
 
 		&:before {
@@ -4873,7 +4873,7 @@ input[type="number"] {
 }
 
 .product__card-mob-info {
-	@media screen and (max-width: 991px) {
+	@media screen and (max-width: 959px) {
 		display       : none;
 		padding-bottom: 17px;
 	}
@@ -4886,7 +4886,7 @@ input[type="number"] {
 .product__gallery-item {
 	padding-bottom: 30px;
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		padding-bottom: 20px;
 	}
 }
@@ -4896,7 +4896,7 @@ input[type="number"] {
 	overflow     : hidden;
 	display      : block;
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		border-radius: 6px;
 	}
 }
@@ -4918,7 +4918,7 @@ input[type="number"] {
 	color      : #16110D;
 	padding-top: 10px;
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		font-size  : 12px;
 		line-height: 1.67;
 	}
@@ -4926,7 +4926,7 @@ input[type="number"] {
 	p {
 		padding-bottom: 25px;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			padding-bottom: 20px;
 		}
 	}
@@ -4936,7 +4936,7 @@ input[type="number"] {
 		max-width    : 100%;
 		height       : auto;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			margin-bottom: 20px;
 		}
 	}
@@ -4945,7 +4945,7 @@ input[type="number"] {
 	ol {
 		padding-bottom: 20px;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			padding-bottom: 15px;
 		}
 	}
@@ -4967,7 +4967,7 @@ input[type="number"] {
 				top       : 8px;
 				left      : 0;
 
-				@media screen and (max-width: 767px) {
+				@media screen and (max-width: 669px) {
 					top: 6px;
 				}
 			}
@@ -5005,7 +5005,7 @@ input[type="number"] {
 			border        : 1px solid #becce3;
 			vertical-align: top;
 
-			@media screen and (max-width: 767px) {
+			@media screen and (max-width: 669px) {
 				padding: 5px;
 			}
 
@@ -5043,7 +5043,7 @@ input[type="number"] {
 }
 
 .product__mob-photo {
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		max-height: 300px;
 		width     : 100%;
 		object-fit: contain;
@@ -5057,7 +5057,7 @@ input[type="number"] {
 .product__remains {
 	padding-top: 10px;
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		padding-top: 20px;
 	}
 
@@ -5067,7 +5067,7 @@ input[type="number"] {
 		&:last-child {
 			padding-bottom: 0;
 
-			@media screen and (max-width: 767px) {
+			@media screen and (max-width: 669px) {
 				padding-bottom: 30px;
 			}
 		}
@@ -5087,7 +5087,7 @@ input[type="number"] {
 		line-height   : 1.5;
 		color         : #33333D;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			font-size  : 14px;
 			line-height: 1.6;
 		}
@@ -5118,7 +5118,7 @@ input[type="number"] {
 		line-height  : 1.2;
 		color        : #1AB14A;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			justify-content: space-between;
 			flex-wrap      : wrap;
 		}
@@ -5128,7 +5128,7 @@ input[type="number"] {
 		font-weight : 900;
 		padding-left: 10px;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			width       : 100%;
 			padding-left: 0;
 			padding-top : 5px;
@@ -5155,7 +5155,7 @@ input[type="number"] {
 		text-transform : uppercase;
 		transition     : all 0.5s;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			padding-left : 25px;
 			padding-right: 25px;
 		}
@@ -5174,13 +5174,13 @@ input[type="number"] {
 		font-size  : 20px;
 		font-weight: 800;
 
-		@media screen and (max-width: 991px) {
+		@media screen and (max-width: 959px) {
 			text-transform: uppercase;
 			font-size     : 18px;
 			font-weight   : 700;
 		}
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			font-size: 16px;
 		}
 	}
@@ -5216,7 +5216,7 @@ input[type="number"] {
 		background-size    : contain;
 		z-index            : 5;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			width : 50px;
 			height: 50px;
 		}
@@ -5247,13 +5247,13 @@ input[type="number"] {
 	&__title {
 		padding-bottom: 23px;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			padding-bottom: 10px;
 		}
 	}
 
 	&__row {
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			margin: 0;
 		}
 	}
@@ -5261,7 +5261,7 @@ input[type="number"] {
 	&__col {
 		padding-bottom: 30px;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			padding       : 0;
 			padding-bottom: 6px;
 		}
@@ -5277,7 +5277,7 @@ input[type="number"] {
 		padding        : 33px 30px 30px;
 		text-decoration: none;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			padding   : 15px 11px 20px;
 			box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04), 0px 2px 2px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
 		}
@@ -5286,7 +5286,7 @@ input[type="number"] {
 	&__picture-wrap {
 		height: 163px;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			height        : 115px;
 			padding-bottom: 20px;
 		}
@@ -5313,7 +5313,7 @@ input[type="number"] {
 	&__text-wrap {
 		padding-bottom: 30px;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			padding-bottom: 20px;
 		}
 	}
@@ -5325,7 +5325,7 @@ input[type="number"] {
 		font-size     : 18px;
 		line-height   : 1.2;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			font-size     : 12px;
 			padding-bottom: 7px;
 		}
@@ -5338,7 +5338,7 @@ input[type="number"] {
 		line-height: 1.2;
 		color      : #8B98A7;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			font-size: 12px;
 			max-width: 130px;
 			margin   : auto;
@@ -5355,7 +5355,7 @@ input[type="number"] {
 		border-color: #8B98A7;
 		background: #8B98A7;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			width     : 100%;
 			min-height: 32px;
 			height: 32px;
@@ -5369,7 +5369,7 @@ input[type="number"] {
 		}
 	}
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		.slick-list {
 			margin-left : -3px;
 			margin-right: -3px;
@@ -5402,7 +5402,7 @@ input[type="number"] {
 	}
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 669px) {
 	.product-promo__row {
 		.slick-dots {
 			display        : flex;
@@ -5579,7 +5579,7 @@ a.product__compare.product-card-compare__compare-btn{
 .product__remains {
 	padding-top: 10px;
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		padding-top: 20px;
 	}
 
@@ -5589,7 +5589,7 @@ a.product__compare.product-card-compare__compare-btn{
 		&:last-child {
 			padding-bottom: 0;
 
-			@media screen and (max-width: 767px) {
+			@media screen and (max-width: 669px) {
 				padding-bottom: 30px;
 			}
 		}
@@ -5609,7 +5609,7 @@ a.product__compare.product-card-compare__compare-btn{
 		line-height   : 1.5;
 		color         : #33333D;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			font-size  : 14px;
 			line-height: 1.6;
 		}
@@ -5640,7 +5640,7 @@ a.product__compare.product-card-compare__compare-btn{
 		line-height  : 1.2;
 		color        : #1AB14A;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			justify-content: space-between;
 			flex-wrap      : wrap;
 		}
@@ -5650,7 +5650,7 @@ a.product__compare.product-card-compare__compare-btn{
 		font-weight : 900;
 		padding-left: 10px;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			width       : 100%;
 			padding-left: 0;
 			padding-top : 5px;
@@ -5677,7 +5677,7 @@ a.product__compare.product-card-compare__compare-btn{
 		text-transform : uppercase;
 		transition     : all 0.5s;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			padding-left : 25px;
 			padding-right: 25px;
 		}
@@ -5696,13 +5696,13 @@ a.product__compare.product-card-compare__compare-btn{
 		font-size  : 20px;
 		font-weight: 800;
 
-		@media screen and (max-width: 991px) {
+		@media screen and (max-width: 959px) {
 			text-transform: uppercase;
 			font-size     : 18px;
 			font-weight   : 700;
 		}
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			font-size: 16px;
 		}
 	}
@@ -5738,7 +5738,7 @@ a.product__compare.product-card-compare__compare-btn{
 		background-size    : contain;
 		z-index            : 5;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			width : 50px;
 			height: 50px;
 		}
@@ -5970,7 +5970,7 @@ a.product__compare.product-card-compare__compare-btn{
 		padding: 20px;
 	}
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		padding      : 0;
 		background   : transparent;
 		border       : 0;
@@ -5979,7 +5979,7 @@ a.product__compare.product-card-compare__compare-btn{
 	}
 
 	&__step-wrap {
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			padding      : 10px 10px 0;
 			background   : #ffffff;
 			border       : 2px solid #E9EBEE;
@@ -6005,11 +6005,11 @@ a.product__compare.product-card-compare__compare-btn{
 		align-content : center;
 		align-items   : center;
 
-		@media screen and (max-width: 991px) {
+		@media screen and (max-width: 959px) {
 			padding-bottom: 15px;
 		}
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			padding-bottom : 10px;
 			justify-content: center;
 			border-bottom  : 1px solid #E9EBEE;
@@ -6067,11 +6067,11 @@ a.product__compare.product-card-compare__compare-btn{
 		padding      : 23px 35px 15px;
 		margin-bottom: 30px;
 
-		@media screen and (max-width: 991px) {
+		@media screen and (max-width: 959px) {
 			padding: 23px 20px 15px;
 		}
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			border       : 0;
 			border-radius: 0;
 			padding      : 10px 0 0;
@@ -6086,7 +6086,7 @@ a.product__compare.product-card-compare__compare-btn{
 	&__item-incut {
 		padding-top: 20px;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			padding-top: 0;
 		}
 	}
@@ -6151,7 +6151,7 @@ a.product__compare.product-card-compare__compare-btn{
 		&--large-text {
 			padding: 39px 21px 22px;
 
-			@media screen and (max-width: 767px) {
+			@media screen and (max-width: 669px) {
 				padding: 10px 21px 10px 57px;
 			}
 		}
@@ -6180,7 +6180,7 @@ a.product__compare.product-card-compare__compare-btn{
 		line-height   : 1.33;
 		color         : #8B98A7;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			padding-bottom: 18px;
 		}
 
@@ -6189,12 +6189,12 @@ a.product__compare.product-card-compare__compare-btn{
 			max-width     : 100%;
 			padding-bottom: 0;
 
-			@media screen and (max-width: 991px) {
+			@media screen and (max-width: 959px) {
 				padding-bottom: 15px;
 				width         : 100%;
 			}
 
-			@media screen and (max-width: 767px) {
+			@media screen and (max-width: 669px) {
 				padding-bottom: 15px;
 			}
 		}
@@ -6203,7 +6203,7 @@ a.product__compare.product-card-compare__compare-btn{
 			text-align    : right;
 			padding-bottom: 0;
 
-			@media screen and (max-width: 991px) {
+			@media screen and (max-width: 959px) {
 				text-align: left;
 			}
 		}
@@ -6212,7 +6212,7 @@ a.product__compare.product-card-compare__compare-btn{
 	&__for-checkbox {
 		padding-bottom: 5px;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			padding-bottom: 0;
 		}
 	}
@@ -6235,7 +6235,7 @@ a.product__compare.product-card-compare__compare-btn{
 		padding-top: 30px;
 		border-top : 1px solid #E9EBEE;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			padding      : 20px 10px 0;
 			background   : #ffffff;
 			border       : 2px solid #E9EBEE;
@@ -6250,7 +6250,7 @@ a.product__compare.product-card-compare__compare-btn{
 		max-width     : 100%;
 		padding-bottom: 25px;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			padding-bottom: 8px;
 		}
 
@@ -6270,7 +6270,7 @@ a.product__compare.product-card-compare__compare-btn{
 	}
 
 	&__input {
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			height       : 34px;
 			font-size    : 14px;
 			padding-left : 10px;
@@ -6279,7 +6279,7 @@ a.product__compare.product-card-compare__compare-btn{
 	}
 
 	&__select {
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			height       : 34px;
 			padding-left : 10px;
 			padding-right: 10px;
@@ -6289,13 +6289,13 @@ a.product__compare.product-card-compare__compare-btn{
 	&__only-mob {
 		display: none;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			display: flex;
 		}
 	}
 
 	&__not-mob {
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			display: none;
 
 			+.basket__support-wrap {
@@ -6383,7 +6383,7 @@ ymaps[class$="-balloon__content"] {
 	line-height : 1.4;
 	padding-left: 15px;
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		font-size   : 12px;
 		padding-left: 9px;
 	}
@@ -6411,7 +6411,7 @@ ymaps[class$="-balloon__content"] {
 	position      : relative;
 	padding-bottom: 10px;
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		font-size     : 12px;
 		padding-bottom: 0;
 		margin-top    : 6px;
@@ -6505,7 +6505,7 @@ ymaps[class$="-balloon__content"] {
 		padding-right : 10px;
 		padding-bottom: 10px;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			padding-bottom: 4px;
 		}
 	}
@@ -6516,7 +6516,7 @@ ymaps[class$="-balloon__content"] {
 		border       : 1px solid #8B98A7;
 		height       : 100%;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			padding: 20px 10px;
 		}
 	}
@@ -6524,7 +6524,7 @@ ymaps[class$="-balloon__content"] {
 	&__item {
 		position: relative;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			padding-bottom: 40px;
 		}
 	}
@@ -6540,38 +6540,38 @@ ymaps[class$="-balloon__content"] {
 		font-size  : 0;
 		line-height: 0;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			width: 60px;
 		}
 	}
 
 	&__icon svg {
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			width : 33px;
 			height: auto;
 		}
 	}
 
 	&__icon--sbp svg {
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			width: 25px;
 		}
 	}
 
 	&__icon--installment-plan svg {
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			width: 28px;
 		}
 	}
 
 	&__icon--payment-by-cheque svg {
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			width: 23px;
 		}
 	}
 
 	&__icon--payment-deferment svg {
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			width: 28px;
 		}
 	}
@@ -6580,7 +6580,7 @@ ymaps[class$="-balloon__content"] {
 		width       : calc(100% - 100px);
 		padding-left: 33px;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			width       : calc(100% - 60px);
 			padding-left: 10px;
 		}
@@ -6595,7 +6595,7 @@ ymaps[class$="-balloon__content"] {
 		justify-content: center;
 		border-radius  : 50%;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			width : 60px;
 			height: 60px;
 		}
@@ -6604,7 +6604,7 @@ ymaps[class$="-balloon__content"] {
 	&__name-wrap {
 		padding-bottom: 30px;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			padding-bottom: 0;
 		}
 	}
@@ -6617,13 +6617,13 @@ ymaps[class$="-balloon__content"] {
 		line-height   : 1.2;
 		// text-transform: uppercase;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			font-size: 18px;
 		}
 	}
 
 	&__more-info-wrap {
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			position: absolute;
 			bottom  : 0;
 			left    : 0;
@@ -6685,7 +6685,7 @@ ymaps[class$="-balloon__content"] {
 	align-content: center;
 	align-items: center;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 669px) {
 	.reviews__sorting {
 		margin-left: -10px;
 		margin-right: -10px;
@@ -6696,7 +6696,7 @@ ymaps[class$="-balloon__content"] {
 	padding-left: 15px;
 	padding-right: 15px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 669px) {
 	.reviews__sorting-item {
 		padding-left: 10px;
 		padding-right: 10px;
@@ -6709,7 +6709,7 @@ ymaps[class$="-balloon__content"] {
 	line-height: 1.7;
 	color: #33333D;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 669px) {
 	.reviews__sorting-name {
 		padding-right: 0;
 	}
@@ -6760,7 +6760,7 @@ ymaps[class$="-balloon__content"] {
 .reviews__item-col--photo {
 	width: 90px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 669px) {
 	.reviews__item-col--photo {
 		width: 80px;
 	}
@@ -6768,7 +6768,7 @@ ymaps[class$="-balloon__content"] {
 .reviews__item-col--info {
 	width: calc(100% - 90px);
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 669px) {
 	.reviews__item-col--info {
 		width: calc(100% - 80px);
 	}
@@ -6781,7 +6781,7 @@ ymaps[class$="-balloon__content"] {
 	display: flex;
 	justify-content: space-between;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 669px) {
 	.reviews__item-info {
 		flex-direction: column;
 	}
@@ -6789,7 +6789,7 @@ ymaps[class$="-balloon__content"] {
 .reviews__item-main-info {
 	padding-bottom: 15px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 669px) {
 	.reviews__item-main-info {
 		padding-bottom: 0;
 	}
@@ -6801,7 +6801,7 @@ ymaps[class$="-balloon__content"] {
 	color: #0C4DB9;
 	padding-bottom: 11px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 669px) {
 	.reviews__item-name {
 		padding-bottom: 3px;
 	}
@@ -6811,7 +6811,7 @@ ymaps[class$="-balloon__content"] {
 	line-height: 1.38;
 	color: #8B98A7;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 669px) {
 	.reviews__item-date {
 		font-size: 12px;
 		padding-bottom: 6px;
@@ -6830,7 +6830,7 @@ ymaps[class$="-balloon__content"] {
 	font-size: 16px;
 	line-height: 1.56;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 669px) {
 	.reviews__item-bq-wrap {
 		padding-top: 10px;
 		margin-left: -80px;
@@ -6844,12 +6844,12 @@ ymaps[class$="-balloon__content"] {
 .reviews__btns-wrap {
 	padding-bottom: 32px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 669px) {
 	.reviews__btns-wrap {
 		padding-bottom: 15px;
 	}
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 669px) {
 	.reviews__btn {
 		width: 100%;
 		min-height: 49px;
@@ -6926,7 +6926,7 @@ ymaps[class$="-balloon__content"] {
 	padding-left: 5px;
 	padding-right: 5px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 669px) {
 	.reviews-rating__col {
 		width: 100%;
 	}
@@ -6938,7 +6938,7 @@ ymaps[class$="-balloon__content"] {
 	color: #33333D;
 	padding: 10px 20px 10px 0;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 669px) {
 	.reviews-rating__name {
 		padding-top: 0;
 	}
@@ -6988,7 +6988,7 @@ ymaps[class$="-balloon__content"] {
 	padding      : 0;
 	background   : rgba(0, 0, 0, 0.5);
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		background: rgba(0, 0, 0, 0.6);
 	}
 
@@ -7023,12 +7023,12 @@ ymaps[class$="-balloon__content"] {
 		}
 
 
-		@media screen and (max-width: 991px) {
+		@media screen and (max-width: 959px) {
 			width     : calc(100% - 60px);
 			max-height: calc(100vh - 114px);
 		}
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			width                      : calc(100% - 32px);
 			max-height                 : calc(100vh - 100px);
 			display                    : flex;
@@ -7074,7 +7074,7 @@ ymaps[class$="-balloon__content"] {
 		border-radius: 5px;
 		overflow-y   : auto;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			overflow-y: auto;
 		}
 
@@ -7098,7 +7098,7 @@ ymaps[class$="-balloon__content"] {
 		z-index   : 5;
 		transition: all 0.5s;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			top  : 5px;
 			right: 5px;
 		}
@@ -7159,7 +7159,7 @@ ymaps[class$="-balloon__content"] {
 	min-height    : 55px;
 	font-weight   : 400;
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		width     : 100%;
 		min-height: 42px;
 		font-size : 16px;
@@ -7207,7 +7207,7 @@ ymaps[class$="-balloon__content"] {
 	padding-bottom: 125px;
 	background    : url("../images/call.svg") no-repeat left bottom, #ffffff;
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		background    : #ffffff;
 		padding-bottom: 30px;
 	}
@@ -7216,7 +7216,7 @@ ymaps[class$="-balloon__content"] {
 .popup-form__for-btn--call {
 	margin-left: 93px;
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 669px) {
 		margin-left: 0;
 	}
 }
@@ -7281,7 +7281,7 @@ ymaps[class$="-balloon__content"] {
 		font-weight   : 900;
 		line-height   : 1.2;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			font-size: 16px;
 		}
 	}
@@ -7291,7 +7291,7 @@ ymaps[class$="-balloon__content"] {
 		font-size     : 16px;
 		line-height   : 1.3;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			font-size: 14px;
 		}
 	}
@@ -7357,7 +7357,7 @@ ymaps[class$="-balloon__content"] {
 		font-weight   : 700;
 		line-height   : 1.2;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			font-size: 14px;
 		}
 	}
@@ -7369,7 +7369,7 @@ ymaps[class$="-balloon__content"] {
 		font-weight: 400;
 		line-height: 1.2;
 
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 669px) {
 			font-size: 12px;
 		}
 	}
@@ -7384,7 +7384,7 @@ ymaps[class$="-balloon__content"] {
 			font-weight : 400;
 			line-height : 1.3;
 
-			@media screen and (max-width: 767px) {
+			@media screen and (max-width: 669px) {
 				font-size: 14px;
 			}
 
