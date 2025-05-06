@@ -592,6 +592,11 @@ body:not(.index) {
 				}
 			}
 		}
+		&__item {
+			&-more {
+				display: none;
+			}
+		}
 		&__more {
 			color: var(--blue05-color);
 			font-weight: 700;
@@ -649,6 +654,32 @@ body:not(.index) {
 			padding-left: 16px;
 			border-radius: var(--bradius-xl);
 			background-color: var(--gray0-color);
+
+			&:not(.catalog-index__item-more):nth-child(n+5) {
+				display: none;
+			}
+
+			&-more {
+				display: flex;
+				min-width: 100%;
+				width: 100%;
+				border-radius: var(--bradius-xl);
+				background: #004990;
+				color: #ffffff;
+				font-weight: 900;
+				font-size: 12px;
+				line-height: 1.2;
+				text-decoration: none;
+
+				.catalog-index__descr {
+					display: flex;
+					flex-wrap: wrap;
+					align-items: center;
+					justify-content: center;
+					min-height: 64px;
+					height: 64px;
+				}
+			}
 		}
 		&__view {
 			order: 10;

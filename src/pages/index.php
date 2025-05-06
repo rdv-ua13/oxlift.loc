@@ -545,6 +545,11 @@
                         <a href="javascript:;" class="catalog-index__more">Смотреть все товары</a>
                     </div>
                 </div>
+                <div class="catalog-index__item catalog-index__item-more">
+                    <div class="catalog-index__descr">
+                        <a href="javascript:;" class="catalog-index__heading">Все категории</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
