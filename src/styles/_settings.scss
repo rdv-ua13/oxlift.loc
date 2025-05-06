@@ -2996,6 +2996,7 @@ body:not(.index) {
 			width: calc((100% - 20px) * 0.45);
 		}
 		&__act {
+			justify-content: center;
 			min-width: calc((100% - 20px) * 0.55);
 			width: calc((100% - 20px) * 0.55);
 		}
