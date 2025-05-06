@@ -1800,7 +1800,7 @@
                 <div class="basic-hca__content">
                     <div class="basic-tabs">
                         <div class="gap-sm-plus basic-tabs__header basic-slider-wrap">
-                            <div class="basic-tabs-container basic-slider swiper" data-tab="goods-tabs" data-basic-slider>
+                            <div class="basic-tabs-container basic-slider swiper" data-tab="goods-tabs" data-basic-slider data-basic-slider-xs>
                                 <div class="basic-tabs-slider-list swiper-wrapper">
                                     <div class="basic-tabs-item swiper-slide">
                                         <span class="btn btn-sm btn-extra-secondary basic-tabs-trigger active" data-target="0"><span>Все</span></span>

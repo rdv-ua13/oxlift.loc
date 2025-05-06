@@ -68,6 +68,23 @@
                         <span class="text-content">Контакты</span>
                     </a>
                 </div>
+
+                <div class="header-top-mobile header__reg-nav reg-nav reg-nav--mob">
+                    <i class="reg-nav__icon">
+                        <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 0C4.48 0 0 4.48 0 10s4.48 10 10 10 10-4.48 10-10S15.52 0 10 0zM5.07 16.28c.43-.9 3.05-1.78 4.93-1.78s4.51.88 4.93 1.78A7.893 7.893 0 0110 18c-1.86 0-3.57-.64-4.93-1.72zm11.29-1.45c-1.43-1.74-4.9-2.33-6.36-2.33s-4.93.59-6.36 2.33A7.95 7.95 0 012 10c0-4.41 3.59-8 8-8s8 3.59 8 8c0 1.82-.62 3.49-1.64 4.83zM10 4C8.06 4 6.5 5.56 6.5 7.5S8.06 11 10 11s3.5-1.56 3.5-3.5S11.94 4 10 4zm0 5c-.83 0-1.5-.67-1.5-1.5S9.17 6 10 6s1.5.67 1.5 1.5S10.83 9 10 9z" fill="#0C4DB9"></path>
+                        </svg>
+                    </i>
+                    <ul class="list-reset reg-nav__list">
+                        <li class="reg-nav__item">
+                            <a href="#authorization" class="reg-nav__link js-call-popup">Вход</a>
+                        </li>
+                        <li class="reg-nav__item">
+                            <a href="#registration" class="reg-nav__link js-call-popup">Регистрация</a>
+                        </li>
+                    </ul>
+                </div>
+
                 <div class="header-top-info">
                     <div class="header-top-info__email">
                         <div class="header-top-info__email-view">
@@ -84,7 +101,7 @@
                         </a>
                     </div>
 
-                    <a class="header-top__link" href="tel:+88005007869">
+                    <a class="header-top__link header-top__link--tel" href="tel:+88005007869">
                         <svg class="icon icon-fill mobile-only">
                             <use href="img/sprite.svg#call-calling"></use>
                         </svg>
@@ -130,13 +147,10 @@
                             data-catalog-spoiler
                             data-overlay-transparent
                     >
-                        <svg class="icon icon-fill menu-catalog-spoiler__icon">
+                        <svg class="icon icon-fill">
                             <use href="img/sprite.svg#category"></use>
                         </svg>
-                        <svg class="icon icon-fill menu-catalog-spoiler__icon-active">
-                            <use href="img/sprite.svg#cross"></use>
-                        </svg>
-                        <span class="text-content">Каталог</span>
+                        <span class="text-content">Все категории</span>
                     </button>
                 </div>
 
@@ -349,7 +363,7 @@
                     <button class="btn-reset header-profile__btn">
                         <span class="header-profile__btn-view">
                             <svg class="icon icon-fill">
-                                <use href="img/sprite.svg#heart"></use>
+                                <use href="img/sprite.svg#favorites"></use>
                             </svg>
                             <span class="header-profile__btn-count">24</span>
                         </span>
@@ -375,7 +389,7 @@
                 </div>
 
                 <div class="header-pay">
-                    <a class="btn-reset btn btn-extra-secondary" href="javascript:;">Написать нам</a>
+                    <a class="btn-reset btn btn-sm btn-extra-secondary" href="javascript:;">Написать нам</a>
                 </div>
 
                 <div class="header-contacts">
@@ -414,11 +428,8 @@
                         data-catalog-spoiler
                         data-overlay-transparent
                 >
-                    <svg class="icon icon-fill icon-xs menu-catalog-spoiler__icon">
+                    <svg class="icon icon-fill icon-xs">
                         <use href="img/sprite.svg#category"></use>
-                    </svg>
-                    <svg class="icon icon-fill icon-xs menu-catalog-spoiler__icon-active">
-                        <use href="img/sprite.svg#cross"></use>
                     </svg>
                     <span class="text-content">Все категории</span>
                 </button>
@@ -461,7 +472,7 @@
                 <svg class="icon icon-fill menu-catalog-spoiler__icon">
                     <use href="img/sprite.svg#category"></use>
                 </svg>
-                <span class="text-content">Каталог</span>
+                <span class="text-content">Все категории</span>
             </button>
         </div>
 

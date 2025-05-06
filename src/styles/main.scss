@@ -27,7 +27,7 @@ body:not(.index) {
 }
 @media (min-width: 1200px) {
 	.main {
-		padding-top: 218px;
+		padding-top: 216px;
 	}
 }
 
@@ -2572,6 +2572,9 @@ body:not(.index) {
 	p {
 		&:not(:last-child) {
 			margin-bottom: 2px;
+		}
+		&:last-child {
+			margin-bottom: unset;
 		}
 	}
 }

@@ -379,7 +379,10 @@ application.prototype.initBasicSlider = function () {
 
             // spaceBetween
             if (window.matchMedia('(min-width: 992px)').matches) {
-                if(slider.eq(i).is('[data-basic-slider-sm]')) {
+                if(slider.eq(i).is('[data-basic-slider-xs]')) {
+                    spaceBetween = 4;
+                }
+                else if(slider.eq(i).is('[data-basic-slider-sm]')) {
                     spaceBetween = 12;
                 }
                 else {
@@ -387,7 +390,12 @@ application.prototype.initBasicSlider = function () {
                 }
             }
             else if (window.matchMedia('(max-width: 991px)').matches) {
-                spaceBetween = 8;
+                if(slider.eq(i).is('[data-basic-slider-xs]')) {
+                    spaceBetween = 4;
+                }
+                else {
+                    spaceBetween = 8;
+                }
             }
 
             const basicSliderSetting = {
