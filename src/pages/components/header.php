@@ -98,6 +98,7 @@
                                 <use href="img/sprite.svg#sms"></use>
                             </svg>
                             <span class="text-content">sales+189802973@oxlift.ru</span>
+                            <span class="text-content mobile-text">Email</span>
                         </a>
                     </div>
 
@@ -118,6 +119,20 @@
         </div>
         <div class="header-nav">
             <div class="container header-container header-nav-container">
+                <div class="header-mobile-menu">
+                    <button
+                            class="btn-reset burger"
+                            aria-label="Открыть меню"
+                            aria-expanded="false"
+                            data-menu-spoiler
+                            data-overlay
+                    >
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#menu"></use>
+                        </svg>
+                    </button>
+                </div>
+
                 <div class="header-logo">
 					<?if(strpos($_SERVER["REQUEST_URI"], "index.php")):?>
                         <span class="logo">
@@ -141,7 +156,7 @@
 
                 <div class="header-catalog-spoiler">
                     <button
-                            class="btn-reset btn btn-secondary menu-catalog-spoiler"
+                            class="btn-reset btn menu-catalog-spoiler"
                             aria-label="Открыть меню"
                             aria-expanded="false"
                             data-catalog-spoiler
@@ -155,7 +170,7 @@
                 </div>
 
                 <div class="header-search">
-                    <form id="" class="form" method="" action="javascript:;">
+                    <form id="" class="form form-desktop" method="" action="javascript:;">
                         <div class="input-wrapper input-wrapper-search">
                             <input
                                     class="input-reset input input-search"
@@ -165,11 +180,6 @@
                                     autocomplete="off"
                                     onclick="$(this).closest('.header-search').find('.header-search-results').toggleClass('active');"
                             >
-                            <button class="btn-reset btn input-rec-btn">
-                                <svg class="icon icon-fill">
-                                    <use href="img/sprite.svg#search-rec"></use>
-                                </svg>
-                            </button>
                             <button class="btn-reset btn btn-secondary input-search-btn" type="submit">
                                 <svg class="icon icon-fill">
                                     <use href="img/sprite.svg#search"></use>
@@ -181,17 +191,16 @@
                         <div class="search-results">
                             <div class="search-results__header">
                                 <div class="search-results__header-top">
-                                    <div class="search-results__title h4">Поиск</div>
                                     <div class="search-results__close">
                                         <svg class="icon icon-fill">
-                                            <use href="img/sprite.svg#cross"></use>
+                                            <use href="img/sprite.svg#chevron-left"></use>
                                         </svg>
                                     </div>
                                 </div>
                                 <div class="search-results__search">
                                     <div class="search-results__search-item">
-                                        <form id="" class="form" method="" action="javascript:;">
-                                            <div class="input-wrapper input-wrapper-split input-wrapper-search has-icon-l">
+                                        <form id="" class="form form-mobile" method="" action="javascript:;">
+                                            <div class="input-wrapper input-wrapper-split input-wrapper-search">
                                                 <input
                                                         class="input-reset input"
                                                         type="search"
@@ -199,16 +208,6 @@
                                                         placeholder="Найти товар или услугу"
                                                         autocomplete="off"
                                                 >
-                                                <label class="input-icon input-icon-l">
-                                                    <svg class="icon icon-fill">
-                                                        <use href="img/sprite.svg#search"></use>
-                                                    </svg>
-                                                </label>
-                                                <button class="btn-reset btn input-delete-btn">
-                                                    <svg class="icon icon-fill">
-                                                        <use href="img/sprite.svg#cross"></use>
-                                                    </svg>
-                                                </button>
                                                 <button class="btn-reset btn input-search-btn" type="submit">
                                                     <span class="text-content">Найти</span>
                                                 </button>
@@ -222,7 +221,7 @@
                                     <div class="search-results__suggest-list">
                                         <div class="search-results__suggest-header">
                                             <div class="search-results__suggest-title">История поиска</div>
-                                            <a href="javascript:;" class="search-results__suggest-item  testShowDropmenu02" data-removable title="Клик покажет результаты поиска">
+                                            <a href="javascript:;" class="search-results__suggest-item" data-removable>
                                                 <svg class="icon icon-fill">
                                                     <use href="img/sprite.svg#history"></use>
                                                 </svg>
@@ -260,7 +259,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="search-results__suggest request">
+                            <?/*<div class="search-results__suggest request">
                                 <div class="search-results__suggest-wrapper">
                                     <div class="search-results__suggest-list">
                                         <div class="search-results__suggest-content search-results__suggest-content-products">
@@ -345,8 +344,16 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div>*/?>
                         </div>
+                    </div>
+
+                    <div class="header-search-mobile">
+                        <button class="btn-reset btn" onclick="$(this).closest('.header-search').find('.header-search-results').toggleClass('active');">
+                            <svg class="icon icon-fill">
+                                <use href="img/sprite.svg#search"></use>
+                            </svg>
+                        </button>
                     </div>
                 </div>
 
@@ -391,32 +398,6 @@
                 <div class="header-pay">
                     <a class="btn-reset btn btn-sm btn-extra-secondary" href="javascript:;">Написать нам</a>
                 </div>
-
-                <div class="header-contacts">
-                    <a class="link fw-semibold fz-subheading header-contacts__tel" href="tel:+88005007869">8 800 500 78 69</a>
-                    <div class="header-contacts__email">
-                        <a class="header-top__link header-contacts__email-link" href="mailto:sales+189802973@oxlift.ru">
-                            <svg class="icon icon-fill">
-                                <use href="img/sprite.svg#sms"></use>
-                            </svg>
-                            <span class="text-content">sales+189802973@oxlift.ru</span>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="header-mobile-menu">
-                    <button
-                            class="btn-reset burger"
-                            aria-label="Открыть меню"
-                            aria-expanded="false"
-                            data-menu-spoiler
-                            data-overlay
-                    >
-                        <svg class="icon icon-fill">
-                            <use href="img/sprite.svg#menu"></use>
-                        </svg>
-                    </button>
-                </div>
             </div>
         </div>
         <div class="header-categories">
@@ -455,12 +436,6 @@
     </header>
 
     <div class="mobile-menu" data-menu>
-        <div class="mobile-menu-close" data-menu-close>
-            <svg class="icon icon-fill">
-                <use href="img/sprite.svg#cross"></use>
-            </svg>
-        </div>
-
         <div class="mobile-menu-catalog">
             <button
                     class="btn-reset btn btn-secondary menu-catalog-spoiler"
@@ -476,111 +451,105 @@
             </button>
         </div>
 
-        <ul class="list-reset mobile-menu-list">
-            <li>
-                <a class="mobile-menu__link" href="javascript:;">
-                    <span class="text-content">О компании</span>
-                    <svg class="icon icon-fill">
-                        <use href="img/sprite.svg#chevron-right"></use>
-                    </svg>
-                </a>
-            </li>
-            <li>
-                <a class="mobile-menu__link" href="javascript:;">
-                    <span class="text-content">Доставка и оплата</span>
-                    <svg class="icon icon-fill">
-                        <use href="img/sprite.svg#chevron-right"></use>
-                    </svg>
-                </a>
-            </li>
-            <li>
-                <a class="mobile-menu__link" href="javascript:;">
-                    <span class="text-content">Спецпредложения</span>
-                    <svg class="icon icon-fill">
-                        <use href="img/sprite.svg#chevron-right"></use>
-                    </svg>
-                </a>
-            </li>
-            <li>
-                <a class="mobile-menu__link" href="javascript:;">
-                    <span class="text-content">Покупателю</span>
-                    <svg class="icon icon-fill">
-                        <use href="img/sprite.svg#chevron-right"></use>
-                    </svg>
-                </a>
-            </li>
-            <li>
-                <a class="mobile-menu__link" href="javascript:;">
-                    <span class="text-content">Сервис</span>
-                    <svg class="icon icon-fill">
-                        <use href="img/sprite.svg#chevron-right"></use>
-                    </svg>
-                </a>
-            </li>
-            <li>
-                <a class="mobile-menu__link" href="javascript:;">
-                    <span class="text-content">Запчасти</span>
-                    <svg class="icon icon-fill">
-                        <use href="img/sprite.svg#chevron-right"></use>
-                    </svg>
-                </a>
-            </li>
-            <li>
-                <a class="mobile-menu__link" href="javascript:;">
-                    <span class="text-content">Вакансии</span>
-                    <svg class="icon icon-fill">
-                        <use href="img/sprite.svg#chevron-right"></use>
-                    </svg>
-                </a>
-            </li>
-            <li>
-                <a class="mobile-menu__link" href="javascript:;">
-                    <span class="text-content">Контакты</span>
-                    <svg class="icon icon-fill">
-                        <use href="img/sprite.svg#chevron-right"></use>
-                    </svg>
-                </a>
-            </li>
-        </ul>
+        <div class="mobile-menu-nav">
+            <ul class="list-reset mobile-menu-list">
+                <li>
+                    <a class="mobile-menu__link" href="javascript:;">
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#mobmenu_akcii"></use>
+                        </svg>
+                        <span class="text-content">Акции</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="mobile-menu__link" href="javascript:;">
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#mobmenu_uslugi"></use>
+                        </svg>
+                        <span class="text-content">Услуги</span>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="list-reset mobile-menu-list">
+                <li>
+                    <a class="mobile-menu__link" href="javascript:;">
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#mobmenu_izbrannoe"></use>
+                        </svg>
+                        <span class="text-content">Избранное</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="mobile-menu__link" href="javascript:;">
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#mobmenu_sravnenie"></use>
+                        </svg>
+                        <span class="text-content">Сравнение</span>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="list-reset mobile-menu-list">
+                <li>
+                    <a class="mobile-menu__link" href="javascript:;">
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#mobmenu_dostavka"></use>
+                        </svg>
+                        <span class="text-content">Доставка</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="mobile-menu__link" href="javascript:;">
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#mobmenu_oplata"></use>
+                        </svg>
+                        <span class="text-content">Оплата</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="mobile-menu__link" href="javascript:;">
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#mobmenu_vozvrat"></use>
+                        </svg>
+                        <span class="text-content">Возврат</span>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="list-reset mobile-menu-list">
+                <li>
+                    <a class="mobile-menu__link" href="javascript:;">
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#mobmenu_kompaniya"></use>
+                        </svg>
+                        <span class="text-content">О компании</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="mobile-menu__link" href="javascript:;">
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#mobmenu_kontakti"></use>
+                        </svg>
+                        <span class="text-content">Контакты</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="mobile-menu__link" href="javascript:;">
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#mobmenu_vakansii"></use>
+                        </svg>
+                        <span class="text-content">Вакансии</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
 
         <div class="mobile-menu-footer">
-            <div class="mobile-menu-login">
-                <button class="btn-reset btn btn-extra" data-fancybox data-src="#modal-auth">
-                    <span class="text-content">Войти</span>
-                </button>
-            </div>
-
             <div class="mobile-menu-contacts">
-                <a class="link h4" href="tel:+88005007869"><span class="text-content">8 800 500 78 69</span></a>
-                <a class="mobile-menu-contacts__callback link-brand link-tdu-text link-tdu-text--dashed js-modal" href="/ajax/callback.php">
-                    <svg class="icon icon-fill">
-                        <use href="img/sprite.svg#call-calling"></use>
-                    </svg>
-                    <span class="text-content">Обратный звонок</span>
-                </a>
-            </div>
-
-            <div class="mobile-menu-connection">
-                <a class="mobile-menu-connection__email" href="mailto:sales+189802973@oxlift.ru">
-                    <svg class="icon icon-fill">
-                        <use href="img/sprite.svg#sms"></use>
-                    </svg>
-                    <span class="text-content">sales+189802973@oxlift.ru</span>
-                </a>
-                <div class="mobile-menu-connection__soc social">
-                    <div class="social__list">
-                        <a href="javascript:;" class="social__item mobile-menu-connection__soc-item">
-                            <svg class="icon icon-fill icon-xl">
-                                <use href="img/sprite.svg#soc-vk-bg"></use>
-                            </svg>
-                        </a>
-                        <a href="javascript:;" class="social__item mobile-menu-connection__soc-item">
-                            <svg class="icon icon-fill icon-xl">
-                                <use href="img/sprite.svg#soc-tg-bg"></use>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
+                <a class="mobile-menu-contacts__item mobile-menu-contacts__tel" href="tel:+88005007869"><span class="text-content">8 800 500 78 69</span></a>
+                <span class="mobile-menu-contacts__item mobile-menu-contacts__schedule">с 08:00 по 21:00</span>
+                <a class="mobile-menu-contacts__item mobile-menu-contacts__callback js-modal" href="javascript:;"><span class="text-content">Обратный звонок</span></a>
             </div>
         </div>
     </div>

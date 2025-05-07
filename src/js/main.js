@@ -740,15 +740,6 @@ application.prototype.initTestShowHideDropmenu = function () {
             }
         });
     }
-    if ($('.testHideDropmenu01').length) {
-        $('.testHideDropmenu01').on('click', function () {
-            $('.testShowDropmenu01').closest('.cart-quick-add').removeClass('active');
-
-            if(window.matchMedia('(max-width: 991px)').matches) {
-                $('body').toggleClass('dis-scroll overflow-hidden');
-            }
-        });
-    }
 
     if ($('.testShowDropmenu02').length) {
         $('.testShowDropmenu02').on('click', function () {
@@ -1229,4 +1220,45 @@ application.prototype.initCardProductTabs = function () {
             }
         }
     }
+};
+
+// Initialize card-product tabs
+application.prototype.initMobileSearch = function () {
+    //Поиск на мобильном
+    let $searchBtn = $('.js-mobile-search-btn');
+    let $headerLogo = $('.js-header-logo');
+    let $searchForm = $('.js-header-search');
+    let isSearchOpen = false;
+    $(document).on('click', function (event) {
+        if (!window.matchMedia("(max-width: 767px)").matches) {
+            return;
+        }
+
+        if ($(event.target).closest('.js-mobile-search-btn').length) {
+            /*$searchBtn.hide();*/
+            $headerLogo.hide();
+            $searchForm.show();
+            $searchForm.find('input').focus();
+            isSearchOpen = true;
+            return;
+        }
+
+        if (!$(event.target).closest('.js-header-search').length && isSearchOpen) {
+            /*$searchBtn.show();*/
+            $headerLogo.show();
+            $searchForm.hide();
+            $searchForm.find('input').val('');
+            isSearchOpen = false;
+        }
+    });
+    $(window).resize(function () {
+        if (window.matchMedia("(max-width: 767px)").matches) {
+            return;
+        }
+
+        if (!isSearchOpen) {
+            $searchForm.removeAttr('style');
+            isSearchOpen = true;
+        }
+    });
 };
