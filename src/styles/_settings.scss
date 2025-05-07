@@ -552,20 +552,27 @@ body:not(.is-using-mouse) {
 		}
 	}
 	&-extra {
-		border-color: var(--gray10-color);
+		padding-right: 29px;
+		padding-left: 29px;
+		border-radius: 60px;
+		border-color: rgba(0, 0, 0, 0.1);
 		background-color: var(--white-color);
-		color: var(--gray20-color);
+		color: var(--blue15-color);
 
 		.icon {
-			fill: var(--gray20-color);
-			stroke: var(--gray20-color);
+			fill: var(--blue15-color);
+			stroke: var(--blue15-color);
+		}
+
+		&.btn-sm {
+			border-radius: 40px;
 		}
 
 		&:hover,
 		&.active {
-			border-color: var(--text-primary);
-			background-color: var(--white-color);
-			color: var(--gray20-color);
+			border-color: var(--blue15-color);
+			background-color: var(--blue15-color);
+			color: var(--white-color);
 		}
 	}
 	&-extra-primary {
@@ -641,7 +648,6 @@ body:not(.is-using-mouse) {
 		padding-left: unset;
 		border-color: var(--white-color);
 		background-color: var(--white-color);
-		box-shadow: var(--shadow-float0), var(--shadow-float1);
 		color: transparent;
 
 		.icon {
@@ -1551,8 +1557,8 @@ input.disabled {
 		min-height: 44px;
 		height: 44px;
 		margin-top: unset;
-		border: 1px solid var(--white-color);
-		box-shadow: var(--shadow-float0), var(--shadow-float1);
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		border-radius: 50%;
 		background-color: var(--white-color);
 		color: transparent;
 		transition: var(--transition);
@@ -1571,8 +1577,8 @@ input.disabled {
 			width: 24px;
 			min-height: 24px;
 			height: 24px;
-			fill: var(--gray20-color);
-			stroke: var(--gray20-color);
+			fill: var(--blue15-color);
+			stroke: var(--blue15-color);
 			pointer-events: none;
 			user-select: none;
 
@@ -1586,14 +1592,14 @@ input.disabled {
 
 		&:hover,
 		&.active {
-			border-color: var(--gray0-color);
-			background-color: var(--gray0-color);
+			border-color: var(--blue15-color);
+			background-color: var(--blue15-color);
 			box-shadow: var(--shadow-float0), var(--shadow-float2);
-			color: transparent;
+			color: var(--white-color);
 
 			.icon {
-				fill: var(--text-primary);
-				stroke: var(--text-primary);
+				fill: var(--white-color);
+				stroke: var(--white-color);
 			}
 		}
 	}
@@ -1716,6 +1722,10 @@ input.disabled {
 	&__content,
 	&__action {
 		display: inline-flex;
+
+		.btn {
+			text-transform: unset;
+		}
 	}
 	&__heading {
 		order: 0;

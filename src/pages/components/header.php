@@ -156,7 +156,7 @@
 
                 <div class="header-catalog-spoiler">
                     <button
-                            class="btn-reset btn menu-catalog-spoiler"
+                            class="btn-reset btn btn-secondary menu-catalog-spoiler menu-catalog-spoiler-float"
                             aria-label="Открыть меню"
                             aria-expanded="false"
                             data-catalog-spoiler

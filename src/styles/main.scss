@@ -405,6 +405,13 @@ body:not(.index) {
 		width: calc((100% - 12px) / 2);
 		overflow: hidden;
 		border-radius: var(--bradius);
+
+		&:hover,
+		&:focus,
+		&.active {
+			color: inherit;
+			text-decoration: none;
+		}
 	}
 	&__view {
 		display: flex;
@@ -528,12 +535,34 @@ body:not(.index) {
 	&__heading {
 		font-weight: 900;
 		line-height: 1.2;
+
+		&:hover,
+		&:focus,
+		&.active {
+			color: inherit;
+			text-decoration: none;
+		}
 	}
 	&__list {
 		&-link {
 			display: inline-flex;
 			color: var(--gray30-color);
 			line-height: 1.2;
+
+			&:hover,
+			&:focus,
+			&.active {
+				color: inherit;
+				text-decoration: none;
+			}
+		}
+	}
+	&__more {
+		&:hover,
+		&:focus,
+		&.active {
+			color: inherit;
+			text-decoration: none;
 		}
 	}
 }
@@ -1242,6 +1271,8 @@ body:not(.index) {
 		&:focus,
 		&.active {
 			box-shadow: var(--shadow-section1);
+			color: inherit;
+			text-decoration: none;
 		}
 	}
 	&__view {

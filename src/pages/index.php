@@ -35,12 +35,12 @@
                         <div class="swiper-navigation">
                             <div class="swiper-button-next btn btn-icon">
                                 <svg class="icon icon-fill">
-                                    <use href="img/sprite.svg#arrow-right"></use>
+                                    <use href="img/sprite.svg#chevron-right"></use>
                                 </svg>
                             </div>
                             <div class="swiper-button-prev btn btn-icon">
                                 <svg class="icon icon-fill">
-                                    <use href="img/sprite.svg#arrow-left"></use>
+                                    <use href="img/sprite.svg#chevron-left"></use>
                                 </svg>
                             </div>
                         </div>

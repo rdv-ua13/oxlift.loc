@@ -30,6 +30,13 @@
 				text-underline-offset: 2px;
 				text-decoration-color: var(--text-primary);
 			}
+
+			&:hover,
+			&:focus,
+			&.active {
+				color: inherit;
+				text-decoration: none;
+			}
 		}
 	}
 	&-main {
@@ -129,6 +136,13 @@
 					font-size: 14px;
 					line-height: 1.3;
 					letter-spacing: 1px;
+				}
+
+				&:hover,
+				&:focus,
+				&.active {
+					color: inherit;
+					text-decoration: none;
 				}
 			}
 		}
