@@ -546,8 +546,8 @@ body:not(.is-using-mouse) {
 
 		&:hover,
 		&.active {
-			border-color: var(--blue15-color);
-			background-color: var(--blue15-color);
+			border-color: var(--blue10-color);
+			background-color: var(--blue10-color);
 			color: var(--white-color);
 		}
 	}
@@ -587,8 +587,8 @@ body:not(.is-using-mouse) {
 
 		&:hover,
 		&.active {
-			border-color: var(--blue15-color);
-			background-color: var(--blue15-color);
+			border-color: var(--blue10-color);
+			background-color: var(--blue10-color);
 			color: var(--white-color);
 
 			.icon {
