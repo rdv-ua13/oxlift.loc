@@ -267,7 +267,7 @@ const watchFiles = () => {
     watch(path.watch.svg, svgSprites);
     watch(path.watch.resources, resources);
     watch(`${path.src.img}/**/**.{jpg,jpeg,png,svg}`, images);
-    watch(`${path.src.img}/**/**.{jpg,jpeg,png}`, webpImages);
+    /*watch(`${path.src.img}/!**!/!**.{jpg,jpeg,png}`, webpImages);*/
 };
 
 const toProd = (done) => {

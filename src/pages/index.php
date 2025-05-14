@@ -74,7 +74,73 @@
 
 <div class="gap-sm-plus">
     <div class="container">
-        <div class="achievements">
+        <div class="new-promo__banners-wrap">
+            <div class="new-promo__banners-row">
+                <div class="new-promo__banners-col new-promo__banners-col--about">
+                    <a href="javascript:;" class="new-promo-banner new-promo-banner--about">
+                        <div class="new-promo-banner__wrap">
+                            <div class="new-promo-banner__row">
+                                <div class="new-promo-banner__col new-promo-banner__col--info">
+                                    <div class="new-promo-banner__info-wrap">
+                                        <span class="new-promo-banner__name">Компания Материк</span>
+                                        <span class="new-promo-banner__text">Мы осуществляем продажу товаров оптом и в розницу, предлагая превосходный сервис и низкие цены.</span>
+                                    </div>
+                                </div>
+                                <div class="new-promo-banner__col new-promo-banner__col--icon">
+                                    <div class="new-promo-banner__icon-wrap new-promo-banner__icon-wrap--about">
+                                        <img src="img/new_promo_img_1.png" alt="Picture" class="new-promo-banner__icon new-promo-banner__icon--about">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="new-promo__banners-col new-promo__banners-col--history">
+                    <a href="javascript:;" class="new-promo-banner new-promo-banner--history">
+                        <div class="new-promo-banner__wrap">
+                            <div class="new-promo-banner__row">
+                                <div class="new-promo-banner__col new-promo-banner__col--info">
+                                    <div class="new-promo-banner__info-wrap">
+                                        <span class="new-promo-banner__name">работаем для вас с 1997 г.</span>
+                                        <span class="new-promo-banner__text">Компания "Материк" работает для вас на оптово-розничном рынке поставок строительных материалов.</span>
+                                    </div>
+                                </div>
+                                <div class="new-promo-banner__col new-promo-banner__col--icon">
+                                    <div class="new-promo-banner__icon-wrap new-promo-banner__icon-wrap--history">
+                                        <img src="img/new_promo_img_2.png" alt="Picture" class="new-promo-banner__icon new-promo-banner__icon--history">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="new-promo__banners-col new-promo__banners-col--iso">
+                    <a href="javascript:;" class="new-promo-banner new-promo-banner--iso">
+                        <div class="new-promo-banner__wrap">
+                            <div class="new-promo-banner__row">
+                                <div class="new-promo-banner__col new-promo-banner__col--info">
+                                    <div class="new-promo-banner__info-wrap">
+                                        <span class="new-promo-banner__name">Стандарт ISO</span>
+                                        <span class="new-promo-banner__mob-subtitle">9001:2015</span>
+                                        <span class="new-promo-banner__text">Успешно подтвердила международную сертификацию системы менеджмента качества в июне 2019 г. </span>
+                                    </div>
+                                </div>
+                                <div class="new-promo-banner__col new-promo-banner__col--icon">
+                                    <div class="new-promo-banner__icon-wrap new-promo-banner__icon-wrap--iso">
+                                        <img src="img/new_promo_img_3.png" alt="Picture" class="new-promo-banner__icon new-promo-banner__icon--iso">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <?/*<div class="achievements">
             <a class="achievements__item achievements__item--company" href="javascript:;" style="background: linear-gradient(98deg, #E0EBFE 17.99%, #EBF2FF 87.06%);">
                 <div class="achievements__descr">
                     <div class="achievements__title">Компания OXLIFT</div>
@@ -123,7 +189,7 @@
                     >
                 </div>
             </a>
-        </div>
+        </div>*/?>
     </div>
 </div>
 
@@ -934,7 +1000,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="card-form__btn" id="bx_3966226736_243060_7e1b8e3524755c391129a9d7e6f2d206_basket_actions">
-                                                                                <a href="javascript:void(0)" class="btn btn--card-form btn--gray btn_add_basket  product-card-new__btn qqq" data-btn_code="243060" id="bx_3966226736_243060_7e1b8e3524755c391129a9d7e6f2d206_buy_link" data-product-id="243060" data-product-price="18">
+                                                                                <a href="javascript:void(0)" class="btn-reset btn btn--card-form btn--gray btn_add_basket  product-card-new__btn" data-btn_code="243060" id="bx_3966226736_243060_7e1b8e3524755c391129a9d7e6f2d206_buy_link" data-product-id="243060" data-product-price="18">
 
 									<span class="product-card-new__btn-icon">
 										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1093,7 +1159,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="card-form__btn" id="bx_3966226736_243055_362ce596257894d11ab5c1d73d13c755_basket_actions">
-                                                                                <a href="javascript:void(0)" class="btn btn--card-form btn--gray btn_add_basket  product-card-new__btn qqq" data-btn_code="243055" id="bx_3966226736_243055_362ce596257894d11ab5c1d73d13c755_buy_link" data-product-id="243055" data-product-price="55">
+                                                                                <a href="javascript:void(0)" class="btn-reset btn btn--card-form btn--gray btn_add_basket  product-card-new__btn" data-btn_code="243055" id="bx_3966226736_243055_362ce596257894d11ab5c1d73d13c755_buy_link" data-product-id="243055" data-product-price="55">
 
 									<span class="product-card-new__btn-icon">
 										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1252,7 +1318,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="card-form__btn" id="bx_3966226736_243056_c80764dfaf26ca80162484593ec7c29b_basket_actions">
-                                                                                <a href="javascript:void(0)" class="btn btn--card-form btn--gray btn_add_basket  product-card-new__btn qqq" data-btn_code="243056" id="bx_3966226736_243056_c80764dfaf26ca80162484593ec7c29b_buy_link" data-product-id="243056" data-product-price="23">
+                                                                                <a href="javascript:void(0)" class="btn-reset btn btn--card-form btn--gray btn_add_basket  product-card-new__btn" data-btn_code="243056" id="bx_3966226736_243056_c80764dfaf26ca80162484593ec7c29b_buy_link" data-product-id="243056" data-product-price="23">
 
 									<span class="product-card-new__btn-icon">
 										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1411,7 +1477,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="card-form__btn" id="bx_3966226736_243057_d0fb066f64e2309c4b241a491f76c62e_basket_actions">
-                                                                                <a href="javascript:void(0)" class="btn btn--card-form btn--gray btn_add_basket  product-card-new__btn qqq" data-btn_code="243057" id="bx_3966226736_243057_d0fb066f64e2309c4b241a491f76c62e_buy_link" data-product-id="243057" data-product-price="812">
+                                                                                <a href="javascript:void(0)" class="btn-reset btn btn--card-form btn--gray btn_add_basket  product-card-new__btn" data-btn_code="243057" id="bx_3966226736_243057_d0fb066f64e2309c4b241a491f76c62e_buy_link" data-product-id="243057" data-product-price="812">
 
 									<span class="product-card-new__btn-icon">
 										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1556,7 +1622,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="card-form__btn" id="bx_3966226736_243096_8e8f6cea7f5e44ced2966cbefca3ecfa_basket_actions">
-                                                                                <a href="javascript:void(0)" class="btn btn--card-form btn--gray btn_add_basket  product-card-new__btn qqq" data-btn_code="243096" id="bx_3966226736_243096_8e8f6cea7f5e44ced2966cbefca3ecfa_buy_link" data-product-id="243096" data-product-price="720">
+                                                                                <a href="javascript:void(0)" class="btn-reset btn btn--card-form btn--gray btn_add_basket  product-card-new__btn" data-btn_code="243096" id="bx_3966226736_243096_8e8f6cea7f5e44ced2966cbefca3ecfa_buy_link" data-product-id="243096" data-product-price="720">
 
 									<span class="product-card-new__btn-icon">
 										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1703,7 +1769,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="card-form__btn" id="bx_3966226736_237630_0f73996d13437b0b91038138616a89fe_basket_actions">
-                                                                                <a href="javascript:void(0)" class="btn btn--card-form btn--gray btn_add_basket  product-card-new__btn qqq" data-btn_code="237630" id="bx_3966226736_237630_0f73996d13437b0b91038138616a89fe_buy_link" data-product-id="237630" data-product-price="2393">
+                                                                                <a href="javascript:void(0)" class="btn-reset btn btn--card-form btn--gray btn_add_basket  product-card-new__btn" data-btn_code="237630" id="bx_3966226736_237630_0f73996d13437b0b91038138616a89fe_buy_link" data-product-id="237630" data-product-price="2393">
 
 									<span class="product-card-new__btn-icon">
 										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1863,7 +1929,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="card-form__btn" id="bx_3966226736_243551_ec5d0e2cff91ab20debac17d8febe5be_basket_actions">
-                                                                                <a href="javascript:void(0)" class="btn btn--card-form btn--gray btn_add_basket  product-card-new__btn qqq" data-btn_code="243551" id="bx_3966226736_243551_ec5d0e2cff91ab20debac17d8febe5be_buy_link" data-product-id="243551" data-product-price="884">
+                                                                                <a href="javascript:void(0)" class="btn-reset btn btn--card-form btn--gray btn_add_basket  product-card-new__btn" data-btn_code="243551" id="bx_3966226736_243551_ec5d0e2cff91ab20debac17d8febe5be_buy_link" data-product-id="243551" data-product-price="884">
 
 									<span class="product-card-new__btn-icon">
 										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -2023,7 +2089,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="card-form__btn" id="bx_3966226736_243274_e7e5a53fd4b76e4dce4f311b34c340d4_basket_actions">
-                                                                                <a href="javascript:void(0)" class="btn btn--card-form btn--gray btn_add_basket  product-card-new__btn qqq" data-btn_code="243274" id="bx_3966226736_243274_e7e5a53fd4b76e4dce4f311b34c340d4_buy_link" data-product-id="243274" data-product-price="793">
+                                                                                <a href="javascript:void(0)" class="btn-reset btn btn--card-form btn--gray btn_add_basket  product-card-new__btn" data-btn_code="243274" id="bx_3966226736_243274_e7e5a53fd4b76e4dce4f311b34c340d4_buy_link" data-product-id="243274" data-product-price="793">
 
 									<span class="product-card-new__btn-icon">
 										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -2182,7 +2248,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="card-form__btn" id="bx_3966226736_243059_4acf0f176831c66031059fe22bcc4d9c_basket_actions">
-                                                                                <a href="javascript:void(0)" class="btn btn--card-form btn--gray btn_add_basket  product-card-new__btn qqq" data-btn_code="243059" id="bx_3966226736_243059_4acf0f176831c66031059fe22bcc4d9c_buy_link" data-product-id="243059" data-product-price="470">
+                                                                                <a href="javascript:void(0)" class="btn-reset btn btn--card-form btn--gray btn_add_basket  product-card-new__btn" data-btn_code="243059" id="bx_3966226736_243059_4acf0f176831c66031059fe22bcc4d9c_buy_link" data-product-id="243059" data-product-price="470">
 
 									<span class="product-card-new__btn-icon">
 										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -2367,7 +2433,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="card-form__btn" id="bx_3966226736_243060_7e1b8e3524755c391129a9d7e6f2d206_basket_actions">
-                                                                                <a href="javascript:void(0)" class="btn btn--card-form btn--gray btn_add_basket  product-card-new__btn qqq" data-btn_code="243060" id="bx_3966226736_243060_7e1b8e3524755c391129a9d7e6f2d206_buy_link" data-product-id="243060" data-product-price="18">
+                                                                                <a href="javascript:void(0)" class="btn-reset btn btn--card-form btn--gray btn_add_basket  product-card-new__btn" data-btn_code="243060" id="bx_3966226736_243060_7e1b8e3524755c391129a9d7e6f2d206_buy_link" data-product-id="243060" data-product-price="18">
 
 									<span class="product-card-new__btn-icon">
 										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -2526,7 +2592,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="card-form__btn" id="bx_3966226736_243055_362ce596257894d11ab5c1d73d13c755_basket_actions">
-                                                                                <a href="javascript:void(0)" class="btn btn--card-form btn--gray btn_add_basket  product-card-new__btn qqq" data-btn_code="243055" id="bx_3966226736_243055_362ce596257894d11ab5c1d73d13c755_buy_link" data-product-id="243055" data-product-price="55">
+                                                                                <a href="javascript:void(0)" class="btn-reset btn btn--card-form btn--gray btn_add_basket  product-card-new__btn" data-btn_code="243055" id="bx_3966226736_243055_362ce596257894d11ab5c1d73d13c755_buy_link" data-product-id="243055" data-product-price="55">
 
 									<span class="product-card-new__btn-icon">
 										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -2685,7 +2751,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="card-form__btn" id="bx_3966226736_243056_c80764dfaf26ca80162484593ec7c29b_basket_actions">
-                                                                                <a href="javascript:void(0)" class="btn btn--card-form btn--gray btn_add_basket  product-card-new__btn qqq" data-btn_code="243056" id="bx_3966226736_243056_c80764dfaf26ca80162484593ec7c29b_buy_link" data-product-id="243056" data-product-price="23">
+                                                                                <a href="javascript:void(0)" class="btn-reset btn btn--card-form btn--gray btn_add_basket  product-card-new__btn" data-btn_code="243056" id="bx_3966226736_243056_c80764dfaf26ca80162484593ec7c29b_buy_link" data-product-id="243056" data-product-price="23">
 
 									<span class="product-card-new__btn-icon">
 										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -2844,7 +2910,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="card-form__btn" id="bx_3966226736_243057_d0fb066f64e2309c4b241a491f76c62e_basket_actions">
-                                                                                <a href="javascript:void(0)" class="btn btn--card-form btn--gray btn_add_basket  product-card-new__btn qqq" data-btn_code="243057" id="bx_3966226736_243057_d0fb066f64e2309c4b241a491f76c62e_buy_link" data-product-id="243057" data-product-price="812">
+                                                                                <a href="javascript:void(0)" class="btn-reset btn btn--card-form btn--gray btn_add_basket  product-card-new__btn" data-btn_code="243057" id="bx_3966226736_243057_d0fb066f64e2309c4b241a491f76c62e_buy_link" data-product-id="243057" data-product-price="812">
 
 									<span class="product-card-new__btn-icon">
 										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -2992,7 +3058,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="card-form__btn" id="bx_3966226736_243096_8e8f6cea7f5e44ced2966cbefca3ecfa_basket_actions">
-                                                                                <a href="javascript:void(0)" class="btn btn--card-form btn--gray btn_add_basket  product-card-new__btn qqq" data-btn_code="243096" id="bx_3966226736_243096_8e8f6cea7f5e44ced2966cbefca3ecfa_buy_link" data-product-id="243096" data-product-price="720">
+                                                                                <a href="javascript:void(0)" class="btn-reset btn btn--card-form btn--gray btn_add_basket  product-card-new__btn" data-btn_code="243096" id="bx_3966226736_243096_8e8f6cea7f5e44ced2966cbefca3ecfa_buy_link" data-product-id="243096" data-product-price="720">
 
 									<span class="product-card-new__btn-icon">
 										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -3152,7 +3218,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="card-form__btn" id="bx_3966226736_237630_0f73996d13437b0b91038138616a89fe_basket_actions">
-                                                                                <a href="javascript:void(0)" class="btn btn--card-form btn--gray btn_add_basket  product-card-new__btn qqq" data-btn_code="237630" id="bx_3966226736_237630_0f73996d13437b0b91038138616a89fe_buy_link" data-product-id="237630" data-product-price="2393">
+                                                                                <a href="javascript:void(0)" class="btn-reset btn btn--card-form btn--gray btn_add_basket  product-card-new__btn" data-btn_code="237630" id="bx_3966226736_237630_0f73996d13437b0b91038138616a89fe_buy_link" data-product-id="237630" data-product-price="2393">
 
 									<span class="product-card-new__btn-icon">
 										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -3312,7 +3378,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="card-form__btn" id="bx_3966226736_243551_ec5d0e2cff91ab20debac17d8febe5be_basket_actions">
-                                                                                <a href="javascript:void(0)" class="btn btn--card-form btn--gray btn_add_basket  product-card-new__btn qqq" data-btn_code="243551" id="bx_3966226736_243551_ec5d0e2cff91ab20debac17d8febe5be_buy_link" data-product-id="243551" data-product-price="884">
+                                                                                <a href="javascript:void(0)" class="btn-reset btn btn--card-form btn--gray btn_add_basket  product-card-new__btn" data-btn_code="243551" id="bx_3966226736_243551_ec5d0e2cff91ab20debac17d8febe5be_buy_link" data-product-id="243551" data-product-price="884">
 
 									<span class="product-card-new__btn-icon">
 										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -3472,7 +3538,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="card-form__btn" id="bx_3966226736_243274_e7e5a53fd4b76e4dce4f311b34c340d4_basket_actions">
-                                                                                <a href="javascript:void(0)" class="btn btn--card-form btn--gray btn_add_basket  product-card-new__btn qqq" data-btn_code="243274" id="bx_3966226736_243274_e7e5a53fd4b76e4dce4f311b34c340d4_buy_link" data-product-id="243274" data-product-price="793">
+                                                                                <a href="javascript:void(0)" class="btn-reset btn btn--card-form btn--gray btn_add_basket  product-card-new__btn" data-btn_code="243274" id="bx_3966226736_243274_e7e5a53fd4b76e4dce4f311b34c340d4_buy_link" data-product-id="243274" data-product-price="793">
 
 									<span class="product-card-new__btn-icon">
 										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -3631,7 +3697,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="card-form__btn" id="bx_3966226736_243059_4acf0f176831c66031059fe22bcc4d9c_basket_actions">
-                                                                                <a href="javascript:void(0)" class="btn btn--card-form btn--gray btn_add_basket  product-card-new__btn qqq" data-btn_code="243059" id="bx_3966226736_243059_4acf0f176831c66031059fe22bcc4d9c_buy_link" data-product-id="243059" data-product-price="470">
+                                                                                <a href="javascript:void(0)" class="btn-reset btn btn--card-form btn--gray btn_add_basket  product-card-new__btn" data-btn_code="243059" id="bx_3966226736_243059_4acf0f176831c66031059fe22bcc4d9c_buy_link" data-product-id="243059" data-product-price="470">
 
 									<span class="product-card-new__btn-icon">
 										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -3816,7 +3882,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="card-form__btn" id="bx_3966226736_243060_7e1b8e3524755c391129a9d7e6f2d206_basket_actions">
-                                                                                <a href="javascript:void(0)" class="btn btn--card-form btn--gray btn_add_basket  product-card-new__btn qqq" data-btn_code="243060" id="bx_3966226736_243060_7e1b8e3524755c391129a9d7e6f2d206_buy_link" data-product-id="243060" data-product-price="18">
+                                                                                <a href="javascript:void(0)" class="btn-reset btn btn--card-form btn--gray btn_add_basket  product-card-new__btn" data-btn_code="243060" id="bx_3966226736_243060_7e1b8e3524755c391129a9d7e6f2d206_buy_link" data-product-id="243060" data-product-price="18">
 
 									<span class="product-card-new__btn-icon">
 										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -3975,7 +4041,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="card-form__btn" id="bx_3966226736_243055_362ce596257894d11ab5c1d73d13c755_basket_actions">
-                                                                                <a href="javascript:void(0)" class="btn btn--card-form btn--gray btn_add_basket  product-card-new__btn qqq" data-btn_code="243055" id="bx_3966226736_243055_362ce596257894d11ab5c1d73d13c755_buy_link" data-product-id="243055" data-product-price="55">
+                                                                                <a href="javascript:void(0)" class="btn-reset btn btn--card-form btn--gray btn_add_basket  product-card-new__btn" data-btn_code="243055" id="bx_3966226736_243055_362ce596257894d11ab5c1d73d13c755_buy_link" data-product-id="243055" data-product-price="55">
 
 									<span class="product-card-new__btn-icon">
 										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -4134,7 +4200,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="card-form__btn" id="bx_3966226736_243056_c80764dfaf26ca80162484593ec7c29b_basket_actions">
-                                                                                <a href="javascript:void(0)" class="btn btn--card-form btn--gray btn_add_basket  product-card-new__btn qqq" data-btn_code="243056" id="bx_3966226736_243056_c80764dfaf26ca80162484593ec7c29b_buy_link" data-product-id="243056" data-product-price="23">
+                                                                                <a href="javascript:void(0)" class="btn-reset btn btn--card-form btn--gray btn_add_basket  product-card-new__btn" data-btn_code="243056" id="bx_3966226736_243056_c80764dfaf26ca80162484593ec7c29b_buy_link" data-product-id="243056" data-product-price="23">
 
 									<span class="product-card-new__btn-icon">
 										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -4293,7 +4359,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="card-form__btn" id="bx_3966226736_243057_d0fb066f64e2309c4b241a491f76c62e_basket_actions">
-                                                                                <a href="javascript:void(0)" class="btn btn--card-form btn--gray btn_add_basket  product-card-new__btn qqq" data-btn_code="243057" id="bx_3966226736_243057_d0fb066f64e2309c4b241a491f76c62e_buy_link" data-product-id="243057" data-product-price="812">
+                                                                                <a href="javascript:void(0)" class="btn-reset btn btn--card-form btn--gray btn_add_basket  product-card-new__btn" data-btn_code="243057" id="bx_3966226736_243057_d0fb066f64e2309c4b241a491f76c62e_buy_link" data-product-id="243057" data-product-price="812">
 
 									<span class="product-card-new__btn-icon">
 										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -4453,7 +4519,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="card-form__btn" id="bx_3966226736_243096_8e8f6cea7f5e44ced2966cbefca3ecfa_basket_actions">
-                                                                                <a href="javascript:void(0)" class="btn btn--card-form btn--gray btn_add_basket  product-card-new__btn qqq" data-btn_code="243096" id="bx_3966226736_243096_8e8f6cea7f5e44ced2966cbefca3ecfa_buy_link" data-product-id="243096" data-product-price="720">
+                                                                                <a href="javascript:void(0)" class="btn-reset btn btn--card-form btn--gray btn_add_basket  product-card-new__btn" data-btn_code="243096" id="bx_3966226736_243096_8e8f6cea7f5e44ced2966cbefca3ecfa_buy_link" data-product-id="243096" data-product-price="720">
 
 									<span class="product-card-new__btn-icon">
 										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -4613,7 +4679,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="card-form__btn" id="bx_3966226736_237630_0f73996d13437b0b91038138616a89fe_basket_actions">
-                                                                                <a href="javascript:void(0)" class="btn btn--card-form btn--gray btn_add_basket  product-card-new__btn qqq" data-btn_code="237630" id="bx_3966226736_237630_0f73996d13437b0b91038138616a89fe_buy_link" data-product-id="237630" data-product-price="2393">
+                                                                                <a href="javascript:void(0)" class="btn-reset btn btn--card-form btn--gray btn_add_basket  product-card-new__btn" data-btn_code="237630" id="bx_3966226736_237630_0f73996d13437b0b91038138616a89fe_buy_link" data-product-id="237630" data-product-price="2393">
 
 									<span class="product-card-new__btn-icon">
 										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -4773,7 +4839,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="card-form__btn" id="bx_3966226736_243551_ec5d0e2cff91ab20debac17d8febe5be_basket_actions">
-                                                                                <a href="javascript:void(0)" class="btn btn--card-form btn--gray btn_add_basket  product-card-new__btn qqq" data-btn_code="243551" id="bx_3966226736_243551_ec5d0e2cff91ab20debac17d8febe5be_buy_link" data-product-id="243551" data-product-price="884">
+                                                                                <a href="javascript:void(0)" class="btn-reset btn btn--card-form btn--gray btn_add_basket  product-card-new__btn" data-btn_code="243551" id="bx_3966226736_243551_ec5d0e2cff91ab20debac17d8febe5be_buy_link" data-product-id="243551" data-product-price="884">
 
 									<span class="product-card-new__btn-icon">
 										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -4933,7 +4999,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="card-form__btn" id="bx_3966226736_243274_e7e5a53fd4b76e4dce4f311b34c340d4_basket_actions">
-                                                                                <a href="javascript:void(0)" class="btn btn--card-form btn--gray btn_add_basket  product-card-new__btn qqq" data-btn_code="243274" id="bx_3966226736_243274_e7e5a53fd4b76e4dce4f311b34c340d4_buy_link" data-product-id="243274" data-product-price="793">
+                                                                                <a href="javascript:void(0)" class="btn-reset btn btn--card-form btn--gray btn_add_basket  product-card-new__btn" data-btn_code="243274" id="bx_3966226736_243274_e7e5a53fd4b76e4dce4f311b34c340d4_buy_link" data-product-id="243274" data-product-price="793">
 
 									<span class="product-card-new__btn-icon">
 										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -5092,7 +5158,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="card-form__btn" id="bx_3966226736_243059_4acf0f176831c66031059fe22bcc4d9c_basket_actions">
-                                                                                <a href="javascript:void(0)" class="btn btn--card-form btn--gray btn_add_basket  product-card-new__btn qqq" data-btn_code="243059" id="bx_3966226736_243059_4acf0f176831c66031059fe22bcc4d9c_buy_link" data-product-id="243059" data-product-price="470">
+                                                                                <a href="javascript:void(0)" class="btn-reset btn btn--card-form btn--gray btn_add_basket  product-card-new__btn" data-btn_code="243059" id="bx_3966226736_243059_4acf0f176831c66031059fe22bcc4d9c_buy_link" data-product-id="243059" data-product-price="470">
 
 									<span class="product-card-new__btn-icon">
 										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">

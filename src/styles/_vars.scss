@@ -54,30 +54,30 @@
 	--bradius-lg: 12px;
 	--bradius-xl: 16px;
 
-	// Colors
-	/*@color-black      : #33333D; //Tuna
-	@color-red        : #E44C51; //Red
-	@color-green      : #1AB14A; //Green
-	@color-light-green: #6DCC97; //light green
-	@color-gray       : #8B98A7; //Regent gray
-	@color-light-gray : #E9EBEE; //light gray
-	@color-hit-gray   : #A6B0BC; //Hit gray
-	@color-blue       : #0C4DB9; //blue
-	@color-dark-blue  : #001F6F; //Dark blue
-	@color-yellow     : #F1B212; //Golden*/
+	// Colors Materik
+	--color-black      : #33333D; //Tuna
+	--color-red        : #E44C51; //Red
+	--color-green      : #1AB14A; //Green
+	--color-light-green: #6DCC97; //light green
+	--color-gray       : #8B98A7; //Regent gray
+	--color-light-gray : #E9EBEE; //light gray
+	--color-hit-gray   : #A6B0BC; //Hit gray
+	--color-blue       : #0C4DB9; //blue
+	--color-dark-blue  : #001F6F; //Dark blue
+	--color-yellow     : #F1B212; //Golden
 
-	// breakpoints
-	/*@mob-small  : 480px - 1px;
-	@mob        : 670px - 1px = 767px;
-	@ipad       : 960px - 1px = 991px;
-	@tablet     : 1200px - 1px = 1199px;
-	@laptop     : 1440px - 1px = 1439px;
-	@laptop-wide: 1680px - 1px;
-	@inner      : 1710px;
+	// breakpoints Materik
+	--mob-small  : 480px - 1px;
+	--mob        : 670px - 1px;
+	--ipad       : 960px - 1px;
+	--tablet     : 1200px - 1px;
+	--laptop     : 1440px - 1px;
+	--laptop-wide: 1680px - 1px;
+	--inner      : 1710px;
 
-	@min-tablet: @tablet + 1px = 1200px;
-	@min-ipad  : @ipad + 1px = 992px;
-	@min-mob   : @mob + 1px = 768px;*/
+	--min-tablet: var(--tablet) + 1px;
+	--min-ipad  : var(--ipad) + 1px;
+	--min-mob   : var(--mob) + 1px;
 
 	// fancybox
 	--fancybox-scrollbar-compensate: 17px;

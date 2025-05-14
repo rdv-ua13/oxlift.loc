@@ -367,6 +367,20 @@
 			text-transform: unset;
 			text-decoration: none;
 		}
+
+		.menu-catalog-spoiler {
+			border-color: var(--blue10-color);
+			background-color: var(--blue10-color);
+			color: var(--white-color);
+
+			&:hover,
+			&:focus,
+			&.active {
+				border-color: var(--blue05-color);
+				background-color: var(--blue05-color);
+				color: var(--white-color);
+			}
+		}
 	}
 
 	&-pay {
