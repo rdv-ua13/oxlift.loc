@@ -8072,8 +8072,13 @@ ymaps[class$="-balloon__content"] {
 }
 
 .content-box__item {
-	margin-bottom: 10px;
+	margin-bottom: 40px;
 	width: 100%
+}
+@media (max-width: 669px) {
+	.content-box__item {
+		margin-bottom: 20px;
+	}
 }
 
 .content-box__item-text {
@@ -8150,14 +8155,6 @@ ymaps[class$="-balloon__content"] {
 
 // from Materik
 .contacts-page {
-	padding-top   : 46px;
-	padding-bottom: 15px;
-
-	@media screen and (max-width: 669px) {
-		padding-top   : 25px;
-		padding-bottom: 25px;
-	}
-
 	&__breadcrumbs {
 		padding-bottom: 15px;
 	}

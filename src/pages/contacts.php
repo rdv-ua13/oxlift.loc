@@ -159,11 +159,11 @@
 
         <div class="cp-content__item">
             <div class="container content-box">
-                <div class="gap-sm">
-                    <div class="h2">Центральный офис</div>
-                </div>
                 <div class="row">
                     <div class="col col-12 col-sm-5">
+                        <div class="gap-sm">
+                            <div class="h2">Центральный офис</div>
+                        </div>
                         <div class="content-box__item">
                             <div class="ico">
                                 <img alt="Адрес | ОКСЛИФТ" src="img/sprite.svg#location" class="icon-sm ico__map">
