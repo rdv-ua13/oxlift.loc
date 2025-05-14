@@ -48,6 +48,9 @@ application.prototype.init = function () {
     this.initCardProductReadmore();
     /*this.initCardProductSliders();*/
     this.initCardProductTabs();
+    /*this.initMobileSearch();*/
+    this.initAsMaterikContactsMap();
+    this.initMaskedInput();
 };
 
 // Initialize disable scroll
@@ -1261,4 +1264,538 @@ application.prototype.initMobileSearch = function () {
             isSearchOpen = true;
         }
     });
+};
+
+// Initialize
+application.prototype.initAsMaterikContactsMap = function () {
+    /*startDeliveryMap();*/ // Карта пунктов выдачи
+    /*startDeliveryPointsMap();*/ //Карта для контактов
+    startContactsMap();
+
+    //Карта выбора точки для доставки
+    function startDeliveryMap() {
+        let hasMapDelivery = document.querySelector('#delivery-map');
+
+        if (hasMapDelivery) {
+            let init = function init() {
+                //Создаем карту
+                MapDelivery = new ymaps.Map('delivery-map', {
+                    center: centerMap,
+                    zoom: 10,
+                    controls: ['zoomControl'] // Отключаем все элементы управления
+
+                });
+                MapDelivery.behaviors.disable('scrollZoom'); //запрет прокрутки по скроллу
+                // Подключаем поисковые подсказки к полю ввода.
+
+                let suggestView = new ymaps.SuggestView('js-delivery-address'),
+                    MapDelivery,
+                    placemark; // Создаём коллекцию меток для дистрибьютеров
+
+                let itemsCollection = new ymaps.GeoObjectCollection();
+                let inputAddress = document.querySelector('.js-delivery-address');
+
+                if (inputAddress.value !== "") {
+                    getGeocode();
+                }
+
+                inputAddress.addEventListener('change', getGeocode); //!!!Получение координат
+
+                function getGeocode() {
+                    // Забираем запрос из поля ввода.
+                    let request = $('.js-delivery-address').val(); // Геокодируем введённые данные.
+
+                    ymaps.geocode(request).then(function (res) {
+                        let obj = res.geoObjects.get(0),
+                            error,
+                            hint,
+                            coordinates;
+
+                        if (obj) {
+                            // Об оценке точности ответа геокодера можно прочитать тут: https://tech.yandex.ru/maps/doc/geocoder/desc/reference/precision-docpage/
+                            switch (obj.properties.get('metaDataProperty.GeocoderMetaData.precision')) {
+                                case 'exact':
+                                    break;
+
+                                case 'number':
+                                case 'near':
+                                case 'range':
+                                    error = 'Неточный адрес, требуется уточнение';
+                                    hint = 'Уточните номер дома';
+                                    break;
+
+                                case 'street':
+                                    error = 'Неполный адрес, требуется уточнение';
+                                    hint = 'Уточните номер дома';
+                                    break;
+
+                                case 'other':
+                                default:
+                                    error = 'Неточный адрес, требуется уточнение';
+                                    hint = 'Уточните адрес';
+                            }
+                        } else {
+                            error = 'Адрес не найден';
+                            hint = 'Уточните адрес';
+                        } // Если геокодер возвращает пустой массив или неточный результат, то показываем ошибку.
+                        // if (error) {
+                        //   console.log(error);
+                        //   console.log(hint);
+                        // } else {
+                        //   coordinates = obj.geometry._coordinates;
+                        //   addNewPlacemark(coordinates);
+                        // }
+
+
+                        coordinates = obj.geometry._coordinates;
+                        addNewPlacemark(coordinates, request);
+                    }, function (e) {
+                        console.log(e);
+                    });
+                } //END Получение координат
+
+
+                function addNewPlacemark(coordinates, address) {
+                    itemsCollection.removeAll();
+                    MapDelivery.setCenter(coordinates);
+                    let currentPlacemark = new ymaps.Placemark(coordinates, {
+                        iconContent: address
+                    }, {
+                        iconLayout: 'default#image',
+                        iconImageHref: '/local/templates/materik_2024/images/icons/balloon.png',
+                        iconImageSize: [44, 55],
+                        iconImageOffset: [-22, -27],
+                        // preset: '/local/templates/materik_2024/images/icons/balloon.png',
+                        // iconColor: '#2d7fe9',
+                        hideIconOnBalloonOpen: false
+                    }); // Добавляем метку в коллекцию
+
+                    itemsCollection.add(currentPlacemark);
+                } // Добавляем коллекцию на карту
+
+
+                MapDelivery.geoObjects.add(itemsCollection); //!!!Отслеживаем выбор точки!!!
+
+                itemsCollection.events.add('click', function (e) {
+                    let element = e.get('target').properties._data.iconContent;
+
+                    console.log(element);
+                }); //End Отслеживаем выбор точки!
+            };
+
+            if (window.matchMedia("(max-width: 670px)").matches) {
+                let centerMap = [59.939099, 30.315877];
+            } else if (window.matchMedia("(max-width: 960px)").matches) {
+                let centerMap = [59.939099, 30.315877];
+            } else {
+                let centerMap = [59.939099, 30.315877];
+            }
+
+            let MapDelivery;
+            ymaps.ready(init);
+        }
+    }
+
+    // Карта пунктов выдачи
+    function startDeliveryPointsMap() {
+        let hasMaPoints = document.querySelector('#points-map');
+
+        if (hasMaPoints) {
+            let init = function init() {
+                //Создаем карту
+                MapPoints = new ymaps.Map('points-map', {
+                    center: centerMap,
+                    zoom: 10,
+                    controls: ['zoomControl'] // Отключаем все элементы управления
+
+                });
+                MapPoints.behaviors.disable('scrollZoom'); //запрет прокрутки по скроллу
+                // Создаём коллекцию меток для дистрибьютеров
+
+                let itemsCollection = new ymaps.GeoObjectCollection();
+
+                for (let j = 0; j < listItemsPoints.length; j++) {
+                    let info = listItemsPoints[j];
+                    let currentPlacemark = new ymaps.Placemark(info.coordinates, {
+                        iconContent: info.id,
+                        // hintContent: info.name,
+                        balloonContent: "\n            <div class=\"choise-address__map-ballon\">\n              <p class='choise-address__map-adress-name'>".concat(info.name, "</p>\n              <p class='choise-address__map-adress'>").concat(info.address, "</p>\n            </div>\n            ") // balloonContentHeader: `<p class='map__adress-name'>${info.name}</p>`,
+                        // balloonContentBody: `<p class='map__adress'>${info.address}</p>`
+
+                    }, {
+                        iconLayout: 'default#image',
+                        iconImageHref: '/local/templates/materik_2024/images/icons/balloon-gray.png',
+                        iconImageSize: [44, 55],
+                        iconImageOffset: [-22, -27],
+                        // preset: '/local/templates/materik_2024/images/icons/balloon.png',
+                        // iconColor: '#2d7fe9',
+                        hideIconOnBalloonOpen: false
+                    }); // Добавляем метку в коллекцию
+
+                    itemsCollection.add(currentPlacemark);
+                } // Добавляем коллекцию на карту
+
+
+                MapPoints.geoObjects.add(itemsCollection); // JОтслеживаем hover
+
+                if (!window.matchMedia("(max-width: 1200px)").matches) {
+                    itemsCollection.events.add('mouseenter', function (e) {
+                        if (!e.get('target').balloon.isOpen()) {// e.get('target').balloon.open();
+                        }
+                    });
+                    itemsCollection.events.add('mouseleave', function (e) {});
+                } //Отслеживаем выбор точки!
+
+
+                itemsCollection.events.add('click', function (e) {
+                    if (!e.get('target').balloon.isOpen()) {
+                        e.get('target').balloon.open(); //открываем баллун
+                    } //перебор всех значений коллекции
+
+
+                    itemsCollection.each(function (geoObject) {
+                        geoObject.options.set('iconImageHref', '/local/templates/materik_2024/images/icons/balloon-gray.png');
+                    }); //меняем у выбранного иконку
+
+                    e.get('target').options.set('iconImageHref', '/local/templates/materik_2024/images/icons/balloon.png'); //получаем адрес (параметр по которому будем сравнивать с радио-кнопками)
+
+                    let element = e.get('target');
+                    let address = element.properties._data.iconContent; // let elementsArr = document.querySelectorAll('.js-map-element');
+
+                    if (elementsArr.length !== 0) {
+                        for (let i = 0; i < elementsArr.length; i++) {
+                            if (elementsArr[i].value === address) {
+                                elementsArr[i].checked = true; //событие изменение радио-кнопок
+
+                                let changeAdress;
+
+                                if (typeof Event === 'function') {
+                                    changeAdress = new Event('change', {
+                                        bubbles: true,
+                                        cancelable: true
+                                    });
+                                } else {
+                                    changeAdress = document.createEvent('Event');
+                                    changeAdress.initEvent('change', true, true);
+                                }
+
+                                elementsArr[i].dispatchEvent(changeAdress); //вызываем событие
+                            }
+                        }
+                    } //меняем центр карты
+
+
+                    let newCoordinates = element.geometry._coordinates;
+                    MapPoints.setCenter(newCoordinates);
+                }); //End Отслеживаем выбор точки!
+                //Отслеживаем клики на radio-button
+
+                let elementsArr = document.querySelectorAll('.js-map-element');
+
+                if (elementsArr.length !== 0) {
+                    for (let i = 0; i < elementsArr.length; i++) {
+                        elementsArr[i].addEventListener('click', changeMapObject);
+                    }
+                }
+
+                function changeMapObject(element) {
+                    let adress = this.value;
+                    itemsCollection.each(function (geoObject) {
+                        if (geoObject.properties._data.balloonContent.indexOf(adress) !== -1) {
+                            geoObject.options.set('iconImageHref', '/local/templates/materik_2024/images/icons/balloon.png');
+
+                            if (!geoObject.balloon.isOpen()) {
+                                geoObject.balloon.open(); //открываем баллун
+                            } //меняем центр карты
+
+
+                            let newCoordinates = geoObject.geometry._coordinates;
+                            MapPoints.setCenter(newCoordinates);
+                        } else {
+                            geoObject.options.set('iconImageHref', '/local/templates/materik_2024/images/icons/balloon-gray.png');
+                        }
+                    });
+                } //End Отслеживаем клики на radio-button
+
+            };
+
+            if (window.matchMedia("(max-width: 670px)").matches) {
+                let centerMap = [59.939099, 30.315877];
+            } else if (window.matchMedia("(max-width: 960px)").matches) {
+                let centerMap = [59.939099, 30.315877];
+            } else {
+                let centerMap = [59.939099, 30.315877];
+            }
+
+            let MapPoints; // Список точек на карте Пунктов выдачи
+
+            let listItemsPoints = [{
+                'coordinates': [59.943607, 30.439485],
+                'id': 'Якорная',
+                'name': 'Якорная',
+                'address': 'ул. Якорная, 16/1 (ст. м. «Ладожская»)'
+            }, {
+                'coordinates': [59.896323, 30.251459],
+                'id': 'Нарвская',
+                'name': 'Нарвская',
+                'address': 'ул. Калинина, 39 (ст. м. «Нарвская»)'
+            }, {
+                'coordinates': [59.947500, 30.254342],
+                'id': 'Василеостровская',
+                'name': 'Василеостровская',
+                'address': 'наб. реки Смоленки, 31 (ст. м. «Василеостровская, Приморская»)'
+            }];
+            ymaps.ready(init);
+        }
+    }
+
+    //Карта для контактов
+    function startContactsMap() {
+        let hasMapContacts = document.querySelector('#contacts-map');
+
+        if (hasMapContacts) {
+            let centerMap = [55.577622, 37.624192];
+            let zoomMap = null;
+            if (window.matchMedia("(max-width: 669px)").matches) {
+                zoomMap = 10;
+            } else if (window.matchMedia("(max-width: 959px)").matches) {
+                zoomMap = 11;
+            } else {
+                zoomMap = 12;
+            }
+
+            let init = function init() {
+                //Создаем карту
+                MapContacts = new ymaps.Map('contacts-map', {
+                    center: centerMap,
+                    zoom: zoomMap,
+                    controls: ['zoomControl'] // Отключаем все элементы управления
+
+                });
+                MapContacts.behaviors.disable('scrollZoom'); //запрет прокрутки по скроллу
+                // Создаём коллекцию меток
+
+                let itemsCollection = new ymaps.GeoObjectCollection(); // ***New*** //
+
+                for (let j = 0; j < listItemsContacts.length; j++) {
+                    let info = listItemsContacts[j];
+                    let currentPlacemark = new ymaps.Placemark(info.coordinates, {
+                        iconContent: info.id,
+                        balloonContent: "\n            <div class=\"choise-address__map-ballon\">\n              <p class='choise-address__map-adress-id'>".concat(info.id, "</p>\n              <p class='choise-address__map-adress-name'>").concat(info.name, "</p>\n              <p class='choise-address__map-adress'>").concat(info.address, "</p>\n            </div>\n            ")
+                    }, {
+                        iconLayout: 'default#image',
+                        iconImageHref: '/img/balloon-gray.png',
+                        iconImageSize: [44, 55],
+                        iconImageOffset: [-22, -27],
+                        hideIconOnBalloonOpen: false
+                    }); // Добавляем метку в коллекцию
+
+                    itemsCollection.add(currentPlacemark);
+                } // Добавляем коллекцию на карту
+
+
+                MapContacts.geoObjects.add(itemsCollection); // ***End New*** //
+                //Отслеживаем клики на radio-button
+
+                let elementsArr = document.querySelectorAll('.js-map-choise-contact');
+
+                if (elementsArr.length !== 0) {
+                    for (let i = 0; i < elementsArr.length; i++) {
+                        if (elementsArr[i].checked) {
+                            // changeMapContacts(null, elementsArr[i]);
+                            changeMapContactsNew(null, elementsArr[i]);
+                        } // elementsArr[i].addEventListener('click', changeMapContacts);
+
+
+                        elementsArr[i].addEventListener('click', changeMapContactsNew);
+                    }
+                }
+
+                function changeMapContactsNew(event, element) {
+                    let idElement = null;
+                    if (event) {
+                        idElement = this.value;
+                    } else {
+                        idElement = element.value;
+                    }
+
+                    itemsCollection.each(function (geoObject) {
+                        if (geoObject.properties._data.balloonContent.indexOf(idElement) !== -1) {
+                            geoObject.options.set('iconImageHref', '/img/balloon.png');
+
+                            if (!geoObject.balloon.isOpen()) {
+                                geoObject.balloon.open(); //открываем баллун
+                            } //меняем центр карты
+
+
+                            let newCoordinates = geoObject.geometry._coordinates;
+                            MapContacts.setCenter(newCoordinates);
+                        } else {
+                            geoObject.options.set('iconImageHref', '/img/balloon-gray.png');
+                        }
+                    }); //меняем hash-страницы
+
+                    window.location.hash = "#".concat(idElement);
+                } //Отслеживаем выбор точки!
+
+
+                itemsCollection.events.add('click', function (e) {
+                    if (!e.get('target').balloon.isOpen()) {
+                        e.get('target').balloon.open(); //открываем баллун
+                    } //перебор всех значений коллекции
+
+
+                    itemsCollection.each(function (geoObject) {
+                        geoObject.options.set('iconImageHref', '/img/balloon-gray.png');
+                    }); //меняем у выбранного иконку
+
+                    e.get('target').options.set('iconImageHref', '/img/balloon.png'); //получаем id (параметр по которому будем сравнивать с радио-кнопками)
+
+                    let element = e.get('target');
+                    let idElement = element.properties._data.iconContent; // let elementsArr = document.querySelectorAll('.js-map-choise-contact');
+
+                    if (elementsArr.length !== 0) {
+                        for (let i = 0; i < elementsArr.length; i++) {
+                            if (elementsArr[i].value === idElement) {
+                                elementsArr[i].checked = true; //событие изменение радио-кнопок
+
+                                let changeAdress;
+
+                                if (typeof Event === 'function') {
+                                    changeAdress = new Event('change', {
+                                        bubbles: true,
+                                        cancelable: true
+                                    });
+                                } else {
+                                    changeAdress = document.createEvent('Event');
+                                    changeAdress.initEvent('change', true, true);
+                                }
+
+                                elementsArr[i].dispatchEvent(changeAdress); //вызываем событие
+                            }
+                        }
+                    } //меняем центр карты
+
+
+                    let newCoordinates = element.geometry._coordinates;
+                    MapContacts.setCenter(newCoordinates); //меняем hash-страницы
+
+                    window.location.hash = "#".concat(idElement);
+                }); //End Отслеживаем выбор точки!
+                // ***Old*** //
+
+                function changeMapContacts(event, element) {
+                    if (event) {
+                        let name = this.value;
+                    } else {
+                        let name = element.value;
+                    }
+
+                    for (let i = 0; i < listItemsContacts.length; i++) {
+                        if (listItemsContacts[i].id === name) {
+                            addNewPlacemarkContacts(listItemsContacts[i].coordinates, listItemsContacts[i].name);
+                        }
+                    } //меняем hash-страницы
+
+
+                    window.location.hash = "#".concat(name);
+                } //Добавление новой метки (+ удаление остальных)
+
+
+                function addNewPlacemarkContacts(coordinates, address) {
+                    itemsCollection.removeAll();
+                    MapContacts.setCenter(coordinates);
+                    let currentPlacemark = new ymaps.Placemark(coordinates, {
+                        iconContent: address
+                    }, {
+                        iconLayout: 'default#image',
+                        iconImageHref: '/img/balloon.png',
+                        iconImageSize: [44, 55],
+                        iconImageOffset: [-22, -27],
+                        hideIconOnBalloonOpen: false
+                    }); // Добавляем метку в коллекцию
+
+                    itemsCollection.add(currentPlacemark); // Добавляем коллекцию на карту
+
+                    MapContacts.geoObjects.add(itemsCollection);
+                } // ***End Old*** //
+
+            }; //***функция проверки загрузки страницы с хешом
+
+            let loadPageWithHash = function loadPageWithHash() {
+                let currentHash = window.location.hash;
+
+                if (currentHash !== '') {
+                    let hash = currentHash.slice(1, currentHash.length);
+                    checkCurrentHash(hash);
+                    console.log('hash = ' + hash);
+                } else {
+                    console.log('нет хеша');
+                }
+            };
+
+            let checkCurrentHash = function checkCurrentHash(hash) {
+                let elementsArr = document.querySelectorAll('.js-map-choise-contact');
+
+                for (let i = 0; i < elementsArr.length; i++) {
+                    if (elementsArr[i].value === hash) {
+                        elementsArr[i].checked = true; //событие изменение радио-кнопок
+
+                        let changeAdress;
+
+                        if (typeof Event === 'function') {
+                            changeAdress = new Event('change', {
+                                bubbles: true,
+                                cancelable: true
+                            });
+                        } else {
+                            changeAdress = document.createEvent('Event');
+                            changeAdress.initEvent('change', true, true);
+                        }
+
+                        elementsArr[i].dispatchEvent(changeAdress); //вызываем событие
+                        //прокручиваем к карте
+
+                        let positionblock = $('#contacts').offset().top;
+                        let heightHeader = document.querySelector('.header').clientHeight;
+                        positionblock = positionblock - heightHeader;
+                        setTimeout(function () {
+                            $('html, body').animate({
+                                scrollTop: positionblock
+                            }, 1000);
+                        }, 1000);
+                    } // Удаляем hash
+
+                }
+            }; //***End функция проверки загрузки страницы с хешом
+
+            let MapContacts; // Список точек на карте Пунктов выдачи
+
+            let listItemsContacts = [{
+                'coordinates': [55.577622, 37.624192],
+                'id': 'head_office',
+                'name': 'Центральный офис',
+                'address': 'Москва, Востряковский проезд, 10б, стр.7'
+            }/*, {
+                'coordinates': [59.947500, 30.254342],
+                'id': 'vasileostrovskaya',
+                'name': 'Василеостровская',
+                'address': 'наб. реки Смоленки, 31 (ст. м. «Василеостровская, Приморская»)'
+            }*/];
+            ymaps.ready(init);
+            loadPageWithHash();
+        }
+    }
+};
+
+// Initialize mobile number mask
+application.prototype.initMaskedInput = function () {
+    if ($('.isPhone').length) {
+        $('.isPhone').mask('+7 (999) 999-99-99', { autoclear: false });
+    }
+};
+
+// Initialize
+application.prototype.initAsd = function () {
+
 };

@@ -1368,6 +1368,10 @@ input.disabled {
 			}
 		}
 	}
+
+	&-h-stretch {
+		height: 100%;
+	}
 }
 .input {
 	width: 100%;
@@ -1515,9 +1519,13 @@ input.disabled {
 
 	@at-root {
 	    textarea#{&} {
-			height: auto;
-			resize: none;
+			height: 100%;
 	    }
+	}
+
+	&.captcha {
+		padding-top: 4px;
+		padding-bottom: 4px;
 	}
 
 	&:hover,
@@ -1533,6 +1541,11 @@ input.disabled {
 			font-size: 13px;
 		}
 	}
+}
+
+textarea {
+	height: auto;
+	resize: none;
 }
 
 .swiper-navigation {
@@ -3242,7 +3255,7 @@ body:not(.index) {
 		padding-right: 0;
 	}
 }
-.col-1 {
+/*.col-1 {
 	width: 8.33%;
 }
 @media screen and (max-width: 669px) {
@@ -3492,7 +3505,7 @@ body:not(.index) {
 	.offset-sm-0 {
 		margin-left: 0;
 	}
-}
+}*/
 
 .js-hide {
 	display: none !important;
