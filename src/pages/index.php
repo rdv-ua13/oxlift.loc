@@ -82,8 +82,8 @@
                             <div class="new-promo-banner__row">
                                 <div class="new-promo-banner__col new-promo-banner__col--info">
                                     <div class="new-promo-banner__info-wrap">
-                                        <span class="new-promo-banner__name">Компания Материк</span>
-                                        <span class="new-promo-banner__text">Мы осуществляем продажу товаров оптом и в розницу, предлагая превосходный сервис и низкие цены.</span>
+                                        <div class="new-promo-banner__name">Компания Материк</div>
+                                        <div class="new-promo-banner__text">Мы осуществляем продажу товаров оптом и в розницу, предлагая превосходный сервис и низкие цены.</div>
                                     </div>
                                 </div>
                                 <div class="new-promo-banner__col new-promo-banner__col--icon">
@@ -102,8 +102,8 @@
                             <div class="new-promo-banner__row">
                                 <div class="new-promo-banner__col new-promo-banner__col--info">
                                     <div class="new-promo-banner__info-wrap">
-                                        <span class="new-promo-banner__name">работаем для вас с 1997 г.</span>
-                                        <span class="new-promo-banner__text">Компания "Материк" работает для вас на оптово-розничном рынке поставок строительных материалов.</span>
+                                        <div class="new-promo-banner__name">работаем для вас с 1997 г.</div>
+                                        <div class="new-promo-banner__text">Компания "Материк" работает для вас на оптово-розничном рынке поставок строительных материалов.</div>
                                     </div>
                                 </div>
                                 <div class="new-promo-banner__col new-promo-banner__col--icon">
@@ -122,9 +122,9 @@
                             <div class="new-promo-banner__row">
                                 <div class="new-promo-banner__col new-promo-banner__col--info">
                                     <div class="new-promo-banner__info-wrap">
-                                        <span class="new-promo-banner__name">Стандарт ISO</span>
-                                        <span class="new-promo-banner__mob-subtitle">9001:2015</span>
-                                        <span class="new-promo-banner__text">Успешно подтвердила международную сертификацию системы менеджмента качества в июне 2019 г. </span>
+                                        <div class="new-promo-banner__name">Стандарт ISO</div>
+                                        <div class="new-promo-banner__mob-subtitle">9001:2015</div>
+                                        <div class="new-promo-banner__text">Успешно подтвердила международную сертификацию системы менеджмента качества в июне 2019 г. </div>
                                     </div>
                                 </div>
                                 <div class="new-promo-banner__col new-promo-banner__col--icon">

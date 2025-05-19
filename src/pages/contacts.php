@@ -24,19 +24,50 @@
                 <div class="container contacts-page__address-descr">
                     <div class="contacts-page__address-list">
                         <div class="contacts-page__address-list-item">
-                            <label class="contacts-page__address-list-label form__label-radio  form__label-radio--black order__points-label-radio">
-								<?/*<input class="contacts-page__address-list-input form__input-radio order__points-input-radio js-map-choise-contact" type="radio" name="point" value="yakornaya" required="">*/?>
-                                <div class="contacts-page__address-list-descr form__label-radio-wrap order__points-radio-wrap">
-									<?/*<span class="contacts-page__address-list-checkbox form__check-radio order__points-check-radio"></span>*/?>
-                                    <span class="contacts-page__address-list-checkbox-field form__radio-text order__points-text-wrap">
-                                            <span class="order__points-name">Центральный офис</span>
-                                            <span class="order__points-address">Москва, Востряковский проезд, 10б, стр.7</span>
-                                            <span class="order__points-address">тел.: <a href="tel:+84951209097">8 (495) 120 90 97</a></span>
-                                            <span class="order__points-route"><a target="_blank" href="https://yandex.ru/maps/?mode=routes&amp;rtext=~55.577622%2C37.624192&amp;rtt=auto">Проложить маршрут</a></span>
-                                            <span class="order__points-time">Время работы:<br> пн-пт с 9:00 до 18:00,<br> сб-вс выходной</span>
-                                        </span>
-                                </div>
-                            </label>
+                            <table class="contacts-page__table">
+                                <tbody>
+                                <tr>
+                                    <td><i class="i-icon fontello-location"></i></td>
+                                    <td>
+                                        <h6 class="h6 contacts-page__table-subtitle">Адрес:</h6>
+                                        <span>Москва, Востряковский проезд, 10б, стр.7</span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <i class="i-icon fontello-phone2"></i>
+                                    </td>
+                                    <td>
+                                        <h6 class="h6 contacts-page__table-subtitle">Телефон:</h6>
+                                        <a href="tel:88005007869">8 (800) 500 78 69</a> - по России бесплатно;<br>
+                                        <a href="tel:84951209097">8 (495) 120 90 97</a>;<br>
+                                        <a href="tel:84991109267">8 (499) 110 92 67</a> - отдел сервиса.<br>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <i class="i-icon fontello-mail"></i>
+                                    </td>
+                                    <td>
+                                        <h6 class="h6 contacts-page__table-subtitle">E-mail:</h6>
+                                        <a href="mailto:sales+206458482@oxlift.ru">sales+206458482@oxlift.ru</a> - отдел продаж<br>
+                                        <a href="mailto:service@oxlift.ru"service@oxlift.ru</a> - отдел сервиса<br>
+                                        <a href="mailto:502@oxlift.ru"502@oxlift.ru</a> - отдел бухгалтерии<br>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td><i class="i-icon fontello-clock"></i></td>
+                                    <td>
+                                        <h6 class="h6 contacts-page__table-subtitle">Режим работы</h6>
+                                        Пн. – Пт.: с 9:00 до 18:00<br>
+                                        Сб. - Вс.: выходной
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>

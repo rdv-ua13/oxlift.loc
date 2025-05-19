@@ -344,19 +344,10 @@ p,
 ul,
 ol {
 	margin-top: 0;
+	margin-bottom: 16px;
 
-	&:not(:last-child) {
-		margin-bottom: 16px;
-	}
 	&:last-child {
 		margin-bottom: 0;
-	}
-}
-@media (min-width: 960px) {
-	p {
-		&:not(:last-child) {
-			margin-bottom: 24px;
-		}
 	}
 }
 

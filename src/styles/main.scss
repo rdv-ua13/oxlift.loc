@@ -586,6 +586,10 @@ body:not(.index) {
 	text-decoration: none;
 	border-radius  : 15px;
 	height         : 100%;
+	&:hover {
+		color: inherit;
+		text-decoration: none;
+	}
 
 	&--about {
 		background: linear-gradient(100deg, #E0EBFE 17.99%, #EBF2FF 87.06%);
@@ -7747,254 +7751,7 @@ ymaps[class$="-balloon__content"] {
 }
 //end popup
 
-
 // start "Contacts"
-.contacts {
-	&-map {
-		position: relative;
-		min-width: 100%;
-		width: 100%;
-		min-height: 450px;
-		height: 450px;
-		overflow: hidden;
-		background-color: var(--gray01-color);
-
-		&::before {
-			content: 'Карта загружается...';
-			z-index: -1;
-			position: absolute;
-			inset: 0;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
-		&__map {
-			z-index: 1;
-			position: absolute;
-			top: 0;
-			bottom: 0;
-			left: 0;
-			right: 0;
-			width: 100%;
-			height: 100%;
-
-			&-container {
-				width: 100%;
-				height: 100%;
-			}
-		}
-	}
-}
-@media screen and (max-width: 959px) {
-	.contacts-map {
-		&__map {
-			&-wrap {
-				padding-top: 30px;
-			}
-		}
-	}
-}
-@media screen and (max-width: 669px) {
-	.contacts-map {
-		padding-top: 17px;
-		padding-bottom: 15px;
-
-		&__map {
-			&-wrap {
-				position: relative;
-				padding-top: 10px;
-				margin-top: 10px;
-
-				&::before {
-					content: '';
-					display: block;
-					width: 80%;
-					height: 1px;
-					background: #E9EBEE;
-					position: absolute;
-					top: 0;
-					left: 0;
-					right: 0;
-					margin: auto;
-				}
-			}
-		}
-	}
-}
-
-.contacts-page {
-	&__wrap {
-		padding-bottom: 23px;
-	}
-	&__breadcrumbs {
-		padding-bottom: 15px;
-	}
-	&__title {
-		padding-bottom: 25px;
-	}
-	&__subtitle {
-		font-weight: 700;
-		padding-bottom: 14px;
-	}
-	&__item {
-		padding-bottom: 27px;
-		font-size: 20px;
-		line-height: 1.5;
-
-		&-name {
-			font-weight: 700;
-			color: #8B98A7;
-		}
-		&-info {
-			a {
-				color: #0C4DB9;
-				font-weight: 700;
-				text-decoration: none;
-			}
-		}
-	}
-	&__pay {
-		&-block {
-			display: flex;
-			flex-wrap: wrap;
-			margin-left: -10px;
-			margin-right: -10px;
-			padding-top: 20px;
-			align-content: center;
-			align-items: center;
-		}
-		&-item {
-			padding-left: 10px;
-			padding-right: 10px;
-		}
-	}
-
-	&__address {
-		position: relative;
-		min-height: 450px;
-		height: 450px;
-
-		&-map {
-			z-index: 1;
-			position: absolute;
-			inset: 0;
-			min-width: 100%;
-			width: 100%;
-			min-height: 450px;
-			height: 450px;
-			overflow: hidden;
-			background-color: var(--gray01-color);
-
-			&::before {
-				content: 'Карта загружается...';
-				z-index: -1;
-				position: absolute;
-				inset: 0;
-				display: flex;
-				justify-content: center;
-				align-items: center;
-			}
-			&-content {
-				z-index: 1;
-				position: absolute;
-				top: 0;
-				bottom: 0;
-				left: 0;
-				right: 0;
-				width: 100%;
-				height: 100%;
-			}
-		}
-		&-descr {
-			z-index: 2;
-			position: relative;
-			padding-top: 20px;
-			padding-bottom: 20px;
-		}
-		&-list {
-			z-index: 2;
-			position: relative;
-			display: flex;
-			flex-direction: column;
-			gap: 16px;
-			max-width: 500px;
-			min-height: 370px;
-			height: 370px;
-			padding: 32px;
-			overflow-x: hidden;
-			overflow-y: auto;
-			box-shadow: var(--shadow-float2);
-			background-color: var(--white-color);
-
-			&-item {
-				&:not(:last-child) {
-					margin-bottom: 16px;
-				}
-				/*&:not(:last-child) {
-					margin-bottom: 16px;
-				}*/
-			}
-			&-label {
-				display: flex;
-			}
-			&-descr {
-				display: flex;
-				min-width: 100%;
-			}
-			&-checkbox {
-				&-field {
-					span {
-						display: block;
-
-						&:not(:last-child) {
-							margin-bottom: 8px;
-						}
-					}
-				}
-			}
-		}
-	}
-}
-@media screen and (max-width: 959px) {
-	.contacts-page {
-		&__address {
-			display: flex;
-			flex-direction: column;
-			height: auto;
-
-			&-map {
-				order: 5;
-				position: relative;
-			}
-			&-descr {
-				order: 1;
-			}
-		}
-	}
-}
-@media screen and (max-width: 669px) {
-	.contacts-page {
-		&__wrap {
-			padding-bottom: 15px;
-		}
-		&__title {
-			padding-bottom: 12px;
-		}
-		&__subtitle {
-			padding-bottom: 10px;
-		}
-		&__item {
-			padding-bottom: 15px;
-			font-size: 12px;
-		}
-		&__pay {
-			&-block {
-				padding-top: 15px;
-			}
-		}
-	}
-}
-
 // from msc focus demo
 .form-s{background-color:#FBFAFA;margin-bottom:60px;padding:25px 20px;}
 .form-s:last-child{margin-bottom:0;}
@@ -8017,8 +7774,221 @@ ymaps[class$="-balloon__content"] {
 .custom-checkbox i:before{content:"\2713";line-height:17px;}
 .custom-radio i{border-radius:50%;}
 .custom-radio i:before{border-radius:inherit;bottom:3px;content:"";left:3px;position:absolute;right:3px;top:3px;}
+
+.fontello-compare:before {
+	content: '\e822'
+}
+
+.fontello-heart:before {
+	content: '\e81a'
+}
+
+.fontello-search:before {
+	content: "\e800"
+}
+
+.fontello-zoom-in:before {
+	content: "\e801"
+}
+
+.fontello-phone2:before {
+	content: "\e802"
+}
+
+.fontello-ok:before {
+	content: "\e803"
+}
+
+.fontello-cancel:before {
+	content: "\e804"
+}
+
+.fontello-location:before {
+	content: "\e805"
+}
+
+.fontello-down-open:before {
+	content: "\e806"
+}
+
+.fontello-cart:before {
+	content: "\e807"
+}
+
+.fontello-left-open:before {
+	content: "\e808"
+}
+
+.fontello-right-open:before {
+	content: "\e809"
+}
+
+.fontello-up-open:before {
+	content: "\e80a"
+}
+
+.fontello-list-1:before {
+	content: "\e80b"
+}
+
+.fontello-mappin:before {
+	content: "\e80c"
+}
+
+.fontello-list-2:before {
+	content: "\e80d"
+}
+
+.fontello-phone:before {
+	content: "\e80e"
+}
+
+.fontello-user:before {
+	content: "\e80f"
+}
+
+.fontello-instagram:before {
+	content: "\e810"
+}
+
+.fontello-at:before {
+	content: "\e811"
+}
+
+.fontello-text-quotes:before {
+	content: "\e812"
+}
+
+.fontello-mail:before {
+	content: "\e813"
+}
+
+.fontello-check:before {
+	content: "\e814"
+}
+
+.fontello-list-3:before {
+	content: "\e815"
+}
+
+.fontello-clock-alt:before {
+	content: "\e816"
+}
+
+.fontello-truck:before {
+	content: "\e817"
+}
+
+.fontello-globe:before {
+	content: "\e818"
+}
+
+.fontello-chat:before {
+	content: "\e819"
+}
+
+.fontello-clock:before {
+	content: "\e81b"
+}
+
+.fontello-twitter:before {
+	content: "\f099"
+}
+
+.fontello-facebook:before {
+	content: "\f09a"
+}
+
+.fontello-angle-double-left:before {
+	content: "\f100"
+}
+
+.fontello-angle-double-right:before {
+	content: "\f101"
+}
+
+.fontello-angle-double-up:before {
+	content: "\f102"
+}
+
+.fontello-angle-double-down:before {
+	content: "\f103"
+}
+
+.fontello-angle-left:before {
+	content: "\f104"
+}
+
+.fontello-angle-right:before {
+	content: "\f105"
+}
+
+.fontello-angle-up:before {
+	content: "\f106"
+}
+
+.fontello-angle-down:before {
+	content: "\f107"
+}
+
+.fontello-youtube-play:before {
+	content: "\f16a"
+}
+
+.fontello-down:before {
+	content: "\f175"
+}
+
+.fontello-up:before {
+	content: "\f176"
+}
+
+.fontello-left:before {
+	content: "\f177"
+}
+
+.fontello-right:before {
+	content: "\f178"
+}
+
+.fontello-vkontakte:before {
+	content: "\f189"
+}
+
+.fontello-odnoklassniki:before {
+	content: "\f263"
+}
+
+.fontello-telegram:before {
+	content: "\f2c6"
+}
+
+.fontello-whatsapp:before {
+	content: "\f232"
+}
+
+[class*=" fontello-"]:before,
+[class^=fontello-]:before {
+	font-family: fontello;
+	font-style: normal;
+	font-weight: 400;
+	speak: none;
+	display: inline-block;
+	text-decoration: inherit;
+	width: auto;
+	text-align: center;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1em;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale
+}
+
 //custom to msc focus demo
 .form-s {
+	max-width: 1370px;
+	margin: 0 auto;
+
 	.input-wrapper {
 		margin-bottom: 20px;
 	}
@@ -8234,6 +8204,306 @@ ymaps[class$="-balloon__content"] {
 		width: 100%;
 		height: auto;
 	}
+}
+
+.contacts {
+	&-map {
+		position: relative;
+		min-width: 100%;
+		width: 100%;
+		min-height: 450px;
+		height: 450px;
+		overflow: hidden;
+		background-color: var(--gray01-color);
+
+		&::before {
+			content: 'Карта загружается...';
+			z-index: -1;
+			position: absolute;
+			inset: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		&__map {
+			z-index: 1;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			width: 100%;
+			height: 100%;
+
+			&-container {
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+}
+@media screen and (max-width: 959px) {
+	.contacts-map {
+		&__map {
+			&-wrap {
+				padding-top: 30px;
+			}
+		}
+	}
+}
+@media screen and (max-width: 669px) {
+	.contacts-map {
+		padding-top: 17px;
+		padding-bottom: 15px;
+
+		&__map {
+			&-wrap {
+				position: relative;
+				padding-top: 10px;
+				margin-top: 10px;
+
+				&::before {
+					content: '';
+					display: block;
+					width: 80%;
+					height: 1px;
+					background: #E9EBEE;
+					position: absolute;
+					top: 0;
+					left: 0;
+					right: 0;
+					margin: auto;
+				}
+			}
+		}
+	}
+}
+
+.contacts-page {
+	&__wrap {
+		padding-bottom: 23px;
+	}
+	&__breadcrumbs {
+		padding-bottom: 15px;
+	}
+	&__title {
+		padding-bottom: 25px;
+	}
+	&__subtitle {
+		font-weight: 700;
+		padding-bottom: 14px;
+	}
+	&__item {
+		padding-bottom: 27px;
+		font-size: 20px;
+		line-height: 1.5;
+
+		&-name {
+			font-weight: 700;
+			color: #8B98A7;
+		}
+		&-info {
+			a {
+				color: #0C4DB9;
+				font-weight: 700;
+				text-decoration: none;
+			}
+		}
+	}
+	&__pay {
+		&-block {
+			display: flex;
+			flex-wrap: wrap;
+			margin-left: -10px;
+			margin-right: -10px;
+			padding-top: 20px;
+			align-content: center;
+			align-items: center;
+		}
+		&-item {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+	}
+
+	&__address {
+		position: relative;
+		min-height: 450px;
+		height: 450px;
+
+		&-map {
+			z-index: 1;
+			position: absolute;
+			inset: 0;
+			min-width: 100%;
+			width: 100%;
+			min-height: 450px;
+			height: 450px;
+			overflow: hidden;
+			background-color: var(--gray01-color);
+
+			&::before {
+				content: 'Карта загружается...';
+				z-index: -1;
+				position: absolute;
+				inset: 0;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			&-content {
+				z-index: 1;
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				width: 100%;
+				height: 100%;
+			}
+		}
+		&-descr {
+			z-index: 2;
+			position: relative;
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+		&-list {
+			z-index: 2;
+			position: relative;
+			display: flex;
+			flex-direction: column;
+			gap: 16px;
+			max-width: 500px;
+			min-height: 370px;
+			height: 370px;
+			padding: 32px;
+			overflow-x: hidden;
+			overflow-y: auto;
+			box-shadow: var(--shadow-float2);
+			background-color: var(--white-color);
+
+			&-item {
+				&:not(:last-child) {
+					margin-bottom: 16px;
+				}
+				/*&:not(:last-child) {
+					margin-bottom: 16px;
+				}*/
+			}
+			/*&-label {
+				display: flex;
+			}
+			&-descr {
+				display: flex;
+				flex-direction: column;
+				gap: 40px;
+				min-width: 100%;
+			}
+			&-checkbox {
+				&-field {
+					span {
+						display: block;
+
+						&:not(:last-child) {
+							margin-bottom: 8px;
+						}
+					}
+				}
+			}*/
+		}
+	}
+	&__table {
+		width: 100%;
+		border-collapse: collapse;
+		border-spacing: 0;
+		color: var(--gray20-color);
+		line-height: 1;
+
+		tr {
+			&:first-child {
+				td {
+					padding-top: 0;
+				}
+			}
+		}
+		td {
+			padding-top: 40px;
+
+			&:first-child {
+				min-width: 50px;
+				width: 50px;
+			}
+		}
+		&-subtitle {
+			margin-bottom: 5px;
+			color: #000;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 1;
+		}
+		a {
+			color: #09c;
+
+			&:hover,
+			&:focus,
+			&.active {
+				color: #345BDA;
+				text-decoration: none;
+			}
+		}
+	}
+}
+@media screen and (max-width: 959px) {
+	.contacts-page {
+		&__address {
+			display: flex;
+			flex-direction: column;
+			height: auto;
+
+			&-map {
+				order: 5;
+				position: relative;
+			}
+			&-descr {
+				order: 1;
+			}
+		}
+	}
+}
+@media screen and (max-width: 669px) {
+	.contacts-page {
+		&__wrap {
+			padding-bottom: 15px;
+		}
+		&__title {
+			padding-bottom: 12px;
+		}
+		&__subtitle {
+			padding-bottom: 10px;
+		}
+		&__item {
+			padding-bottom: 15px;
+			font-size: 12px;
+		}
+		&__pay {
+			&-block {
+				padding-top: 15px;
+			}
+		}
+	}
+}
+
+.i-icon {
+	display: inline-block;
+	min-width: 30px;
+	padding-bottom: 1px;
+	border-bottom: 2px solid #000;
+	vertical-align: top;
+	color: #000;
+	font-size: 25px;
+	line-height: 1;
+	text-align: center;
 }
 // end "Contacts"
 
