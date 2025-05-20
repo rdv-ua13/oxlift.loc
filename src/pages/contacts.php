@@ -53,8 +53,8 @@
                                     <td>
                                         <h6 class="h6 contacts-page__table-subtitle">E-mail:</h6>
                                         <a href="mailto:sales+206458482@oxlift.ru">sales+206458482@oxlift.ru</a> - отдел продаж<br>
-                                        <a href="mailto:service@oxlift.ru"service@oxlift.ru</a> - отдел сервиса<br>
-                                        <a href="mailto:502@oxlift.ru"502@oxlift.ru</a> - отдел бухгалтерии<br>
+                                        <a href="mailto:service@oxlift.ru">service@oxlift.ru</a> - отдел сервиса<br>
+                                        <a href="mailto:502@oxlift.ru">502@oxlift.ru</a> - отдел бухгалтерии<br>
                                     </td>
                                 </tr>
 
@@ -188,70 +188,139 @@
             </div>
         </div>
 
+        <div class="gap-xl cp-content__item">
+            <div class="container">
+
+                <div class="requisites">
+                    <table class="text-right">
+                        <tbody>
+                        <tr>
+                            <td class="text-left">Полное наименование:</td>
+                            <td>Общество с ограниченной ответственностью «ОКСЛИФТ»</td>
+                        </tr>
+                        <tr>
+                            <td class="text-left">Сокращенное наименование:</td>
+                            <td>ООО «ОКСЛИФТ»</td>
+                        </tr>
+                        <tr>
+                            <td class="text-left">ИНН / КПП:</td>
+                            <td>7724404353 / 772401001</td>
+                        </tr>
+                        <tr>
+                            <td class="text-left">ОГРН:</td>
+                            <td>1177746250780</td>
+                        </tr>
+                        <tr>
+                            <td class="text-left">Юридический адрес:</td>
+                            <td>117403, Москва г, вн.тер.г. муниципальный округ Бирюлево Западное, проезд Востряковский, д. 10Б, стр. 7, этаж 2, помещ. I, ком. Б, ком. 28</td>
+                        </tr>
+                        <tr>
+                            <td class="text-left">Фактический адрес:</td>
+                            <td>117403, Москва г, вн.тер.г. муниципальный округ Бирюлево Западное, проезд Востряковский, д. 10Б, стр. 7, этаж 2, помещ. I, ком. Б, ком. 28</td>
+                        </tr>
+                        <tr>
+                            <td class="text-left">Телефон, факс:</td>
+                            <td>+7 (495) 120-90-97</td>
+                        </tr>
+                        <tr>
+                            <td class="text-left">Электронная почта:</td>
+                            <td>sales@oxlift.ru , oxlift@gmail.com, info@oxlift.ru</td>
+                        </tr>
+                        <tr>
+                            <td class="text-left">Сайт:</td>
+                            <td>oxlift.ru</td>
+                        </tr>
+                        <tr>
+                            <td class="text-left">Банковские реквизиты:</td>
+                            <td>БИК 044525411 <br>Р/с №40702810224460001939 в Филиал "Центральный" Банка ВТБ (ПАО) <br>Кор/счет 30101810145250000411</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+
         <div class="cp-content__item">
-            <div class="container content-box">
+            <div class="container">
+
                 <div class="row">
-                    <div class="col col-12 col-sm-5">
-                        <div class="gap-sm">
-                            <div class="h2">Центральный офис</div>
-                        </div>
-                        <div class="content-box__item">
-                            <div class="ico">
-                                <img alt="Адрес | ОКСЛИФТ" src="img/sprite.svg#location" class="icon-sm ico__map">
-                            </div>
-                            <div class="content-box__item-text"> 117403, г. Москва,</div>
-                            <div class="content-box__item-text"> Востряковский проезд, 10б, стр.7</div>
-                        </div>
-                        <div class="content-box__item">
-                            <div class="ico">
-                                <img alt="Телефон | ОКСЛИФТ" src="img/sprite.svg#call-calling" class="icon-sm ico__phone">
-                            </div>
-                            <div class="content-box__item-text contacts-page__item-info">
-                                <a href="tel:">8 (800) 500 78 69</a> - по России бесплатно;</div>
-                            <div class="content-box__item-text contacts-page__item-info">
-                                <span class="mgo-NIZ">
-                                    <a href="tel:8 (495) 120 90 97">8 (495) 120 90 97</a>
-                                </span>
-                                ;
-                            </div>
-                            <div class="content-box__item-text contacts-page__item-info">
-                                <a href="tel:8 (499) 110 92 67">8 (499) 110 92 67</a>
-                                - отдел сервиса.
-                            </div>
-                        </div>
-                        <div class="content-box__item">
-                            <div class="ico">
-                                <img alt="E-mail | ОКСЛИФТ" src="img/sprite.svg#sms" class="icon-sm ico__mail">
-                            </div>
-                            <div class="content-box__item-text contacts-page__item-info">
-                                <a href="mailto:sales+203623918@oxlift.ru">sales+203623918@oxlift.ru </a>
-                                - отдел продаж
-                            </div>
-                            <div class="content-box__item-text contacts-page__item-info">
-                                <a href="mailto:service@oxlift.ru">service@oxlift.ru </a>
-                                - отдел сервиса
-                            </div>
-                            <div class="content-box__item-text contacts-page__item-info">
-                                <a href="mailto:502@oxlift.ru">502@oxlift.ru </a>
-                                - отдел бухгалтерии
-                            </div>
-                        </div>
-                        <div class="content-box__item" style="display: flex;flex-direction: column;justify-content: flex-end;">
-                            <div class="gap-xs">
-                                <a href="https://oxlift.ru/customers/articles/kak-k-nam-dobratsya/" class="link-brand">Как к нам добраться</a>
-                            </div>
-                            <div>
-                                <a href="https://oxlift.ru/twomaps.png" class="link-brand" taret="_blank">Схема проезда Видное</a>
-                                &nbsp;(г.Видное, Белокаменное шоссе вл. 10бс1)
+                    <div class="col col-12 col-lg-6">
+                        <div class="contacts-page__office">
+                            <div class="contacts-page__office-title">Москва</div>
+                            <div class="contacts-page__office-info">
+                                <div class="row">
+                                    <div class="col col-12 col-sm-flex col-sm-6">
+                                        <div class="contacts-page__office-info-part">
+                                            <div class="contacts-page__office-info-title">Адрес:</div>
+                                            <div class="contacts-page__office-info-text">
+                                                <p>г. Москва, Востряковский проезд, 10б, стр.7</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col col-12 col-sm-flex col-sm-6">
+                                        <div class="contacts-page__office-info-part">
+                                            <div class="contacts-page__office-info-title">Email:</div>
+                                            <div class="contacts-page__office-info-text">
+                                                <a href="mailto:sales+206458482@oxlift.ru">sales+206458482@oxlift.ru</a> - отдел продаж<br>
+                                                <a href="mailto:service@oxlift.ru">service@oxlift.ru</a> - отдел сервиса<br>
+                                                <a href="mailto:502@oxlift.ru">502@oxlift.ru</a> - отдел бухгалтерии<br>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col col-12 col-sm-flex col-sm-6">
+                                        <div class="contacts-page__office-info-part">
+                                            <div class="contacts-page__office-info-title">Телефон:</div>
+                                            <div class="contacts-page__office-info-text">
+                                                <a href="tel:88005007869">8 (800) 500 78 69</a> - по России бесплатно;<br>
+                                                <a href="tel:84951209097">8 (495) 120 90 97</a>;<br>
+                                                <a href="tel:84991109267">8 (499) 110 92 67</a> - отдел сервиса.<br>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col col-12 col-sm-flex col-sm-6">
+                                        <div class="contacts-page__office-info-part">
+                                            <div class="contacts-page__office-info-title">Режим работы:</div>
+                                            <div class="contacts-page__office-info-text">
+                                                Пн. – Пт.: с 9:00 до 18:00<br>
+                                                Сб. - Вс.: выходной
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col col-12 col-sm-flex col-sm-6">
+                                        <div class="contacts-page__office-info-part">
+                                            <div class="contacts-page__office-info-title">Адрес сайта:</div>
+                                            <div class="contacts-page__office-info-text">
+                                                <a href="https://new.oxlift.ru/" target="_blank">https://new.oxlift.ru/</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col col-12 col-sm-flex col-sm-6">
+                                        <div class="contacts-page__office-info-part">
+                                            <div class="contacts-page__office-info-text">
+                                                <a href="https://oxlift.ru/twomaps.png" taret="_blank">Схема проезда Видное</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col col-12 col-sm-7">
-                        <div class="content-box__map">
-                            <img alt="Карта | ОКСЛИФТ" src="https://oxlift.ru/map.jpg" class="map_img">
+
+                    <div class="col col-12 col-lg-6">
+                        <div class="contacts-page__office-map contacts-map">
+                            <div class="contacts-map-content" data-x="55.577622" data-y="37.624192"></div>
                         </div>
                     </div>
                 </div>
+                <br>
+                <br>
+
             </div>
         </div>
     </div>

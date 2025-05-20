@@ -22,6 +22,7 @@
 
     <?/* Подключение библиотек (отдельно)*/?>
     <script defer src="js/jquery.js"></script>                  <!-- jquery -->
+    <script defer src="js/jquery.maskedinput.js"></script>      <!-- maskedinput -->
     <script defer src="js/fancybox.umd.js"></script>            <!-- fancybox -->
     <script defer src="js/popper.js"></script>                  <!-- popper -->
     <script defer src="js/swiper-bundle.js"></script>           <!-- swiper -->

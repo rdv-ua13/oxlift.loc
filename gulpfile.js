@@ -92,6 +92,7 @@ const includedJsBuild = () => {
     return src(
         [
             "node_modules/jquery/dist/jquery.js",
+            "node_modules/jquery.maskedinput/src/jquery.maskedinput.js",
             "node_modules/@fancyapps/ui/dist/fancybox.umd.js",
             "node_modules/@popperjs/core/dist/umd/popper.js",
             "node_modules/accordion-js/dist/accordion.min.js",
@@ -109,6 +110,7 @@ const libsJsBuild = () => {
     return src(
         [
             "node_modules/jquery/dist/jquery.js",
+            "node_modules/jquery.maskedinput/src/jquery.maskedinput.js",
             "node_modules/@fancyapps/ui/dist/fancybox.umd.js",
             "node_modules/@popperjs/core/dist/umd/popper.js",
             "node_modules/accordion-js/dist/accordion.min.js",
