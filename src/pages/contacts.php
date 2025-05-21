@@ -191,6 +191,10 @@
         <div class="gap-xl cp-content__item">
             <div class="container">
 
+                <div class="gap-md">
+                    <div class="h4 requisites-heading">РЕКВИЗИТЫ КОМПАНИИ</div>
+                </div>
+
                 <div class="requisites">
                     <table class="text-right">
                         <tbody>

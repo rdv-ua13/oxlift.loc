@@ -8535,6 +8535,11 @@ ymaps[class$="-balloon__content"] {
 .requisites {
 	overflow-x: auto;
 
+	&-heading {
+		font-weight: 400;
+		text-transform: uppercase;
+		letter-spacing: 0.5px;
+	}
 	table {
 		min-width: 600px;
 		width: 100%;
