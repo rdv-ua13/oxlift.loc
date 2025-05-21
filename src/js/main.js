@@ -381,7 +381,7 @@ application.prototype.initBasicSlider = function () {
             slider.eq(i).closest('.basic-slider-wrap').addClass('basic-slider-wrap-' + i);
 
             // spaceBetween
-            if (window.matchMedia('(min-width: 992px)').matches) {
+            if (window.matchMedia('(min-width: 960px)').matches) {
                 if(slider.eq(i).is('[data-basic-slider-xs]')) {
                     spaceBetween = 4;
                 }
@@ -392,7 +392,7 @@ application.prototype.initBasicSlider = function () {
                     spaceBetween = 20;
                 }
             }
-            else if (window.matchMedia('(max-width: 991px)').matches) {
+            else if (window.matchMedia('(max-width: 959px)').matches) {
                 if(slider.eq(i).is('[data-basic-slider-xs]')) {
                     spaceBetween = 4;
                 }
@@ -436,10 +436,10 @@ application.prototype.initSliders = function () {
             slider.eq(i).closest('.basic-slider-wrap').addClass('basic-product-slider-wrap-' + i);
 
             // spaceBetween
-            if (window.matchMedia('(min-width: 992px)').matches) {
+            if (window.matchMedia('(min-width: 960px)').matches) {
                 spaceBetween = 12;
             }
-            else if (window.matchMedia('(max-width: 991px)').matches) {
+            else if (window.matchMedia('(max-width: 959px)').matches) {
                 spaceBetween = 8;
             }
 
@@ -684,7 +684,7 @@ application.prototype.initFooterAccordion = function () {
             let footerAccordion = null;
 
             $(accordions).each(function (i) {
-                if (window.matchMedia('(min-width: 992px)').matches) {
+                if (window.matchMedia('(min-width: 960px)').matches) {
                     if(footerAccordion != null) {
                         if(footerAccordion[i] != null) {
                             footerAccordion[i].destroy();
@@ -692,7 +692,7 @@ application.prototype.initFooterAccordion = function () {
                         }
                     }
                     return;
-                } else if (window.matchMedia('(max-width: 991px)').matches) {
+                } else if (window.matchMedia('(max-width: 959px)').matches) {
                     footerAccordion = new Accordion(accordions, {
                         duration: 200,
                         showMultiple: true,

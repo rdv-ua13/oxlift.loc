@@ -3,7 +3,7 @@
 	--font-family-base: "Nunito Sans", sans-serif;
 	--content-width: 1710px;
 	--container-offset: 12px;
-	--container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+	--container-width: var(--content-width);
 
 	// colors
 	--black-color: #000;
