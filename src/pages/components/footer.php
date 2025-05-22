@@ -17,7 +17,7 @@
                         <span class="text-content">Hашли ошибку? - Напишите нам</span>
                     </a>
                 </div>
-                <div class="footer-subscribe pre-footer">
+                <div class="footer-subscribe pre-footer" <?=(strpos($_SERVER["REQUEST_URI"], "contacts.php"))? 'style="display:none;"' : ''?>>
                     <div class="container pre-footer__container">
                         <div class="pre-footer__descr">
                             <div class="pre-footer__descr-pic">
